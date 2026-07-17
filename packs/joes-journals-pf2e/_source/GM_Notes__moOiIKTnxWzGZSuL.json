@@ -1,0 +1,150 @@
+{
+  "name": "GM Notes!",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "GM Notes",
+      "type": "text",
+      "_id": "ufMk7w0OUhhrCK4F",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>@UUID[JournalEntry.yaBchpUYzl2Bo9Ch.JournalEntryPage.NlSlgkQDwY80X2Ji]{Table of Contents} | @UUID[JournalEntry.1JWVe3iOtkVMPHrZ]{GM Screen} | @UUID[JournalEntry.dKrm1F099PfIPW2F]{Session Notes} | @UUID[JournalEntry.Vgv4EnsmveTO4AVY]{Zone DC} | @UUID[JournalEntry.p1TSXQyQbZgaXFw5.JournalEntryPage.gnUhy9zBJuBK2qDV]{Roll Tables} | @UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.Otj0Ok3fNR3EgpdA]{Compendium Browser} | @UUID[JournalEntry.p1TSXQyQbZgaXFw5.JournalEntryPage.WCWQEznn9vBquKVs]{GM Macros}</h2><h2>Session Checklist</h2><ul><li><p>Setup Hero points</p><ul><li><p>@UUID[Macro.Zh39D0YBfScAhif6]{1 - Hero Actions - Remove Hero Actions}</p></li><li><p>@UUID[Macro.OqgBTMP4xHkgB60H]{2 - Reset Hero Cards Table}</p></li><li><p>@UUID[Macro.hXurmXqMv20juKdJ]{Award Hero Points}</p></li></ul></li><li><p>Start the @UUID[Macro.UlekVJWhfBdniKEX]{Timer!}</p></li></ul><h2>Ongoing / soon</h2><ul><li><p>@UUID[JournalEntry.O3T2uvkYQD6kZOEQ.JournalEntryPage.QIg81NeQ5dk1EB90]{Finding Nomen Centaurs}</p></li><li><p>Random encounters:</p><ul><li><p><strong>4x Elite @UUID[Compendium.pf2e.pathfinder-bestiary-2.Actor.Kr5LtF0bqZJAC2Wn]{Ogre Spider}</strong> for @UUID[JournalEntry.5ZZq48YTlWaZSlmC.JournalEntryPage.qoW4uEwpIUiE2RXE]{Wanted: Spidersilk}</p></li><li><p><strong>3 - 4 Centaurs</strong>, will show themselves from a distance and lead players into an \"ambush\" where they can surround them, total of 8 (1-2 Elite). use @UUID[Actor.MNMn2Sn1FB7Wm8PP]{Centaur Scout*} and @UUID[Actor.sHLY8GsshFWNdTLO]{Centaur Scout**}</p></li></ul></li><li><p>@UUID[JournalEntry.OcO78IbhsDP8cUof.JournalEntryPage.rNq9fQtjR8u9DdEw]{What Comes in Darkness} - send <strong>4x @UUID[Actor.SY8pvLPqc2EgP9Xj]{Soul Eaters}</strong> after party while exploring after talking to the Centaurs, or if they venture south first.</p></li></ul><h2>Upcoming Events / Quests to present</h2><ul><li><p>@UUID[JournalEntry.O3T2uvkYQD6kZOEQ.JournalEntryPage.V4svfi888Y8B4uVd]{Rescuing Xamanthe} should party talk with Centaurs</p></li><li><p>@UUID[JournalEntry.O3T2uvkYQD6kZOEQ.JournalEntryPage.QIg81NeQ5dk1EB90]{Skybolt} should they recover it - if they have not, maybe Aecora will ask for them to retrieve it to show their good intent.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1765451706020
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "category": null,
+      "_key": "!journal.pages!moOiIKTnxWzGZSuL.ufMk7w0OUhhrCK4F"
+    },
+    {
+      "sort": 300000,
+      "name": "Roll Tables",
+      "type": "text",
+      "_id": "gnUhy9zBJuBK2qDV",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>@UUID[JournalEntry.p1TSXQyQbZgaXFw5.JournalEntryPage.ufMk7w0OUhhrCK4F]{Home}</h2><p></p><table><tbody><tr><td><h2>Weapon Upgrades</h2></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.AfZuUqI643TicrBT]{Weapon (Melee 1-5)} @UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.lNbK07wjTX4BOjcy]{Weapon (Ranged 1-5)}</p><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.obAjv4p1jQSerMSG]{Weapon (Melee 6-11)} @UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.FODIgFxEHkZPjRqv]{Weapon (Ranged 6-11)}</p><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.p06HuGciupSCm5TD]{Weapon (Melee 12-15)} @UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.ObQdnlg5nwSD2RC1]{Weapon (Ranged 12-15)}</p><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.jwokG1R0SOFhM3MI]{Weapon (Melee 16-20)} @UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.8AvzyrH3HuvIUuKh]{Weapon (Ranged 16-20)}</p></td></tr><tr><td><h2>Armor Upgrades</h2></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.bl4h5js1L0VSoxsO]{Armor Upgrades 05-10}</p><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.bl4h5js1L0VSoxsO]{Armor Upgrades 05-10}</p><p>@UUID[Compendium.joes-foundry-stuff.joes-roll-tables.RollTable.pfAKEkxLDhoATCDH]{Armor Upgrades 11-16}</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1765451795817
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": "Blhp1ViTwrjDFX1D",
+        "modifiedTime": 1765456010984
+      },
+      "_key": "!journal.pages!moOiIKTnxWzGZSuL.gnUhy9zBJuBK2qDV"
+    },
+    {
+      "sort": 400000,
+      "name": "GM Macros",
+      "type": "text",
+      "_id": "WCWQEznn9vBquKVs",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h2>@UUID[JournalEntry.p1TSXQyQbZgaXFw5.JournalEntryPage.ufMk7w0OUhhrCK4F]{Home}</h2><p></p><table><tbody><tr><td colspan=\"3\"><h3>Encounter / XP / RP</h3></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.3ZUVMkgXYX4a8j1M]{Difficulty calculator}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.6ynzuielNzQqEv6x]{Award XP}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.DmYZ31qQfFmXT4n8]{Tokens to Item Pile}</p></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.C2lOtLMoZsyJxGqU]{Award Hero Points}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.4jHVcoYLzBuWCgVT]{Camfire Cards}</p></td><td><p>@UUID[Compendium.pf2e-subsystems.pf2e-subsystems-macros.Macro.Mji4PEMr0PlAG6tB]{Open Subsystems}</p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><td colspan=\"3\"><h3>Checks</h3></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.V38wtye31FIFngOs]{Group Save/Check}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.dfHGDwwUpnyROUkn]{Group Recall Knowledge}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.GAoVZLwdzto8e8Nz]{RequestChecksMenuv2}</p></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.EP3JgvBBnscjkPU0]{Lock-Pick+}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.xa8ehchhV618CIMF]{Class DC Save}</p></td><td><p>@UUID[Compendium.xdy-pf2e-workbench.asymonous-benefactor-macros.Macro.oj34nWthBXf7XuFk]{Custom Saves and Skill Checks}</p></td></tr><tr><td><p></p></td><td><p></p></td><td><p></p></td></tr><tr><td colspan=\"3\"><h3>Tools</h3></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.p4T6Zd2dy5YbqFzW]{Advanced PTS}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.uMZThnTX1UzInpi0]{Send Image}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.R4oPdKlpcLebpH0u]{Send Whisper}</p></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.ZxiycTW85ka97QHC]{Overlay}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.73DjC2KziUyvhaJR]{Simple Timer}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.5G6qJ8gh5CN6Vy9v]{Conditions Manager}</p></td></tr><tr><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.pDB595C9kukxRHMf]{Item Identify Tracker}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.aO9z9M2tx8k4lojv]{Close All Doors}</p></td><td><p>@UUID[Compendium.joes-foundry-stuff.joes-macros.Macro.o7nGgwS3XqYAmam0]{Search Actors}</p></td></tr></tbody></table>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "category": null,
+      "ownership": {
+        "default": -1,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "simple-quest": {
+          "lastUpdated": 1765452716243
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!moOiIKTnxWzGZSuL.WCWQEznn9vBquKVs"
+    }
+  ],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1765452970760,
+    "modifiedTime": 1765452970760,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "categories": [],
+  "_id": "moOiIKTnxWzGZSuL",
+  "sort": 0,
+  "_key": "!journal!moOiIKTnxWzGZSuL"
+}

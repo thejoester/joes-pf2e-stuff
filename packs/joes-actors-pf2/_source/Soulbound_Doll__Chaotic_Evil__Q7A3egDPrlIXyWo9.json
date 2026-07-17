@@ -1,0 +1,1006 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "name": "Soulbound Doll (Chaotic Evil)",
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 0.5,
+    "height": 0.5,
+    "texture": {
+      "src": "assets/token-portrait/big-trouble-little-absolom/soulbound-doll-t.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "_id": "Q7A3egDPrlIXyWo9",
+  "img": "assets/token-portrait/big-trouble-little-absolom/soulbound-doll.webp",
+  "items": [
+    {
+      "_id": "AAFWcmRlGxb76Pps",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Innate Spells",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 8,
+          "dc": 18,
+          "mod": 0
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "prepared": {
+          "value": "innate",
+          "flexible": false
+        },
+        "showSlotlessLevels": {
+          "value": false
+        },
+        "proficiency": {
+          "value": 0
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 2,
+            "max": 2
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "type": "spellcastingEntry",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.AAFWcmRlGxb76Pps"
+    },
+    {
+      "_id": "j0vMF2M7o6CLR4Tk",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/magic/light/projectile-stars-blue.webp",
+      "name": "Levitate",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You defy gravity and levitate the target 5 feet off the ground. For the duration of the spell, you can move the target up or down 10 feet with a single action, which has the concentrate trait. A creature floating in the air from levitate takes a -2 circumstance penalty to attack rolls. A floating creature can spend an Interact action to stabilize itself and negate this penalty for the remainder of its turn. If the target is adjacent to a fixed object or terrain of suitable stability, it can move across the surface by climbing (if the surface is vertical, like a wall) or crawling (if the surface is horizontal, such as a ceiling). The GM determines which surfaces can be climbed or crawled across.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.JqrTrvwV7pYStMXz]{Spell Effect: Levitate}</p>"
+        },
+        "rules": [],
+        "slug": "levitate",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 unattended object or willing creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "5 minutes",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "AAFWcmRlGxb76Pps"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.j0vMF2M7o6CLR4Tk"
+    },
+    {
+      "_id": "3Rm6nqnuabj4D5Z1",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/vampiric-touch.webp",
+      "name": "Vampiric Touch",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your touch leeches the lifeblood out of a target to empower yourself. You deal 6d6 void damage to the target. You gain temporary Hit Points equal to half the void damage the target takes (after applying resistances and the like). You lose any remaining temporary Hit Points after 1 minute.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        "rules": [],
+        "slug": "vampiric-touch",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "death",
+            "manipulate",
+            "void"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "category": null,
+            "formula": "6d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "void"
+          }
+        },
+        "defense": {
+          "save": {
+            "basic": true,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "AAFWcmRlGxb76Pps"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.N1Z1oLPdBxaSgrEE",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.3Rm6nqnuabj4D5Z1"
+    },
+    {
+      "_id": "ntJHUFlmB3Zp81bN",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/light.webp",
+      "name": "Light",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "rules": [],
+        "slug": "light",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until the next time you make your daily preparations",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "AAFWcmRlGxb76Pps"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.ntJHUFlmB3Zp81bN"
+    },
+    {
+      "_id": "3FCM0xWeQN4yDHPb",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/mage-hand.webp",
+      "name": "Mage Hand",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create a single magical hand, either invisible or ghostlike, that grasps the target object and moves it slowly up to 20 feet. Because you're levitating the object, you can move it in any direction. When you Sustain the Spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
+        },
+        "rules": [],
+        "slug": "mage-hand",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 unattended object of light Bulk or less"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "AAFWcmRlGxb76Pps"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 1 or less"
+              }
+            },
+            "5": {
+              "range": {
+                "value": "60 feet"
+              }
+            },
+            "7": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 2 or less"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.3FCM0xWeQN4yDHPb"
+    },
+    {
+      "_id": "DdnBuXbRyuFYyJq0",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/magic/symbols/runes-triangle-blue.webp",
+      "name": "Prestidigitation",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the Spell. Each time you Sustain the Spell, you can choose one of four options.</p>\n<ul>\n<li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li>\n<li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li>\n<li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or spell component.</li>\n<li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object a 1 minute per Bulk.</li>\n</ul>\n<p>Prestidigitation can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the Spell.</p>"
+        },
+        "rules": [],
+        "slug": "prestidigitation",
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object (cook, lift, or tidy only)"
+        },
+        "range": {
+          "value": "10 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "AAFWcmRlGxb76Pps"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.DdnBuXbRyuFYyJq0"
+    },
+    {
+      "_id": "jG0R8rvY0cpJadHK",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Fist",
+      "sort": 700000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 10
+        },
+        "damageRolls": {
+          "0": {
+            "damage": "1d6+2",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "value": [
+            "agile",
+            "finesse",
+            "magical"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.932,
+          "previous": null
+        }
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.jG0R8rvY0cpJadHK"
+    },
+    {
+      "_id": "iaTfEZ50lrTlV5Ku",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Personality Fragments",
+      "sort": 800000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A soulbound doll shares fragments of its donor soul's personality, though none of that creature's memories. This causes a soulbound doll to match the donor soul's alignment and gain the corresponding alignment traits.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Q7A3egDPrlIXyWo9.iaTfEZ50lrTlV5Ku"
+    }
+  ],
+  "name": "Soulbound Doll (Chaotic Evil)",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0,
+        "max": 23,
+        "details": ""
+      },
+      "ac": {
+        "value": 20,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 20,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "immunities": [
+        {
+          "type": "mental"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": "one spoken by its creator (typically common)"
+      },
+      "level": {
+        "value": 2
+      },
+      "blurb": "",
+      "publicNotes": "<p>Soulbound dolls are eerie mannequins or playthings that have been imbued with a small piece of a deceased mortal's soul. These little constructs are created for a variety of reasons-such as to serve as companions or servants-but their free will means their obedience to their creators is hardly a given. Followers of Pharasma generally abhor soulbound dolls, viewing them as a perversion of the natural cycle of souls, and those who worship the Lady of Graves see the destruction of a soulbound doll, regardless of the construct's alignment, as an important service to the Great Beyond. Soulbound dolls are the simplest in a series of soulbound constructs including human-sized soulbound mannequins, powerful soulbound shells, and sentinel soulbound terra-cotta warriors. Creating them from unwilling living creatures is evil, and an unwilling donor can resist the process with a successful Will save against the creator's Craft DC, ruining the doll if not preventing the donor's death. A non-evil doll can only be crafted from the soul of a person who has given consent to such use before their death occurred</p>\n<p>Soulbound dolls encountered by adventurers are typically guardians of some sort; despite their diminutive size, the soul fragment's power makes the doll's flst more dangerous than a casual observer would expect. Further, it grants the doll a single spell of outsized power given its stature. Because of their autonomy and remarkable intelligence, soulbound dolls are occasionally employed by their crafters as administrators over much more powerful but mindless constructs such as golems, allowing such dolls to control defenses far beyond their own capabilities. Though soulbound dolls contain a small fragment of a soul extracted during or shortly after a person's death, this doesn't affect the deceased's resurrection or progress to the afterlife. This extraction process is lethal to otherwise-living prospective soul donors, though there are rumors of more expensive processes that allows someone to donate a fragment of a living soul without repercussions.</p>\n<p>The soul fragment resides in a soul focus gem typically embedded in the doll's neck or chest. The soul fragment isn't static, and the doll continues to learn from its initial state, meaning its personality and abilities can change, possibly growing closer to the donor's or moving farther afield on its own individual path. The soulbound doll's focus gem retains the doll's memories even after the doll's destruction. The the intact soul focus gem of a destroyed doll can even be placed into a new doll body by someone knowledgeable in the creation of soulbound creatures, effectively reconstituting the soulbound doll.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Bestiary",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {
+      "focus": {
+        "max": 1,
+        "value": 1
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": -2
+      },
+      "dex": {
+        "mod": 4
+      },
+      "con": {
+        "mod": 3
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 2
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 8,
+      "senses": [
+        {
+          "type": "darkvision"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 6,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 8
+      },
+      "occultism": {
+        "base": 4
+      },
+      "stealth": {
+        "base": 8
+      }
+    },
+    "traits": {
+      "value": [
+        "chaotic",
+        "construct",
+        "evil",
+        "soulbound"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "tiny"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.7EpLGBoddL8Vzlha",
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.3",
+    "createdTime": 1724931494097,
+    "modifiedTime": 1784273722456,
+    "lastModifiedBy": "fAtWnRfzFoHAJ5lR",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "kJuT6VkL1z02dN4N",
+  "ownership": {
+    "default": 0,
+    "c8JeQGhzU7Aoamba": 3
+  },
+  "sort": 101563,
+  "_key": "!actors!Q7A3egDPrlIXyWo9"
+}

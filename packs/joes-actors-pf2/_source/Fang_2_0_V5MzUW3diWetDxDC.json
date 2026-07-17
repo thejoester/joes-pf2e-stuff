@@ -1,0 +1,832 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Fang 2.0",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/character.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "oKQDKm8oGtKzDkCU",
+  "name": "Fang 2.0",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 43,
+        "temp": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      }
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.953,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.7.4"
+      }
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": []
+  },
+  "_id": "V5MzUW3diWetDxDC",
+  "img": "systems/pf2e/icons/default-icons/character.svg",
+  "items": [
+    {
+      "name": "Wolf",
+      "type": "ancestry",
+      "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 4000000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "animalCompanion": {
+              "id": "XwyKX0aUXCg5j0W9",
+              "onDelete": "detach"
+            },
+            "wolfSupportBenefit": {
+              "id": "wGW9b9zbL67UYkMF",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your companion is a wolf, dog, or other canine.</p><p><strong>Size</strong> Small</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> –4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 6</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p><p><strong>Speed</strong> 40 feet</p><p><strong>Support Benefit</strong> Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p><p><strong>Advanced Maneuver</strong> @UUID[Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl]{Takedown}</p>"
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+            "flag": "animalCompanion"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 3,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": -4,
+            "mode": "add",
+            "path": "system.abilities.int.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.survival.rank"
+          },
+          {
+            "acuity": "imprecise",
+            "key": "Sense",
+            "range": 30,
+            "selector": "scent"
+          },
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "piercing",
+                "dice": 1,
+                "die": "d8"
+              }
+            },
+            "group": "brawling",
+            "key": "Strike",
+            "label": "PF2E.Weapon.Base.jaws",
+            "range": null,
+            "traits": [
+              "unarmed",
+              "finesse"
+            ],
+            "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+            "replaceBasicUnarmed": true
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+            "flag": "wolfSupportBenefit"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.companionCompendia.advancedManeuver",
+            "value": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl"
+          }
+        ],
+        "slug": "wolf",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "animal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 6,
+        "size": "sm",
+        "hands": 2,
+        "reach": 5,
+        "speed": 40,
+        "boosts": {
+          "0": {
+            "value": []
+          },
+          "1": {
+            "value": []
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "low-light-vision",
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "rDxs69lNqIFN75Bl": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.vbBkKVl9tgnVasFU",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "13vjqIJYZFJpxACT",
+      "_key": "!actors.items!V5MzUW3diWetDxDC.13vjqIJYZFJpxACT"
+    },
+    {
+      "name": "Animal Companion",
+      "type": "class",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "13vjqIJYZFJpxACT",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The following are the base statistics for a young animal companion, the first animal companion most characters get. You adjust these statistics depending on the type of animal you choose. Animal companions calculate their modifiers and DCs just as you do with one difference: the only item bonuses they can benefit from are to Speed and AC (their maximum item bonus to AC is +3). As you gain levels, you might be able to make your companion stronger by advancing it.</p><p>An animal companion's starting statistics are as follows.</p><ul><li><strong>Level:</strong> Your animal companion's level is equal to yours.</li><li><strong>Proficiencies:</strong> Your animal companion is trained in its unarmed attacks, unarmored defense, barding (a type of armor for animals), all saving throws, Perception, Acrobatics, and Athletics. Animal companions can't use abilities that require greater Intelligence, such as @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} or Decipher Writing, even if trained in the appropriate skill, unless they have a specialization that allows it.</li><li><strong>Attribute Modifiers:</strong> An animal companion begins with base attribute modifiers listed in its stat block.</li><li><strong>Hit Points:</strong> Your animal companion has ancestry Hit Points from its type, plus a number of Hit Points equal to 6 plus its Constitution modifier for each level you have.</li></ul>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.disableABP",
+            "value": true,
+            "priority": 10
+          },
+          {
+            "key": "ActorTraits",
+            "add": [
+              "minion"
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.light-barding.rank",
+            "priority": 41,
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.heavy-barding.rank",
+            "priority": 41,
+            "value": 1
+          },
+          {
+            "key": "AdjustModifier",
+            "predicate": [
+              "bonus:type:item"
+            ],
+            "selectors": [
+              "attack",
+              "damage",
+              "skill-check",
+              "saving-throw"
+            ],
+            "suppress": true
+          },
+          {
+            "key": "AdjustModifier",
+            "predicate": [
+              "bonus:type:item"
+            ],
+            "selectors": [
+              "ac"
+            ],
+            "mode": "downgrade",
+            "value": 3
+          }
+        ],
+        "slug": "animal-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "keyAbility": {
+          "value": [],
+          "selected": null
+        },
+        "items": {},
+        "hp": 6,
+        "trainedSkills": {
+          "value": [
+            "acrobatics",
+            "athletics"
+          ],
+          "additional": 0
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 1
+        },
+        "attacks": {
+          "simple": 0,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 0,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": []
+        },
+        "classFeatLevels": {
+          "value": []
+        },
+        "generalFeatLevels": {
+          "value": []
+        },
+        "skillFeatLevels": {
+          "value": []
+        },
+        "skillIncreaseLevels": {
+          "value": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.h6Ybhv5URar01WPk",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "XwyKX0aUXCg5j0W9",
+      "_key": "!actors.items!V5MzUW3diWetDxDC.XwyKX0aUXCg5j0W9"
+    },
+    {
+      "name": "Wolf Support Benefit",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 3900000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "13vjqIJYZFJpxACT",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p><p>@UUID[Compendium.pf2e-animal-companions.AC-effects.Item.zDFmtmfZfAvIVF93]{Effect: Wolf Support Benefit}</p>"
+        },
+        "rules": [],
+        "slug": "wolf-support-benefit",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "WG8TaxGEQOxXBO1S": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "wGW9b9zbL67UYkMF",
+      "_key": "!actors.items!V5MzUW3diWetDxDC.wGW9b9zbL67UYkMF"
+    },
+    {
+      "_id": "H7pzo4MaltA4MqTH",
+      "name": "Mature Animal Companion",
+      "type": "feat",
+      "img": "systems/pf2e/icons/spells/animal-form-bear.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you advance a young animal companion to a mature animal companion:</p><ul><li>If your companion is Medium or smaller, it grows by one size.</li><li>Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency rank for Perception and all saving throws to expert. Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained, and if it was already trained in one of those skills from its type, increase its proficiency rank in that skill to expert.</li><li>Increase its unarmed attack damage from one die to two dice (for instance 1d8 to 2d8)</li></ul>"
+        },
+        "rules": [
+          {
+            "key": "CreatureSize",
+            "value": 1,
+            "maximumSize": "lg"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.intimidation.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.stealth.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.survival.rank"
+          },
+          {
+            "key": "DamageAlteration",
+            "selectors": [
+              "unarmed-damage"
+            ],
+            "value": 2,
+            "mode": "upgrade",
+            "property": "dice-number",
+            "predicate": [
+              "dice:slug:base"
+            ]
+          }
+        ],
+        "slug": "mature-animal-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 4,
+          "taken": 5
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestryfeature",
+        "subfeatures": {
+          "proficiencies": {
+            "perception": {
+              "rank": 2,
+              "attribute": null
+            },
+            "fortitude": {
+              "rank": 2,
+              "attribute": null
+            },
+            "reflex": {
+              "rank": 2,
+              "attribute": null
+            },
+            "will": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "L46TYcXAUKb2dhwY": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.K3c8ztEUX27RHeZe",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!V5MzUW3diWetDxDC.H7pzo4MaltA4MqTH"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "pf2e": {
+      "sheetTabs": {
+        "pfs": false,
+        "biography": false,
+        "crafting": false,
+        "spellcasting": false
+      }
+    },
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": []
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1766449328196,
+    "modifiedTime": 1766449328196,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!actors!V5MzUW3diWetDxDC"
+}

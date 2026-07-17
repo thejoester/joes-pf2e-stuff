@@ -1,0 +1,22 @@
+{
+  "name": "Level 6",
+  "sorting": "a",
+  "folder": "014rvuPq3QvUb3rm",
+  "type": "Actor",
+  "_id": "U6l28q0LvTDtpfND",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5",
+    "createdTime": null,
+    "modifiedTime": 1738484522911,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!folders!U6l28q0LvTDtpfND"
+}

@@ -1,0 +1,111 @@
+{
+  "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+  "name": "Healing Potion (Greater, Reliable)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(6d8+20)[healing]] Hit Points.</p>"
+    },
+    "rules": [],
+    "slug": "healing-potion-greater",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "healing",
+        "magical",
+        "potion",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 600
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Liquid",
+        "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "category": "potion",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": {
+      "formula": "6d8+20",
+      "kind": "healing",
+      "type": "vitality"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.2",
+    "createdTime": 1773738014326,
+    "modifiedTime": 1773738469874,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "ownership": {
+    "default": 0,
+    "CLMiGpsYVSTK4VM8": 3
+  },
+  "_id": "8jjZjk4cfhc7p707",
+  "sort": 100000,
+  "_key": "!items!8jjZjk4cfhc7p707"
+}

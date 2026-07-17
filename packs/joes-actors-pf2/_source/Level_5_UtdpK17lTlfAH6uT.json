@@ -1,0 +1,22 @@
+{
+  "name": "Level 5",
+  "sorting": "a",
+  "folder": "014rvuPq3QvUb3rm",
+  "type": "Actor",
+  "_id": "UtdpK17lTlfAH6uT",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!UtdpK17lTlfAH6uT"
+}

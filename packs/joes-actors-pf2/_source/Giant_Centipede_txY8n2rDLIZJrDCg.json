@@ -1,0 +1,730 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "name": "Giant Centipede",
+    "actorLink": false,
+    "texture": {
+      "src": "assets/token-portrait/npc/giant-centipede.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-little-details": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "bloodsplat-colour": ""
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        },
+        "light": {
+          "resolution": 1
+        }
+      },
+      "core": {
+        "priority": null
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "assets/token-portrait/npc/giant-centipede.webp",
+  "items": [
+    {
+      "_id": "1U37Lsr3NMgzLqLM",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Mandibles",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "i28pzph4jgh3a034vmwx": {
+            "damage": "1d4-1",
+            "damageType": "piercing"
+          }
+        },
+        "bonus": {
+          "value": 6
+        },
+        "attackEffects": {
+          "value": [
+            "giant-centipede-venom"
+          ],
+          "custom": ""
+        }
+      },
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.1U37Lsr3NMgzLqLM"
+    },
+    {
+      "_id": "rA69Ao7ZsTSnYPbJ",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Darkvision]</p>"
+        },
+        "rules": [],
+        "slug": "darkvision",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": "Pathfinder Bestiary"
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.qCCLZhnp2HhP3Ex6",
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.rA69Ao7ZsTSnYPbJ"
+    },
+    {
+      "_id": "PIjZTZsbQlriq5X3",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Giant Centipede Venom",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Saving Throw</strong> @Check[type:fortitude|dc:14]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> [[/r 1d6[poison]]] damage (1 round)</p>\n<p><strong>Stage 2</strong> [[/r 1d8[poison]]] damage and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Flat-Footed} (1 round)</p>\n<p><strong>Stage 3</strong> [[/r 1d12[poison]]] damage, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}, and flat-footed (1 round)</p>"
+        },
+        "rules": [],
+        "slug": "giant-centipede-venom",
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "poison"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.PIjZTZsbQlriq5X3"
+    },
+    {
+      "_id": "cCdTq7xWGCXZKKLT",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Acrobatics",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.cCdTq7xWGCXZKKLT"
+    },
+    {
+      "_id": "2GYj8wRI1uvmtPuK",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Athletics",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 2
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.2GYj8wRI1uvmtPuK"
+    },
+    {
+      "_id": "QejWR6lA5VZsVder",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 600000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 6
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:05.953-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!txY8n2rDLIZJrDCg.QejWR6lA5VZsVder"
+    }
+  ],
+  "name": "Giant Centipede",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 8,
+        "temp": 0,
+        "max": 8,
+        "details": ""
+      },
+      "ac": {
+        "value": 15,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [
+          {
+            "type": "climb",
+            "value": 30
+          }
+        ],
+        "details": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 6
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": -1
+      },
+      "blurb": "",
+      "publicNotes": "<p>Most giant centipedes nest in small groups but hunt alone when they seek out food. Attempts to domesticate giant centipedes for use as guardians or pets generally end poorly, but some tribes of goblins, kobolds, and mitflits have developed effective methods of utilizing these vermin as guardians. Other tribes and some humanoid societies roast and eat centipedes, often with pungent peppers as a savory delicacy, although care must be taken in preparing the meal to avoid tainting the flesh with the creature's venom.</p>\n<hr />\n<p>Hunters and scavengers that live amid dung and detritus, centipedes are a relatively common and often reviled threat faced by adventurers. Scurrying about with surprising speed on the scores of legs attached to their long, segmented bodies, centipedes strike with poisoned mandibles to slow and torment their prey with a vicious toxin before they settle down to feed in slow and disgusting leisure.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Animal"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": -1
+      },
+      "dex": {
+        "mod": 3
+      },
+      "con": {
+        "mod": 1
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 1
+      },
+      "cha": {
+        "mod": -4
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 7,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 6,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 2,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "animal"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "darkvision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": {
+        "datetime": "2023-06-26T22:36:05.953-06:00",
+        "version": {
+          "schema": 0.844,
+          "foundry": "11.305",
+          "system": "5.1.2"
+        }
+      }
+    }
+  },
+  "type": "npc",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "utguYRl2DG6RBtKC",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "OGrPXnPX5XDmb5js": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "13.351",
+    "createdTime": 1675930031506,
+    "modifiedTime": 1784272723027,
+    "lastModifiedBy": "fAtWnRfzFoHAJ5lR",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.BKPRkJgq7ehsW7uX",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "txY8n2rDLIZJrDCg",
+  "_key": "!actors!txY8n2rDLIZJrDCg"
+}

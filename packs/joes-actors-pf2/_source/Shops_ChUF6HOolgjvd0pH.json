@@ -1,0 +1,22 @@
+{
+  "name": "Shops",
+  "sorting": "a",
+  "folder": "ESiawshLdTnkMmew",
+  "type": "Actor",
+  "_id": "ChUF6HOolgjvd0pH",
+  "description": "",
+  "sort": 100000,
+  "color": "#0404ff",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "lastModifiedBy": "lfU9NncyG8LWlt8v",
+    "modifiedTime": 1767432297501
+  },
+  "_key": "!folders!ChUF6HOolgjvd0pH"
+}

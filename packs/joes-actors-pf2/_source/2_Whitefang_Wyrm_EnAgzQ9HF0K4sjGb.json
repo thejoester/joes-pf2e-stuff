@@ -1,0 +1,20 @@
+{
+  "name": "2-Whitefang Wyrm",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.306",
+    "createdTime": 1689944589202,
+    "modifiedTime": 1689944589374,
+    "lastModifiedBy": "OGrPXnPX5XDmb5js"
+  },
+  "_id": "EnAgzQ9HF0K4sjGb",
+  "_key": "!folders!EnAgzQ9HF0K4sjGb"
+}

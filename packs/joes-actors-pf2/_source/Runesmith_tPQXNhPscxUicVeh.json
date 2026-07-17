@@ -1,0 +1,2327 @@
+{
+  "folder": "u6j6Y3U1p03e2Otw",
+  "name": "Runesmith",
+  "type": "npc",
+  "ownership": {
+    "default": 0,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      },
+      "item-piles": {
+        "data": {
+          "enabled": true,
+          "type": "merchant",
+          "distance": 0,
+          "infiniteQuantity": true,
+          "hideNewItems": true,
+          "displayQuantity": "alwaysno",
+          "itemTypePriceModifiers": [
+            {
+              "type": "treasure",
+              "category": "",
+              "override": true,
+              "buyPriceModifier": 1,
+              "sellPriceModifier": 1
+            }
+          ],
+          "logMerchantActivity": true
+        },
+        "version": "3.2.32"
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Runesmoth",
+    "displayName": 20,
+    "actorLink": false,
+    "texture": {
+      "src": "modules/pf2e-tokens-npc-core/assets/tokens/dwarf-smith.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 2,
+        "texture": "modules/pf2e-tokens-npc-core/assets/subjects/dwarf-smith.webp"
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "temp": 0,
+        "max": 10,
+        "details": ""
+      },
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "tPQXNhPscxUicVeh",
+  "img": "modules/pf2e-tokens-npc-core/assets/portraits/dwarf-smith.webp",
+  "items": [
+    {
+      "_id": "zkJTy3TYTxtlncqS",
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Fanged",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a <em>fanged</em> weapon in your mouth, you can transform into an animal.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (magical, polymorph, transmutation)</p>\n<hr />\n<p><strong>Effect</strong> You transform into a Small or Medium animal that wields the <em>fanged</em> weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the <em>fanged</em> weapon even though you don't have any hands. However, you can attack only with the <em>fanged</em> weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the <em>fanged</em> weapon (whether or not of your own volition).</p>"
+        },
+        "rules": [],
+        "slug": "fanged",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-melee-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.pcGdJvwun0tjrUTz",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.zkJTy3TYTxtlncqS"
+    },
+    {
+      "_id": "5toxbkAmOSYHJQHX",
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Fanged (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a <em>fanged</em> weapon in your mouth, you can transform into an animal.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (magical, polymorph, transmutation)</p><hr /><p><strong>Effect</strong> You transform into a Small or Medium animal that wields the <em>fanged</em> weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the <em>fanged</em> weapon even though you don't have any hands. However, you can attack only with the <em>fanged</em> weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the <em>fanged</em> weapon (whether or not of your own volition).</p>\n<p>In animal form, you gain low-light vision, imprecise scent to a range of 30 feet, and a +10-foot item bonus to your Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.zDQmjp5YSwZtrgX9]{Effect: Fanged Rune Animal Form}</p>"
+        },
+        "rules": [],
+        "slug": "fanged-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 15
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 6000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-melee-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qL1S3vGfv8Dh5yAE",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.5toxbkAmOSYHJQHX"
+    },
+    {
+      "_id": "n39Ffs2OeFdyDELC",
+      "img": "icons/commodities/treasure/token-runed-os-grey.webp",
+      "name": "Fanged (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a <em>fanged</em> weapon in your mouth, you can transform into an animal.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (magical, polymorph, transmutation)</p><hr /><p><strong>Effect</strong> You transform into a Small or Medium animal that wields the <em>fanged</em> weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the <em>fanged</em> weapon even though you don't have any hands. However, you can attack only with the <em>fanged</em> weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the <em>fanged</em> weapon (whether or not of your own volition).</p>\n<p>In animal form, you gain low-light vision and a +5-foot item bonus to your Speed.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.zDQmjp5YSwZtrgX9]{Effect: Fanged Rune Animal Form}</p>"
+        },
+        "rules": [],
+        "slug": "fanged-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 425
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-melee-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.cvb47A6K1w7RfNiv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.n39Ffs2OeFdyDELC"
+    },
+    {
+      "_id": "heDFUfGPkxxIvVN5",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Authorized",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Sharp needles impale anyone who attempts to wield this weapon other than its rightful owner. Each authorized rune is etched with the blood of a specific creature. If any other creature wields the weapon, needles immediately erupt from the weapon's hilt or shaft, dealing @Damage[1d8[piercing]] damage plus @Damage[1d4[bleed]]{1d4 persistent bleed damage} to the wielder. If the weapon has a striking rune, this damage increases to @Damage[1d8[piercing]] damage per damage die and @Damage[1d4[bleed]]{1d4 persistent damage} per damage die; this counts only the weapon's base die and dice from the striking rune. The persistent bleed damage can't end while the creature still holds the weapon. The spikes retract once the creature lets go.</p>\n<p>When the rune is crafted, the crafter can choose to broaden the criteria for who can safely wield the item, expanding the users to creatures with a particular alignment, bloodline, or patron deity, as the crafter chooses. This criterion must be shared by the creature who contributed the blood for the rune.</p>"
+        },
+        "rules": [],
+        "slug": "authorized",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.tEXUCp02ylyoJoyP",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.heDFUfGPkxxIvVN5"
+    },
+    {
+      "_id": "0zbPyxjzmsmKmvay",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Crushing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.zNHvhwHsC8ckhKVp]{Effect: Crushing}</p>"
+        },
+        "rules": [],
+        "slug": "crushing",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-bludgeoning-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JY8X4RSfg6xIqAC9",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.0zbPyxjzmsmKmvay"
+    },
+    {
+      "_id": "iJktYfo2IYGRPWOV",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Crushing (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Weapons with this rune empower your strength, and attacks with these weapons leave your foe staggered. When you critically hit a target with this weapon, your target becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} until the end of your next turn.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.czdEHtLsrUcZxSDx]{Effect: Crushing (Greater)}</p>"
+        },
+        "rules": [],
+        "slug": "crushing-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 9
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 650
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-bludgeoning-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.t6SSQYruLsDWj5Tl",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.iJktYfo2IYGRPWOV"
+    },
+    {
+      "_id": "0qvKrDO3PzQfTbf6",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Underwater",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This weapon works as well in water as it does on land. Attacks with the weapon don't take the normal penalties and restrictions for being used in water or underwater. If the weapon is capable of dealing fire damage, its fire functions underwater as well.</p>"
+        },
+        "rules": [],
+        "slug": "underwater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "water"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5QKAoWrpSetjHVJs",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.0qvKrDO3PzQfTbf6"
+    },
+    {
+      "_id": "c9nLvFfjDnTDZXeI",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Returning",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you make a thrown Strike with this weapon, it flies back to your hand after the Strike is complete. If your hands are full when the weapon returns, it falls to the ground in your space.</p>"
+        },
+        "rules": [],
+        "slug": "returning",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 55
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-thrown-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.c9nLvFfjDnTDZXeI"
+    },
+    {
+      "_id": "2RBs2YaCTjEatFk9",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Merciful",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Merciful weapons are sheathed in an unmistakable wispy green aura recognized by both gladiators and guards around the world. A <em>merciful</em> weapon has the nonlethal trait and can't be used to make a lethal attack. Any persistent damage the weapon would deal is negated.</p>\n<p>On a critical hit, a <em>merciful</em> weapon causes the target to become @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} with the weapon's wielder for 1 minute, as the target is bombarded with feelings of guilt and remorse. This is a mental effect. If you have access to the weapon's critical specialization effect, you choose whether to use it or the <em>merciful</em> effect.</p>"
+        },
+        "rules": [],
+        "slug": "merciful",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 70
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.r28DjJEjF6jvCcfb",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.2RBs2YaCTjEatFk9"
+    },
+    {
+      "_id": "G14aFbdEP1gXN5yv",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Ghost Touch",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A weapon etched with this rune can harm creatures without physical form. A <em>ghost touch</em> weapon is particularly effective against incorporeal creatures, which almost always have a specific vulnerability to <em>ghost touch</em> weapons.</p>\n<p>Incorporeal creatures can touch, hold, and wield <em>ghost touch</em> weapons (unlike most physical objects).</p>"
+        },
+        "rules": [],
+        "slug": "ghost-touch",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 75
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.G14aFbdEP1gXN5yv"
+    },
+    {
+      "_id": "mqlbQk4hXIWq47fK",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Bane",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A bane rune causes a weapon to grant you improved understanding of creatures of a particular type, allowing you to deal more damage to those creatures. The crafter chooses aberration, animal, beast, celestial, construct, dragon, elemental, fey, fiend, giant, monitor, ooze, or both fungus and plant. The weapon deals 1d6 additional damage of the weapon's damage type to creatures with the chosen trait or traits. The benefit doesn't apply against creatures of the chosen type disguised as other creatures. It's up to GM discretion whether the bane rune applies against a creature disguised as a creature of the chosen type.</p>\n<p>The GM might allow bane runes for other creature traits, such as astral, dream, or demon. However, humanoids, undead, and specific types of humanoids (such as elves) are never a valid option.</p>"
+        },
+        "rules": [],
+        "slug": "bane",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 100
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.mqlbQk4hXIWq47fK"
+    },
+    {
+      "_id": "S1mtm1YljcTyrdrl",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.uQOaRpfkUFVYD0Gx",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.S1mtm1YljcTyrdrl"
+    },
+    {
+      "_id": "XbGRTPPwMPyHqXqG",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick (Major)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +3 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick-major",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 16
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 9000
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9imz3VgBXCg13RfT",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.XbGRTPPwMPyHqXqG"
+    },
+    {
+      "_id": "MvCFlyHTJW0wFWu6",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Slick (Greater)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +2 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick-greater",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 8
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 450
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.LiJMupjynmkM5Mld",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.MvCFlyHTJW0wFWu6"
+    },
+    {
+      "_id": "X8rs1jvMQQ639LAw",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Shadow",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Armor etched with this rune takes on a hazy black appearance. You gain a +1 item bonus to Stealth checks while wearing the armor.</p>"
+        },
+        "rules": [],
+        "slug": "shadow",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 55
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-lm-nonmetal-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.kEy7Uc1VisizGgtf",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.X8rs1jvMQQ639LAw"
+    },
+    {
+      "_id": "sgBypZPx0d58ptXX",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Assisting",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your armor provides support for your joints or advanced prostheses for missing limbs, holding your body in place and easing physical symptoms. This replicates the benefits of any number of splints, supports, and prostheses. When you invest the armor, you determine how many such supports you want, and where on your body they assist you.</p>\n<p>In addition, the extra support and structure provided by the armor allows you to transport more than you would otherwise normally be able to. You can carry Bulk equal to 6 + your Strength modifier before becoming encumbered, and you can hold and carry a total Bulk of up to 11 + your Strength modifier.</p>"
+        },
+        "rules": [],
+        "slug": "assisting",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 125
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Rm2cojERpLEWB9B3",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.sgBypZPx0d58ptXX"
+    },
+    {
+      "_id": "iWQQrqFKaxC0ak51",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Earthbinding",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A weapon with this rune hums when touched to the ground.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Requirements</strong> You critically hit a flying creature with the etched weapon</p><hr /><p><strong>Effect</strong> The rune casts a DC 20 @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{Earthbind} spell on the flying creature.</p>"
+        },
+        "rules": [],
+        "slug": "earthbinding",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 125
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.OClYfRHzoynib6wX",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.iWQQrqFKaxC0ak51"
+    },
+    {
+      "_id": "I9QsDB5ZgroKAyBM",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Stanching",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These symbols close bloody wounds. Armor with this rune reduces the DC of the flat check to end persistent bleed damage from 15 to 12 (7 with particularly effective assistance).</p>"
+        },
+        "rules": [],
+        "slug": "stanching",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens The Grand Bazaar",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 130
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.NJtIwMIzjdRqupAM",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.I9QsDB5ZgroKAyBM"
+    },
+    {
+      "_id": "FIds7QUSFypHkgTf",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Cunning",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The weapon performs divination magic on the blood of your foes, granting you insight into their abilities and weaknesses.</p>\n<hr />\n<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p>\n<p><strong>Frequency</strong> once per minute</p>\n<p><strong>Requirements</strong> On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids</p>\n<hr />\n<p><strong>Effect</strong> You learn the secrets the weapon gleaned from the creature's blood. Attempt to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune.</p>\n<p>If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.</p>"
+        },
+        "rules": [],
+        "slug": "cunning",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens Pathfinder Society Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 140
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-piercing-or-slashing-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.T4gTHDKJ0HI10p3y",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.FIds7QUSFypHkgTf"
+    },
+    {
+      "_id": "rMQMkFOUP0TBnBtL",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "name": "Raiment",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This armor can be disguised with a mere thought.</p>\n<p><strong>Activate—Costume Change</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<hr />\n<p><strong>Effect</strong> You change the shape and appearance of this armor to appear as ordinary or fine clothes of your imagining. The armor's statistics don't change. Only a creature that's benefiting from truesight or a similar effect can attempt to disbelieve this illusion, with a DC of 25.</p>"
+        },
+        "rules": [],
+        "slug": "raiment",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 140
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.iTxqImupNnm8gvoe",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.rMQMkFOUP0TBnBtL"
+    },
+    {
+      "_id": "Y8SQhO9r4P8sQYLv",
+      "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+      "name": "Pacifying",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This rune turns weapons into instruments of peacemaking.</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">R</span> (concentrate, mental)</p>\n<p><strong>Trigger</strong> You damage a creature with the etched weapon</p><hr /><p><strong>Effect</strong> The damaged creature must succeed at a @Check[will|dc:20] save or be pacified. A pacified creature takes a –2 penalty to attack rolls on any attacks that aren't nonlethal for 1 minute, and the creature also experiences a clear psychic warning that they should stop making attacks that could kill.</p>"
+        },
+        "rules": [],
+        "slug": "pacifying",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Treasure Vault (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 150
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "usage": {
+          "value": "etched-onto-a-weapon"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.R8I13CDRzvpVXOVe",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!tPQXNhPscxUicVeh.Y8SQhO9r4P8sQYLv"
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "item-piles": {
+      "data": {
+        "enabled": true,
+        "type": "merchant",
+        "distance": 0,
+        "infiniteQuantity": true,
+        "hideNewItems": true,
+        "displayQuantity": "alwaysno",
+        "itemTypePriceModifiers": [
+          {
+            "type": "treasure",
+            "category": "",
+            "override": true,
+            "buyPriceModifier": 1,
+            "sellPriceModifier": 1
+          }
+        ],
+        "logMerchantActivity": true
+      },
+      "version": "3.2.32"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3",
+    "createdTime": 1775109611866,
+    "modifiedTime": 1775109611866,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!actors!tPQXNhPscxUicVeh"
+}

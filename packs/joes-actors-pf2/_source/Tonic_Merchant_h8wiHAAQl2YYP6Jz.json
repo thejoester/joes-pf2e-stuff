@@ -1,0 +1,269 @@
+{
+  "name": "Tonic Merchant",
+  "type": "npc",
+  "img": "modules/pf2e-tokens-npc-core/assets/portraits/tonic-merchant.webp",
+  "prototypeToken": {
+    "ring": {
+      "enabled": true,
+      "subject": {
+        "texture": "modules/pf2e-tokens-npc-core/assets/subjects/tonic-merchant.webp",
+        "scale": 2
+      },
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1
+    },
+    "texture": {
+      "src": "modules/pf2e-tokens-npc-core/assets/tokens/tonic-merchant.webp",
+      "scaleX": 2,
+      "scaleY": 2,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      },
+      "item-piles": {
+        "data": {
+          "enabled": true,
+          "type": "merchant",
+          "distance": null,
+          "canStackItems": "alwaysyes",
+          "displayItemTypes": true,
+          "infiniteQuantity": true,
+          "hideNewItems": true,
+          "hideItemsWithZeroCost": true,
+          "displayQuantity": "alwaysno",
+          "itemTypePriceModifiers": [
+            {
+              "type": "treasure",
+              "category": "",
+              "override": true,
+              "buyPriceModifier": 1,
+              "sellPriceModifier": 1
+            }
+          ]
+        },
+        "version": "3.2.32"
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "name": "Tonic Merchant",
+    "displayName": 20,
+    "actorLink": false,
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "ownership": {
+    "default": 0,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 10,
+        "temp": 0,
+        "max": 10,
+        "details": ""
+      },
+      "ac": {
+        "value": 10,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 0
+      },
+      "dex": {
+        "mod": 0
+      },
+      "con": {
+        "mod": 0
+      },
+      "int": {
+        "mod": 0
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": 0
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 0,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "_id": "h8wiHAAQl2YYP6Jz",
+  "items": [],
+  "folder": "u6j6Y3U1p03e2Otw",
+  "sort": 175000,
+  "flags": {
+    "item-piles": {
+      "data": {
+        "enabled": true,
+        "type": "merchant",
+        "distance": null,
+        "canStackItems": "alwaysyes",
+        "displayItemTypes": true,
+        "infiniteQuantity": true,
+        "hideNewItems": true,
+        "hideItemsWithZeroCost": true,
+        "displayQuantity": "alwaysno",
+        "itemTypePriceModifiers": [
+          {
+            "type": "treasure",
+            "category": "",
+            "override": true,
+            "buyPriceModifier": 1,
+            "sellPriceModifier": 1
+          }
+        ]
+      },
+      "version": "3.2.32"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3",
+    "createdTime": 1775109611866,
+    "modifiedTime": 1775109611866,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!actors!h8wiHAAQl2YYP6Jz"
+}

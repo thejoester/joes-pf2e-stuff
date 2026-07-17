@@ -1,0 +1,22 @@
+{
+  "name": "MH-AV Characters",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "014rvuPq3QvUb3rm",
+  "description": "",
+  "sort": 0,
+  "color": "#7c589a",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734684810335,
+    "modifiedTime": 1734684822156,
+    "lastModifiedBy": "lfU9NncyG8LWlt8v"
+  },
+  "_key": "!folders!014rvuPq3QvUb3rm"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Menace under Otari",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.306",
+    "createdTime": 1689944592673,
+    "modifiedTime": 1689944593443,
+    "lastModifiedBy": "OGrPXnPX5XDmb5js"
+  },
+  "_id": "jzNnYj1DuXVn4BFQ",
+  "_key": "!folders!jzNnYj1DuXVn4BFQ"
+}

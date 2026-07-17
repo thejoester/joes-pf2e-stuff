@@ -1,0 +1,192 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 0.5,
+    "width": 0.5,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "color": null
+    },
+    "name": "Everburning Torch",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/equipment/held-items/everburning-torch.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 20,
+      "coloration": 1,
+      "dim": 40,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": "#87f1ec",
+      "negative": false,
+      "priority": 0
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "name": "Everburning Torch",
+  "type": "familiar",
+  "ownership": {
+    "default": 1,
+    "pW1leMCBgrAQWsCk": 3
+  },
+  "effects": [],
+  "system": {
+    "master": {
+      "id": "",
+      "ability": null
+    },
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0
+      }
+    },
+    "details": {
+      "creature": {
+        "value": ""
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.904,
+      "previous": {
+        "schema": 0.898,
+        "foundry": "11.315",
+        "system": "5.10.5"
+      }
+    }
+  },
+  "_id": "pXpFkE3ReVu28exN",
+  "img": "systems/pf2e/icons/equipment/held-items/everburning-torch.webp",
+  "items": [],
+  "folder": "JzAAoMfjuwz7zGtB",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "5d66c529da9746d03a7e6858ac9ca80faa9ac76f"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.5",
+    "coreVersion": "13.345",
+    "createdTime": 1700876713485,
+    "modifiedTime": 1702027379096,
+    "lastModifiedBy": "pW1leMCBgrAQWsCk",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!actors!pXpFkE3ReVu28exN"
+}

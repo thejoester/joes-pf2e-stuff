@@ -1,0 +1,986 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Enterprising Fire (3)",
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/tokens/elemental-wisp-fire.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null,
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "FollowMe": {
+        "following": {
+          "who": "uLB5fKDL7sEBt6PJ",
+          "dist": 200,
+          "positions": [
+            {
+              "x": 4800,
+              "y": 5200
+            },
+            {
+              "x": 4600,
+              "y": 5200
+            }
+          ]
+        }
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "conversation-hud": {
+        "excludeFromBeingPulled": false,
+        "linkedConversation": ""
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "scorch",
+        "bloodsplat-colour": ""
+      },
+      "token-auras": {
+        "aura1": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        },
+        "aura2": {
+          "permission": "all",
+          "colour": "#ffffff",
+          "opacity": 0.5,
+          "distance": null,
+          "square": false
+        }
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "type": "familiar",
+  "name": "Fire",
+  "system": {
+    "master": {
+      "id": null,
+      "ability": null
+    },
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0
+      }
+    },
+    "details": {
+      "creature": {
+        "value": "Elemental Wisp (fire)"
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    }
+  },
+  "folder": "SdwgBz28TGJMtZOK",
+  "img": "assets/token-portrait/km-mon/elemental-wisp-fire-t.webp",
+  "items": [
+    {
+      "name": "Elemental Wisp (Rage of Elements) (Fire)",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Required Number of Abilities 3</strong><br /><strong>Granted Abilities</strong> @UUID[Compendium.pf2e.familiar-abilities.92lgSEPFIDLvKOCF]{Accompanist}, @UUID[Compendium.pf2e.familiar-abilities.ch6nFcRJO1fm8B4D]{Elemental}, @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{Speech}</p>\n<hr />\n<p>Wisps are tiny elementals that often act as familiars. They each usually have different personalities: air wisps are playful and capricious, earth wisps are timid but loyal, fire wisps are carefree and boisterous, metal wisps are serious and morose, water wisps are gentle and nurturing, and wood wisps are fierce and controlling.</p>\n<p><strong>Elemental Mobility</strong></p>\n<p>Your wisp gains a familiar ability depending on its element. Air wisps gain @UUID[Compendium.pf2e.familiar-abilities.ZHSzNt3NxkXbj1mI]{Flier}, earth wisps gain @UUID[Compendium.pf2e.familiar-abilities.uy15sDBuYNK48N3v]{Burrower}, fire wisps gain @UUID[Compendium.pf2e.familiar-abilities.fhyQ6uTSvfErTzyE]{Jet}, metal wisps gain @UUID[Compendium.pf2e.familiar-abilities.q9IXWngAOCpsXxsO]{Levitator}, water wisps gain @UUID[Compendium.pf2e.familiar-abilities.A0C86V3MUECpX5jd]{Amphibious}, and wood wisps gain @UUID[Compendium.pf2e.familiar-abilities.dWTfO5WbLkD5mw2H]{Climber}.</p>\n<p><strong>Innate Element</strong></p>\n<p>An elemental wisp's element is set. You choose the element when you gain the specific familiar and can't change it each day.</p>\n<p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-abilities.Item.co7ukp3X71Nk220E]{Resonance} (Aura)</p>\n<p>30 feet. <br />Your wisp vibrates at a frequency attuned to their element, resonating with and empowering all effects sharing that trait. Creatures in the area gain a +1 status bonus to damage rolls for alchemical and magical effects with the same elemental trait as your wisp. If your wisp is a wood wisp, the status bonus also applies to damage rolls for effects with the plant trait.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.TraitAir",
+                "value": "air"
+              },
+              {
+                "label": "PF2E.TraitEarth",
+                "value": "earth"
+              },
+              {
+                "label": "PF2E.TraitFire",
+                "value": "fire"
+              },
+              {
+                "label": "PF2E.TraitMetal",
+                "value": "metal"
+              },
+              {
+                "label": "PF2E.TraitWater",
+                "value": "water"
+              },
+              {
+                "label": "PF2E.TraitWood",
+                "value": "wood"
+              }
+            ],
+            "flag": "element",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Element",
+            "rollOption": "elemental-wisp",
+            "selection": "fire"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.92lgSEPFIDLvKOCF",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "accompanist"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.zyMRLQnFCQVpltiR",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "speech"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.ch6nFcRJO1fm8B4D",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "preselectChoices": {
+              "element": "{item|flags.pf2e.rulesSelections.element}"
+            },
+            "flag": "elemental"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.ZHSzNt3NxkXbj1mI",
+            "predicate": [
+              "elemental-wisp:air"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "flier"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.uy15sDBuYNK48N3v",
+            "predicate": [
+              "elemental-wisp:earth"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "burrower"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.fhyQ6uTSvfErTzyE",
+            "predicate": [
+              "elemental-wisp:fire"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "jet"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.A0C86V3MUECpX5jd",
+            "predicate": [
+              "elemental-wisp:water"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "amphibious"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.q9IXWngAOCpsXxsO",
+            "predicate": [
+              "elemental-wisp:metal"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "levitator"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.dWTfO5WbLkD5mw2H",
+            "predicate": [
+              "elemental-wisp:wood"
+            ],
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "climber"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-abilities.Item.co7ukp3X71Nk220E",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "resonance"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "path": "system.details.creature.value",
+            "value": "Elemental Wisp ({item|flags.pf2e.rulesSelections.element})",
+            "mode": "override"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.pf2e.specificFamiliars.requiredNumberOfAbilities",
+            "value": 3
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.specificFamiliars.specificFamiliarAbilityId",
+            "value": {
+              "sourceId": "{item|_stats.compendiumSource}",
+              "id": "{item|_id}"
+            },
+            "priority": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.pf2e.specificFamiliars.grantedNumberOfAbilities",
+            "value": 0
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/default-icons/familiar.svg",
+      "folder": null,
+      "sort": 1800000,
+      "ownership": {
+        "default": 0,
+        "FibNWQYOdQwgSPqy": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "accompanist": {
+              "id": "IA6Sqvk25FXw7RSJ",
+              "onDelete": "restrict"
+            },
+            "speech": {
+              "id": "CSpNaOmt9tmbrCvb",
+              "onDelete": "restrict"
+            },
+            "elemental": {
+              "id": "FSAYcKz3A5LhPZ7e",
+              "onDelete": "restrict"
+            },
+            "jet": {
+              "id": "7DmO4uD9GeA21diE",
+              "onDelete": "restrict"
+            },
+            "resonance": {
+              "id": "zjXe9UlDsRopaE9J",
+              "onDelete": "restrict"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars.Item.sk0yvGgGaMC0DfIr",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "PsTGVkZttYWsxJWu",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.PsTGVkZttYWsxJWu"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Accompanist",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your familiar helps you perform. Whenever you attempt a Performance check, if your familiar is nearby and can act, it accompanies you with chirps, claps, or its own miniature instrument. This grants you a +1 circumstance bonus, or +2 if you're a master in Performance.</p>"
+        },
+        "rules": [],
+        "slug": "accompanist",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.92lgSEPFIDLvKOCF",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "PsTGVkZttYWsxJWu",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "IA6Sqvk25FXw7RSJ",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.IA6Sqvk25FXw7RSJ"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Speech",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>It understands and speaks a language you know.</p>"
+        },
+        "rules": [],
+        "slug": "speech",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.zyMRLQnFCQVpltiR",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "PsTGVkZttYWsxJWu",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "CSpNaOmt9tmbrCvb",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.CSpNaOmt9tmbrCvb"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Elemental (Fire)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. The familiar is immune to bleed, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, poison, sleep, and the element matching its trait. Your familiar must have the resistance familiar ability to select this.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.TraitAir",
+                "value": "air"
+              },
+              {
+                "label": "PF2E.TraitEarth",
+                "value": "earth"
+              },
+              {
+                "label": "PF2E.TraitFire",
+                "value": "fire"
+              },
+              {
+                "label": "PF2E.TraitMetal",
+                "value": "metal"
+              },
+              {
+                "label": "PF2E.TraitWater",
+                "value": "water"
+              },
+              {
+                "label": "PF2E.TraitWood",
+                "value": "wood"
+              }
+            ],
+            "flag": "element",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Element",
+            "selection": "fire"
+          },
+          {
+            "add": [
+              "elemental",
+              "{item|flags.pf2e.rulesSelections.element}"
+            ],
+            "key": "ActorTraits",
+            "remove": [
+              "animal"
+            ]
+          },
+          {
+            "key": "Immunity",
+            "type": [
+              "bleed",
+              "paralyzed",
+              "poison",
+              "sleep",
+              "{item|flags.pf2e.rulesSelections.element}"
+            ]
+          }
+        ],
+        "slug": "elemental",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.ch6nFcRJO1fm8B4D",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "PsTGVkZttYWsxJWu",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "FSAYcKz3A5LhPZ7e",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.FSAYcKz3A5LhPZ7e"
+    },
+    {
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "name": "Jet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your familiar can use bursts of elemental energy or magic to @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} up to 30 feet in any direction, even if that would exceed its normal maximum distance for leaping. The Leap must begin and end on a solid surface capable of supporting the familiar.</p>"
+        },
+        "rules": [],
+        "slug": "jet",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.fhyQ6uTSvfErTzyE",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "PsTGVkZttYWsxJWu",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "7DmO4uD9GeA21diE",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.7DmO4uD9GeA21diE"
+    },
+    {
+      "name": "Resonance",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>30 feet. <br />Your wisp vibrates at a frequency attuned to their element, resonating with and empowering all effects sharing that trait. Creatures in the area gain a +1 status bonus to damage rolls for alchemical and magical effects with the same elemental trait as your wisp. If your wisp is a wood wisp, the status bonus also applies to damage rolls for effects with the plant trait.</p>"
+        },
+        "rules": [
+          {
+            "key": "Aura",
+            "radius": 30,
+            "label": "Resonance",
+            "effects": [
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.vO9GkL74FjkLlscQ",
+                "predicate": [
+                  "elemental-wisp:air"
+                ]
+              },
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.ku0BLn5yfat6bGBz",
+                "predicate": [
+                  "elemental-wisp:earth"
+                ]
+              },
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.DIKeUr4JOPPEYDHx",
+                "predicate": [
+                  "elemental-wisp:fire"
+                ]
+              },
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.Q5qYMPkGDReJdDtr",
+                "predicate": [
+                  "elemental-wisp:metal"
+                ]
+              },
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.4PJMjcmVf5kkgUbp",
+                "predicate": [
+                  "elemental-wisp:water"
+                ]
+              },
+              {
+                "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.yzfkBxvBczAvGRAW",
+                "predicate": [
+                  "elemental-wisp:wood"
+                ]
+              }
+            ],
+            "level": "Resonance"
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "aura"
+          ]
+        },
+        "publication": {
+          "title": "Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FibNWQYOdQwgSPqy": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "PsTGVkZttYWsxJWu",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars-abilities.Item.co7ukp3X71Nk220E",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "zjXe9UlDsRopaE9J",
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.zjXe9UlDsRopaE9J"
+    },
+    {
+      "_id": "h9kEuCG8Plk6v27H",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scouting (Scout Dedication)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-scout-dedication",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -446601902,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "type": "effect",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!hfeLeQVUR8eKd8nU.h9kEuCG8Plk6v27H"
+    }
+  ],
+  "effects": [],
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "Gj408LQBW4tjxZEu": 3,
+    "3QzeCnTdi8aUN9o6": 2
+  },
+  "flags": {
+    "xdy-pf2e-workbench": {},
+    "sequencer": {
+      "effects": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1738484560153,
+    "modifiedTime": 1758765498067,
+    "lastModifiedBy": "lfU9NncyG8LWlt8v",
+    "exportSource": null
+  },
+  "_id": "hfeLeQVUR8eKd8nU",
+  "sort": 400000,
+  "_key": "!actors!hfeLeQVUR8eKd8nU"
+}

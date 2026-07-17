@@ -1,0 +1,22 @@
+{
+  "name": "Test Alchemists",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "bcNE88l8YEjwcTMq",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1755270484553,
+    "modifiedTime": 1755270484553,
+    "lastModifiedBy": "CLMiGpsYVSTK4VM8"
+  },
+  "_key": "!folders!bcNE88l8YEjwcTMq"
+}

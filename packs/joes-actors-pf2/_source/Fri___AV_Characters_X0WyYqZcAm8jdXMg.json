@@ -1,0 +1,19 @@
+{
+  "name": "Fri - AV Characters",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "X0WyYqZcAm8jdXMg",
+  "sort": 0,
+  "color": "#279e05",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.9.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700888862647,
+    "modifiedTime": 1700888862647,
+    "lastModifiedBy": "pW1leMCBgrAQWsCk"
+  },
+  "_key": "!folders!X0WyYqZcAm8jdXMg"
+}

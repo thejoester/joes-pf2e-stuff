@@ -1,0 +1,5448 @@
+{
+  "folder": "3hbBTBSyqs8k7fUd",
+  "name": "Vyncynt",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "GV05ljv1gd0sdJkO": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Unnamed (Bones)",
+    "displayName": 30,
+    "texture": {
+      "src": "assets/token-portrait/km-mon/vyncynt-t.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "temp": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "draconic",
+          "dwarven",
+          "elven",
+          "fey",
+          "goblin",
+          "iruxi"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 2,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 1
+      },
+      "arcana": {
+        "rank": 1
+      },
+      "diplomacy": {
+        "rank": 1
+      },
+      "medicine": {
+        "rank": 1
+      },
+      "nature": {
+        "rank": 2
+      },
+      "occultism": {
+        "rank": 2
+      },
+      "stealth": {
+        "rank": 1
+      },
+      "survival": {
+        "rank": 1
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ],
+          "5": [
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ]
+        }
+      }
+    }
+  },
+  "img": "assets/token-portrait/km-mon/vyncynt-p.webp",
+  "items": [
+    {
+      "_id": "gyuIAKfupM0Og8Rn",
+      "img": "systems/pf2e/icons/ancestries/human.webp",
+      "name": "Human",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Human}</em></p>"
+        },
+        "rules": [],
+        "slug": "human",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "human",
+            "humanoid"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 8,
+        "size": "med",
+        "hands": 2,
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "int"
+          },
+          "1": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "dex"
+          },
+          "2": {
+            "value": []
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [
+            "common"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 1,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "normal"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.gyuIAKfupM0Og8Rn"
+    },
+    {
+      "_id": "3FHTaq7n7jqqmW02",
+      "folder": "khXMNyAoAoZ70PpT",
+      "img": "systems/pf2e/icons/ancestries/aiuvarin.webp",
+      "name": "Aiuvarin",
+      "system": {
+        "ancestry": null,
+        "description": {
+          "value": "<p>You have elves, or possibly other aiuvarins, in your family tree. You have pointed ears and other telltale signs of elf heritage. You gain the elf trait, the aiuvarin trait, and low-light vision. In addition, when you gain an ancestry feat, you can choose from aiuvarin and elf feats in addition to those from your ancestry.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Sense",
+            "selector": "low-light-vision"
+          },
+          {
+            "add": [
+              "elf"
+            ],
+            "key": "ActorTraits"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.details.ancestry.versatile",
+            "value": "elf"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "system.details.ancestry.countsAs",
+            "value": "elf"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "system.details.ancestry.countsAs",
+            "value": "aiuvarin"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "aiuvarin"
+          ],
+          "otherTags": []
+        },
+        "slug": "aiuvarin",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.3FHTaq7n7jqqmW02"
+    },
+    {
+      "_id": "MnTZXzAib0aKYrB4",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Emissary",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As a diplomat or messenger, you traveled to lands far and wide. Communicating with new people and forming alliances were your stock and trade.</p>\n<p>Choose two attribute boosts. One must be to <strong>Intelligence</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Society skill and a Lore skill related to one city you've visited often. You gain the @UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{Multilingual} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "emissary",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "int"
+            ],
+            "selected": "int"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          }
+        },
+        "items": {
+          "cxx9n": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Multilingual",
+            "uuid": "Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "society"
+          ],
+          "lore": []
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.MnTZXzAib0aKYrB4"
+    },
+    {
+      "folder": "QhHpEbq98ZJAyDiH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Multilingual",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You easily pick up new languages. You learn two new languages, chosen from common languages, uncommon languages, and any others you have access to. You learn an additional language if you are or become a master in Society and again if you are or become legendary.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, you learn additional languages.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "maxTakable": null,
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Society"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "system.build.languages.max",
+            "value": "ternary(eq(@actor.system.skills.society.rank, 4), 2, ternary(eq(@actor.system.skills.society.rank, 3), 1, 0))"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.system.multilingualTaken",
+            "priority": 19,
+            "value": 0
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.system.multilingualTaken",
+            "value": 1
+          }
+        ],
+        "subfeatures": {
+          "languages": {
+            "granted": [],
+            "slots": 2
+          },
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "multilingual",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "location": "MnTZXzAib0aKYrB4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "b2qQ76Rw0n6YtKdH",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.b2qQ76Rw0n6YtKdH"
+    },
+    {
+      "_id": "9bbbTImsiwiZasRN",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "name": "Psychic",
+      "system": {
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "attacks": {
+          "advanced": 0,
+          "martial": 0,
+          "other": {
+            "name": "",
+            "rank": 0
+          },
+          "simple": 1,
+          "unarmed": 1
+        },
+        "classFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "defenses": {
+          "heavy": 0,
+          "light": 0,
+          "medium": 0,
+          "unarmored": 1
+        },
+        "description": {
+          "value": "<p><em>The mind can perceive truths hidden to fine-tuned instruments, house more secrets than any tome, and move objects and hearts more deftly than any lever. By delving into both the conscious and subconscious aspects of your inner self, you have awoken to the might of psychic magic, allowing you to cast spells not through incantations or gestures but by the power of your will alone. While the thin line between your mind and reality means that a single errant thought could have unintended consequences for yourself and your companions, you know that anything is possible, if you can imagine it.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVoEUJBAbAFUJTqw]{Psychic}</em></p>",
+          "gm": ""
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "hp": 6,
+        "items": {
+          "0x9ff": {
+            "img": "systems/pf2e/icons/features/classes/psychic-spellcasting.webp",
+            "level": 1,
+            "name": "Psychic Spellcasting",
+            "uuid": "Compendium.pf2e.classfeatures.Item.iXwqJyBsjJNrKJae"
+          },
+          "2EiQN": {
+            "img": "icons/skills/melee/hand-grip-sword-red.webp",
+            "level": 11,
+            "name": "Weapon Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+          },
+          "362nc": {
+            "img": "systems/pf2e/icons/features/classes/psy-cantrips-and-amps.webp",
+            "level": 1,
+            "name": "Psi Cantrips and Amps",
+            "uuid": "Compendium.pf2e.classfeatures.Item.1tyNn9sduyexXLfL"
+          },
+          "4aeg4": {
+            "img": "systems/pf2e/icons/features/classes/unleash-psyche.webp",
+            "level": 1,
+            "name": "Unleash Psyche",
+            "uuid": "Compendium.pf2e.classfeatures.Item.HwUps0waR29bwlTI"
+          },
+          "5iq7q": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Subconscious Mind",
+            "uuid": "Compendium.pf2e.classfeatures.Item.79ZetrRF6S01P4Vf"
+          },
+          "62vs3": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Conscious Mind",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0fv6NVMZZ0peGL9e"
+          },
+          "azay0": {
+            "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+            "level": 3,
+            "name": "Signature Spells",
+            "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c"
+          },
+          "b90rt": {
+            "img": "systems/pf2e/icons/features/classes/clarity-of-focus.webp",
+            "level": 5,
+            "name": "Clarity of Focus",
+            "uuid": "Compendium.pf2e.classfeatures.Item.k9MeSdp2DbGd1hFz"
+          },
+          "czyth": {
+            "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+            "level": 5,
+            "name": "Precognitive Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Ftz5jVa9X6aXybkC"
+          },
+          "dyf7k": {
+            "img": "icons/sundries/books/book-backed-silver-gold.webp",
+            "level": 7,
+            "name": "Expert Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+          },
+          "f5qsu": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 11,
+            "name": "Extrasensory Perception",
+            "uuid": "Compendium.pf2e.classfeatures.Item.wOl7EeF7S6i753Ef"
+          },
+          "gshsr": {
+            "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+            "level": 11,
+            "name": "Walls of Will",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Kf9lSN6pVS2Hy4KI"
+          },
+          "i827f": {
+            "img": "systems/pf2e/icons/features/classes/personal-barrier.webp",
+            "level": 13,
+            "name": "Personal Barrier",
+            "uuid": "Compendium.pf2e.classfeatures.Item.MtHLCQGD6OW98WC2"
+          },
+          "iqtpM": {
+            "img": "icons/magic/life/cross-explosion-burst-green.webp",
+            "level": 9,
+            "name": "Fortitude Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+          },
+          "jl328": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 13,
+            "name": "Psychic Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.a58MGVX2L589sC9g"
+          },
+          "kb1jw": {
+            "img": "icons/skills/trades/academics-book-study-purple.webp",
+            "level": 15,
+            "name": "Master Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+          },
+          "l1k6k": {
+            "img": "systems/pf2e/icons/features/classes/fortress-of-will.webp",
+            "level": 17,
+            "name": "Fortress of Will",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Hw6Ji7Fgx0XkVkac"
+          },
+          "my3iq": {
+            "img": "systems/pf2e/icons/features/classes/infinite-mind.webp",
+            "level": 19,
+            "name": "Infinite Mind",
+            "uuid": "Compendium.pf2e.classfeatures.Item.mZwD2brwXlyR9RAR"
+          },
+          "n84cn": {
+            "img": "icons/sundries/books/book-open-purple.webp",
+            "level": 19,
+            "name": "Legendary Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+          },
+          "vM8ge": {
+            "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+            "level": 1,
+            "name": "Spell Repertoire",
+            "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH"
+          }
+        },
+        "keyAbility": {
+          "value": [],
+          "selected": "int"
+        },
+        "perception": 1,
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [],
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 2
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        },
+        "spellcasting": 1,
+        "trainedSkills": {
+          "additional": 3,
+          "value": [
+            "occultism"
+          ]
+        },
+        "traits": {
+          "rarity": "common",
+          "otherTags": []
+        },
+        "slug": "psychic",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.9bbbTImsiwiZasRN"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/unleash-psyche.webp",
+      "name": "Unleash Psyche",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>When one thins the barrier between their inner mind and the outer world, one can unleash true psychic power. However, the mind wasn't meant to tap its full strength for long, leading to backlash once your unleashed psyche ends.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.7GeguyqyD1TjoC4r",
+            "flag": "unleashPsyche"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "unleash-psyche",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "unleashPsyche": {
+              "id": "6qqtXIPJdvjAkkgL",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "DXiTVxALjyh3VM1n",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.DXiTVxALjyh3VM1n"
+    },
+    {
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Subconscious Mind",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>A psychic's power is born in the depths of their psyche, far from the surface. Your subconscious mind might represent the way your power comes to you naturally, or it may be a framework you use to safely access the infinite potential of your mind. Either way, your subconscious mind fundamentally shapes how you access and wield psychic magic. Choose a subconscious mind from the options below. This choice will determine your key attribute, thoughtforms you use while casting, and an action you can take while you have Unleashed your Psyche. The following options are presented in this book.</p><ul><li><strong>@UUID[Compendium.pf2e.classfeatures.Item.PNihL10QAB1sYSRn]{Emotional Acceptance}</strong> (Cha): Throwing yourself headlong into your emotions is what lets you access your power.</li><li><strong>@UUID[Compendium.pf2e.classfeatures.Item.0UKDEtZ7ffTEsqCK]{Gathered Lore}</strong> (Int): Tutors taught you specific axioms and lessons to help you harness your mind.</li><li><strong>@UUID[Compendium.pf2e.classfeatures.Item.Qrhw4SILfT8YNQgB]{Precise Discipline}</strong> (Int): Meticulously aligning your thoughts brings your mental power into reality.</li><li><strong>@UUID[Compendium.pf2e.classfeatures.Item.EMErBnhrgUHEKAsZ]{Wandering Reverie}</strong> (Cha): Your imagination fuels your magic through instinct and free association.</li></ul>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:psychic-subconscious-mind"
+              ]
+            },
+            "flag": "subconsciousMind",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.SubconsciousMind",
+            "selection": "Compendium.pf2e.classfeatures.Item.0UKDEtZ7ffTEsqCK"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.system.rulesSelections.subconsciousMind}",
+            "flag": "gatheredLore"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "subconscious-mind",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "gatheredLore": {
+              "id": "ynZlEA6FVhU0zH5S",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "lCh1XqmMZKUgvlsF",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.lCh1XqmMZKUgvlsF"
+    },
+    {
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Conscious Mind",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Whatever the subconscious source of a psychic's power, all find that a specific external manifestation of their magic comes most easily to them. This conscious outward expression adds several additional spells to your spell repertoire and grants you three psi cantrips. Two of these cantrips are common spells, though you gain an extra benefit with them that other spellcasters don't get, and the last is unique to your conscious mind. You also get two more unique psi cantrips at higher levels. Choose a conscious mind from the following options.</p>\n<ul>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.1rlBo3LcwIuPDCvz]{The Distant Grasp}:</strong> Manipulate physical objects with telekinesis.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.rvpTsj9epRuNH3uB]{The Infinite Eye}:</strong> Observe the world and weaponize your knowledge.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.5tSR0WzMPFn5s3Xs]{The Oscillating Wave}:</strong> Redistribute thermal energy to create blazing heat and bone-chilling cold.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.rdWWlqvxXgfWDaSO]{The Silent Whisper}:</strong> Tap into the thoughts of those around you to soothe or influence.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.8dAm3ULUqaK4N5a7]{The Tangible Dream}:</strong> Weave your imagination into creations of force and light.</li>\n<li><strong>@UUID[Compendium.pf2e.classfeatures.Item.FaSY47siV1x6CAQp]{The Unbound Step}:</strong> Bend and traverse space with teleportation and phasing.</li>\n</ul>\n<p>Specific spells you learn come from your conscious mind, which shapes the raw psychic power from your subconscious into the forms and phenomena that you intentionally cast. You select your conscious mind at 1st level, and it detemines the following.</p>\n<p><strong>Granted Spells</strong> You automatically add the spells listed here to your spell repertoire, in addition to those you gain through psychic spellcasting. At 1st level, you gain a 1st-rank spell, and you learn the other spells on the list as soon as you gain the ability to cast psychic spells of that rank, learning the 2nd-rank spell at 3rd level, the 3rd-rank spell at 5th level, and so on.</p>\n<p><strong>Standard Psi Cantrips</strong> These are two common cantrips you automatically gain at 1st level. While these are the same cantrips used by other spellcasters, you cast them as psi cantrips, enabling you to amp them for greater effect. Your mastery of psychic magic also grants you a passive benefit that applies every time you cast these cantrips, even when you haven't amped them. These benefits apply only with cantrips you gain from your conscious mind; you would cast a cantrip you gained with your psychic spellcasting class feature, for example, as normal even if it appears in a different conscious mind.</p>\n<p><strong>Unique Psi Cantrips</strong> These psi cantrips are unique to your conscious mind. You automatically gain the surface psi cantrip at 1st level, automatically gain the deeper psi cantrip at 6th level, and automatically gain the deepest psi cantrip at 10th level.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:psychic-conscious-mind"
+              ]
+            },
+            "flag": "consciousMind",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.ConsciousMind",
+            "selection": "Compendium.pf2e.classfeatures.Item.rdWWlqvxXgfWDaSO"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.system.rulesSelections.consciousMind}",
+            "flag": "theSilentWhisper"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "conscious-mind",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "theSilentWhisper": {
+              "id": "Qtb5w3Seqz2x4Cpd",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "2elDo0ANgAQDR0Or",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.2elDo0ANgAQDR0Or"
+    },
+    {
+      "folder": "cTGdoRB4PISFC5SN",
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "Unleash Psyche",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> Your turn begins.</p>\n<p><strong>Requirements</strong> You're in an encounter, you Cast a Spell on your previous turn, and you aren't @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}.</p><hr /><p>You call on the depths of your mind and let psychic power flood through. Your Psyche remains Unleashed for 2 rounds or until your fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can't voluntarily quell your unleashed psyche. While your Psyche is Unleashed, the following effects occur.</p><ul><li>You're constantly surrounded by the visual manifestation of your psychic magic.</li><li>When you cast a damaging spell using your psychic spellcasting, you gain a status bonus to its damage equal to double the spell's rank. This applies only to the initial damage the spell deals when cast, and an individual creature takes this damage only once per spell, even if the spell would damage that creature multiple times.</li><li>You can use actions that have the psyche trait. After your unleashed psyche subsides, your mind must recover from the strain of channeling its full power. You can't use Unleash Psyche again for 2 rounds, and you're @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 2 rounds.</li></ul>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [],
+        "selfEffect": {
+          "name": "Effect: Unleash Psyche",
+          "uuid": "Compendium.pf2e.feat-effects.Item.939OHjW9y8uCmDk3"
+        },
+        "traits": {
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "unleash-psyche",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "DXiTVxALjyh3VM1n",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "6qqtXIPJdvjAkkgL",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.6qqtXIPJdvjAkkgL"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/gathered-lore.webp",
+      "name": "Gathered Lore",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Many psychics are self-taught, frantically improvising how to best control their abilities before their power overwhelms them. Not you. Tutored by a mentor or classically trained at a facility for psychic development, you've learned techniques and teachings for best harnessing the mind, cataloging each expression of psychic power with a specific teaching, anecdote, or phrase.</p>\n<p>Your thoughtforms are mantras you associate with a given spell, which you mentally repeat as you cast. You might silently utter a teaching of resilience as you spin force into a barrier or hear the first three notes of a traveling song as you slip through space. Mantra thoughtforms often produce runes or symbols from your learnings that are unique to each spell you cast, causing your spell manifestations to resemble those of conventional spellcasters to a much greater degree than those of other psychics.</p>\n<p><strong>Key Attribute</strong> Your key attribute attribute is Intelligence.</p>\n<p><strong>Psyche Action</strong> @UUID[Compendium.pf2e.actionspf2e.Item.kRxWINkrHUPSHHYq]{Recall the Teachings}</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "allowDuplicate": false,
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.kRxWINkrHUPSHHYq",
+            "flag": "recallTheTeachings"
+          }
+        ],
+        "subfeatures": {
+          "keyOptions": [
+            "int"
+          ],
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "otherTags": [
+            "psychic-subconscious-mind"
+          ],
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ]
+        },
+        "slug": "gathered-lore",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "lCh1XqmMZKUgvlsF",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "recallTheTeachings": {
+              "id": "y9zhsUgRMrdUPQaV",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "ynZlEA6FVhU0zH5S",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.ynZlEA6FVhU0zH5S"
+    },
+    {
+      "folder": "cTGdoRB4PISFC5SN",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Recall the Teachings",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p>The heightened power of your psyche lets you recall every lesson you've ever learned. You search your mind for the right teaching, which at first seems cryptic but comes into clarity when it's most relevant. Until the start of your next turn, you count as having prepared to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} all allies within 30 feet of you. If you use the Aid reaction to help one of them during that time, you roll an Occultism check for [[/act aid skill=occultism traits=auditory,linguistic]] as you recall a lesson to help them. Most lessons take the form of short axioms, parables, or sayings, meaning that conveying them to your ally usually grants your Aid reaction the auditory and linguistic traits.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "occult",
+            "psyche",
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "recall-the-teachings",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "ynZlEA6FVhU0zH5S",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "y9zhsUgRMrdUPQaV",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.y9zhsUgRMrdUPQaV"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/the-silent-whisper.webp",
+      "name": "The Silent Whisper",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Every mind murmurs constantly, and the static from those nearby reverberates in your head like wind through leaves. What better focus for your magic then, than the very thoughts of those around you? Your versatile telepathic abilities let you soothe and communicate with your allies or control your enemies.</p>\n<p><strong>Granted Spells</strong></p><ul><li>1st: @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{Mindlink}</li><li>2nd: @UUID[Compendium.pf2e.spells-srd.Item.CQb8HtQ1BPeZmu9h]{Stupefy}</li><li>3rd: @UUID[Compendium.pf2e.spells-srd.Item.KqvqNAfGIE5a9wSv]{Heroism}</li><li>4th: @UUID[Compendium.pf2e.spells-srd.Item.HqTI6wRrck1YXp3F]{Telepathy}</li><li>5th: @UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]{Synaptic Pulse}</li><li>6th: @UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]{Sending}</li><li>7th: @UUID[Compendium.pf2e.spells-srd.Item.jBGAYmR0BkkbpJvG]{Visions of Danger}</li><li>8th: @UUID[Compendium.pf2e.spells-srd.Item.Jvyy6oVIQsD34MHB]{Uncontrollable Dance}</li><li>9th: @UUID[Compendium.pf2e.spells-srd.Item.ItZgGznUBhgWBwFG]{Telepathic Demand}</li></ul><p><strong>Standard Psi Cantrips</strong></p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]{Daze}</p>\n<p>You can daze from a great distance, your thoughts resounding like a siren in your foes' minds. The range increases to 120 feet. Your daze also gains the following amp.</p>\n<p><strong>Amp</strong> Your spell cracks the target's mental defenses, leaving it susceptible to further psychic attack. The spell's damage changes to 1d10. If the target fails its Will save, until the end of its next turn, it gains weakness 1 to mental damage and takes a –1 status penalty to Will saves. On a critical failure, the weakness is 3 (in addition to the target being @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}). The weakness applies before daze deals damage.</p>\n<p><strong>Amp Heightened (+2)</strong> The spell's damage increases by 2d10, and the weakness on a failure or critical failure increases by 1.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Message}</p>\n<p>Your message spell can travel up to 120 feet to reach the target, bending around walls and obstacles; this means you don't need a straight line of effect or line of sight to cast message as long as you know the target's space and there is an unblocked path of 120 feet or less that can reach them. You can cast message in a purely telepathic manner, causing the spell to lose the auditory trait. It also gains the following amp.</p>\n<p><strong>Amp</strong> Your telepathic message allows you to coordinate your actions while you pass on information. The target of the message can immediately spend its reaction to Step or Stride.</p>\n<p><strong>Amp Heightened (4th)</strong> The target of the message can choose to [[/act shove]], Strike, or [[/act trip]] with its reaction instead.</p>\n<p><strong>Unique Psi Cantrips</strong></p>\n<p>surface: @UUID[Compendium.pf2e.spells-srd.Item.lpoWfblSMLcJfxsZ]{Forbidden Thought}</p>\n<p><strong>Amp</strong> Your telepathic push is particularly shocking to those who resist it. If the target fails its save, it's also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p>deeper: @UUID[Compendium.pf2e.spells-srd.Item.BqJAOPimCq5uCcEJ]{Shatter Mind}</p>\n<p><strong>Amp</strong> You increase the area of the spell to a @Template[type:cone|distance:30] or @Template[type:cone|distance:60], and the damage dice for the spell change to d10s. Creatures that fail are @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn (or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} on a critical failure).</p>\n<p>deepest: @UUID[Compendium.pf2e.spells-srd.Item.Dby1eQ7y5dXBWlyc]{Contagious Idea}</p>\n<p><strong>Amp</strong> You can choose to spread the thought from the second target to a third target, in the same manner as spreading it from the first target to the second. A pleasant thought grants twice as many temporary Hit Points (10, plus an additional 2 for each rank heightened).</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "class:psychic",
+              "spellcasting:tradition:occult",
+              {
+                "or": [
+                  "item:slug:daze",
+                  "item:slug:message"
+                ]
+              }
+            ],
+            "priority": 19,
+            "property": "other-tags",
+            "value": "psi-cantrip"
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:slug:daze",
+              "item:tag:psi-cantrip"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.SpellModification.Daze"
+              },
+              {
+                "predicate": [
+                  "item:tag:amped",
+                  {
+                    "not": "alternate-amp"
+                  }
+                ],
+                "text": "PF2E.SpecificRule.Psychic.Amp.Daze.Base",
+                "title": "PF2E.TraitAmp"
+              },
+              {
+                "predicate": [
+                  "item:tag:amped",
+                  {
+                    "not": "alternate-amp"
+                  }
+                ],
+                "text": "PF2E.SpecificRule.Psychic.Amp.Daze.Heightened",
+                "title": "PF2E.SpecificRule.Psychic.Amp.AmpHeightenedLabel.AmpHeightenedPlusTwo"
+              }
+            ]
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:slug:message",
+              "item:tag:psi-cantrip"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.SpellModification.Message"
+              },
+              {
+                "predicate": [
+                  "item:tag:amped",
+                  {
+                    "not": "alternate-amp"
+                  }
+                ],
+                "text": "PF2E.SpecificRule.Psychic.Amp.Message.Base",
+                "title": "PF2E.TraitAmp"
+              },
+              {
+                "predicate": [
+                  "item:tag:amped",
+                  {
+                    "not": "alternate-amp"
+                  }
+                ],
+                "text": "PF2E.SpecificRule.Psychic.Amp.Message.Heightened",
+                "title": "PF2E.SpecificRule.Psychic.Amp.AmpHeightenedLabel.AmpHeightenedFourth"
+              }
+            ]
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:tag:amped",
+              {
+                "not": "alternate-amp"
+              },
+              "item:slug:forbidden-thought"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.Amp.ForbiddenThought",
+                "title": "PF2E.TraitAmp"
+              }
+            ]
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:tag:amped",
+              {
+                "not": "alternate-amp"
+              },
+              "item:slug:shatter-mind"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.Amp.ShatterMind",
+                "title": "PF2E.TraitAmp"
+              }
+            ]
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:slug:contagious-idea",
+              "item:tag:amped"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.Amp.ContagiousIdea",
+                "title": "PF2E.TraitAmp"
+              }
+            ]
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "upgrade",
+            "predicate": [
+              "item:slug:daze",
+              "item:tag:amped"
+            ],
+            "property": "dice-number",
+            "selectors": [
+              "spell-damage"
+            ],
+            "slug": "base",
+            "value": "2 * ceil(@spell.rank / 2) - 1"
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "upgrade",
+            "predicate": [
+              "item:tag:amped",
+              {
+                "or": [
+                  "item:slug:daze",
+                  "item:slug:shatter-mind"
+                ]
+              }
+            ],
+            "property": "dice-faces",
+            "selectors": [
+              "spell-damage"
+            ],
+            "slug": "base",
+            "value": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.system.psychic.dedication.psiCantrips",
+            "predicate": [
+              "feat:psychic-dedication"
+            ],
+            "priority": 10,
+            "value": [
+              {
+                "label": "PF2E.SpecificRule.Psychic.PsiCantripLabels.Daze",
+                "predicate": [
+                  {
+                    "not": "selected-psi-cantrip:daze"
+                  }
+                ],
+                "value": "daze"
+              },
+              {
+                "label": "PF2E.SpecificRule.Psychic.PsiCantripLabels.Message",
+                "predicate": [
+                  {
+                    "not": "selected-psi-cantrip:message"
+                  }
+                ],
+                "value": "message"
+              },
+              {
+                "label": "PF2E.SpecificRule.Psychic.PsiCantripLabels.ForbiddenThought",
+                "predicate": [
+                  "feat:psi-development"
+                ],
+                "value": "forbidden-thought"
+              }
+            ]
+          },
+          {
+            "adjustName": false,
+            "choices": "flags.system.psychic.dedication.psiCantrips",
+            "flag": "dedicationCantrip",
+            "key": "ChoiceSet",
+            "predicate": [
+              "feat:psychic-dedication"
+            ],
+            "prompt": "PF2E.SpecificRule.Prompt.PsiCantrip",
+            "rollOption": "selected-psi-cantrip"
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "feat:psychic-dedication",
+              "spellcasting:tradition:occult",
+              "item:slug:{item|flags.system.rulesSelections.dedicationCantrip}"
+            ],
+            "priority": 19,
+            "property": "other-tags",
+            "value": "psi-cantrip"
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "psychic-conscious-mind"
+          ],
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ]
+        },
+        "slug": "the-silent-whisper",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "2elDo0ANgAQDR0Or",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "Qtb5w3Seqz2x4Cpd",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.Qtb5w3Seqz2x4Cpd"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/psy-cantrips-and-amps.webp",
+      "name": "Psi Cantrips and Amps",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>The magic of your mind manifests as psi cantrips, which you can modify by spending Focus Points. Like other cantrips, you can cast psi cantrips as often as you like, and they are automatically heightened to half your level rounded up. Your psi cantrips are in addition to the cantrips you choose from the occult list as part of your psychic spellcasting. Generally, only feats can give you more psi cantrips. Unlike other cantrips, you can't swap out psi cantrips gained from psychic feats at a later level, unless you swap out the specific feat via retraining. At 1st level, you learn three psi cantrips determined by your choice of conscious mind; one is a unique psi cantrip and two are common cantrips, typically from the occult spellcasting tradition, that you always cast as psi cantrips. You automatically gain more psi cantrips as you progress in your career as a psychic.</p>\n<p>You start with a focus pool of 2 Focus Points. However, unlike other spellcasters, you don't gain focus spells that cost Focus Points to cast. Instead, you use your Focus Points to boost or modify your psi cantrips by applying amps—specialized thoughtforms that alter the expression of your psychic power. Each of your psi cantrips has a special amp heading. Whenever you cast a psi cantrip, you can amp it by spending 1 Focus Point as a free action. If the next action you take is to cast the psi cantrip, you add the amp effect. If the spell is a reaction or triggered free action, instead spend the Focus Point as part of that action to add the amped effect. You can also gain additional amps through feats, allowing you to substitute a psi cantrip's normal amp effect for another one. You choose which amp to use, if you choose to use any, each time you cast a psi cantrip. Unless otherwise noted, you can apply only one amp to a given psi cantrip.</p>\n<p>You refill your focus pool during your daily preparations, and you can regain Focus Points by spending 10 minutes using the @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus} activity to explore your mind, whether via meditation, practicing a craft or activity that gives you the mental space to self-reflect, or talking through your thoughts and feelings with yourself or another. If you've spent Focus Points only to amp psi cantrips or fuel psychic abilities since the last time you Refocused, you regain 2 Focus Points instead of 1. If you've spent Focus Points on focus spells or abilities other than those from the psychic class (for instance, to cast a focus spell you gained from an archetype), you regain only 1 Focus Point.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "system.resources.focus.max",
+            "priority": 10,
+            "value": 2
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.Psychic.Amp.Toggle",
+            "option": "amp-spell",
+            "placement": "spellcasting",
+            "toggleable": true
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:trait:cantrip",
+              "item:trait:psychic"
+            ],
+            "priority": 19,
+            "property": "other-tags",
+            "value": "psi-cantrip"
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "amp-spell",
+              "item:tag:psi-cantrip"
+            ],
+            "property": "other-tags",
+            "value": "amped"
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "amp-spell",
+              "item:tag:psi-cantrip"
+            ],
+            "property": "focus-point-cost",
+            "value": 1
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "psi-cantrips-and-amps",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "kJlJUzKvr1roNX5H",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.kJlJUzKvr1roNX5H"
+    },
+    {
+      "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+      "name": "Spell Repertoire",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p><strong>Bard</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank occult spells of your choice and five occult cantrips of your choice. You choose these from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Bard Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Oracle</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank divine spells of your choice and five divine cantrips of your choice. You choose these from the common spells on the divine list or from other divine spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Oracle Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell.</p>\n<p>Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Psychic</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn one 1st-rank occult spell of your choice and three occult cantrips of your choice. You choose these from the common spells from the occult list or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank. Your choice of conscious mind also grants you additional spells in your repertoire, starting with an additional 1st-rabk spell and two cantrips listed in your conscious mind, which you cast as psi cantrips.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Psychic Spells per Day table), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell; at 3rd level, you select one 2nd-rank spell, and so on. When you add spells, you might add a higher-rank version of a spell you already have, so you can cast a heightened version of that spell. Your conscious mind also adds additional spells to your repertoire as you gain spells of higher ranks.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, such as the spells you gain from your conscious mind, it wouldn't give you another spell slot, and vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same ranks. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Sorcerer</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and four cantrips of your choice, as well as an additional spell and cantrip from your bloodline. You choose these from the common spells from the tradition corresponding to your bloodline, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Sorcerer Spells per Day table above), you add a spell to your spell repertoire of the same rank. When you gain a new rank of spells, your first new spell is always the sorcerous gift spell for that rank that's listed in your bloodline, but you can choose the other spells. At 2nd level, you select another 1st-rank spell; at 3rd level, you gain a new spell from your bloodline and two other 2nd-rank spells, and so on. When you add spells, you might select a higher-rank version of a spell you already know so that you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot or vice versa.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out bloodline spells. You can also swap out spells by retraining during downtime.</p><hr /><p><strong>Summoner</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and five cantrips of your choice. You choose these from the common spells from the tradition corresponding to your eidolon, or from other spells from that tradition to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank. Your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it doesn't give you another spell slot, and vice versa.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see Table 2–4: Summoner Spells per Day), you add a spell of the same rank to your spell repertoire. At 2nd level, you select another 1st-rank spell. At 3rd level, you add the first 2nd-rank spell to your repertoire. At 4th level you gain your second and your spell repertoire reaches its maximum size of five spells.</p>\n<p>At 5th level, in addition to adding two 3rd-rank spells to your repertoire, you lose your lowest rank of spell slots. Any time you lose a rank of spell slots, you lose two spells in your repertoire as well. These can come from spells you already know or out of the number of new spells you're learning. On levels in which you don't change your spell slots, you can swap out multiple spells, as described below.</p>\n<p><strong>Swapping Spells in Your Repertoire</strong></p>\n<p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. If it's a rank at which you lose a set of lower-rank slots, you can replace the two in either order. You can also instead swap a cantrip. You can also swap out spells by retraining during downtime.</p>\n<p>At 6th level and every even level thereafter, you can swap out any number of your spells for different spells of a rank you can cast. When you do, you must keep at least one spell you can cast with your lowest rank of spell slots so you don't end up with slots you can't use. For instance, at 6th level you would need to keep at least one 2nd-rank spell, but all your other spells could be 3rd rank.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "itemId": "{item|id}",
+            "key": "ItemAlteration",
+            "mode": "override",
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree"
+              },
+              {
+                "divider": true,
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.SpellSwapping"
+              },
+              {
+                "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping"
+              }
+            ]
+          },
+          {
+            "itemId": "{item|id}",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "property": "traits",
+            "value": "{actor|class.slug}"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "bard",
+            "oracle",
+            "psychic",
+            "sorcerer",
+            "summoner"
+          ],
+          "otherTags": []
+        },
+        "slug": "spell-repertoire",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "1D1f8pg9umeM0EUw",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.1D1f8pg9umeM0EUw"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/psychic-spellcasting.webp",
+      "name": "Psychic Spellcasting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You access the vast well of power that resides within your own mind, calling forth psychic magic with nothing but thought and will. You are a spellcaster and can cast occult spells using the Cast a Spell activity. You don't need to utter incantations to cast your spells, instead exerting your mind toward your intended effect as described in your subconscious mind class feature. Your spells still have clear and noticeable visual and auditory manifestations, as normal for a spellcaster.</p>\n<p>Each day, you can cast one 1st-rank spell. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p>\n<p>As you increase in level as a psychic, your number of spells per day increases, as does the highest rank of spells you can cast.</p>\n<p>Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is determined by your subconscious mind, your spell attack rolls and spell DCs use the modifier for the attribute stated in your subconscious mind.</p><h3><strong>Heightening Spells</strong></h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets you heighten certain spells freely.</p><h3><strong>Cantrips</strong></h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is automatically heightened to half your level rounded up—this is usually equal to the highest rank of psychic spell slot you have. For example, as a 1st-level psychic, your cantrips are 1st-rank spells, and as a 5th-level psychic, your cantrips are 3rd-rank spells.</p>\n<p>As a psychic, you get the ability to improve some of your cantrips with special benefits and psi amps. Over the course of your career, your choice of conscious mind class feature gives you extra cantrips, benefits and psi amps for cantrips, and a collection of unique psi cantrips.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "psychic-spellcasting",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "vsPugKfcHnFIzVUY",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.vsPugKfcHnFIzVUY"
+    },
+    {
+      "type": "lore",
+      "name": "A City",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "WSsV86NYTbWW4ezb",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.WSsV86NYTbWW4ezb"
+    },
+    {
+      "_id": "zOhxnxLyWlf3UdOW",
+      "folder": "QhHpEbq98ZJAyDiH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Arcane Sense",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>Your study of magic allows you to instinctively sense its presence. You can cast 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic} at will as an arcane innate spell. If you're a master in Arcana, the spell is heightened to 3rd rank; if you're legendary, it is heightened to 4th rank.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Arcana"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "arcane-sense",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.zOhxnxLyWlf3UdOW"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+      "name": "Signature Spells",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You've learned to cast some of your spells more flexibly. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher rank than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "bard",
+            "oracle",
+            "psychic",
+            "sorcerer"
+          ],
+          "otherTags": []
+        },
+        "slug": "signature-spells",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "NvOhEO8ADGZJpIpN",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.NvOhEO8ADGZJpIpN"
+    },
+    {
+      "_id": "ct2nDHwAwFfmvDlA",
+      "folder": "68m1OED3fDU3fIfR",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Canny Acumen (Perception)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>Your avoidance or observation is beyond the ken of most in your profession. Choose Fortitude saves, Reflex saves, Will saves, or Perception. You become an expert in your choice. At 17th level, you become a master in your choice.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 3
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.SavesFortitude",
+                "value": "system.saves.fortitude.rank"
+              },
+              {
+                "label": "PF2E.SavesReflex",
+                "value": "system.saves.reflex.rank"
+              },
+              {
+                "label": "PF2E.SavesWill",
+                "value": "system.saves.will.rank"
+              },
+              {
+                "label": "PF2E.PerceptionLabel",
+                "value": "system.perception.rank"
+              }
+            ],
+            "flag": "cannyAcumen",
+            "key": "ChoiceSet",
+            "selection": "system.perception.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "{item|flags.system.rulesSelections.cannyAcumen}",
+            "value": "ternary(gte(@actor.level,17),3,2)"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "canny-acumen",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "general-3"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.ct2nDHwAwFfmvDlA"
+    },
+    {
+      "_id": "v5EbpEOpSVOUngHD",
+      "folder": "hFVleadZ20Wc5Hkc",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Adapted Cantrip",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>Through study of multiple magical traditions, you've altered a spell to suit your spellcasting style. Choose one cantrip from a magical tradition other than your own. If you prepare spells, you can choose this spell when you prepare your cantrips, in addition to your other options. If you have a spell repertoire, replace one of your cantrips known with the chosen spell. You can cast this cantrip as a spell of your class's tradition.</p>\n<p>If you swap or retrain this cantrip later, you can choose its replacement from the same alternate tradition or a different one.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "spellcasting class feature"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "human"
+          ],
+          "otherTags": []
+        },
+        "slug": "adapted-cantrip",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.v5EbpEOpSVOUngHD"
+    },
+    {
+      "_id": "7OcTpjK12BKcodov",
+      "folder": "n69JiWCbbUsEtE4G",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Familiar Master Dedication",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You have forged a mystical bond with a creature. This might have involved complex rituals and invocations, such as meditating under the moon until something crept out of the forest. Or maybe you just did each other a good turn, such as rescuing the beast from a trap or a foe, and then being rescued in turn.</p>\n<p>Whatever the details, you are now comrades until the end. You gain a familiar. If you already have a familiar, you gain the @UUID[Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8]{Enhanced Familiar} feat.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.yaR8E2drX6pFUFCK]{Familiar Master}</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "predicate": [
+              "self:has-familiar"
+            ],
+            "uuid": "Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8",
+            "flag": "enhancedFamiliar"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.attributes.familiarAbilities.value",
+            "priority": 9,
+            "value": 2
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "archetype",
+            "dedication"
+          ],
+          "otherTags": []
+        },
+        "slug": "familiar-master-dedication",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "archetype-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.7OcTpjK12BKcodov"
+    },
+    {
+      "_id": "Fhw3IV5iDHfFHpsr",
+      "folder": "yp4LkOsSj9T38zuy",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Cantrip Expansion",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p><strong>Bard, Oracle, Sorcerer</strong> Study broadens your range of simple spells.</p>\n<p><strong>Cleric</strong> You study a wider range of simple spells.</p>\n<p><strong>Magus, Wizard</strong> Dedicated study allows you to prepare a wider range of simple spells for every situation.</p>\n<p><strong>Psychic</strong> You expand what your mind can accomplish.</p>\n<p><strong>Witch</strong> Your patron recognizes your need for flexibility and versatility, and grants you the power to prepare a wider range of simple spells.</p>\n<hr />\n<p><strong>Prepared</strong> You can prepare two additional cantrips each day.</p>\n<p><strong>Spontaneous</strong> Add two additional cantrips from your spell list to your repertoire.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "bard",
+            "cleric",
+            "magus",
+            "oracle",
+            "psychic",
+            "sorcerer",
+            "witch",
+            "wizard"
+          ],
+          "otherTags": []
+        },
+        "slug": "cantrip-expansion",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.Fhw3IV5iDHfFHpsr"
+    },
+    {
+      "_id": "oxRVuj1isCvzcVQf",
+      "folder": "gd4teLQ7CPiVDeD5",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Kreighton's Cognitive Crossover",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p><strong>Trigger</strong> You gain no information from a Recall Knowledge check (usually because you failed the secret check) using one of the two skills you chose for this feat.</p>\n<hr />\n<p>Kreighton teaches his students that an agile mind can glean clues leading to the truth, even from the most unlikely of sources. You immediately reattempt the triggering check using the other chosen skill.</p>\n<hr />\n<p><strong>Special</strong> When you gain this feat, choose two of the following skills: Arcana, Crafting, Lore (any one), Medicine, Nature, Occultism, Religion, or Society.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Lost Omens Pathfinder Society Guide",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "uncommon",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "kreightons-cognitive-crossover",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.oxRVuj1isCvzcVQf"
+    },
+    {
+      "_id": "0JQBuXut0romkFf3",
+      "folder": "n69JiWCbbUsEtE4G",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Familiar Conduit",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "class",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You have line of effect to your familiar.</p>\n<hr />\n<p>Under your tutelage, your familiar has grown attuned to the hidden currents of the world and can serve as a conduit for your magic. If the next action you use is to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} that has a range, the spell uses the familiar as its origin point.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Familiar Master Dedication"
+            },
+            {
+              "value": "able to cast spells"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "archetype",
+            "concentrate",
+            "spellshape"
+          ],
+          "otherTags": []
+        },
+        "slug": "familiar-conduit",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "archetype-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.0JQBuXut0romkFf3"
+    },
+    {
+      "_id": "PkHXLYSS8ZjlHffi",
+      "folder": "8SfPxHe3kM3HHtw6",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Violent Unleash",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "class",
+        "description": {
+          "value": "<p><strong>Requirement</strong> Your previous action was to @UUID[Compendium.pf2e.actionspf2e.Item.7GeguyqyD1TjoC4r]{Unleash your Psyche}.</p><hr /><p>The force of your mind unleashing itself wracks your enemies with a violent shockwave that batters your enemies. You deal @Damage[ceil(@actor.level/2)d6[force]|options:area-damage] damage to all creatures in a @Template[emanation|distance:20], with a @Check[reflex|against:occult|basic|options:area-effect] save.</p>\n<p>At 5th level and every 2 levels thereafter, the damage increases by 1d6.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "itemId": "{item|id}",
+            "key": "ItemAlteration",
+            "label": "PF2E.TraitMindshift",
+            "mode": "add",
+            "predicate": [
+              "item:tag:mindshifted"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Psychic.Mindshift.Addendum"
+              }
+            ]
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "mindshift",
+            "occult",
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "violent-unleash",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.PkHXLYSS8ZjlHffi"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/clarity-of-focus.webp",
+      "name": "Clarity of Focus",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your deepening connection to your mind grants you more power to fuel your psi amps. Increase the number of Focus Points in your focus pool by 1. As normal, this ability can't increase the size of your focus pool above 3 points.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "system.resources.focus.max",
+            "priority": 10,
+            "value": 1
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "clarity-of-focus",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "QdJB8YZGzobJLZo9",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.QdJB8YZGzobJLZo9"
+    },
+    {
+      "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+      "name": "Precognitive Reflexes",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Minor precognition ensures you can react to threats slightly before they occur. Your proficiency rank for Reflex saves increases to expert.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": ""
+        },
+        "rules": [],
+        "subfeatures": {
+          "proficiencies": {
+            "reflex": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "psychic"
+          ],
+          "otherTags": []
+        },
+        "slug": "precognitive-reflexes",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "9bbbTImsiwiZasRN"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "OfnaEMBtv7nl8ceM",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.OfnaEMBtv7nl8ceM"
+    },
+    {
+      "_id": "65EH4g9nHG04EnYe",
+      "folder": "fmxtULnBcanMr4WT",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Adaptive Adept",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You've continued adapting your magic to blend your class's tradition with your adapted tradition. Choose a cantrip or 1st-rank spell from the same magical tradition as your cantrip from Adapted Cantrip. You gain that spell, adding it to your spell options just like the cantrip from Adapted Cantrip. You can cast this spell as a spell of your class's magical tradition. If you choose a 1st-rank spell, you don't gain access to the heightened versions of that spell, meaning you can't prepare them if you prepare spells and you can't learn them or select the spell as a signature spell if you have a spell repertoire.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5,
+          "taken": 5
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Adapted Cantrip"
+            },
+            {
+              "value": "can cast 3rd rank spells"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "human"
+          ],
+          "otherTags": []
+        },
+        "slug": "adaptive-adept",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-5"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.65EH4g9nHG04EnYe"
+    },
+    {
+      "name": "Occult Spontaneous Spells",
+      "type": "spellcastingEntry",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "prepared": {
+          "value": "spontaneous"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1,
+          "slug": "psychic"
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 2,
+            "max": 2
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 2,
+            "max": 2
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 1,
+            "max": 1
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "_id": "8nedWz2b18xCyyLS",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.8nedWz2b18xCyyLS"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/skills/ranged/bullets-triple-ball-yellow.webp",
+      "name": "Telekinetic Projectile",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": "telekinetic-projectile",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "untyped"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "2I469pfbYcmFvzOA": {
+            "_id": "2I469pfbYcmFvzOA",
+            "name": "Telekinetic Projectile (Bludgeoning)",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "bludgeoning"
+                }
+              }
+            }
+          },
+          "cUFX7ExSLeoa3vIF": {
+            "_id": "cUFX7ExSLeoa3vIF",
+            "name": "Telekinetic Projectile (Piercing)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "zFWsMjoeCnLxqJaV": {
+            "_id": "zFWsMjoeCnLxqJaV",
+            "name": "Telekinetic Projectile (Slashing)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "slashing"
+                }
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "M6P0YsRY2PQdJR6Y",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.M6P0YsRY2PQdJR6Y"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/skills/social/diplomacy-unity-alliance.webp",
+      "name": "Infectious Enthusiasm",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies. You gain a +1 status bonus to your choice of attack rolls, Will saves, or Charisma-based skill checks. During the spell's duration, an ally who observed you Casting this Spell and was within 30 feet when you did so can take a single action, which has the concentrate trait, to gain the same bonus you chose until the start of its next turn.</p>\n<p>Using this spell to influence someone in a social situation is typically considered a faux pas, negating the benefit on Charisma-based skills if the subject of the check observed you casting the spell.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nU4SxAk6XreHUi5h]{Spell Effect: Infectious Enthusiasm}</p>"
+        },
+        "rules": [],
+        "slug": "infectious-enthusiasm",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "emotion",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Secrets of Magic",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 round",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "qq7rSt7vTV75wsET",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.qq7rSt7vTV75wsET"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/light.webp",
+      "name": "Light",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p>\n<p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "rules": [],
+        "slug": "light",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until your next daily preparations",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "OI026qciIaasRxVX",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.OI026qciIaasRxVX"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "systems/pf2e/icons/spells/detect-magic.webp",
+      "name": "Detect Magic",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
+        },
+        "rules": [],
+        "slug": "detect-magic",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "detection",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "emanation",
+          "value": 30
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "KX1OYguZGjxWzO6A",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.KX1OYguZGjxWzO6A"
+    },
+    {
+      "folder": "D7UVaOiB40wTR6kv",
+      "img": "icons/magic/light/projectile-needles-salvo-white.webp",
+      "name": "Needle Darts",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You shape three needles out of a piece of metal in your possession and send them flying in a tight group toward one target. Make a spell attack roll against your target's AC. The needles deal 3d4 piercing damage and might cause bleeding.</p>\n<p>The needles impart any special properties of the metal that forms them; for instance, cold iron needles deal additional damage to creatures with weakness to cold iron. All the needles are made of the same metal, and the metal returns to you after the attack.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and @Damage[(@item.level)[bleed]] damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> You send one additional needle, increasing the regular damage by 1d4 and increasing the persistent bleed damage on a critical hit by 1.</p>"
+        },
+        "rules": [],
+        "slug": "needle-darts",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate",
+            "metal"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Rage of Elements",
+          "authors": "",
+          "license": "OGL",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "60 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "71hLuboTBYkwkqiR": {
+            "applyMod": false,
+            "category": null,
+            "formula": "3d4",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "piercing"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "71hLuboTBYkwkqiR": "1d4"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "1gZuxDZYlG9YSzyW": {
+            "_id": "1gZuxDZYlG9YSzyW",
+            "name": "Needle Darts (Adamantine)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "adamantine"
+                  ]
+                }
+              }
+            }
+          },
+          "E2DbTTDjNlTp0ztA": {
+            "_id": "E2DbTTDjNlTp0ztA",
+            "name": "Needle Darts (Silver)",
+            "overlayType": "override",
+            "sort": 4,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "silver"
+                  ]
+                }
+              }
+            }
+          },
+          "ZbRcMkLoWzgq5XvU": {
+            "_id": "ZbRcMkLoWzgq5XvU",
+            "name": "Needle Darts (Cold Iron)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "71hLuboTBYkwkqiR": {
+                  "category": null,
+                  "materials": [
+                    "cold-iron"
+                  ]
+                }
+              }
+            }
+          },
+          "hk5Z57VxDZI5WAgq": {
+            "_id": "hk5Z57VxDZI5WAgq",
+            "name": "Needle Darts",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {}
+          }
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "sdrcVcHH8MoIlYND",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.sdrcVcHH8MoIlYND"
+    },
+    {
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "icons/magic/control/buff-luck-fortune-rainbow.webp",
+      "name": "Dizzying Colors",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unleash a swirling multitude of colors that overwhelms creatures based on their Will saves.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}, @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round, and dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is stunned for 1 round and blinded for 1 minute.</p>"
+        },
+        "rules": [],
+        "slug": "dizzying-colors",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "illusion",
+            "incapacitation",
+            "manipulate",
+            "visual"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "cone",
+          "value": 15
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 or more rounds (see below)",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS",
+          "signature": false
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "KOTjPCHdEFTVkzpR",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.KOTjPCHdEFTVkzpR"
+    },
+    {
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/mindlink.webp",
+      "name": "Mindlink",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You link your mind to the target's mind and mentally impart to that target an amount of information in an instant that could otherwise be communicated in 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "mindlink",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 willing creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "hKVhPDncmQBbLe57",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.hKVhPDncmQBbLe57"
+    },
+    {
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "icons/creatures/magical/construct-stone-earth-gray.webp",
+      "name": "Invisibility",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
+        },
+        "rules": [],
+        "slug": "invisibility",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "illusion",
+            "manipulate",
+            "subtle"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "10 minutes",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS",
+          "signature": true
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "Y8wcoNXpDS1upnTb",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.Y8wcoNXpDS1upnTb"
+    },
+    {
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "systems/pf2e/icons/spells/loose-times-arrow.webp",
+      "name": "Loose Time's Arrow",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You pluck the time stream like a bow—pull one string back, release, and watch a creature fly. All affected targets are @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}. They can use the extra action only to Step or Stride.</p>"
+        },
+        "rules": [],
+        "slug": "loose-times-arrow",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "up to 6 creatures"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until the end of your next turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "dWgWlMT8172rAxjC",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.dWgWlMT8172rAxjC"
+    },
+    {
+      "folder": "lPzcDrjGDFbzuF2r",
+      "img": "systems/pf2e/icons/spells/feeblemind.webp",
+      "name": "Stupefy",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You dull the target's mind, depending on its Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until the start of your next turn.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 3} for 1 minute.</p>"
+        },
+        "rules": [],
+        "slug": "stupefy",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "mFl6YkwcGAP8YdFG",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.mFl6YkwcGAP8YdFG"
+    },
+    {
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "systems/pf2e/icons/spells/behold-the-weave.webp",
+      "name": "Behold the Weave",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You behold the many timelines that weave around a creature, and in so doing, you make one more likely to occur. The target must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> You can make neither heads nor tails of the target's timeline, and the target is unaffected.</p>\n<p><strong>Success</strong> The target must commit to a single action that it will take at some point during its next turn: \"Stride toward Valeros,\" \"Cast shield,\" \"Strike Amiri with your jaws.\" That action is now locked in, and the creature must attempt it, even if the situation has changed—if the creature stated that it would Strike at Amiri with its jaws, it must try to do so. If the creature is entirely unable to fulfill the action it committed to—for instance, if it had only 1 action left and Amiri was out of the range of its jaws Strike—it loses the last action of its turn as it reels in a temporal paradox. The creature can choose to lock in a 2- or 3-action activity if it prefers to do so, but if it does, it loses all the associated actions if it can't perform the activity on its turn. If the situation changes oddly (perhaps the creature is forcibly teleported away and has no idea which direction is \"toward Valeros\" any longer), the GM determines what happens.</p>\n<p><strong>Failure</strong> As success, but the creature must commit at least two of its actions for the next turn—\"I will Stride toward Valeros and then Strike with my claws.\" All of these actions are similarly locked in and can't be changed, but the creature can take them in any order.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature must commit all of its actions for the next turn.</p><hr /><p><strong>Heightened (7th)</strong> Instead of affecting a single target, the spell affects all enemies within a 30-foot emanation.</p>"
+        },
+        "rules": [],
+        "slug": "behold-the-weave",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "prediction"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Dark Archive (Remastered)",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 round",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "7": {
+              "area": {
+                "type": "emanation",
+                "value": 30
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "PrOSMPENNvkxAZiu",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.PrOSMPENNvkxAZiu"
+    },
+    {
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "icons/magic/life/ankh-gold-blue.webp",
+      "name": "Heroism",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unlock the target's inner heroism, granting it a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.</p>\n<hr />\n<p><strong>Heightened (6th)</strong> The status bonus increases to +2.</p>\n<p><strong>Heightened (9th)</strong> The status bonus increases to +3.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.l9HRQggofFGIxEse]{Spell Effect: Heroism}</p>"
+        },
+        "rules": [],
+        "slug": "heroism",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "10 minutes",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "3SJvj2DL2WQU5h0m",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.3SJvj2DL2WQU5h0m"
+    },
+    {
+      "_id": "kN7ZHLx6PGCnqFiZ",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp",
+      "name": "Scroll of Remove Curse (Level 4)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>@UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction}</em></p><hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>To Cast a Spell from a scroll, the spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack roll and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so you don't need to provide them when Casting a Spell from a scroll. You must replace any required material component for that spell with a somatic component. If the spell requires a focus, you must have that focus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+        },
+        "rules": [],
+        "slug": "scroll-of-4th-level-spell",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "divine",
+            "magical",
+            "occult",
+            "scroll"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 70
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "scroll",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": {
+          "img": "systems/pf2e/icons/spells/remove-curse.webp",
+          "name": "Remove Curse",
+          "system": {
+            "description": {
+              "gm": "",
+              "value": "<p>Your touch grants a reprieve to a cursed creature. You attempt to counteract one curse afflicting the target. If the curse comes from a cursed item or other external source, a success indicates that the target creature can rid itself of the cursed item, but it doesn't remove the curse from the item.</p>"
+            },
+            "rules": [],
+            "slug": "remove-curse",
+            "traits": {
+              "value": [
+                "concentrate",
+                "healing",
+                "manipulate"
+              ],
+              "rarity": "common",
+              "traditions": [
+                "divine",
+                "occult"
+              ]
+            },
+            "level": {
+              "value": 4
+            },
+            "target": {
+              "value": "1 creature"
+            },
+            "range": {
+              "value": "touch"
+            },
+            "area": null,
+            "time": {
+              "value": "10 minutes"
+            },
+            "duration": {
+              "value": "",
+              "sustained": false
+            },
+            "damage": {},
+            "cost": {
+              "value": ""
+            },
+            "location": {
+              "value": null,
+              "heightenedLevel": 4
+            },
+            "_migration": {
+              "version": 0.842,
+              "previous": null
+            },
+            "publication": {
+              "title": "Pathfinder Core Rulebook",
+              "authors": "",
+              "license": "OGL",
+              "remaster": false
+            },
+            "requirements": "",
+            "counteraction": true,
+            "defense": null
+          },
+          "type": "spell",
+          "flags": {
+            "core": {
+              "sourceId": "Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0"
+            }
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "_stats": {
+            "systemId": null,
+            "systemVersion": null,
+            "coreVersion": null,
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null
+          },
+          "_id": "zP4TUxqWs3bdoRiU"
+        }
+      },
+      "type": "consumable",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1900000,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.kN7ZHLx6PGCnqFiZ"
+    },
+    {
+      "_id": "NI5xUNThHkxKb3A9",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/elixir-of-life.webp",
+      "name": "Elixir of Life (Minor)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>Elixirs of life accelerate a living creature's natural healing processes and immune system. Upon drinking this elixir, you regain @Damage[1d6[healing]] Hit Points and gain +1 item bonus to saving throws against diseases and poisons for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Elixir of Life}</p>"
+        },
+        "rules": [],
+        "slug": "elixir-of-life-minor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "healing"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_elixir.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": {
+          "formula": "1d6",
+          "kind": "healing",
+          "type": "untyped"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.NI5xUNThHkxKb3A9"
+    },
+    {
+      "_id": "SVUorHmBmi5wlFvx",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "name": "Healing Potion (Lesser)",
+      "sort": -1000000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain [[/r (2d8+5)[healing]]]{2d8+5 Hit Points}.</p>"
+        },
+        "rules": [],
+        "slug": "healing-potion-lesser",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "magical",
+            "potion",
+            "vitality"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": {
+          "formula": "2d8+5",
+          "kind": "healing",
+          "type": "vitality"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.SVUorHmBmi5wlFvx"
+    },
+    {
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "name": "Healing Potion (Minor)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[1d8[healing]] Hit Points.</p>"
+        },
+        "rules": [],
+        "slug": "healing-potion-minor",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "magical",
+            "potion",
+            "vitality"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": {
+          "formula": "1d8",
+          "kind": "healing",
+          "type": "vitality"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -1200000,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "ELQ9pN3i8vNEZoj5",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.ELQ9pN3i8vNEZoj5"
+    },
+    {
+      "_id": "NCo2Ob7ctzCWpzni",
+      "img": "icons/sundries/scrolls/scroll-symbol-eye-brown.webp",
+      "name": "Scroll of Restoration (Rank 2)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{Restoration}</p><hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>The spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack modifier and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical costs are provided when a scroll is created, so you don't need to provide them when casting from a scroll. If the spell requires a locus, you must have that locus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+        },
+        "rules": [],
+        "slug": "scroll-of-2nd-rank-spell",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "consumable",
+            "exploration",
+            "healing",
+            "magical",
+            "manipulate",
+            "scroll"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "scroll",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": {
+          "_id": "3m0lLcpVqObDcd9r",
+          "folder": "lPzcDrjGDFbzuF2r",
+          "img": "icons/magic/life/heart-cross-strong-green.webp",
+          "name": "Restoration",
+          "system": {
+            "description": {
+              "gm": "",
+              "value": "<p>Restorative magic counters the effects of toxins or conditions that prevent a creature from functioning at its best. When you cast restoration, choose to either reduce a condition or lessen the effect of a toxin. A creature can benefit from only one restoration spell each day, and it can't benefit from restoration more than once to reduce the stage of the same exposure to a given toxin.</p>\n<ul>\n<li><strong>Lessen a Toxin</strong> Reduce the stage of one toxin the target suffers from by one stage. This can't reduce the stage below stage 1 or cure the affliction.</li>\n<li><strong>Reduce a Condition</strong> Reduce the value of the target's @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition by 2. You can instead reduce two of the listed conditions by 1 each.</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} to the list of conditions you can reduce. When you lessen a toxin, reduce the stage by two. You also gain a third option that allows you to reduce the target's @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} value by 1. You can't use this to reduce a permanent Doomed condition.</p>\n<p><strong>Heightened (6th)</strong> As the 4th-rank restoration, but you can reduce a permanent Doomed condition if you add a spellcasting action and a material component while Casting the Spell, during which you provide 100 gp worth of diamond dust as a cost.</p>"
+            },
+            "rules": [],
+            "slug": "restoration",
+            "_migration": {
+              "version": 0.955,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "concentrate",
+                "healing",
+                "manipulate"
+              ],
+              "rarity": "common",
+              "traditions": [
+                "divine",
+                "occult",
+                "primal"
+              ]
+            },
+            "publication": {
+              "title": "Pathfinder Core Rulebook",
+              "authors": "",
+              "license": "OGL",
+              "remaster": false
+            },
+            "level": {
+              "value": 2
+            },
+            "requirements": "",
+            "target": {
+              "value": "1 creature"
+            },
+            "range": {
+              "value": "touch"
+            },
+            "area": null,
+            "time": {
+              "value": "1 minute"
+            },
+            "duration": {
+              "value": "",
+              "sustained": false
+            },
+            "damage": {},
+            "defense": null,
+            "cost": {
+              "value": ""
+            },
+            "location": {
+              "value": null,
+              "heightenedLevel": 2
+            },
+            "counteraction": false
+          },
+          "type": "spell",
+          "_stats": {
+            "coreVersion": "13.348",
+            "systemId": "pf2e",
+            "systemVersion": "7.10.1",
+            "compendiumSource": "Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr",
+            "lastModifiedBy": null,
+            "duplicateSource": null,
+            "exportSource": null
+          },
+          "effects": [],
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.NCo2Ob7ctzCWpzni"
+    },
+    {
+      "_id": "Wmp80bRL0fNtvKQL",
+      "folder": "68m1OED3fDU3fIfR",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Pet",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>You have a pet—a Tiny animal of a type you choose, such as a cat, bird, or rodent. It has the minion trait, meaning it gains 2 actions during your turn if you use the Command an Animal action to command it; this replaces the usual effects of @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}, and you don't need to attempt a Nature check. A pet can't take attack actions except to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} or @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}.</p>\n<p><strong>Level</strong> Your pet's level is equal to yours.</p>\n<p><strong>Modifiers and AC</strong> Your pet's save modifiers and AC are equal to yours before applying circumstance or status bonuses or penalties. It uses 3 + your level as its modifier for Perception, Acrobatics, and Stealth, and just your level as its modifier for other skill checks. It doesn't have or use its own attribute modifiers and can never benefit from item bonuses.</p>\n<p><strong>Hit Points</strong> Your pet has 5 Hit Points per level.</p>\n<p><strong>Senses</strong> Your pet has low-light vision and can gain additional senses from pet abilities.</p>\n<p><strong>Speed</strong> Your pet has a Speed of 25 feet. You can choose to instead have an aquatic pet, which breathes in water instead of air and has the aquatic trait, no land Speed, and a swim Speed of 25 feet.</p>\n<p><strong>Pet Abilities</strong> When you gain your pet, choose two of the following abilities. If your pet is an animal that naturally has one of these abilities (for instance, an owl has a fly Speed), you must select that ability. Your pet can't be an animal that naturally has more pet abilities than the maximum. In some cases, the GM might add some familiar abilities to the pet abilities you can choose.</p><ul><li><strong>Amphibious</strong> It gains the amphibious trait, allowing it to breathe in both air and water, and has both a land Speed and a swim Speed, each equal to its highest land Speed or swim Speed.</li><li><strong>Burrower</strong> It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.</li><li><strong>Climber</strong> It gains a climb Speed of 25 feet.</li><li><strong>Darkvision</strong> It gains darkvision.</li><li><strong>Echolocation</strong> Your pet can use hearing as a precise sense within 20 feet.</li><li><strong>Fast</strong> Movement Increase one of the pet's Speeds from 25 feet to 40 feet.</li><li><strong>Flier</strong> It gains a fly Speed of 25 feet.</li><li><strong>Manual Dexterity</strong> It can use up to two of its limbs as if they were hands to perform manipulate actions.</li><li><strong>Scent</strong> Your pet can use scent as an imprecise sense within 30 feet</li><li><strong>Tough</strong> Your pet's max HP increase by 2 per level.</li></ul><hr /><p><strong>Special</strong> You can gain a new pet by retraining this feat, releasing any previous pet you have. If you later gain a familiar or other companion that uses the Pet feat, you can immediately retrain this feat.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.attributes.familiarAbilities.value",
+            "priority": 19,
+            "value": 2
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "pet",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "campaign"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.Wmp80bRL0fNtvKQL"
+    },
+    {
+      "img": "icons/equipment/chest/shirt-collared-pink.webp",
+      "name": "Explorer's Clothing",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes.</p>"
+        },
+        "rules": [],
+        "slug": "explorers-clothing",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "comfort"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "explorers-clothing",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": true,
+          "handsHeld": 0,
+          "inSlot": true
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "unarmored",
+        "group": "cloth",
+        "acBonus": 0,
+        "strength": null,
+        "dexCap": 5,
+        "checkPenalty": 0,
+        "speedPenalty": 0,
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "2sNeyyzQqeYljCPT",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.2sNeyyzQqeYljCPT"
+    },
+    {
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "icons/magic/control/sleep-bubble-purple.webp",
+      "name": "Sleep",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Each creature in the area becomes drowsy, possibly nodding off. A creature that falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} from this spell doesn't fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} or release what it's holding. This spell doesn't prevent creatures from waking up due to a successful Perception check, limiting its utility in combat.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes a –1 status penalty to Perception checks for 1 round.</p>\n<p><strong>Failure</strong> The creature falls unconscious. If it's still unconscious after 1 minute, it wakes up automatically.</p>\n<p><strong>Critical Failure</strong> The creature falls unconscious. If it's still unconscious after 1 hour, it wakes up automatically.</p><hr /><p><strong>Heightened (4th)</strong> The creatures fall unconscious for 1 round on a failure or 1 minute on a critical failure. They fall prone and release what they're holding, and they can't attempt Perception checks to wake up. When the duration ends, the creature is sleeping normally instead of automatically waking up.</p>"
+        },
+        "rules": [],
+        "slug": "sleep",
+        "_migration": {
+          "version": 0.955,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental",
+            "sleep"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": {
+          "type": "burst",
+          "value": 5
+        },
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8nedWz2b18xCyyLS",
+          "heightenedLevel": 1,
+          "signature": true
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "4qnzCWMINyvK1awt",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.4qnzCWMINyvK1awt"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "category": "coin",
+        "containerId": null,
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "hardness": 0,
+        "hp": {
+          "max": 0,
+          "value": 0
+        },
+        "level": {
+          "value": 0
+        },
+        "material": {
+          "grade": null,
+          "type": null
+        },
+        "price": {
+          "value": {
+            "gp": 1
+          },
+          "per": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "quantity": 50,
+        "rules": [],
+        "size": "med",
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": null
+        },
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "GV05ljv1gd0sdJkO": 3
+      },
+      "flags": {},
+      "_id": "SgFX71B5mzhrrqPP",
+      "_key": "!actors.items!qhpYu4l6Mb3UDmJX.SgFX71B5mzhrrqPP"
+    }
+  ],
+  "flags": {
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": [
+          {
+            "name": "Cut Through the Fog",
+            "uuid": "Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.eZUSi5q5NnEvCDEk"
+          },
+          {
+            "name": "Rending Swipe",
+            "uuid": "Compendium.pf2e.journals.JournalEntry.BSp4LUSaOmUyjBko.JournalEntryPage.XHSXMcRaMOsbjoO1"
+          }
+        ]
+      }
+    },
+    "pf2e": {
+      "sheetTabs": {
+        "crafting": false,
+        "pfs": false
+      }
+    },
+    "sequencer": {
+      "effects": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3",
+    "createdTime": 1775107743300,
+    "modifiedTime": 1775107743796,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_id": "qhpYu4l6Mb3UDmJX",
+  "sort": 300000,
+  "_key": "!actors!qhpYu4l6Mb3UDmJX"
+}

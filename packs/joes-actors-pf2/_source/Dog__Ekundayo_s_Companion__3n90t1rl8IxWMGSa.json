@@ -1,0 +1,598 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "name": "Dog",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ekundayos-dog.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "modules/pf2e-kingmaker/assets/actor-portraits/kingmaker/ekundayos-dog.webp",
+  "items": [
+    {
+      "_id": "SQ4DUNap1xbzs5Sq",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Jaws",
+      "sort": 100000,
+      "system": {
+        "attackEffects": {
+          "value": []
+        },
+        "bonus": {
+          "value": 9
+        },
+        "damageRolls": {
+          "yjBxavkAy6vmeeKt": {
+            "damage": "2d4+3",
+            "damageType": "spirit",
+            "category": null
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "",
+          "authors": ""
+        },
+        "rules": [],
+        "slug": "jaws",
+        "traits": {
+          "value": [
+            "finesse"
+          ],
+          "otherTags": []
+        },
+        "_migration": {
+          "version": 0.948,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.350",
+            "system": "7.6.4"
+          }
+        },
+        "action": "strike",
+        "area": null
+      },
+      "type": "melee",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!3n90t1rl8IxWMGSa.SQ4DUNap1xbzs5Sq"
+    },
+    {
+      "_id": "5uF0UI8Ihj8qhfy5",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Support Benefit",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Until the start of Ekundayo's next turn, his Strikes that damage creatures Dog threatens give the target a -5-foot status penalty to its Speeds for 1 minute (-10 on a critical success).</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.948,
+          "previous": {
+            "schema": 0.947,
+            "foundry": "13.350",
+            "system": "7.6.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!3n90t1rl8IxWMGSa.5uF0UI8Ihj8qhfy5"
+    }
+  ],
+  "name": "Dog (Ekundayo's Companion)",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 37,
+        "temp": 0,
+        "max": 37,
+        "details": ""
+      },
+      "ac": {
+        "value": 19,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 40,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "resistances": [],
+      "weaknesses": []
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "blurb": "Riding dog",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "Pathfinder Kingmaker",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.948,
+      "previous": {
+        "schema": 0.947,
+        "foundry": "13.350",
+        "system": "7.6.4"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "dex": {
+        "mod": 4,
+        "value": 18,
+        "min": 3
+      },
+      "con": {
+        "mod": 3,
+        "value": 16,
+        "min": 3
+      },
+      "int": {
+        "mod": -4,
+        "value": 2,
+        "min": 3
+      },
+      "wis": {
+        "mod": 2,
+        "value": 14,
+        "min": 3
+      },
+      "cha": {
+        "mod": 0,
+        "value": 10,
+        "min": 3
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 9,
+      "senses": [
+        {
+          "type": "low-light-vision"
+        },
+        {
+          "acuity": "imprecise",
+          "range": 30,
+          "type": "scent"
+        }
+      ],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 11,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 9,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "acrobatics": {
+        "base": 9,
+        "slug": "acrobatics",
+        "label": "Acrobatics",
+        "value": 9,
+        "totalModifier": 12,
+        "dc": 22,
+        "attribute": "dex",
+        "breakdown": "Modifier +12",
+        "modifiers": [
+          {
+            "slug": "base",
+            "label": "Modifier",
+            "domains": [
+              "acrobatics",
+              "dex-based",
+              "skill-check",
+              "dex-skill-check",
+              "all"
+            ],
+            "modifier": 12,
+            "type": "untyped",
+            "ability": null,
+            "adjustments": [],
+            "force": false,
+            "enabled": true,
+            "ignored": false,
+            "source": null,
+            "custom": false,
+            "damageType": null,
+            "damageCategory": null,
+            "critical": null,
+            "tags": [],
+            "hideIfDisabled": false,
+            "kind": "modifier",
+            "predicate": []
+          }
+        ],
+        "mod": 9,
+        "itemId": null,
+        "lore": false,
+        "visible": true,
+        "special": []
+      },
+      "athletics": {
+        "base": 8,
+        "slug": "athletics",
+        "label": "Athletics",
+        "value": 8,
+        "totalModifier": 11,
+        "dc": 21,
+        "attribute": "str",
+        "breakdown": "Modifier +11",
+        "modifiers": [
+          {
+            "slug": "base",
+            "label": "Modifier",
+            "domains": [
+              "athletics",
+              "str-based",
+              "skill-check",
+              "str-skill-check",
+              "all"
+            ],
+            "modifier": 11,
+            "type": "untyped",
+            "ability": null,
+            "adjustments": [],
+            "force": false,
+            "enabled": true,
+            "ignored": false,
+            "source": null,
+            "custom": false,
+            "damageType": null,
+            "damageCategory": null,
+            "critical": null,
+            "tags": [],
+            "hideIfDisabled": false,
+            "kind": "modifier",
+            "predicate": []
+          }
+        ],
+        "mod": 8,
+        "itemId": null,
+        "lore": false,
+        "visible": true,
+        "special": []
+      },
+      "intimidation": {
+        "base": 5,
+        "slug": "intimidation",
+        "label": "Intimidation",
+        "value": 5,
+        "totalModifier": 8,
+        "dc": 18,
+        "attribute": "cha",
+        "breakdown": "Modifier +8",
+        "modifiers": [
+          {
+            "slug": "base",
+            "label": "Modifier",
+            "domains": [
+              "intimidation",
+              "cha-based",
+              "skill-check",
+              "cha-skill-check",
+              "all"
+            ],
+            "modifier": 8,
+            "type": "untyped",
+            "ability": null,
+            "adjustments": [],
+            "force": false,
+            "enabled": true,
+            "ignored": false,
+            "source": null,
+            "custom": false,
+            "damageType": null,
+            "damageCategory": null,
+            "critical": null,
+            "tags": [],
+            "hideIfDisabled": false,
+            "kind": "modifier",
+            "predicate": []
+          }
+        ],
+        "mod": 5,
+        "itemId": null,
+        "lore": false,
+        "visible": true,
+        "special": []
+      },
+      "stealth": {
+        "base": 9,
+        "slug": "stealth",
+        "label": "Stealth",
+        "value": 9,
+        "totalModifier": 12,
+        "dc": 22,
+        "attribute": "dex",
+        "breakdown": "Modifier +12",
+        "modifiers": [
+          {
+            "slug": "base",
+            "label": "Modifier",
+            "domains": [
+              "stealth",
+              "dex-based",
+              "skill-check",
+              "dex-skill-check",
+              "all"
+            ],
+            "modifier": 12,
+            "type": "untyped",
+            "ability": null,
+            "adjustments": [],
+            "force": false,
+            "enabled": true,
+            "ignored": false,
+            "source": null,
+            "custom": false,
+            "damageType": null,
+            "damageCategory": null,
+            "critical": null,
+            "tags": [],
+            "hideIfDisabled": false,
+            "kind": "modifier",
+            "predicate": []
+          }
+        ],
+        "mod": 9,
+        "itemId": null,
+        "lore": false,
+        "visible": true,
+        "special": []
+      },
+      "survival": {
+        "base": 9,
+        "slug": "survival",
+        "label": "Survival",
+        "value": 9,
+        "totalModifier": 12,
+        "dc": 22,
+        "attribute": "wis",
+        "breakdown": "Modifier +12",
+        "modifiers": [
+          {
+            "slug": "base",
+            "label": "Modifier",
+            "domains": [
+              "survival",
+              "wis-based",
+              "skill-check",
+              "wis-skill-check",
+              "all"
+            ],
+            "modifier": 12,
+            "type": "untyped",
+            "ability": null,
+            "adjustments": [],
+            "force": false,
+            "enabled": true,
+            "ignored": false,
+            "source": null,
+            "custom": false,
+            "damageType": null,
+            "damageCategory": null,
+            "critical": null,
+            "tags": [],
+            "hideIfDisabled": false,
+            "kind": "modifier",
+            "predicate": []
+          }
+        ],
+        "mod": 9,
+        "itemId": null,
+        "lore": false,
+        "visible": true,
+        "special": []
+      }
+    },
+    "traits": {
+      "value": [
+        "animal",
+        "minion"
+      ],
+      "rarity": "unique",
+      "size": {
+        "value": "med"
+      }
+    }
+  },
+  "type": "npc",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1762521196525,
+    "modifiedTime": 1762521196525,
+    "lastModifiedBy": "VSeKTk90rvuA8Knm"
+  },
+  "effects": [],
+  "folder": "kxfbLYcPUmYbC25B",
+  "ownership": {
+    "default": 0,
+    "sDmTHDFOKZoe85XE": 3,
+    "VSeKTk90rvuA8Knm": 3
+  },
+  "flags": {},
+  "_id": "3n90t1rl8IxWMGSa",
+  "sort": 0,
+  "_key": "!actors!3n90t1rl8IxWMGSa"
+}

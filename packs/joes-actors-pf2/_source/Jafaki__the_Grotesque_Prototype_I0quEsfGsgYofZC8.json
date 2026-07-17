@@ -1,0 +1,517 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 3,
+    "width": 3,
+    "name": "Jafaki, the Grotesque Prototype",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/abomination-vaults/Jafaki-Fleshwarp(T).webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": null,
+  "name": "Jafaki, the Grotesque Prototype",
+  "type": "npc",
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 175,
+        "temp": 0,
+        "max": 175,
+        "details": ""
+      },
+      "ac": {
+        "value": 24,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "resistances": [
+        {
+          "type": "physical",
+          "value": 5,
+          "exceptions": [
+            "silver",
+            "force"
+          ],
+          "doubleVs": []
+        },
+        {
+          "type": "mental",
+          "value": 5,
+          "exceptions": [],
+          "doubleVs": []
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "cold",
+          "value": 5,
+          "exceptions": []
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "aklo",
+          "common",
+          "sakvroth"
+        ],
+        "details": "telepathy 100 ft"
+      },
+      "level": {
+        "value": 7
+      },
+      "blurb": "",
+      "publicNotes": "",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "resources": {},
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.351",
+        "system": "7.12.2"
+      }
+    },
+    "abilities": {
+      "str": {
+        "mod": 5
+      },
+      "dex": {
+        "mod": 1
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": 2
+      },
+      "wis": {
+        "mod": 3
+      },
+      "cha": {
+        "mod": 1
+      }
+    },
+    "perception": {
+      "details": "darkvision, lifesense 60 ft",
+      "mod": 16,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 18,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 14,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 16,
+        "saveDetail": ""
+      }
+    },
+    "skills": {
+      "athletics": {
+        "base": 16,
+        "special": []
+      },
+      "intimidation": {
+        "base": 15,
+        "special": []
+      },
+      "arcana": {
+        "base": 13,
+        "special": []
+      },
+      "medicine": {
+        "base": 0
+      }
+    },
+    "traits": {
+      "value": [
+        "aberration",
+        "fleshwarp"
+      ],
+      "rarity": "rare",
+      "size": {
+        "value": "huge"
+      }
+    }
+  },
+  "img": "assets/token-portrait/abomination-vaults/Jafaki-Fleshwarp.webp",
+  "items": [
+    {
+      "type": "action",
+      "name": "Reactive Flesh",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "description": {
+          "value": "<p>If Jafaki takes energy damage (acid, fire, cold, etc.), he gains resistance 10 to that energy type for 1 minute. Triggers only once per round.</p><p></p><p>@UUID[Compendium.joes-pf2-stuff.joes-items-pf2.Item.lFO4ggHy7NL2NOul]{Reactive Flesh}</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "8tZkOWc0mi1HPTJa",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!I0quEsfGsgYofZC8.8tZkOWc0mi1HPTJa"
+    },
+    {
+      "type": "melee",
+      "name": "Pseudopod Slam",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical",
+            "reach-10"
+          ],
+          "config": {}
+        },
+        "damageRolls": {
+          "XUUTyH7Hr0cvxMEY": {
+            "damage": "2d10+6",
+            "damageType": "bludgeoning",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 18
+        },
+        "attackEffects": {
+          "value": [
+            "nerve-warp"
+          ]
+        },
+        "action": "strike",
+        "area": null,
+        "range": null,
+        "subjectToMAP": true
+      },
+      "_id": "8EXt1EJAK5m1ufq1",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!I0quEsfGsgYofZC8.8EXt1EJAK5m1ufq1"
+    },
+    {
+      "type": "action",
+      "name": "Nerve-Warp",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "description": {
+          "value": "<p>On a successful Slam hit, the target must attempt a @Check[type:fortitude|dc:22|name:Nerve-Warp]. On a failure, they are @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} for 1 round.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "actions": {
+          "value": null
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "BNsjxwEnFwUTEmEv",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!I0quEsfGsgYofZC8.BNsjxwEnFwUTEmEv"
+    },
+    {
+      "type": "action",
+      "name": "Grappling Tentacles",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p>Jafaki lashes out at up to two creatures within 15 feet, making a separate <strong>Pseudopod Slam</strong> for each.</p><p>On a hit, Jafaki attempts a separate @Check[type:athletics|modifier:16|traits:attack|name:Grappling Tentacle] against the target’s Fortitude DC.</p><p>On a success, the target becomes @Compendium[pf2e.conditionitems.Grabbed]{Grabbed} (Escape DC 23).</p><p>Jafaki can Grapple a target he already has grabbed or restrained without having a hand free, and can maintain up to two grapples simultaneously.</p><p></p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.935,
+            "foundry": "13.351",
+            "system": "7.12.2"
+          }
+        },
+        "actions": {
+          "value": 3
+        },
+        "category": null,
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "K8g1vYgERxylh2I2",
+      "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!I0quEsfGsgYofZC8.K8g1vYgERxylh2I2"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1784272628271,
+    "modifiedTime": 1784272628271,
+    "lastModifiedBy": "fAtWnRfzFoHAJ5lR"
+  },
+  "ownership": {
+    "default": 0,
+    "fAtWnRfzFoHAJ5lR": 3
+  },
+  "_id": "I0quEsfGsgYofZC8",
+  "sort": 0,
+  "_key": "!actors!I0quEsfGsgYofZC8"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "KM Characters",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "Fc21rm7YpAHatssm",
+  "description": "",
+  "sort": 0,
+  "color": "#aa6404",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734685824230,
+    "modifiedTime": 1734685843438,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!folders!Fc21rm7YpAHatssm"
+}

@@ -1,0 +1,303 @@
+{
+  "name": "Ravyn",
+  "type": "familiar",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "GV05ljv1gd0sdJkO": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      }
+    },
+    "height": 0.5,
+    "width": 0.5,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Ravyn",
+    "displayName": 20,
+    "texture": {
+      "src": "modules/pf2e-tokens-myth-and-magic/assets/tokens/pzo12006_raven.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": true,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": "modules/pf2e-tokens-myth-and-magic/assets/subjects/pzo12006_raven.webp"
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.955,
+      "previous": null
+    },
+    "master": {
+      "id": "MK18Yt7NEn07eEDr",
+      "ability": null
+    },
+    "attributes": {
+      "hp": {
+        "value": 25,
+        "temp": 0
+      }
+    },
+    "details": {
+      "creature": {
+        "value": "bird"
+      }
+    }
+  },
+  "img": "modules/pf2e-tokens-myth-and-magic/assets/portraits/pzo12006_raven.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Flier",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>It gains a fly Speed of 25 feet.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "BaseSpeed",
+            "selector": "fly",
+            "value": 25
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "flier",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "bqbc8P0fwHfcByPj",
+      "_key": "!actors.items!TvuUqqI34sxc2diZ.bqbc8P0fwHfcByPj"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Fast Movement (Land)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>Increase one of your familiar's Speeds from 25 to 40 feet.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Actor.Speed.Type.Climb",
+                "predicate": [
+                  "speed:climb"
+                ],
+                "value": "climb"
+              },
+              {
+                "label": "PF2E.Actor.Speed.Type.Fly",
+                "predicate": [
+                  "speed:fly"
+                ],
+                "value": "fly"
+              },
+              {
+                "label": "PF2E.Actor.Speed.Type.Land",
+                "predicate": [
+                  "speed:land"
+                ],
+                "value": "land"
+              },
+              {
+                "label": "PF2E.Actor.Speed.Type.Swim",
+                "predicate": [
+                  "speed:swim"
+                ],
+                "value": "swim"
+              }
+            ],
+            "flag": "speed",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.MovementType",
+            "selection": "land"
+          },
+          {
+            "key": "BaseSpeed",
+            "selector": "{item|flags.system.rulesSelections.speed}",
+            "value": 40
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "fast-movement",
+        "_migration": {
+          "version": 0.955,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.11.3",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "0bfIuRQqzQl8tZla",
+      "_key": "!actors.items!TvuUqqI34sxc2diZ.0bfIuRQqzQl8tZla"
+    }
+  ],
+  "folder": "3hbBTBSyqs8k7fUd",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.3",
+    "createdTime": 1775107741575,
+    "modifiedTime": 1775107743796,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_id": "TvuUqqI34sxc2diZ",
+  "sort": 400000,
+  "_key": "!actors!TvuUqqI34sxc2diZ"
+}

@@ -1,0 +1,3598 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Bob",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/npc/bullywug2-t.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "name": "Bob",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "CLMiGpsYVSTK4VM8": 3,
+    "2UY4SPCbfD5k65hi": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 31,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "anadi",
+          "androffan"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 640,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ]
+        }
+      }
+    },
+    "crafting": {
+      "formulas": [
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.txmX5ghhPS72GKXy"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.zo0ophqfKunJFxZN"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.88pGCHV0uKMskTVO"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.AOAXZzH4AOsQqYYv"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.MoBlVd36uD9xVvZC"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.n52BSbZsnx4Vmt2p"
+        }
+      ]
+    }
+  },
+  "img": "assets/token-portrait/npc/bullywug2-t.webp",
+  "items": [
+    {
+      "_id": "EVDtczLHQ18RinWg",
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/grippli.svg",
+      "name": "Tripkee",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Tripkees are a shy and cautious people who generally seek to avoid being drawn into the affairs of others. Despite their cautious outlook and small stature, adventurous tripkees still take bold and noble action when the situation demands it.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.FhIJtKcINEe7fipX]</p>"
+        },
+        "rules": [],
+        "slug": "tripkee",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "grippli",
+            "humanoid"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 6,
+        "size": "sm",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "wis"
+            ]
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "con"
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": [
+              "str"
+            ]
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "grippli"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "boggard",
+            "chthonian",
+            "draconic",
+            "elven",
+            "fey",
+            "iruxi",
+            "thalassic"
+          ],
+          "custom": ""
+        },
+        "items": {
+          "3lJFy": {
+            "img": "icons/creatures/amphibians/treefrog-leaf-green.webp",
+            "level": 1,
+            "name": "Natural Climber",
+            "uuid": "Compendium.pf2e.ancestryfeatures.Item.gZvgt5n5OYO3av2V"
+          }
+        },
+        "vision": "low-light-vision"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestries.Item.hXM5jXezIki1cMI2",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.EVDtczLHQ18RinWg"
+    },
+    {
+      "img": "icons/creatures/amphibians/treefrog-leaf-green.webp",
+      "name": "Natural Climber",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You gain a +2 circumstance bonus to Athletics checks to Climb.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:climb"
+            ],
+            "selector": "athletics",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "natural-climber",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "EVDtczLHQ18RinWg",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestryfeatures.Item.gZvgt5n5OYO3av2V",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "5wn1EasW4CXWU5bC",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.5wn1EasW4CXWU5bC"
+    },
+    {
+      "_id": "czxEkxwryof6ee2N",
+      "folder": "TuBpBzbE1ZRVisOU",
+      "img": "systems/pf2e/icons/default-icons/heritage.svg",
+      "name": "Poisonhide Tripkee",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You may be small, but the poison glands concealed across your body hide a deadly defense. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.kKKHwVUnroKuAnOt]{Toxic Skin} reaction.</p>"
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.kKKHwVUnroKuAnOt",
+            "flag": "toxicSkin"
+          }
+        ],
+        "slug": "poisonhide-tripkee",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "ancestry": {
+          "name": "Tripkee",
+          "slug": "tripkee",
+          "uuid": "Compendium.pf2e.ancestries.Item.hXM5jXezIki1cMI2"
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.heritages.Item.bmA9JK06rnOKpNLr",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "toxicSkin": {
+              "id": "oRvFtLy6mkxCLdK2",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.czxEkxwryof6ee2N"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Toxic Skin",
+      "system": {
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "defensive",
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> A creature touches you, such as by @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grappling} you, successfully hitting you with an unarmed attack, or using a touch-range spell against you</p><hr /><p><strong>Effect</strong> You exude a deadly toxin. The triggering creature takes @Damage[(ceil(@actor.level/2))d4[poison]] damage (@Check[fortitude|against:class-spell|basic] save using your class DC or spell DC, whichever is higher). At 3rd level and every 2 levels thereafter, the damage increases by 1d4.</p>",
+          "gm": ""
+        },
+        "frequency": {
+          "max": 1,
+          "per": "PT1H",
+          "value": 1
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "grippli",
+            "poison"
+          ],
+          "otherTags": []
+        },
+        "slug": "toxic-skin",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.kKKHwVUnroKuAnOt",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "czxEkxwryof6ee2N",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "oRvFtLy6mkxCLdK2",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.oRvFtLy6mkxCLdK2"
+    },
+    {
+      "_id": "HOZDDcYxG0Bc7bAQ",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Criminal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As an unscrupulous independent or as a member of an underworld organization, you lived a life of crime. You might have become an adventurer to seek redemption, to escape the law, or simply to get access to bigger and better loot.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Stealth skill and the Underworld Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt]{Experienced Smuggler} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "criminal",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "dex",
+              "int"
+            ],
+            "selected": "int"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          }
+        },
+        "items": {
+          "19grf": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Experienced Smuggler",
+            "uuid": "Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "stealth"
+          ],
+          "lore": [
+            "Underworld Lore"
+          ]
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.backgrounds.Item.9lVw1JGl5ser6626",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.HOZDDcYxG0Bc7bAQ"
+    },
+    {
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Experienced Smuggler",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You often smuggle things past the authorities. When the GM rolls your Stealth check to see if a passive observer notices a small item you've @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, the GM uses the number rolled or 10—whichever is higher—as the result of your die roll, adding it to your Stealth modifier to determine your Stealth check result. If you're a master in Stealth, the GM uses the number rolled or 15, and if you're legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} items.</p>\n<hr />\n<p><strong>PFS Note</strong> This feat allows you to Earn Income with Underworld Lore with tasks of your level -1 (instead of the normal level -2).</p>"
+        },
+        "rules": [],
+        "slug": "experienced-smuggler",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Trained in Stealth"
+            }
+          ]
+        },
+        "location": "HOZDDcYxG0Bc7bAQ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "cnGQaEAURWagLn59",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.cnGQaEAURWagLn59"
+    },
+    {
+      "_id": "Z4M3A2E0pc35rIWS",
+      "img": "systems/pf2e/icons/classes/rogue.webp",
+      "name": "Rogue",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>You are skilled and opportunistic. Using your sharp wits and quick reactions, you take advantage of your opponents' missteps and strike where it hurts most. You play a dangerous game, seeking thrills and testing your skills, and likely don't care much for any laws that happen to get in your way. While the path of every rogue is unique and riddled with danger, the one thing you all share in common is the breadth and depth of your skills.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.u4qPrDRBagxG9wj8]{Rogue}</em></p>"
+        },
+        "rules": [],
+        "slug": "rogue",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "keyAbility": {
+          "value": [
+            "dex"
+          ]
+        },
+        "items": {
+          "0kdn2": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 7,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "1nwhg": {
+            "img": "systems/pf2e/icons/features/classes/weapon-tricks.webp",
+            "level": 5,
+            "name": "Weapon Tricks",
+            "uuid": "Compendium.pf2e.classfeatures.Item.v8UNEJR5IDKi8yqa"
+          },
+          "1zn3l": {
+            "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+            "level": 19,
+            "name": "Light Armor Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz"
+          },
+          "2xl4q": {
+            "img": "icons/weapons/swords/swords-short.webp",
+            "level": 13,
+            "name": "Master Tricks",
+            "uuid": "Compendium.pf2e.classfeatures.Item.myvcir1LEkaVxOlE"
+          },
+          "3YEZD": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 7,
+            "name": "Perception Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+          },
+          "4al2i": {
+            "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "level": 15,
+            "name": "Greater Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+          },
+          "6ddtr": {
+            "img": "icons/equipment/back/mantle-collared-green.webp",
+            "level": 13,
+            "name": "Light Armor Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7"
+          },
+          "BH4zJ": {
+            "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+            "level": 7,
+            "name": "Evasive Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.oa3TJpPnvL98EUHh"
+          },
+          "HOjyM": {
+            "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+            "level": 1,
+            "name": "Rogue's Racket",
+            "uuid": "Compendium.pf2e.classfeatures.Item.uGuCGQvUmioFV2Bd"
+          },
+          "KvE3P": {
+            "img": "icons/magic/life/cross-explosion-burst-green.webp",
+            "level": 9,
+            "name": "Rogue Resilience",
+            "uuid": "Compendium.pf2e.classfeatures.Item.fMHYzXEUMoWskKMF"
+          },
+          "bhpWk": {
+            "img": "icons/commodities/biological/organ-brain-red.webp",
+            "level": 17,
+            "name": "Agile Mind",
+            "uuid": "Compendium.pf2e.classfeatures.Item.xmZ7oeTDcQVXegUP"
+          },
+          "cifjd": {
+            "img": "systems/pf2e/icons/features/classes/rogue-expertise.webp",
+            "level": 11,
+            "name": "Rogue Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.f3Dh32EU4VsHu01b"
+          },
+          "e9ikq": {
+            "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+            "level": 1,
+            "name": "Sneak Attack",
+            "uuid": "Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg"
+          },
+          "i7ZpY": {
+            "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+            "level": 13,
+            "name": "Greater Rogue Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.BTpL6XvMk4jvVYYJ"
+          },
+          "nilrb": {
+            "img": "icons/skills/melee/strike-sword-blood-red.webp",
+            "level": 9,
+            "name": "Debilitating Strikes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9SruVg2lZpNaYLOB"
+          },
+          "pfjze": {
+            "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
+            "level": 15,
+            "name": "Double Debilitation",
+            "uuid": "Compendium.pf2e.classfeatures.Item.W1FkMHYVDg3yTU5r"
+          },
+          "pvlD2": {
+            "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+            "level": 13,
+            "name": "Perception Legend",
+            "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00"
+          },
+          "qx6de": {
+            "img": "systems/pf2e/icons/features/classes/surprice-attack.webp",
+            "level": 1,
+            "name": "Surprise Attack",
+            "uuid": "Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7"
+          },
+          "sjjee": {
+            "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+            "level": 3,
+            "name": "Deny Advantage",
+            "uuid": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC"
+          },
+          "thypm": {
+            "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+            "level": 19,
+            "name": "Master Strike",
+            "uuid": "Compendium.pf2e.classfeatures.Item.SUUdWG0t33VKa5q4"
+          }
+        },
+        "hp": 8,
+        "trainedSkills": {
+          "value": [
+            "stealth"
+          ],
+          "additional": 7
+        },
+        "perception": 2,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 2,
+          "will": 2
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 1,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 1,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classes.Item.LO9STvskJemPkiAI",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.Z4M3A2E0pc35rIWS"
+    },
+    {
+      "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+      "name": "Rogue's Racket",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You've begun to develop your techniques and approach to a job, while building your reputation in rogues' circles. Choose a rogue's racket from the list below.</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.D8qtAo2w4jsqjBrM]{Eldritch Trickster}</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.RyOkmu0W9svavuAB]{Mastermind}</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.3KPZ7svIO6kmmEKH]{Ruffian}</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.ZvfxtUMtfIOLYHyg]{Scoundrel}</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item.wAh2riuFRzz0edPl]{Thief}</p>"
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:rogue-racket"
+              ]
+            },
+            "flag": "roguesRacket",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Rogue.Racket.Prompt",
+            "selection": "Compendium.pf2e.classfeatures.Item.ZvfxtUMtfIOLYHyg"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.roguesRacket}",
+            "flag": "scoundrel"
+          }
+        ],
+        "slug": "rogues-racket",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "Z4M3A2E0pc35rIWS",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.uGuCGQvUmioFV2Bd",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "scoundrel": {
+              "id": "CL10BErwlMEt2aXB",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "Q6OUe3GqjEQtp4Dy",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.Q6OUe3GqjEQtp4Dy"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/scoundrel.webp",
+      "name": "Scoundrel",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You use fast-talking, flattery, and a silver tongue to avoid danger and escape tricky situations. You might be a grifter or con artist, or you might use your skills in certain reputable professions, like a barrister or diplomat.</p>\n<p>When you successfully @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against your melee attacks until the end of your next turn. On a critical success, the target is off-guard against all melee attacks until the end of your next turn, not just yours.</p>\n<p>If you Feint while wielding an agile or finesse melee weapon, you can step immediately after the Feint as a free action. You're trained in Deception and Diplomacy. You can choose Charisma as your key attribute.</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.diplomacy.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.deception.rank",
+            "value": 1
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success"
+            ],
+            "predicate": [
+              "action:feint"
+            ],
+            "selector": "skill-check",
+            "text": "When you successfully Feint, the target is off-guard against melee attacks you attempt against it until the end of your next turn.",
+            "title": "{item|name}"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "action:feint"
+            ],
+            "selector": "skill-check",
+            "text": "On a critical success, the target is off-guard against all melee attacks until the end of your next turn, not just yours.",
+            "title": "{item|name}"
+          }
+        ],
+        "slug": "scoundrel",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [
+            "rogue-racket"
+          ],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": null,
+        "subfeatures": {
+          "keyOptions": [
+            "cha"
+          ],
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.ZvfxtUMtfIOLYHyg",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "Q6OUe3GqjEQtp4Dy",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "CL10BErwlMEt2aXB",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.CL10BErwlMEt2aXB"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+      "name": "Sneak Attack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When your enemy can't properly defend itself, you take advantage to deal extra damage. If you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon attack, or a ranged unarmed attack, you deal an extra 1d6 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.</p>\n<p>As your level increases, so does the number of damage dice for your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels.</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.sneakAttackDamage.number",
+            "predicate": [
+              "class:rogue"
+            ],
+            "value": "ternary(lt(@actor.level, 5), 1, ternary(lt(@actor.level, 11), 2, ternary(lt(@actor.level, 17), 3, 4)))"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.sneakAttackDamage.faces",
+            "predicate": [
+              "class:rogue"
+            ],
+            "value": 6
+          },
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+            "option": "target:condition:off-guard",
+            "toggleable": "totm"
+          },
+          {
+            "itemType": "weapon",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              {
+                "or": [
+                  "item:trait:agile",
+                  "item:trait:finesse",
+                  {
+                    "and": [
+                      "item:ranged",
+                      {
+                        "not": "item:thrown-melee"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "property": "other-tags",
+            "value": "sneak-attack"
+          },
+          {
+            "category": "precision",
+            "diceNumber": "@actor.flags.pf2e.sneakAttackDamage.number",
+            "dieSize": "d{actor|flags.pf2e.sneakAttackDamage.faces}",
+            "key": "DamageDice",
+            "predicate": [
+              "item:tag:sneak-attack",
+              "target:condition:off-guard"
+            ],
+            "selector": "strike-damage"
+          }
+        ],
+        "slug": "sneak-attack",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "Z4M3A2E0pc35rIWS",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "vgDnbKSranXcbOaS",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.vgDnbKSranXcbOaS"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/surprice-attack.webp",
+      "name": "Surprise Attack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You spring into combat faster than foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven't acted are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you.</p>"
+        },
+        "rules": [
+          {
+            "key": "EphemeralEffect",
+            "predicate": [
+              "encounter:round:1",
+              {
+                "lt": [
+                  "self:participant:initiative:rank",
+                  "target:participant:initiative:rank"
+                ]
+              },
+              {
+                "or": [
+                  "self:participant:initiative:stat:deception",
+                  "self:participant:initiative:stat:stealth"
+                ]
+              }
+            ],
+            "selectors": [
+              "strike-attack-roll",
+              "spell-attack-roll",
+              "strike-damage",
+              "attack-spell-damage"
+            ],
+            "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+          }
+        ],
+        "slug": "surprise-attack",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "Z4M3A2E0pc35rIWS",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "hmHQfQuWBdbayRbH",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.hmHQfQuWBdbayRbH"
+    },
+    {
+      "_id": "VBnJHq9rKJIxrOeT",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Caustic Nectar",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You have specialized glands inside your throat, which produce acidic nectar that you can spit long distances. You gain a nectar ranged unarmed attack with a range increment of 20 feet that deals 1d4 acid damage. On a critical hit, the target is additionally @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. Your nectar doesn't add critical specialization effects. You're immune to your own nectar.</p>\n<hr />\n<p><strong>Special</strong> This feat gains the trait for your ancestry.</p>"
+        },
+        "rules": [
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "acid",
+                "dice": 1,
+                "die": "d4"
+              }
+            },
+            "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+            "key": "Strike",
+            "label": "PF2E.BattleForm.Attack.Nectar",
+            "range": {
+              "increment": 20
+            },
+            "slug": "nectar",
+            "traits": [
+              "unarmed"
+            ]
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "criticalSuccess"
+            ],
+            "selector": "{item|id}-damage",
+            "text": "PF2E.SpecificRule.Ardande.CausticNectar.Note"
+          }
+        ],
+        "slug": "caustic-nectar",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #202: Severed at the Root",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "ancestry",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "ardande trait, plant trait, or wood trait"
+            }
+          ]
+        },
+        "location": "ancestry-1",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.3wYqZuyaIredjSZ6",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.VBnJHq9rKJIxrOeT"
+    },
+    {
+      "_id": "KlueXyc2HZSROCHz",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Nimble Dodge",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature targets you with an attack and you can see the attacker.</p>\n<p><strong>Requirements</strong> You are not encumbered.</p>\n<hr />\n<p>You deftly dodge out of the way, gaining a +2 circumstance bonus to AC against the triggering attack.</p>"
+        },
+        "rules": [
+          {
+            "domain": "ac",
+            "key": "RollOption",
+            "option": "nimble-dodge",
+            "toggleable": true
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "nimble-dodge"
+            ],
+            "selector": "ac",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "nimble-dodge",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "reaction"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-1",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.KlueXyc2HZSROCHz"
+    },
+    {
+      "_id": "FX5auEDZA6v1YBQw",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Quick Draw",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You draw your weapon and attack with the same motion. You Interact to draw a weapon, then Strike with that weapon.</p>"
+        },
+        "rules": [],
+        "slug": "quick-draw",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "gunslinger",
+            "ranger",
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-2",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.qFt6zyWVX1njJf1l",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.FX5auEDZA6v1YBQw"
+    },
+    {
+      "_id": "ztjbSpFuZrzJqYSi",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Tumble Behind (Rogue)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You tumble under and behind your foe, your rapid movement letting you catch them off guard. When you successfully @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, the foe whose space you passed through is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the next attack you make before the end of your turn.</p>"
+        },
+        "rules": [
+          {
+            "domain": "all",
+            "key": "RollOption",
+            "option": "tumble-behind",
+            "toggleable": true
+          },
+          {
+            "key": "EphemeralEffect",
+            "predicate": [
+              "tumble-behind"
+            ],
+            "selectors": [
+              "strike-attack-roll",
+              "strike-damage"
+            ],
+            "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+          },
+          {
+            "key": "Note",
+            "outcome": [
+              "success",
+              "criticalSuccess"
+            ],
+            "predicate": [
+              "action:tumble-through"
+            ],
+            "selector": "acrobatics",
+            "text": "{item|system.description.value}",
+            "title": "{item|name}"
+          }
+        ],
+        "slug": "tumble-behind-rogue",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 4
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-4",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.YKqMuuC8j35NFh92",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.ztjbSpFuZrzJqYSi"
+    },
+    {
+      "_id": "uMijbRtG9PiWq3GS",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Alchemist Dedication",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You put your alchemical interest into practice. You become trained in alchemical bombs, the alchemist class DC, and Crafting; if you were already trained in Crafting, you instead become trained in a skill of your choice.</p>\n<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{Quick Alchemy} benefits, creating up to 4 versatile vials during your daily preparations. Add the formulas for four additional common alchemical items to your formula book, in addition to those you gain from Alchemical Crafting.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Ux0sa5SUBu616i5k]{Alchemist}</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.crafting.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-alchemical-bomb.rank",
+            "value": 1
+          },
+          {
+            "itemUUID": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
+            "key": "SpecialResource",
+            "label": "PF2E.SpecificRule.Alchemist.VersatileVials",
+            "level": "ternary(gte(@actor.level, 18), 18, ternary(gte(@actor.level, 12), 12, ternary(gte(@actor.level, 4), 4, 1)))",
+            "max": 4,
+            "slug": "versatile-vials"
+          },
+          {
+            "craftableItems": [
+              "item:trait:alchemical",
+              "item:trait:consumable"
+            ],
+            "key": "CraftingAbility",
+            "slug": "quick-alchemy"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
+            "flag": "alchemicalCrafting"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+            "flag": "quickAlchemy"
+          }
+        ],
+        "slug": "alchemist-dedication",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "archetype",
+            "dedication",
+            "multiclass"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 4
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Intelligence +2"
+            }
+          ]
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {
+            "alchemist": {
+              "attribute": "int",
+              "rank": 1
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.CJMkxlxHiHZQYDCz",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "alchemicalCrafting": {
+              "id": "qHcSre0RmTLUgSRM",
+              "onDelete": "detach"
+            },
+            "quickAlchemy": {
+              "id": "Mn4WVk0qYbIob4Lm",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.uMijbRtG9PiWq3GS"
+    },
+    {
+      "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+      "name": "Versatile Vial",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This tiny glass flask contains volatile chemicals that can be used offensively in a pinch. The bomb deals acid damage and acid splash damage.</p>"
+        },
+        "rules": [
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "selector": "{item|id}-attack",
+            "type": "item",
+            "value": "ternary(gte(@item.level,18),3,ternary(gte(@item.level,12),2,1))"
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "upgrade",
+            "predicate": [
+              "dice:slug:base"
+            ],
+            "property": "dice-number",
+            "selectors": [
+              "{item|id}-damage"
+            ],
+            "value": "ternary(gte(@item.level,18),4,ternary(gte(@item.level,12),3,ternary(gte(@item.level,4),2,1)))"
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "selector": "{item|id}-damage",
+            "slug": "splash",
+            "value": "ternary(gte(@item.level,18),4,ternary(gte(@item.level,12),3,ternary(gte(@item.level,4),2,1)))"
+          }
+        ],
+        "slug": "versatile-vial",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "alchemical",
+            "bomb",
+            "consumable",
+            "infused",
+            "splash"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 2,
+        "baseItem": "alchemical-bomb",
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
+        },
+        "category": "martial",
+        "group": "bomb",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "acid",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 1
+        },
+        "range": 20,
+        "expend": null,
+        "reload": {
+          "value": "-"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "kqHCvt3gIKzlRx74",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.kqHCvt3gIKzlRx74"
+    },
+    {
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Alchemical Crafting",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You can use the Craft activity to create alchemical items. When you select this feat, you immediately add the formulas for four common 1st-level alchemical items to your formula book.</p>"
+        },
+        "rules": [],
+        "slug": "alchemical-crafting",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Crafting"
+            }
+          ]
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "uMijbRtG9PiWq3GS",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "qHcSre0RmTLUgSRM",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.qHcSre0RmTLUgSRM"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Quick Alchemy",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You're either holding or wearing an @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit}. and you have a free hand.</p><hr /><p>You can either use up a versatile vial to make another alchemical consumable at a moment's notice or create an especially short-lived versatile vial. Any effect created by an item made with Quick Alchemy that would have a duration longer than 10 minutes lasts for 10 minutes instead.</p><ul><li><strong>Create Consumable</strong> You expend one of your versatile vials to create a single alchemical consumable item of your level or lower that's in your formula book. You don't have to spend the normal monetary cost in alchemical raw materials or need to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn. (As normal, you need only one formula for an item to create any level of that item.)</li><li><p><strong>Quick Vial</strong> You create a versatile vial that can be used only as a bomb or for the versatile vial option from your research field (it can't be used to create a consumable, for example). This item has the infused trait, but it remains potent only until the end of your current turn.</p></li></ul>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "CraftingAbility",
+            "priority": 15,
+            "resource": "versatile-vials",
+            "slug": "quick-alchemy"
+          }
+        ],
+        "traits": {
+          "value": [
+            "alchemist",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "quick-alchemy",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "uMijbRtG9PiWq3GS",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "Mn4WVk0qYbIob4Lm",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.Mn4WVk0qYbIob4Lm"
+    },
+    {
+      "_id": "vusxMagBkCp3RciY",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Alchemist Dedication",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You put your alchemical interest into practice. You become trained in alchemical bombs, the alchemist class DC, and Crafting; if you were already trained in Crafting, you instead become trained in a skill of your choice.</p>\n<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{Quick Alchemy} benefits, creating up to 4 versatile vials during your daily preparations. Add the formulas for four additional common alchemical items to your formula book, in addition to those you gain from Alchemical Crafting.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Ux0sa5SUBu616i5k]{Alchemist}</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.crafting.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-alchemical-bomb.rank",
+            "value": 1
+          },
+          {
+            "itemUUID": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
+            "key": "SpecialResource",
+            "label": "PF2E.SpecificRule.Alchemist.VersatileVials",
+            "level": "ternary(gte(@actor.level, 18), 18, ternary(gte(@actor.level, 12), 12, ternary(gte(@actor.level, 4), 4, 1)))",
+            "max": 4,
+            "slug": "versatile-vials"
+          },
+          {
+            "craftableItems": [
+              "item:trait:alchemical",
+              "item:trait:consumable"
+            ],
+            "key": "CraftingAbility",
+            "slug": "quick-alchemy"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
+            "flag": "alchemicalCrafting"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+            "flag": "quickAlchemy"
+          }
+        ],
+        "slug": "alchemist-dedication",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "archetype",
+            "dedication",
+            "multiclass"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Intelligence +2"
+            }
+          ]
+        },
+        "location": "archetype-2",
+        "subfeatures": {
+          "proficiencies": {
+            "alchemist": {
+              "attribute": "int",
+              "rank": 1
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.CJMkxlxHiHZQYDCz",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "alchemicalCrafting": {
+              "id": "k6GINKOxSeIP0OWp",
+              "onDelete": "detach"
+            },
+            "quickAlchemy": {
+              "id": "nrUsMmdkVcE2X2qJ",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.vusxMagBkCp3RciY"
+    },
+    {
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Alchemical Crafting",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You can use the Craft activity to create alchemical items. When you select this feat, you immediately add the formulas for four common 1st-level alchemical items to your formula book.</p>"
+        },
+        "rules": [],
+        "slug": "alchemical-crafting",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Crafting"
+            }
+          ]
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "vusxMagBkCp3RciY",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "k6GINKOxSeIP0OWp",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.k6GINKOxSeIP0OWp"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Quick Alchemy",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You're either holding or wearing an @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit}. and you have a free hand.</p><hr /><p>You can either use up a versatile vial to make another alchemical consumable at a moment's notice or create an especially short-lived versatile vial. Any effect created by an item made with Quick Alchemy that would have a duration longer than 10 minutes lasts for 10 minutes instead.</p><ul><li><strong>Create Consumable</strong> You expend one of your versatile vials to create a single alchemical consumable item of your level or lower that's in your formula book. You don't have to spend the normal monetary cost in alchemical raw materials or need to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn. (As normal, you need only one formula for an item to create any level of that item.)</li><li><p><strong>Quick Vial</strong> You create a versatile vial that can be used only as a bomb or for the versatile vial option from your research field (it can't be used to create a consumable, for example). This item has the infused trait, but it remains potent only until the end of your current turn.</p></li></ul>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "CraftingAbility",
+            "priority": 15,
+            "resource": "versatile-vials",
+            "slug": "quick-alchemy"
+          }
+        ],
+        "traits": {
+          "value": [
+            "alchemist",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "quick-alchemy",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "vusxMagBkCp3RciY",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "nrUsMmdkVcE2X2qJ",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.nrUsMmdkVcE2X2qJ"
+    },
+    {
+      "_id": "CKQLOkJmwlIrScjH",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Advanced Alchemy",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You gain the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.Jkl5KOZih7MoMqAJ]{Advanced Alchemy} benefits, and you can create 4 alchemical consumables during your daily preparations.</p>"
+        },
+        "rules": [
+          {
+            "craftableItems": [
+              "item:trait:alchemical"
+            ],
+            "isDailyPrep": true,
+            "key": "CraftingAbility",
+            "label": "PF2E.SpecificRule.Alchemist.AdvancedAlchemy",
+            "maxSlots": 4,
+            "slug": "advanced-alchemy"
+          }
+        ],
+        "slug": "advanced-alchemy",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "archetype"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Alchemist Dedication"
+            }
+          ]
+        },
+        "location": "archetype-4",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.NlEZ0piDxg9buXCL",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.CKQLOkJmwlIrScjH"
+    },
+    {
+      "img": "icons/weapons/swords/sword-guard-purple.webp",
+      "name": "Shortsword",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These blades come in a variety of shapes and styles, but they are typically 2 feet long.</p>"
+        },
+        "rules": [],
+        "slug": "shortsword",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "versatile-s"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "shortsword",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 9
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": 1
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "sword",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "reload": {
+          "value": ""
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.7tKkkF8eZ4iCLJtp",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "UBr51PciQ88oevLS",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.UBr51PciQ88oevLS"
+    },
+    {
+      "img": "icons/weapons/bows/shortbow-leather.webp",
+      "name": "Shortbow",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This smaller bow is made of a single piece of wood and favored by skirmishers and cavalry.</p>"
+        },
+        "rules": [],
+        "slug": "shortbow",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "deadly-d10"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "shortbow",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-plus-hands"
+        },
+        "category": "martial",
+        "group": "bow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 60,
+        "expend": null,
+        "reload": {
+          "value": "0"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "selectedAmmoId": "gpmUhcMnJlEVBAN7"
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hIgqLgH3YcLZBeoT",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "twY12N1hCPrmbF36",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.twY12N1hCPrmbF36"
+    },
+    {
+      "img": "icons/weapons/ammunition/arrows-broadhead-white.webp",
+      "name": "Arrows",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>These projectiles are the ammunition for bows. The shaft of an arrow is made of wood. It is stabilized in flight by fletching at one end and bears a metal head on the other.</p>"
+        },
+        "rules": [],
+        "slug": "arrows",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 10,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 10
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "ammo",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": "arrows",
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "gpmUhcMnJlEVBAN7",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.gpmUhcMnJlEVBAN7"
+    },
+    {
+      "img": "icons/equipment/chest/breastplate-banded-simple-leather-brown.webp",
+      "name": "Leather Armor",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A mix of flexible and molded boiled leather, a suit of this type of armor provides some protection with maximum flexibility.</p>"
+        },
+        "rules": [],
+        "slug": "leather-armor",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "leather-armor",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "light",
+        "group": "leather",
+        "acBonus": 1,
+        "strength": 0,
+        "dexCap": 4,
+        "checkPenalty": -1,
+        "speedPenalty": 0,
+        "runes": {
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "subitems": []
+      },
+      "type": "armor",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.4tIVTg9wj56RrveA",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "TtiClFV925LGyfyP",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.TtiClFV925LGyfyP"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 15,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "REB5luD6o8gC8XP4",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.REB5luD6o8gC8XP4"
+    },
+    {
+      "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+      "name": "Deny Advantage",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As someone who takes advantage of openings, you are careful not to leave such gaps yourself. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank.</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.flanking.offGuardable",
+            "value": "@actor.level"
+          }
+        ],
+        "slug": "deny-advantage",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "rogue"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "Z4M3A2E0pc35rIWS",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "IZMAmly0jYMpiJ7m",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.IZMAmly0jYMpiJ7m"
+    },
+    {
+      "img": "systems/pf2e/icons/conditions/persistent-damage.webp",
+      "name": "Persistent Damage",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You are taking damage from an ongoing effect, such as from being lit on fire. This appears as \"X persistent [type] damage,\" where \"X\" is the amount of damage dealt and \"[type]\" is the damage type. Like normal damage, it can be doubled or halved based on the results of an attack roll or saving throw. Instead of taking persistent damage immediately, you take it at the end of each of your turns as long as you have the condition, rolling any damage dice anew each time. After you take persistent damage, roll a @Check[flat|showDC:all|dc:15] to see if you recover from the persistent damage. If you succeed, the condition ends.</p>"
+        },
+        "rules": [],
+        "slug": "persistent-damage",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "alchemical"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "group": null,
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null,
+          "perpetual": false,
+          "text": ""
+        },
+        "value": {
+          "isValued": false,
+          "value": null
+        },
+        "references": {
+          "children": [],
+          "overrides": [],
+          "overriddenBy": [],
+          "immunityFrom": []
+        },
+        "overrides": [],
+        "active": false,
+        "removable": false,
+        "persistent": {
+          "formula": "3d6",
+          "damageType": "acid",
+          "dc": 15,
+          "criticalHit": false
+        }
+      },
+      "type": "condition",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "o8ANtYAh3bVg3pVt",
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.o8ANtYAh3bVg3pVt"
+    },
+    {
+      "_id": "6MambDVwIGQvojW8",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-bombs/acid-flask.webp",
+      "name": "Acid Flask (Moderate) (*Temporary)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> Strike</p>\n<hr />\n<p>This flask filled with corrosive acid deals 1 acid damage, 2d6 persistent acid damage, and 2 acid splash damage. You gain a +1 item bonus to attack rolls.</p>"
+        },
+        "rules": [],
+        "slug": "acid-flask-moderate",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "alchemical",
+            "bomb",
+            "consumable",
+            "infused",
+            "splash"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "PF2e Alchemist Remaster Duct Tape module",
+          "authors": "TheJoester",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 0,
+        "baseItem": "alchemical-bomb",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 10
+          }
+        },
+        "equipped": {
+          "carryType": "held",
+          "invested": null,
+          "handsHeld": "1"
+        },
+        "containerId": null,
+        "size": "sm",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
+        },
+        "category": "martial",
+        "group": "bomb",
+        "bonus": {
+          "value": 1
+        },
+        "damage": {
+          "dice": 1,
+          "die": "",
+          "damageType": "acid",
+          "persistent": {
+            "faces": 6,
+            "number": 2,
+            "type": "acid"
+          }
+        },
+        "splashDamage": {
+          "value": 2
+        },
+        "range": 20,
+        "expend": null,
+        "reload": {
+          "value": "-"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        },
+        "ductTaped": true
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!B7D1TvtiwRujm1yV.6MambDVwIGQvojW8"
+    }
+  ],
+  "folder": "bcNE88l8YEjwcTMq",
+  "flags": {
+    "pf2e-alchemist-remaster-ducttape": {
+      "previousLevel": 3
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1755270496545,
+    "modifiedTime": 1784273073599,
+    "lastModifiedBy": "fAtWnRfzFoHAJ5lR",
+    "exportSource": null
+  },
+  "_id": "B7D1TvtiwRujm1yV",
+  "sort": 100000,
+  "_key": "!actors!B7D1TvtiwRujm1yV"
+}

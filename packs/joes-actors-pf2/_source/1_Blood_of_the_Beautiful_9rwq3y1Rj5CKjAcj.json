@@ -1,0 +1,20 @@
+{
+  "name": "1-Blood of the Beautiful",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.306",
+    "createdTime": 1689944583215,
+    "modifiedTime": 1689944583215,
+    "lastModifiedBy": "OGrPXnPX5XDmb5js"
+  },
+  "_id": "9rwq3y1Rj5CKjAcj",
+  "_key": "!folders!9rwq3y1Rj5CKjAcj"
+}

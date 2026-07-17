@@ -1,0 +1,338 @@
+{
+  "name": "light-spell-Okssana Fang",
+  "type": "familiar",
+  "img": "assets/token-portrait/spells/light.webp",
+  "system": {
+    "_migration": {
+      "version": 0.953,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.7.4"
+      }
+    },
+    "master": {
+      "id": null,
+      "ability": null
+    },
+    "attributes": {
+      "hp": {
+        "value": 0,
+        "temp": 0
+      }
+    },
+    "details": {
+      "creature": {
+        "value": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "conversation-hud": {
+        "excludeFromBeingPulled": false,
+        "linkedConversation": ""
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": 1,
+        "RiderPositioningFlag": "RowPlacement",
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": false,
+        "SpawnRidersFlag": "",
+        "WorldMEffectOverrideFlag": false,
+        "MountingEffectsFlag": "",
+        "SelfApplyEffectsFlag": false,
+        "forMountEffectsFlag": "",
+        "CanbePilotedFlag": false,
+        "CheckPilotedCollisionFlag": false,
+        "PilotedbyDefaultFlag": false
+      }
+    },
+    "height": 0.5,
+    "width": 0.5,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "light-spell",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/spells/light.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.35,
+      "angle": 360,
+      "bright": 20,
+      "color": "#fdf1ac",
+      "coloration": 10,
+      "dim": 40,
+      "attenuation": 0.5,
+      "luminosity": 0.45,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": "starlight",
+        "speed": 1,
+        "intensity": 2,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "ownership": {
+    "Gj408LQBW4tjxZEu": 3,
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "_id": "Mbus09k9lv5Ae9Er",
+  "items": [],
+  "effects": [],
+  "folder": "fN9sDcDg5q0ke4rr",
+  "sort": 100000,
+  "flags": {
+    "sequencer": {
+      "effects": [
+        [
+          "nBcQZESptQj3wCNo",
+          {
+            "_id": "nBcQZESptQj3wCNo",
+            "flagVersion": "3.2.1",
+            "sequenceId": "lSxyMkDIb6xJGs6a",
+            "creationTimestamp": 1759742408795,
+            "sceneId": "pPlNGkAgTYtzWyzd",
+            "creatorUserId": "sDmTHDFOKZoe85XE",
+            "moduleName": "Automated Animations",
+            "users": false,
+            "name": "Effect: Marshal's AuraqkLEhwE6JHxFJ0oA",
+            "origin": "Actor.Mbus09k9lv5Ae9Er.Item.zzLwcJIhS2XmRFe9",
+            "index": 1,
+            "repetition": 0,
+            "private": null,
+            "temporary": false,
+            "tiedDocuments": [
+              "Actor.Mbus09k9lv5Ae9Er.Item.zzLwcJIhS2XmRFe9"
+            ],
+            "source": "Scene.pPlNGkAgTYtzWyzd.Token.qkLEhwE6JHxFJ0oA",
+            "target": false,
+            "rotateTowards": null,
+            "stretchTo": false,
+            "moveTowards": false,
+            "attachTo": {
+              "active": true,
+              "align": "center",
+              "edge": "on",
+              "bindVisibility": true,
+              "bindAlpha": true,
+              "bindScale": true,
+              "bindElevation": true,
+              "bindRotation": true
+            },
+            "missed": null,
+            "file": "autoanimations.static.conditions.shields.03.blue.0",
+            "customRange": false,
+            "forcedIndex": false,
+            "fileOptions": {
+              "antialiasing": 1
+            },
+            "text": null,
+            "tilingTexture": null,
+            "masks": [],
+            "shapes": [],
+            "volume": null,
+            "isometric": null,
+            "syncGroup": null,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "spriteScale": {
+              "x": 1,
+              "y": 1
+            },
+            "angle": null,
+            "size": {
+              "width": 0.75,
+              "height": 0.75,
+              "gridUnits": true
+            },
+            "offset": null,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "spriteOffset": null,
+            "spriteAnchor": null,
+            "template": null,
+            "zeroSpriteRotation": null,
+            "randomOffset": {
+              "source": false,
+              "target": false
+            },
+            "randomRotation": null,
+            "scaleToObject": null,
+            "elevation": {
+              "elevation": 999,
+              "absolute": false
+            },
+            "sortLayer": 800,
+            "aboveLighting": null,
+            "aboveInterface": null,
+            "xray": null,
+            "zIndex": 1,
+            "opacity": 1,
+            "filters": null,
+            "loopOptions": null,
+            "spriteRotation": 0,
+            "randomSpriteRotation": false,
+            "flipX": null,
+            "flipY": null,
+            "duration": false,
+            "persist": true,
+            "persistOptions": {
+              "id": "ipFu9MF8FyguDE7x",
+              "persistTokenPrototype": true
+            },
+            "playbackRate": 1,
+            "extraEndDuration": null,
+            "time": false,
+            "moves": null,
+            "moveSpeed": null,
+            "fadeIn": {
+              "duration": 250,
+              "ease": "linear",
+              "delay": 0
+            },
+            "fadeOut": {
+              "duration": 500,
+              "ease": "linear",
+              "delay": 0
+            },
+            "scaleIn": null,
+            "scaleOut": null,
+            "rotateIn": null,
+            "rotateOut": null,
+            "fadeInAudio": null,
+            "fadeOutAudio": null,
+            "animations": null,
+            "screenSpace": null,
+            "screenSpaceAboveUI": null,
+            "screenSpaceAnchor": null,
+            "screenSpacePosition": null,
+            "screenSpaceScale": null,
+            "nameOffsetMap": {
+              "Effect: Marshal's AuraqkLEhwE6JHxFJ0oA": {
+                "seed": "Effect: Marshal's AuraqkLEhwE6JHxFJ0oA-GezhBJ0mzEXcHgyw",
+                "source": "Scene.pPlNGkAgTYtzWyzd.Token.qkLEhwE6JHxFJ0oA",
+                "target": false,
+                "randomOffset": {
+                  "source": false,
+                  "target": false
+                },
+                "angle": null,
+                "randomRotation": null,
+                "mirrorX": null,
+                "mirrorY": null,
+                "missed": null,
+                "offset": null,
+                "repetitions": 1,
+                "twister": {}
+              }
+            }
+          }
+        ]
+      ]
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1766449342667,
+    "modifiedTime": 1766449342667,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!actors!Mbus09k9lv5Ae9Er"
+}

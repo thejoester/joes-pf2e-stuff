@@ -1,0 +1,22 @@
+{
+  "name": "spells",
+  "sorting": "a",
+  "folder": "DOxs6f3VZyj9iWqW",
+  "type": "Actor",
+  "_id": "fN9sDcDg5q0ke4rr",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "lastModifiedBy": "sDmTHDFOKZoe85XE",
+    "modifiedTime": 1766449342738
+  },
+  "_key": "!folders!fN9sDcDg5q0ke4rr"
+}

@@ -1,0 +1,127 @@
+{
+  "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+  "name": "Healing Potion (Lesser, Reliable)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p><hr /><p>A <em>healing potion</em> is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a <em>healing potion</em>, you regain @Damage[(1d8+13)[healing]] Hit Points.</p>"
+    },
+    "rules": [],
+    "slug": "healing-potion-lesser",
+    "_migration": {
+      "version": 0.955,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "consumable",
+        "healing",
+        "magical",
+        "potion",
+        "vitality"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Home Brew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 20
+      },
+      "per": 1
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Liquid",
+        "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "potion",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": false
+    },
+    "damage": {
+      "formula": "1d8+13",
+      "kind": "healing",
+      "type": "vitality"
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "spell": null
+  },
+  "type": "consumable",
+  "flags": {
+    "core": {},
+    "monks-enhanced-journal": {
+      "quantity": 10,
+      "price": "16 gp",
+      "hide": false,
+      "lock": false,
+      "parentId": "e0vSAQfxhHauiAoD",
+      "cost": "144 sp",
+      "consumable": false
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "ownership": {
+    "default": 0,
+    "CLMiGpsYVSTK4VM8": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.11.2",
+    "createdTime": 1773738016170,
+    "modifiedTime": 1773738640027,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_id": "nAQUSLQPQRk0LQu6",
+  "sort": 300000,
+  "_key": "!items!nAQUSLQPQRk0LQu6"
+}

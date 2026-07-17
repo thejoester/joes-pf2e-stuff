@@ -1,0 +1,2072 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "conversation-hud": {
+        "excludeFromBeingPulled": false,
+        "linkedConversation": ""
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Fang",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/km-mon/wolf-t.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "oKQDKm8oGtKzDkCU",
+  "name": "Fang",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "4OxmCTl4SRWjHy9X": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 96,
+        "temp": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 9
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 210,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.953,
+      "previous": {
+        "schema": 0.952,
+        "foundry": "13.351",
+        "system": "7.7.4"
+      }
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "5": []
+        }
+      }
+    }
+  },
+  "_id": "apQY5FC15nhpOLI4",
+  "img": "assets/token-portrait/km-mon/wolf-t.webp",
+  "items": [
+    {
+      "name": "Wolf",
+      "type": "ancestry",
+      "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 5400000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "animalCompanion": {
+              "id": "HVVGzfNFtbHWDOmN",
+              "onDelete": "detach"
+            },
+            "wolfSupportBenefit": {
+              "id": "FYxNG2QlUSlcPElj",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your companion is a wolf or other canine creature, such as a dog.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 40 feet</p>\n<p><strong>Support Benefit</strong> Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a -5-foot status penalty to its Speeds for 1 minute (-10 on a critical success).</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.xssFjTXqGlsaddvl]{Knockdown}</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 3,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.survival.rank"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+            "allowDuplicate": false,
+            "flag": "animalCompanion"
+          },
+          {
+            "acuity": "imprecise",
+            "key": "Sense",
+            "range": 30,
+            "selector": "scent"
+          },
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "piercing",
+                "dice": 1,
+                "die": "d8"
+              }
+            },
+            "group": "brawling",
+            "key": "Strike",
+            "label": "PF2E.Weapon.Base.jaws",
+            "range": null,
+            "traits": [
+              "unarmed",
+              "finesse"
+            ],
+            "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+            "replaceBasicUnarmed": true
+          },
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "self:ancestry:wolf",
+            "priority": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+            "allowDuplicate": false,
+            "flag": "wolfSupportBenefit"
+          }
+        ],
+        "slug": "wolf",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "animal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "hp": 6,
+        "size": "sm",
+        "hands": 2,
+        "reach": 5,
+        "speed": 40,
+        "boosts": {
+          "0": {
+            "value": []
+          },
+          "1": {
+            "value": []
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "low-light-vision",
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "rDxs69lNqIFN75Bl": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.vbBkKVl9tgnVasFU",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "7ddU3dipEHNYUr4e",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.7ddU3dipEHNYUr4e"
+    },
+    {
+      "name": "Animal Companion",
+      "type": "class",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "7ddU3dipEHNYUr4e",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.perception.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.unarmed.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": -4,
+            "mode": "add",
+            "path": "system.abilities.int.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.disableABP",
+            "value": true,
+            "priority": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.int.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.dex.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActorTraits",
+            "add": [
+              "minion"
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.light-barding.rank",
+            "priority": 41,
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.heavy-barding.rank",
+            "priority": 41,
+            "value": 1
+          }
+        ],
+        "slug": "animal-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "keyAbility": {
+          "value": [],
+          "selected": null
+        },
+        "items": {},
+        "hp": 6,
+        "trainedSkills": {
+          "value": [
+            "acrobatics",
+            "athletics"
+          ],
+          "additional": 0
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 1
+        },
+        "attacks": {
+          "simple": 0,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 0,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": []
+        },
+        "classFeatLevels": {
+          "value": []
+        },
+        "generalFeatLevels": {
+          "value": []
+        },
+        "skillFeatLevels": {
+          "value": []
+        },
+        "skillIncreaseLevels": {
+          "value": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "HVVGzfNFtbHWDOmN",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.HVVGzfNFtbHWDOmN"
+    },
+    {
+      "name": "Wolf Support Benefit",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 3400000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "7ddU3dipEHNYUr4e",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p>"
+        },
+        "rules": [],
+        "slug": "wolf-support-benefit",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "WG8TaxGEQOxXBO1S": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "FYxNG2QlUSlcPElj",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.FYxNG2QlUSlcPElj"
+    },
+    {
+      "_id": "POp9fcdQ05kvSOW5",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/tack.webp",
+      "name": "Tack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2.</p>"
+        },
+        "rules": [],
+        "slug": "tack",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 225000,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Bu2xT8NfB6xaeTJa",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.POp9fcdQ05kvSOW5"
+    },
+    {
+      "_id": "Kcste14xZjZn9WbN",
+      "img": "icons/containers/bags/pack-leather-tan.webp",
+      "name": "Saddlebags",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Saddlebags come in a pair. Each can hold up to 3 Bulk of items, and the first 1 Bulk of items in each doesn't count against your mount's Bulk limit. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk.</p>"
+        },
+        "rules": [],
+        "slug": "saddlebags",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0,
+          "heldOrStowed": 1,
+          "capacity": 6,
+          "ignored": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "collapsed": false,
+        "stowing": true,
+        "usage": {
+          "value": "worn"
+        }
+      },
+      "type": "backpack",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mBziC8v2eOtTs0f5",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.Kcste14xZjZn9WbN"
+    },
+    {
+      "_id": "Kj0cdp710TWSGcd6",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scouting (Scout Dedication)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-scout-dedication",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -446601902,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false,
+        "fromSpell": false
+      },
+      "type": "effect",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.Kj0cdp710TWSGcd6"
+    },
+    {
+      "_id": "0M2swlrypRQsWJd8",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "name": "Healing Potion (Lesser)",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain [[/r (2d8+5)[healing]]]{2d8+5 Hit Points}.</p>"
+        },
+        "rules": [],
+        "slug": "healing-potion-lesser",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "magical",
+            "potion",
+            "vitality"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "Kcste14xZjZn9WbN",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": {
+          "formula": "2d8+5",
+          "kind": "healing",
+          "type": "vitality"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.0M2swlrypRQsWJd8"
+    },
+    {
+      "_id": "Ywz6LuB7i4peoGXU",
+      "name": "Mature Animal Companion",
+      "type": "feat",
+      "img": "systems/pf2e/icons/spells/animal-form-bear.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>When you advance a young animal companion to a mature animal companion:</p><ul><li>If your companion is Medium or smaller, it grows by one size.</li><li>Increase its Strength, Dexterity, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency rank for Perception and all saving throws to expert. Increase its proficiency ranks in Intimidation, Stealth, and Survival to trained, and if it was already trained in one of those skills from its type, increase its proficiency rank in that skill to expert.</li><li>Increase its unarmed attack damage from one die to two dice (for instance 1d8 to 2d8)</li></ul>"
+        },
+        "rules": [
+          {
+            "key": "CreatureSize",
+            "value": 1,
+            "maximumSize": "lg"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.intimidation.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.stealth.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.survival.rank"
+          },
+          {
+            "key": "DamageAlteration",
+            "selectors": [
+              "unarmed-damage"
+            ],
+            "value": 2,
+            "mode": "upgrade",
+            "property": "dice-number",
+            "predicate": [
+              "dice:slug:base"
+            ]
+          }
+        ],
+        "slug": "mature-animal-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestryfeature",
+        "subfeatures": {
+          "proficiencies": {
+            "perception": {
+              "rank": 2,
+              "attribute": null
+            },
+            "fortitude": {
+              "rank": 2,
+              "attribute": null
+            },
+            "reflex": {
+              "rank": 2,
+              "attribute": null
+            },
+            "will": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "L46TYcXAUKb2dhwY": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.K3c8ztEUX27RHeZe",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.Ywz6LuB7i4peoGXU"
+    },
+    {
+      "img": "icons/weapons/crossbows/crossbow-simple-brown.webp",
+      "name": "Crossbow",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This ranged weapon has a bow-like assembly mounted on a handled frame called a tiller. The tiller has a mechanism to lock the bowstring in place, attached to a trigger mechanism that releases the tension and launches a bolt.</p>"
+        },
+        "rules": [],
+        "slug": "crossbow",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": "crossbow",
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-two-hands"
+        },
+        "category": "simple",
+        "group": "crossbow",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d8",
+          "damageType": "piercing",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": 120,
+        "expend": 1,
+        "ammo": {
+          "capacity": 1,
+          "baseType": "bolts",
+          "builtIn": false
+        },
+        "reload": {
+          "value": "1"
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.62nnVQvGhoVLLl2K",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "flags": {},
+      "_id": "d9pZZozwyNfw0e9w",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.d9pZZozwyNfw0e9w"
+    },
+    {
+      "_id": "dOs6JtH3lwyWkCuN",
+      "folder": "No8hXlgNF4OcRjqq",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Mature Trained Companion",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>Your animal companion grows up, becoming a mature animal companion. Increase its proficiency rank in Performance to expert instead of one of the three skill increases for mature. It gains the @UUID[Compendium.pf2e.adventure-specific-actions.Item.jwo5CvftA5puYp7i]{Mesmerizing Performance} advanced maneuver, rather than the normal advanced maneuver for its type.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6,
+          "taken": 6
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Animal Trainer Dedication"
+            }
+          ]
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder #152: Legacy of the Lost God",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "uncommon",
+          "value": [
+            "archetype"
+          ],
+          "otherTags": []
+        },
+        "slug": "mature-trained-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "archetype-6"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.n3eOMWQd4kdR3A0l",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!apQY5FC15nhpOLI4.dOs6JtH3lwyWkCuN"
+    },
+    {
+      "img": "systems/pf2e/icons/conditions/concealed.webp",
+      "name": "Concealed",
+      "system": {
+        "description": {
+          "value": "<p>You are difficult for one or more creatures to see due to thick fog or some other obscuring feature. You can be concealed to some creatures but not others. While concealed, you can still be @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observed}, but you're tougher to target. A creature that you're concealed from must succeed at a @Check[flat|showDC:all|dc:5] when targeting you with an attack, spell, or other effect. If the check fails, you aren't affected. Area effects aren't subject to this flat check.</p>",
+          "gm": ""
+        },
+        "group": "senses",
+        "overrides": [],
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "references": {
+          "children": [],
+          "overriddenBy": [],
+          "overrides": [],
+          "parent": null
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "value": {
+          "isValued": false,
+          "value": null
+        },
+        "slug": "concealed",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "fromSpell": false,
+        "persistent": null
+      },
+      "type": "condition",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "EaaxkUx7b3kHzJdx",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.EaaxkUx7b3kHzJdx"
+    },
+    {
+      "_id": "llNmdBuBBz7krkMF",
+      "name": "Nimble Animal Companion",
+      "type": "feat",
+      "img": "systems/pf2e/icons/spells/commune-with-nature.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "advancedManeuver": {
+              "id": "5wXvFfk5xJSTAg0L",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>To advance a mature animal companion to a nimble animal companion:</p><ul><li>Increase its Dexterity modifier by 2 and its Strength, Constitution, and Wisdom modifiers by 1.</li><li>Increase its proficiency ranks in Acrobatics to expert.</li><li>It deals 2 additional damage with its unarmed attacks. Its attacks become magical for the purpose of ignoring resistances.</li><li>It learns the advanced maneuver for its type.</li></ul>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "upgrade",
+            "path": "system.skills.acrobatics.rank"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "unarmed-damage",
+            "value": 2,
+            "slug": "companion-additional-damage"
+          },
+          {
+            "key": "ItemAlteration",
+            "mode": "add",
+            "property": "traits",
+            "value": "magical",
+            "predicate": [
+              "item:category:unarmed"
+            ],
+            "itemType": "weapon"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+            "allowDuplicate": false,
+            "flag": "advancedManeuver"
+          }
+        ],
+        "slug": "nimble-animal-companion",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 8,
+          "taken": 8
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestryfeature",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.89eT819I4MYWndcu",
+        "duplicateSource": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        },
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.llNmdBuBBz7krkMF"
+    },
+    {
+      "name": "Advanced Maneuver",
+      "type": "feat",
+      "img": "systems/pf2e/icons/default-icons/feats.webp",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "llNmdBuBBz7krkMF",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "{actor|flags.pf2e.companionCompendia.advancedManeuver}"
+          }
+        ],
+        "slug": "advanced-maneuver",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.952,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 14
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "folder": null,
+      "sort": 3800000,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_id": "5wXvFfk5xJSTAg0L",
+      "_key": "!actors.items!apQY5FC15nhpOLI4.5wXvFfk5xJSTAg0L"
+    },
+    {
+      "_id": "49jxahMRqtGJG1Ts",
+      "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+      "name": "Effect: Marshal's Aura",
+      "system": {
+        "description": {
+          "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.MYzRfNExDYp25rro]{Marshal Dedication}</p>\n<p>You gain a +1 status bonus to saving throws against fear.</p>",
+          "gm": ""
+        },
+        "duration": {
+          "expiry": null,
+          "sustained": false,
+          "unit": "unlimited",
+          "value": -1
+        },
+        "level": {
+          "value": 2
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.GenericLabel.ItemVs.Fear",
+            "predicate": [
+              "item:trait:fear"
+            ],
+            "selector": "saving-throw",
+            "type": "status",
+            "value": 1
+          }
+        ],
+        "start": {
+          "value": 148653995777,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": true
+        },
+        "traits": {
+          "value": [
+            "emotion",
+            "mental",
+            "visual"
+          ],
+          "otherTags": []
+        },
+        "slug": "effect-marshals-aura",
+        "_migration": {
+          "version": 0.953,
+          "previous": null
+        },
+        "unidentified": false,
+        "badge": null,
+        "fromSpell": false,
+        "context": {
+          "target": null,
+          "origin": {
+            "actor": "Actor.Al1bvw1xgIzovgf2",
+            "token": "Scene.7tNLv9S2URrCyPLK.Token.VghA0h2ijTa8XHPU",
+            "item": null,
+            "spellcasting": null,
+            "rollOptions": []
+          },
+          "roll": null
+        }
+      },
+      "type": "effect",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feat-effects.Item.Ru4BNABCZ0hUbX7S",
+        "duplicateSource": "Compendium.pf2e.feat-effects.Item.Ru4BNABCZ0hUbX7S",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "pf2e": {
+          "aura": {
+            "slug": "marshals-aura",
+            "origin": "Actor.Al1bvw1xgIzovgf2",
+            "removeOnExit": true
+          }
+        }
+      },
+      "_key": "!actors.items!apQY5FC15nhpOLI4.49jxahMRqtGJG1Ts"
+    }
+  ],
+  "sort": 325000,
+  "flags": {
+    "pf2e": {
+      "freeCrafting": false,
+      "dailyCraftingComplete": false,
+      "sheetTabs": {
+        "pfs": false,
+        "biography": false,
+        "crafting": false,
+        "spellcasting": false
+      }
+    },
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": []
+      }
+    },
+    "sequencer": {
+      "effects": [
+        [
+          "FEcfLbUMBCtOFYap",
+          {
+            "_id": "FEcfLbUMBCtOFYap",
+            "flagVersion": "3.2.1",
+            "sequenceId": "eJU7HBctMvL3T2w0",
+            "creationTimestamp": 1765452773314,
+            "sceneId": "7tNLv9S2URrCyPLK",
+            "creatorUserId": "sDmTHDFOKZoe85XE",
+            "moduleName": "Automated Animations",
+            "users": false,
+            "name": "Effect: Marshal's AuraLCX7GwQBkJ5xh5AN",
+            "origin": "Actor.apQY5FC15nhpOLI4.Item.49jxahMRqtGJG1Ts",
+            "index": 1,
+            "repetition": 0,
+            "private": null,
+            "temporary": false,
+            "tiedDocuments": [
+              "Actor.apQY5FC15nhpOLI4.Item.49jxahMRqtGJG1Ts"
+            ],
+            "source": "Scene.7tNLv9S2URrCyPLK.Token.LCX7GwQBkJ5xh5AN",
+            "target": false,
+            "rotateTowards": null,
+            "stretchTo": false,
+            "moveTowards": false,
+            "attachTo": {
+              "active": true,
+              "align": "center",
+              "edge": "on",
+              "bindVisibility": true,
+              "bindAlpha": true,
+              "bindScale": true,
+              "bindElevation": true,
+              "bindRotation": true
+            },
+            "missed": null,
+            "file": "autoanimations.static.conditions.shields.03.blue.0",
+            "customRange": false,
+            "forcedIndex": false,
+            "fileOptions": {
+              "antialiasing": 1
+            },
+            "text": null,
+            "tilingTexture": null,
+            "masks": [],
+            "shapes": [],
+            "volume": null,
+            "isometric": null,
+            "syncGroup": null,
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "spriteScale": {
+              "x": 1,
+              "y": 1
+            },
+            "angle": null,
+            "size": {
+              "width": 1.5,
+              "height": 1.5,
+              "gridUnits": true
+            },
+            "offset": null,
+            "anchor": {
+              "x": 0.5,
+              "y": 0.5
+            },
+            "spriteOffset": null,
+            "spriteAnchor": null,
+            "template": null,
+            "zeroSpriteRotation": null,
+            "randomOffset": {
+              "source": false,
+              "target": false
+            },
+            "randomRotation": null,
+            "scaleToObject": null,
+            "elevation": {
+              "elevation": 999,
+              "absolute": false
+            },
+            "sortLayer": 800,
+            "aboveLighting": null,
+            "aboveInterface": null,
+            "xray": null,
+            "zIndex": 1,
+            "opacity": 1,
+            "filters": null,
+            "loopOptions": null,
+            "spriteRotation": 0,
+            "randomSpriteRotation": false,
+            "flipX": null,
+            "flipY": null,
+            "duration": false,
+            "persist": true,
+            "persistOptions": {
+              "id": "rzB9vbmIQDPyEULC",
+              "persistTokenPrototype": true
+            },
+            "playbackRate": 1,
+            "extraEndDuration": null,
+            "time": false,
+            "moves": null,
+            "moveSpeed": null,
+            "fadeIn": {
+              "duration": 250,
+              "ease": "linear",
+              "delay": 0
+            },
+            "fadeOut": {
+              "duration": 500,
+              "ease": "linear",
+              "delay": 0
+            },
+            "scaleIn": null,
+            "scaleOut": null,
+            "rotateIn": null,
+            "rotateOut": null,
+            "fadeInAudio": null,
+            "fadeOutAudio": null,
+            "animations": null,
+            "screenSpace": null,
+            "screenSpaceAboveUI": null,
+            "screenSpaceAnchor": null,
+            "screenSpacePosition": null,
+            "screenSpaceScale": null,
+            "nameOffsetMap": {
+              "Effect: Marshal's AuraLCX7GwQBkJ5xh5AN": {
+                "seed": "Effect: Marshal's AuraLCX7GwQBkJ5xh5AN-e7FCbrFpkVsQwUyz",
+                "source": "Scene.7tNLv9S2URrCyPLK.Token.LCX7GwQBkJ5xh5AN",
+                "target": false,
+                "randomOffset": {
+                  "source": false,
+                  "target": false
+                },
+                "angle": null,
+                "randomRotation": null,
+                "mirrorX": null,
+                "mirrorY": null,
+                "missed": null,
+                "offset": null,
+                "repetitions": 1,
+                "twister": {}
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "pf2e-dailies": {
+      "rested": true
+    },
+    "pf2e-creature-sounds": {
+      "soundset": "Dog"
+    },
+    "pf2e-hud": {
+      "persistent": {
+        "shortcuts": {
+          "sDmTHDFOKZoe85XE": [
+            {
+              "0": {
+                "0": {
+                  "type": "attack",
+                  "index": "0",
+                  "variant": false,
+                  "groupIndex": "0",
+                  "itemId": "7ddU3dipEHNYUr4e",
+                  "slug": "jaws",
+                  "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+                  "name": "Strike: Jaws"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1766449328196,
+    "modifiedTime": 1766449328196,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE"
+  },
+  "_key": "!actors!apQY5FC15nhpOLI4"
+}

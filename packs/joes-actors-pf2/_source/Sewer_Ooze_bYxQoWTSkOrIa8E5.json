@@ -1,0 +1,619 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "name": "Sewer Ooze",
+    "actorLink": false,
+    "texture": {
+      "src": "assets/token-portrait/npc/sewer-ooze.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "monks-little-details": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": "",
+        "bloodsplat-colour": ""
+      },
+      "perfect-vision": {
+        "sight": {
+          "range": null
+        },
+        "light": {
+          "resolution": 1
+        }
+      },
+      "core": {
+        "priority": null
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5
+      }
+    },
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "assets/token-portrait/npc/sewer-ooze.webp",
+  "items": [
+    {
+      "_id": "YXsM6AcguDWAwVIt",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "name": "Pseudopod",
+      "sort": 100000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "source": {
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:11.139-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "traits": {
+          "value": [],
+          "rarity": "common"
+        },
+        "weaponType": {
+          "value": "melee"
+        },
+        "attack": {
+          "value": ""
+        },
+        "damageRolls": {
+          "t7q0iqdlzzd1y5zle9p2": {
+            "damage": "1d6+1",
+            "damageType": "bludgeoning"
+          },
+          "wozsa0yc2wmz8e7vfsgg": {
+            "damage": "1d4",
+            "damageType": "acid"
+          }
+        },
+        "bonus": {
+          "value": 9
+        },
+        "attackEffects": {
+          "value": [],
+          "custom": ""
+        }
+      },
+      "type": "melee",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!bYxQoWTSkOrIa8E5.YXsM6AcguDWAwVIt"
+    },
+    {
+      "_id": "VwrlDdZczBGO5Ps4",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Motion Sense 60 feet",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A sewer ooze can sense nearby motion through vibration and air movement.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:11.139-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!bYxQoWTSkOrIa8E5.VwrlDdZczBGO5Ps4"
+    },
+    {
+      "_id": "mdqK7RuSjtezVyS8",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Filth Wave",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> The sewer ooze unleashes a wave of filth, covering all creatures within a @Template[type:emanation|distance:20]. Each creature in the area must succeed at a @Check[type:reflex|dc:17|traits:damaging-effect] save or take [[/r 1d4[acid]]] damage and take a -10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}).</p>\n<p>A creature can spend an Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{Effect: Filth Wave}</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false,
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:11.139-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "requirements": {
+          "value": ""
+        },
+        "trigger": {
+          "value": ""
+        },
+        "weapon": {
+          "value": ""
+        }
+      },
+      "type": "action",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!bYxQoWTSkOrIa8E5.mdqK7RuSjtezVyS8"
+    },
+    {
+      "_id": "iUzYuqnjkPvxjVq6",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Stealth",
+      "sort": 400000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SkillVariant.Sewers",
+            "predicate": [
+              "terrain:sewer"
+            ],
+            "selector": "stealth",
+            "value": 2
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": null,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": [],
+          "rarity": "common",
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 1
+        },
+        "proficient": {
+          "value": 0
+        },
+        "source": {
+          "value": ""
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-26T22:36:11.139-06:00",
+            "version": {
+              "schema": 0.844,
+              "foundry": "11.305",
+              "system": "5.1.2"
+            }
+          }
+        },
+        "variants": {
+          "0": {
+            "label": "+4 in sewers",
+            "options": "terrain:sewer"
+          }
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": null,
+        "systemVersion": null,
+        "coreVersion": "13.345",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!bYxQoWTSkOrIa8E5.iUzYuqnjkPvxjVq6"
+    }
+  ],
+  "name": "Sewer Ooze",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 40,
+        "temp": 0,
+        "max": 40,
+        "details": ""
+      },
+      "ac": {
+        "value": 8,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
+      "speed": {
+        "value": 10,
+        "otherSpeeds": [],
+        "details": ""
+      },
+      "initiative": {
+        "statistic": "perception"
+      },
+      "perception": {
+        "value": 3
+      },
+      "immunities": [
+        {
+          "type": "acid"
+        },
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "precision"
+        },
+        {
+          "type": "unconscious"
+        },
+        {
+          "type": "visual"
+        }
+      ]
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 1
+      },
+      "blurb": "",
+      "publicNotes": "<p>These amorphous masses of sewage and other detritus make their way through filthy culverts beneath cities large and small.</p>\n<hr />\n<p>Slimes, molds, and other oozes can be found in dank dungeons and shadowed forests. While not necessarily evil, some grow to enormous sizes and have insatiable appetites.</p>",
+      "privateNotes": "",
+      "publication": {
+        "title": "",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      },
+      "alignment": {
+        "value": "N"
+      },
+      "source": {
+        "value": "Pathfinder Bestiary",
+        "author": ""
+      },
+      "creatureType": "Ooze"
+    },
+    "resources": {},
+    "_migration": {
+      "version": null,
+      "previous": null
+    },
+    "abilities": {
+      "str": {
+        "mod": 2
+      },
+      "dex": {
+        "mod": -5
+      },
+      "con": {
+        "mod": 4
+      },
+      "int": {
+        "mod": -5
+      },
+      "wis": {
+        "mod": 0
+      },
+      "cha": {
+        "mod": -5
+      }
+    },
+    "perception": {
+      "details": "",
+      "mod": 0,
+      "senses": [],
+      "vision": true
+    },
+    "saves": {
+      "fortitude": {
+        "value": 9,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 1,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 3,
+        "saveDetail": ""
+      }
+    },
+    "skills": {},
+    "traits": {
+      "value": [
+        "mindless",
+        "ooze"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      },
+      "senses": {
+        "value": "motion sense 60 feet, no vision"
+      },
+      "languages": {
+        "value": [],
+        "selected": [],
+        "custom": ""
+      }
+    },
+    "schema": {
+      "version": 0.845,
+      "lastMigration": {
+        "datetime": "2023-06-26T22:36:11.139-06:00",
+        "version": {
+          "schema": 0.844,
+          "foundry": "11.305",
+          "system": "5.1.2"
+        }
+      }
+    }
+  },
+  "type": "npc",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "utguYRl2DG6RBtKC",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "OGrPXnPX5XDmb5js": 3
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "13.351",
+    "createdTime": 1675930203797,
+    "modifiedTime": 1784272822725,
+    "lastModifiedBy": "fAtWnRfzFoHAJ5lR",
+    "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.Hkq9ZS2J2iKnT7vT",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_id": "bYxQoWTSkOrIa8E5",
+  "_key": "!actors!bYxQoWTSkOrIa8E5"
+}

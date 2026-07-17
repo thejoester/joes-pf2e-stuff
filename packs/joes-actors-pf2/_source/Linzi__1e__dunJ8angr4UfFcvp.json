@@ -1,0 +1,5224 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "disposition": -1,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Linzi",
+    "actorLink": true,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/linzi.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "width": 1,
+    "height": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "randomImg": true,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "img": "modules/pf2e-kingmaker/assets/actor-portraits/kingmaker/linzi.webp",
+  "items": [
+    {
+      "_id": "nfhcm4crYeyu1C30",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/features/ancestry/gutsy-halfling.webp",
+      "name": "Gutsy Halfling",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your family line is known for keeping a level head and staving off fear when the chips were down, making them wise leaders and sometimes even heroes. When you roll a success on a saving throw against an emotion effect, you get a critical success instead.</p>"
+        },
+        "rules": [
+          {
+            "adjustment": {
+              "success": "one-degree-better"
+            },
+            "key": "AdjustDegreeOfSuccess",
+            "predicate": [
+              "emotion"
+            ],
+            "selector": "saving-throw",
+            "type": "save"
+          }
+        ],
+        "slug": "gutsy-halfling",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ancestry": {
+          "name": "Halfling",
+          "slug": "halfling",
+          "uuid": "Compendium.pf2e.ancestries.Item.GgZAHbrjnzWOZy2v"
+        }
+      },
+      "type": "heritage",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.heritages.Item.Eq42wZ5OTweJLnLU",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.nfhcm4crYeyu1C30"
+    },
+    {
+      "_id": "URNjoamTfeJ1LbOd",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Artist",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your art is your greatest passion, whatever form it takes. Adventuring might help you find inspiration, or simply be a way to survive until you become a world-famous artist.</p>\n<p>Choose two ability boosts. One must be to <strong>Dexterity</strong> or <strong>Charisma</strong>, and one is a free ability boost.</p>\n<p>You're trained in the Crafting skill and the Art Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "artist",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "dex"
+            ],
+            "selected": "cha"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          }
+        },
+        "items": {
+          "m0e3x": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Specialty Crafting",
+            "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "crafting"
+          ],
+          "lore": [
+            "Art Lore"
+          ]
+        }
+      },
+      "type": "background",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.backgrounds.Item.y9OyNsxGfmjqdcP0",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.URNjoamTfeJ1LbOd"
+    },
+    {
+      "_id": "8sf1JVvIKB5pgus0",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Specialty Crafting (Artistry)",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your training focused on Crafting one particular kind of item. Select one of the specialties listed below; you gain a +1 circumstance bonus to Crafting checks to Craft items of that type. If you are a master in Crafting, this bonus increases to +2. If it's unclear whether the specialty applies, the GM decides. Some specialties might apply only partially. For example, if you were making a morningstar and had specialty in woodworking, the GM might give you half your bonus because the item requires both blacksmithing and woodworking.</p>\n<table class=\"pf2e\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>Specialty</th>\n<th>Applicable Items</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alchemy*</td>\n<td>Alchemical items such as elixirs</td>\n</tr>\n<tr>\n<td>Artistry</td>\n<td>Fine art, including jewelry</td>\n</tr>\n<tr>\n<td>Blacksmithing</td>\n<td>Durable metal goods, including metal armor</td>\n</tr>\n<tr>\n<td>Bookmaking</td>\n<td>Books and paper</td>\n</tr>\n<tr>\n<td>Glassmaking</td>\n<td>Glass, including glassware and windows</td>\n</tr>\n<tr>\n<td>Leatherworking</td>\n<td>Leather goods, including leather armor</td>\n</tr>\n<tr>\n<td>Pottery</td>\n<td>Ceramic goods</td>\n</tr>\n<tr>\n<td>Shipbuilding</td>\n<td>Ships and boats</td>\n</tr>\n<tr>\n<td>Stonemasonry</td>\n<td>Stone goods and structures</td>\n</tr>\n<tr>\n<td>Tailoring</td>\n<td>Clothing</td>\n</tr>\n<tr>\n<td>Weaving</td>\n<td>Textiles, baskets, and rugs</td>\n</tr>\n<tr>\n<td>Woodworking</td>\n<td>Wooden goods and structures</td>\n</tr>\n</tbody>\n</table>\n<p>* You must have the Alchemical Crafting skill feat to Craft alchemical items.</p>"
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Alchemy",
+                "value": "alchemy"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Artistry",
+                "value": "artistry"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Blacksmithing",
+                "value": "blacksmithing"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Bookmaking",
+                "value": "bookmaking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Glassmaking",
+                "value": "glassmaking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Leatherworking",
+                "value": "leatherworking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Pottery",
+                "value": "pottery"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Shipbuilding",
+                "value": "shipbuilding"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Stonemasonry",
+                "value": "stonemasonry"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Tailoring",
+                "value": "tailoring"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Weaving",
+                "value": "weaving"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Woodworking",
+                "value": "woodworking"
+              }
+            ],
+            "flag": "specialtyCrafting",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.SpecialtyCrafting.Prompt",
+            "selection": "artistry"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:craft",
+              "{item|flags.pf2e.rulesSelections.specialtyCrafting}"
+            ],
+            "selector": "crafting",
+            "type": "circumstance",
+            "value": {
+              "brackets": [
+                {
+                  "end": 4,
+                  "start": 3,
+                  "value": 2
+                },
+                {
+                  "end": 2,
+                  "start": 1,
+                  "value": 1
+                }
+              ],
+              "field": "actor|system.skills.crafting.rank"
+            }
+          }
+        ],
+        "slug": "specialty-crafting",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Crafting"
+            }
+          ]
+        },
+        "location": "URNjoamTfeJ1LbOd",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.8sf1JVvIKB5pgus0"
+    },
+    {
+      "_id": "TWA2MXZuX91plGrL",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Art Lore",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.TWA2MXZuX91plGrL"
+    },
+    {
+      "_id": "0UqqnUjTvhlc7sGv",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "name": "Bardic Lore",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "type": "lore",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.0UqqnUjTvhlc7sGv"
+    },
+    {
+      "_id": "t4BxYpWMm3lEqjxG",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Spontaneous Spells",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": ""
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "prepared": {
+          "value": "spontaneous"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1,
+          "slug": "bard"
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 3,
+            "max": 3
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 3,
+            "max": 3
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 3,
+            "max": 3
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "type": "spellcastingEntry",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.t4BxYpWMm3lEqjxG"
+    },
+    {
+      "_id": "WHf1ffqXBHY4t7DI",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/magic/acid/projectile-smoke-glowing.webp",
+      "name": "Inkshot",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A spray of viscous, toxic ink jets from your fingertip to strike a target creature in the face. Make a spell attack roll against the target. On a hit, you deal 2d6 poison damage, plus you blast the target's eyes, making them @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round as the stinging ink blurs and distorts the creature's vision. On a critical hit, double the poison damage, and the target becomes dazzled for 1 minute by the foul ink.</p>\n<p>The ink stain remains for 1 hour before fading, although vigorous cleansing (or magic such as a prestidigitation cantrip) can remove the ink before then.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> Increase the base poison damage by 2d6.</p>"
+        },
+        "rules": [],
+        "slug": "inkshot",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "concentrate",
+            "manipulate",
+            "poison"
+          ],
+          "rarity": "rare",
+          "traditions": [
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Kingmaker",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "Mk0Ianq2Zs3VT6IK": {
+            "applyMod": false,
+            "category": null,
+            "formula": "2d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "poison"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "Mk0Ianq2Zs3VT6IK": "2d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.MiTFNcqCI9f34A2V",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.WHf1ffqXBHY4t7DI"
+    },
+    {
+      "_id": "dFGiuukQatAOwodT",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/magic/air/air-burst-spiral-teal-green.webp",
+      "name": "Soothe",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You grace the target's mind, boosting its mental defenses and healing its wounds. The target regains 1d10+4 Hit Points when you Cast the Spell and gains a +2 status bonus to saves against mental effects for the duration.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.nkk4O5fyzrC0057i]{Spell Effect: Soothe}</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing increases by 1d10+4.</p>"
+        },
+        "rules": [],
+        "slug": "soothe",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "emotion",
+            "healing",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 willing living creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "category": null,
+            "formula": "1d10+4",
+            "kinds": [
+              "healing"
+            ],
+            "materials": [],
+            "type": "untyped"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 1
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d10+4"
+          },
+          "interval": 1,
+          "type": "interval"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.szIyEsvihc5e1w8n",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.dFGiuukQatAOwodT"
+    },
+    {
+      "_id": "9x0zUbyuvXlkupLn",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/skills/melee/strike-blade-scimitar-gray-red.webp",
+      "name": "True Strike",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A glimpse into the future ensures your next blow strikes true. The next time you make an attack roll before the end of your turn, roll the attack twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell Effect: Sure Strike}</p>"
+        },
+        "rules": [],
+        "slug": "true-strike",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "fortune"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the end of your turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.9x0zUbyuvXlkupLn"
+    },
+    {
+      "_id": "VIytr1apK1yzfX2W",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/ghost-sound.webp",
+      "name": "Ghost Sound",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create an auditory illusion of simple sounds that has a maximum volume equal to four normal humans shouting. The sounds emanate from a square you designate within range. You can't create intelligible words or other intricate sounds (such as music).</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> The range increases to 60 feet.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 120 feet.</p>"
+        },
+        "rules": [],
+        "slug": "ghost-sound",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "cantrip",
+            "concentrate",
+            "illusion",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "range": {
+                "value": "60 feet"
+              }
+            },
+            "5": {
+              "range": {
+                "value": "120 feet"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.VIytr1apK1yzfX2W"
+    },
+    {
+      "_id": "JvIjYtiD8KmAhF1j",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/light.webp",
+      "name": "Light",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The object glows, casting bright light in a 20-foot radius (and dim light for the next 20 feet) like a torch. If you cast this spell again on a second object, the light spell on the first object ends.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ]{Spell Effect: Light}</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The object sheds bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+        },
+        "rules": [],
+        "slug": "light",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "light",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object of 1 Bulk or less, either unattended or possessed by you or a willing ally"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "until the next time you make your daily preparations",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.JvIjYtiD8KmAhF1j"
+    },
+    {
+      "_id": "3n6rBFSwJsWyRqh5",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/mage-hand.webp",
+      "name": "Mage Hand",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You create a single magical hand, either invisible or ghostlike, that grasps the target object and moves it slowly up to 20 feet. Because you're levitating the object, you can move it in any direction. When you Sustain the Spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
+        },
+        "rules": [],
+        "slug": "mage-hand",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 unattended object of light Bulk or less"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 1 or less"
+              }
+            },
+            "5": {
+              "range": {
+                "value": "60 feet"
+              }
+            },
+            "7": {
+              "target": {
+                "value": "1 unattended object with a Bulk of 2 or less"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.3n6rBFSwJsWyRqh5"
+    },
+    {
+      "_id": "zQB4cIjvZCjdjzgJ",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+      "name": "Read Aura",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You focus on the target object, opening your mind to perceive magical auras. When the casting is complete, you know whether that item is magical, and if it is, you learn the school of magic.</p>\n<p>If the object is illusory, you detect this only if the effect's level is lower than the rank of your read aura spell.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target up to 10 objects.</p>\n<p><strong>Heightened (6th)</strong> You can target any number of objects.</p>"
+        },
+        "rules": [],
+        "slug": "read-aura",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "detection",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "1 minute"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "3": {
+              "target": {
+                "value": "10 objects"
+              }
+            },
+            "6": {
+              "target": {
+                "value": "any number of objects"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.zQB4cIjvZCjdjzgJ"
+    },
+    {
+      "_id": "IIzknyopZtnUXibq",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/telekinetic-projectile.webp",
+      "name": "Telekinetic Projectile",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal bludgeoning, piercing, or slashing damage-as appropriate for the object you hurled-equal to 1d6 plus your spellcasting ability modifier. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>"
+        },
+        "rules": [],
+        "slug": "telekinetic-projectile",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "attack",
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {
+          "0": {
+            "applyMod": true,
+            "category": null,
+            "formula": "1d6",
+            "kinds": [
+              "damage"
+            ],
+            "materials": [],
+            "type": "untyped"
+          }
+        },
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false,
+        "heightening": {
+          "damage": {
+            "0": "1d6"
+          },
+          "interval": 1,
+          "type": "interval"
+        },
+        "overlays": {
+          "2I469pfbYcmFvzOA": {
+            "_id": "2I469pfbYcmFvzOA",
+            "name": "Telekinetic Projectile (Bludgeoning)",
+            "overlayType": "override",
+            "sort": 1,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "bludgeoning"
+                }
+              }
+            }
+          },
+          "cUFX7ExSLeoa3vIF": {
+            "_id": "cUFX7ExSLeoa3vIF",
+            "name": "Telekinetic Projectile (Piercing)",
+            "overlayType": "override",
+            "sort": 2,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "piercing"
+                }
+              }
+            }
+          },
+          "zFWsMjoeCnLxqJaV": {
+            "_id": "zFWsMjoeCnLxqJaV",
+            "name": "Telekinetic Projectile (Slashing)",
+            "overlayType": "override",
+            "sort": 3,
+            "system": {
+              "damage": {
+                "0": {
+                  "category": null,
+                  "type": "slashing"
+                }
+              }
+            }
+          }
+        }
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.IIzknyopZtnUXibq"
+    },
+    {
+      "_id": "8Ib2hxgIftGdnnC4",
+      "img": "systems/pf2e/icons/default-icons/spellcastingEntry.svg",
+      "name": "Occult Focus Spells",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "ability": {
+          "value": "cha"
+        },
+        "spelldc": {
+          "value": 0,
+          "dc": 0
+        },
+        "tradition": {
+          "value": "occult"
+        },
+        "prepared": {
+          "value": "focus"
+        },
+        "showSlotlessLevels": {
+          "value": true
+        },
+        "proficiency": {
+          "value": 1,
+          "slug": ""
+        },
+        "slots": {
+          "slot0": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot1": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot2": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot3": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot4": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot5": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot6": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot7": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot8": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot9": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot10": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          },
+          "slot11": {
+            "prepared": [],
+            "value": 0,
+            "max": 0
+          }
+        },
+        "autoHeightenLevel": {
+          "value": null
+        }
+      },
+      "type": "spellcastingEntry",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.8Ib2hxgIftGdnnC4"
+    },
+    {
+      "_id": "rfrZev78Oe4gmL0K",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/spells/counter-performance.webp",
+      "name": "Counter Performance",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> You or an ally within 60 feet rolls a saving throw against an auditory or visual effect.</p>\n<hr />\n<p>Your performance protects you and your allies. Roll a Performance check for a type you know: an auditory performance if the trigger was auditory, or a visual one for a visual trigger. You and allies in the area can use the better result between your Performance check and the saving throw.</p>"
+        },
+        "rules": [],
+        "slug": "counter-performance",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard",
+            "composition",
+            "concentrate",
+            "focus",
+            "fortune",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "uncommon",
+          "traditions": []
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "emanation",
+          "value": 60
+        },
+        "time": {
+          "value": "reaction"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8Ib2hxgIftGdnnC4"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.rfrZev78Oe4gmL0K"
+    },
+    {
+      "_id": "24hRR0w5vSVqxTWO",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Halfling Luck",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You fail a skill check or saving throw.</p>\n<hr />\n<p>Your happy-go-lucky nature makes it seem like misfortune avoids you, and to an extent, that might even be true. You can reroll the triggering check, but you must use the new result, even if it's worse than your first roll.</p>"
+        },
+        "rules": [],
+        "slug": "halfling-luck",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fortune",
+            "halfling"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "category": "ancestry",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "ancestry-1",
+        "frequency": {
+          "max": 1,
+          "per": "day"
+        },
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.ZbRVqf14RTJJIZXG",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.24hRR0w5vSVqxTWO"
+    },
+    {
+      "_id": "laUezsE7KRRImSeJ",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/classes/bard.webp",
+      "name": "Bard",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>You are a master of artistry, a scholar of hidden secrets, and a captivating persuader. Using powerful performances, you influence minds and elevate souls to new levels of heroics. You might use your powers to become a charismatic leader, or perhaps you might instead be a counselor, manipulator, scholar, scoundrel, or virtuoso. While your versatility leads some to consider you a beguiling ne'erdo- well and a jack-of-all-trades, it's dangerous to dismiss you as a master of none.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Bard}</em></p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-longsword.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-rapier.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-sap.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-shortbow.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-shortsword.rank",
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.weapon-base-whip.rank",
+            "value": 1
+          }
+        ],
+        "slug": "bard",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "keyAbility": {
+          "value": [
+            "cha"
+          ]
+        },
+        "items": {
+          "06b94": {
+            "img": "icons/sundries/books/book-backed-silver-gold.webp",
+            "level": 7,
+            "name": "Expert Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+          },
+          "1da3z": {
+            "img": "icons/skills/trades/academics-book-study-purple.webp",
+            "level": 15,
+            "name": "Master Spellcaster",
+            "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+          },
+          "1qqwt": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 13,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "73fw3": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 11,
+            "name": "Vigilant Senses",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+          },
+          "81u6r": {
+            "img": "icons/tools/instruments/harp-yellow-teal.webp",
+            "level": 19,
+            "name": "Magnum Opus",
+            "uuid": "Compendium.pf2e.classfeatures.Item.NjsOpWbbzUY2Hpk3"
+          },
+          "9uoge": {
+            "img": "systems/pf2e/icons/features/classes/resolve.webp",
+            "level": 9,
+            "name": "Resolve",
+            "uuid": "Compendium.pf2e.classfeatures.Item.JQAujUXjczVnYDEI"
+          },
+          "ed5t5": {
+            "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+            "level": 1,
+            "name": "Spell Repertoire (Bard)",
+            "uuid": "Compendium.pf2e.classfeatures.Item.6FsusoMYxxjyIkVh"
+          },
+          "en1lf": {
+            "img": "icons/tools/instruments/pipe-flue-tan.webp",
+            "level": 1,
+            "name": "Composition Spells",
+            "uuid": "Compendium.pf2e.classfeatures.Item.s0VbbQJNlSgPocui"
+          },
+          "iipml": {
+            "img": "icons/magic/life/cross-explosion-burst-green.webp",
+            "level": 9,
+            "name": "Great Fortitude",
+            "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+          },
+          "oitnf": {
+            "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+            "level": 3,
+            "name": "Signature Spells (Level 3)",
+            "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c"
+          },
+          "oyw8v": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Muses",
+            "uuid": "Compendium.pf2e.classfeatures.Item.AIOBWGOS4nkfH3kW"
+          },
+          "q84eq": {
+            "img": "icons/equipment/back/mantle-collared-green.webp",
+            "level": 13,
+            "name": "Light Armor Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7"
+          },
+          "qev30": {
+            "img": "systems/pf2e/icons/features/classes/occult-spellcasting.webp",
+            "level": 1,
+            "name": "Occult Spellcasting",
+            "uuid": "Compendium.pf2e.classfeatures.Item.fEOj0eOBe34qYdAa"
+          },
+          "qphik": {
+            "img": "systems/pf2e/icons/features/classes/greater-resolve.webp",
+            "level": 17,
+            "name": "Greater Resolve",
+            "uuid": "Compendium.pf2e.classfeatures.Item.5LOARurr4qWkfS9K"
+          },
+          "tjlz3": {
+            "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+            "level": 3,
+            "name": "Lightning Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+          },
+          "usp0h": {
+            "img": "icons/sundries/books/book-open-purple.webp",
+            "level": 19,
+            "name": "Legendary Spellcaster (Level 19)",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+          },
+          "yjn5p": {
+            "img": "systems/pf2e/icons/features/classes/bard-weapon-expertise.webp",
+            "level": 11,
+            "name": "Bard Weapon Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.4lp8oG9A3zuqhPBS"
+          }
+        },
+        "hp": 8,
+        "trainedSkills": {
+          "value": [
+            "occultism",
+            "performance"
+          ],
+          "additional": 4
+        },
+        "perception": 2,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 2
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "longsword, rapier, sap, shortbow, shortsword, and whip",
+            "rank": 1
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 1,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 1,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        }
+      },
+      "type": "class",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classes.Item.3gweRQ5gn7szIWAv",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.laUezsE7KRRImSeJ"
+    },
+    {
+      "_id": "rwYOR4NSTkglFUQB",
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "enigma": {
+              "id": "AHssIQSq8KgI4I3r",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Muses",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As a bard, you select one muse at 1st level. This muse leads you to great things, and might be a physical creature, a deity, a philosophy, or a captivating mystery.</p>\n<ul>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.4ripp6EfdVpS0d60]{Enigma}</li>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.YMBsi4bndRAk5CX4]{Maestro}</li>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.y0jGimYdMGDJWrEq]{Polymath}</li>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.N03BtRvjX9TeHRa4]{Warrior}</li>\n</ul>"
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "allowedDrops": {
+              "label": "1st-level Bard class feature",
+              "predicate": [
+                "item:level:1",
+                "item:trait:bard",
+                "item:type:feature"
+              ]
+            },
+            "choices": [
+              {
+                "value": "Compendium.pf2e.classfeatures.Item.4ripp6EfdVpS0d60"
+              },
+              {
+                "value": "Compendium.pf2e.classfeatures.Item.YMBsi4bndRAk5CX4"
+              },
+              {
+                "value": "Compendium.pf2e.classfeatures.Item.y0jGimYdMGDJWrEq"
+              },
+              {
+                "value": "Compendium.pf2e.classfeatures.Item.N03BtRvjX9TeHRa4"
+              }
+            ],
+            "flag": "muses",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Bard.Muse.Prompt",
+            "selection": "Compendium.pf2e.classfeatures.Item.4ripp6EfdVpS0d60"
+          },
+          {
+            "flag": "enigma",
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.muses}"
+          }
+        ],
+        "slug": "muses",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.AIOBWGOS4nkfH3kW",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.rwYOR4NSTkglFUQB"
+    },
+    {
+      "_id": "ZbW1kcdRJwPLJBej",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/tools/instruments/pipe-flue-tan.webp",
+      "name": "Composition Spells",
+      "sort": 100,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<h2>Composition Spells</h2>\n<p>You can infuse your performances with magic to create unique effects called compositions. Compositions are a special type of spell that often require you to use the Performance skill when casting them. Composition spells are a type of focus spell. It costs 1 Focus Point to cast a focus spell, and you start with a focus pool of 1 Focus Point. You refill your focus pool during your daily preparations, and you can regain 1 Focus Point by spending 10 minutes using the Refocus activity to perform, write a new composition, or otherwise engage your muse.</p>\n<p>Focus spells are automatically heightened to half your level rounded up, much like cantrips. Focus spells don't require spell slots, and you can't cast them using spell slots. Taking feats can give you more focus spells and increase the size of your focus pool, though your focus pool can never hold more than 3 Focus Points.</p>\n<p>You learn the @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter Performance} composition spell, protecting against auditory and visual effects.</p>\n<h3>Composition Cantrips</h3>\n<p>Composition cantrips are special composition spells that don't cost Focus Points, so you can use them as often as you like. Composition cantrips are in addition to the cantrips you choose from the occult list. Generally, only feats can give you more composition cantrips. Unlike other cantrips, you can't swap out composition cantrips gained from bard feats at a later level, unless you swap out the specific feat via retraining. You learn the @UUID[Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY]{Courageous Anthem} composition cantrip, which boosts your allies' attacks, damage, and defense against fear.</p>"
+        },
+        "rules": [],
+        "slug": "composition-spells",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.s0VbbQJNlSgPocui",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.ZbW1kcdRJwPLJBej"
+    },
+    {
+      "_id": "20WiOLA4QM3NlSm3",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/features/classes/occult-spellcasting.webp",
+      "name": "Occult Spellcasting",
+      "sort": 200,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You draw upon magic from esoteric knowledge. You can cast occult spells using the Cast a Spell activity, and you can supply material, somatic, and verbal components when casting spells. Because you're a bard, you can usually play an instrument for spells requiring somatic or material components, as long as it takes at least one of your hands to do so. If you use an instrument, you don't need a material component pouch or another hand free. You can usually also play an instrument for spells requiring verbal components, instead of speaking.</p>\n<p>Each day, you can cast up to two 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p>\n<p>As you increase in level as a bard, your number of spells per day increases, as does the highest rank of spells you can cast.</p>\n<p>Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key ability is Charisma, your spell attack rolls and spell DCs use your Charisma modifier.</p>"
+        },
+        "rules": [],
+        "slug": "occult-spellcasting",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.fEOj0eOBe34qYdAa",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.20WiOLA4QM3NlSm3"
+    },
+    {
+      "_id": "dxTrvO1BQqInzIwZ",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+      "name": "Spell Repertoire (Bard)",
+      "sort": 300,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The collection of spells you can cast is called your spell repertoire. At 1st level, you learn two 1st-rank spells of your choice and five cantrips of your choice. You choose these from the common spells from the occult spell list, or from other occult spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p>\n<p>You add to this spell repertoire as you increase in level. Each time you get a spell slot, you add a spell of the same rank to your spell repertoire. At 2nd level, you select another 1st-rank spell; at 3rd level, you select two 2nd-rank spells, and so on. When you add spells, you might choose a higher-rank version of a spell you already have so that you can cast a heightened version of that spell.</p>\n<p>Though you gain them at the same rate, your spell slots and the spells in your spell repertoire are separate. If a feat or other ability adds a spell to your spell repertoire, it wouldn't give you another spell slot, and vice versa.</p>\n<h3 class=\"title\"><strong>Swapping Spells in your Repertoire</strong></h3>\n<p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p>"
+        },
+        "rules": [],
+        "slug": "spell-repertoire-bard",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.6FsusoMYxxjyIkVh",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.dxTrvO1BQqInzIwZ"
+    },
+    {
+      "_id": "Oh6PeoPE8Yj9jaeh",
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "AHssIQSq8KgI4I3r",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Bardic Lore",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your studies make you informed on every subject. You are trained in Bardic Lore, a special Lore skill that can be used only to Recall Knowledge, but on any topic. If you have legendary proficiency in Occultism, you gain expert proficiency in Bardic Lore, but you can't increase your proficiency rank in Bardic Lore by any other means.</p>"
+        },
+        "rules": [],
+        "slug": "bardic-lore",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "enigma muse"
+            }
+          ]
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.uVXEZblPRuCyPRua",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.Oh6PeoPE8Yj9jaeh"
+    },
+    {
+      "_id": "AHssIQSq8KgI4I3r",
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "rwYOR4NSTkglFUQB",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "bardicLore": {
+              "id": "Oh6PeoPE8Yj9jaeh",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "img": "icons/magic/control/hypnosis-mesmerism-watch.webp",
+      "name": "Enigma",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your muse is a mystery, driving you to uncover the hidden secrets of the multiverse. If your muse is a creature, it might be a dragon or otherworldly being; if a deity, it might be Irori or Nethys. You gain the @UUID[Compendium.pf2e.feats-srd.Item.uVXEZblPRuCyPRua]{Bardic Lore} feat and add @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike} to your spell repertoire.</p>"
+        },
+        "rules": [
+          {
+            "flag": "bardicLore",
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.feats-srd.Item.uVXEZblPRuCyPRua"
+          }
+        ],
+        "slug": "enigma",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": null,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.4ripp6EfdVpS0d60",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.AHssIQSq8KgI4I3r"
+    },
+    {
+      "_id": "gjo8YR0mr3NVvUru",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/halfling.svg",
+      "name": "Halfling",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>Claiming no place as their own, halflings control few settlements larger than villages. Instead, they frequently live among humans within the walls of larger cities, carving out small communities alongside taller folk. Many halflings lead perfectly fulfilling lives in the shadows of their larger neighbors, while others prefer a nomadic existence, traveling the world and taking advantage of opportunities and adventures as they come.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.voI7uPS9vsG74JIn]{Halfling}</em></p>"
+        },
+        "rules": [],
+        "slug": "halfling",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "halfling",
+            "humanoid"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "hp": 6,
+        "size": "sm",
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "wis"
+            ]
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "cha"
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": [
+              "str"
+            ]
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "halfling"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "dwarven",
+            "elven",
+            "gnomish",
+            "goblin"
+          ],
+          "custom": ""
+        },
+        "items": {
+          "3084v": {
+            "img": "systems/pf2e/icons/features/ancestry/keen-eyes.webp",
+            "level": "0",
+            "name": "Keen Eyes",
+            "uuid": "Compendium.pf2e.ancestryfeatures.Item.y1EmCv2cEb5hXBwx"
+          }
+        },
+        "vision": "normal"
+      },
+      "type": "ancestry",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestries.Item.GgZAHbrjnzWOZy2v",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.gjo8YR0mr3NVvUru"
+    },
+    {
+      "_id": "zG4wThq7ivyYCRB7",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/features/ancestry/keen-eyes.webp",
+      "name": "Keen Eyes",
+      "sort": 0,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your eyes are sharp, allowing you to make out small details about concealed or even invisible creatures that others might miss. You gain a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of you. When you target an opponent that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from you or hidden from you, reduce the DC of the flat check to 3 for a concealed target or 9 for a hidden one.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:seek",
+              "target:within-30-feet",
+              {
+                "or": [
+                  "target:hidden",
+                  "target:undetected"
+                ]
+              }
+            ],
+            "selector": "perception",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "keen-eyes",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "halfling"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "gjo8YR0mr3NVvUru",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestryfeatures.Item.y1EmCv2cEb5hXBwx",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.zG4wThq7ivyYCRB7"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+      "name": "Signature Spells",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Experience allows you to cast some spells more flexibly. For each spell rank you have access to, choose one spell of that rank to be a signature spell. You don't need to learn heightened versions of signature spells separately; instead, you can heighten these spells freely. If you've learned a signature spell at a higher rank than its minimum, you can also cast all its lower-rank versions without learning those separately. If you swap out a signature spell, you can choose a replacement signature spell of the same spell rank at which you learned the previous spell. You can also retrain specifically to change a signature spell to a different spell of that rank without swapping any spells; this takes as much time as retraining a spell normally does.</p>"
+        },
+        "rules": [],
+        "slug": "signature-spells",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard",
+            "oracle",
+            "psychic",
+            "sorcerer"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "aft5vSYeqsxM3Fj8",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.aft5vSYeqsxM3Fj8"
+    },
+    {
+      "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+      "name": "Reflex Expertise",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You've developed a knack for dodging danger. Your proficiency rank for Reflex saves increases to expert.</p>"
+        },
+        "rules": [],
+        "slug": "reflex-expertise",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "barbarian",
+            "bard",
+            "champion",
+            "cleric",
+            "druid",
+            "sorcerer",
+            "witch",
+            "wizard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "category": "classfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "laUezsE7KRRImSeJ",
+        "subfeatures": {
+          "proficiencies": {
+            "reflex": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "DeQ8VM0ZB1p6PoFK",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.DeQ8VM0ZB1p6PoFK"
+    },
+    {
+      "_id": "9OSRUn5avbUWLBUn",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Cantrip Expansion",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Bard, Oracle, Sorcerer</strong> Study broadens your range of simple spells.</p>\n<p><strong>Cleric</strong> You study a wider range of simple spells.</p>\n<p><strong>Magus, Wizard</strong> Dedicated study allows you to prepare a wider range of simple spells for every situation.</p>\n<p><strong>Psychic</strong> You expand what your mind can accomplish.</p>\n<p><strong>Witch</strong> Your patron recognizes your need for flexibility and versatility, and grants you the power to prepare a wider range of simple spells.</p>\n<hr />\n<p><strong>Prepared</strong> You can prepare two additional cantrips each day.</p>\n<p><strong>Spontaneous</strong> Add two additional cantrips from your spell list to your repertoire.</p>"
+        },
+        "rules": [],
+        "slug": "cantrip-expansion",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard",
+            "cleric",
+            "magus",
+            "oracle",
+            "psychic",
+            "sorcerer",
+            "witch",
+            "wizard"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-2",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.A7ofsoPva0UtjqrX",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.9OSRUn5avbUWLBUn"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/shield.webp",
+      "name": "Shield",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You raise a magical shield of force. This counts as using the Raise a Shield action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.</p>\n<p>While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 5. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.Jemq5UknGdMO7b73]{Spell Effect: Shield}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.QF6RDlCoTvkVHRo4]{Effect: Shield Immunity}</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The shield's Hardness increases by 5.</p>"
+        },
+        "rules": [],
+        "slug": "shield",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "force"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": null,
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "until the start of your next turn",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "ooPO5vVf4ja6f5O4",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.ooPO5vVf4ja6f5O4"
+    },
+    {
+      "img": "icons/magic/symbols/runes-triangle-blue.webp",
+      "name": "Prestidigitation",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the spell. Each time you Sustain the spell, you can choose one of four options.</p>\n<ul>\n<li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li>\n<li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li>\n<li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or locus or cost for a spell.</li>\n<li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object a 1 minute per Bulk.</li>\n</ul>\n<p><em>Prestidigitation</em> can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the spell.</p>"
+        },
+        "rules": [],
+        "slug": "prestidigitation",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "cantrip",
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 object (cook, lift, or tidy only)"
+        },
+        "range": {
+          "value": "10 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "EsFNRoJtEFcATMka",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.EsFNRoJtEFcATMka"
+    },
+    {
+      "_id": "g8bleCEFDNmbXls3",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Melodious Spell",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You subtly weave your spellcasting into a performance. If the next action you use is to Cast a Spell, the spell gains the subtle trait, hiding the shining runes, sparks of magic, and other manifestations that would usually give away your spellcasting. The trait hides only the spell's spellcasting actions and manifestations, not its effects, so an observer might still see a ray streak out from you or see you vanish into thin air.</p>\n<p>As part of using Melodious Spell, you can choose to @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion}, @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}, @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}, or @UUID[Compendium.pf2e.actionspf2e.Item.DCb62iCBrJXy0Ik6]{Request}. If you do so, the spell you cast must have the auditory, emotion, sonic, or visual trait to gain the subtle trait.</p>"
+        },
+        "rules": [
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "spellshape:melodious-spell"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "PF2E.SpecificRule.Spellshape.MelodiousSpell"
+              }
+            ]
+          },
+          {
+            "key": "RollOption",
+            "label": "PF2E.TraitSpellshape",
+            "mergeable": true,
+            "option": "spellshape",
+            "placement": "spellcasting",
+            "suboptions": [
+              {
+                "label": "{item|name}",
+                "value": "melodious-spell"
+              }
+            ],
+            "toggleable": true,
+            "value": true
+          },
+          {
+            "itemType": "spell",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "spellshape:melodious-spell"
+            ],
+            "property": "traits",
+            "value": [
+              "subtle"
+            ]
+          }
+        ],
+        "slug": "melodious-spell",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard",
+            "concentrate",
+            "manipulate",
+            "spellshape"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "category": "class",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "class-4",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.kh4bTBgi3C9CjwHK",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.g8bleCEFDNmbXls3"
+    },
+    {
+      "_id": "4EJD3H6lHVgcHh0I",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Experienced Smuggler",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You often smuggle things past the authorities. When the GM rolls your Stealth check to see if a passive observer notices a small item you've @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, the GM uses the number rolled or 10—whichever is higher—as the result of your die roll, adding it to your Stealth modifier to determine your Stealth check result. If you're a master in Stealth, the GM uses the number rolled or 15, and if you're legendary in Stealth, you automatically succeed at hiding a small concealed item from passive observers. This provides no benefits when a creature attempts a Perception check while actively searching you for @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} items.</p>\n<hr />\n<p><strong>PFS Note</strong> This feat allows you to Earn Income with Underworld Lore with tasks of your level -1 (instead of the normal level -2).</p>"
+        },
+        "rules": [],
+        "slug": "experienced-smuggler",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 2
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Trained in Stealth"
+            }
+          ]
+        },
+        "location": "skill-2",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.4EJD3H6lHVgcHh0I"
+    },
+    {
+      "_id": "fdzz0jLW1kKMxfyz",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Confabulator",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Even when caught in falsehoods, you pile lie upon lie. Reduce the circumstance bonus a target gains for your previous attempts to @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} or Lie to it from +4 to +2. If you're a master in Deception, reduce the bonus to +1, and if you're legendary, your targets don't get these bonuses at all.</p>"
+        },
+        "rules": [],
+        "slug": "confabulator",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general",
+            "skill"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2,
+          "taken": 4
+        },
+        "category": "skill",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "expert in Deception"
+            }
+          ]
+        },
+        "location": "skill-4",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.6Z4e3B9vePYpibcy",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.fdzz0jLW1kKMxfyz"
+    },
+    {
+      "_id": "tbeORV2eLfaP1UIE",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Fleet",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You move more quickly on foot. Your Speed increases by 5 feet.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "land-speed",
+            "value": 5
+          }
+        ],
+        "slug": "fleet",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "general"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1,
+          "taken": 3
+        },
+        "category": "general",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "general-3",
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        }
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.tbeORV2eLfaP1UIE"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/dispel-magic.webp",
+      "name": "Dispel Magic",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You unravel the magic behind a spell or effect. Attempt a counteract check against the target. If you successfully counteract a magic item, the item becomes a mundane item of its type for 10 minutes. This doesn't change the item's non-magical properties. If the target is an artifact or similar item, you automatically fail.</p>"
+        },
+        "rules": [],
+        "slug": "dispel-magic",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 spell effect or unattended magic item"
+        },
+        "range": {
+          "value": "120 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 2
+        },
+        "counteraction": true
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "HOpLFT2CVlXqY853",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.HOpLFT2CVlXqY853"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/hideous-laughter.webp",
+      "name": "Laughing Fit",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The target is overtaken with uncontrollable laughter. It must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is plagued with uncontrollable laughter. It can't use reactions.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and can't use actions or reactions for 1 round. It then takes the effects of a failure.</p>"
+        },
+        "rules": [],
+        "slug": "laughing-fit",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "emotion",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 living creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "",
+          "sustained": true
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 2
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "ebDgM2vCwKCYQrDV",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.ebDgM2vCwKCYQrDV"
+    },
+    {
+      "img": "icons/magic/life/heart-cross-strong-green.webp",
+      "name": "Restoration",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Restorative magic counters the effects of toxins or conditions that prevent a creature from functioning at its best. When you cast restoration, choose to either reduce a condition or lessen the effect of a toxin. A creature can benefit from only one restoration spell each day, and it can't benefit from restoration more than once to reduce the stage of the same exposure to a given toxin.</p>\n<ul>\n<li><strong>Lessen a Toxin</strong> Reduce the stage of one toxin the target suffers from by one stage. This can't reduce the stage below stage 1 or cure the affliction.</li>\n<li><strong>Reduce a Condition</strong> Reduce the value of the target's @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied} condition by 2. You can instead reduce two of the listed conditions by 1 each.</li>\n</ul>\n<hr />\n<p><strong>Heightened (4th)</strong> Add @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} to the list of conditions you can reduce. When you lessen a toxin, reduce the stage by two. You also gain a third option that allows you to reduce the target's @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} value by 1. You can't use this to reduce a permanent Doomed condition.</p>\n<p><strong>Heightened (6th)</strong> As the 4th-rank restoration, but you can reduce a permanent Doomed condition if you add a spellcasting action and a material component while Casting the Spell, during which you provide 100 gp worth of diamond dust as a cost.</p>"
+        },
+        "rules": [],
+        "slug": "restoration",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "healing",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "divine",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "1 minute"
+        },
+        "duration": {
+          "value": "",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 2
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "ETUTm0eOJQn17MMW",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.ETUTm0eOJQn17MMW"
+    },
+    {
+      "_id": "9pNP8xLYTTaa3X6t",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scouting (Scout Dedication)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-scout-dedication",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.331",
+            "system": "6.7.2"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -445654588,
+          "initiative": 28
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "type": "effect",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.9pNP8xLYTTaa3X6t"
+    },
+    {
+      "img": "systems/pf2e/icons/spells/inspire-courage.webp",
+      "name": "Courageous Anthem",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You inspire yourself and your allies with words or tunes of encouragement. You and all allies in the area gain a +1 status bonus to attack rolls, damage rolls, and saves against fear effects.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.beReeFroAx24hj83]{Spell Effect: Courageous Anthem}</p>"
+        },
+        "rules": [],
+        "slug": "courageous-anthem",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "bard",
+            "cantrip",
+            "composition",
+            "concentrate",
+            "emotion",
+            "mental"
+          ],
+          "rarity": "uncommon",
+          "traditions": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": ""
+        },
+        "area": {
+          "type": "emanation",
+          "value": 60
+        },
+        "time": {
+          "value": "1"
+        },
+        "duration": {
+          "value": "1 round",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "8Ib2hxgIftGdnnC4"
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.IAjvwqgiDr3qGYxY",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "8JvloPFtoxsEYz5x",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.8JvloPFtoxsEYz5x"
+    },
+    {
+      "type": "effect",
+      "name": "Sustaining: Laughing Fit",
+      "img": "systems/pf2e/icons/spells/hideous-laughter.webp",
+      "flags": {},
+      "effects": [],
+      "_id": "IK7DJkghxC7tuSwt",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": null,
+            "foundry": "12.343",
+            "system": "6.12.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null,
+          "sustained": false
+        },
+        "start": {
+          "value": -429665236,
+          "initiative": 19
+        },
+        "tokenIcon": {
+          "show": true
+        },
+        "badge": null,
+        "context": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!dunJ8angr4UfFcvp.IK7DJkghxC7tuSwt"
+    },
+    {
+      "_id": "7Mph3XaABiYpkRTv",
+      "folder": "LjcBfeoneIwGgU6j",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Watchful Halfling",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You pay close attention to the people around you, allowing you to more easily notice when they act out of character. You gain a +2 circumstance bonus to Perception checks when using the @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} basic action to notice enchanted or possessed characters. If you aren't actively using Sense Motive on an enchanted or possessed character, the GM rolls a secret check, without your usual circumstance bonus, for you to potentially notice the enchantment or possession anyway.</p>\n<p>In addition to using it for skill checks, you can use the @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} basic action to grant a bonus to another creature's saving throw or other check to overcome enchantment or possession. As usual for Aid, you need to prepare by using an action on your turn to encourage the creature to fight against the effect.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:sense-motive",
+              {
+                "or": [
+                  "target:trait:possessed",
+                  "target:trait:enchanted"
+                ]
+              }
+            ],
+            "selector": "perception",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "halfling"
+          ],
+          "otherTags": []
+        },
+        "slug": "watchful-halfling",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-5"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.zAZJpgeEf5TWvdq4",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.7Mph3XaABiYpkRTv"
+    },
+    {
+      "_id": "fLSCrpjABbk8hFyS",
+      "folder": "pCqf1zzdYxJ29gRS",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Steady Spellcasting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>Confident in your technique, you don't lose spells easily. If a reaction would disrupt your spellcasting action, attempt a @Check[flat|showDC:all|dc:15]. If you succeed, your action isn't disrupted.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6,
+          "taken": 6
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "bard",
+            "cleric",
+            "druid",
+            "oracle",
+            "psychic",
+            "sorcerer",
+            "witch",
+            "wizard"
+          ],
+          "otherTags": []
+        },
+        "slug": "steady-spellcasting",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-6"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.uiGsVmvRfujQQRlK",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.fLSCrpjABbk8hFyS"
+    },
+    {
+      "_id": "sDhjhG2x618Ic5PR",
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Virtuosic Performer (Strings)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You have exceptional talent with one type of performance. You gain a +1 circumstance bonus when making a certain type of performance. If you are a master in Performance, this bonus increases to +2. Select one of the following specialties and apply the bonus when attempting Performance checks of that type. If it's unclear whether the specialty applies, the GM decides.</p><table class=\"pf2e remaster\"><thead><tr><th>Specialty</th><th>Examples</th></tr></thead><tbody><tr><td>Acting</td><td>Drama, pantomime, puppetry</td></tr><tr><td>Comedy</td><td>Buffoonery, joke telling, limericks</td></tr><tr><td>Dance</td><td>Ballet, huara, jig, macru</td></tr><tr><td>Keyboards</td><td>Harpsichord, organ, piano</td></tr><tr><td>Oratory</td><td>Epic, ode, poetry, storytelling</td></tr><tr><td>Percussion</td><td>Chimes, drum, gong, xylophone</td></tr><tr><td>Singing</td><td>Ballad, chant, melody, rhyming</td></tr><tr><td>Strings</td><td>Fiddle, harp, lute, viol</td></tr><tr><td>Winds</td><td>Bagpipe, flute, recorder, trumpet</td></tr></tbody></table>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 6
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Performance"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Acting",
+                "value": "acting"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Comedy",
+                "value": "comedy"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Dance",
+                "value": "dance"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Keyboards",
+                "value": "keyboards"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Oratory",
+                "value": "oratory"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Percussion",
+                "value": "percussion"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Singing",
+                "value": "singing"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Strings",
+                "value": "strings"
+              },
+              {
+                "label": "PF2E.SpecificRule.VirtuosicPerformer.Winds",
+                "value": "winds"
+              }
+            ],
+            "flag": "performanceType",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.VirtuosicPerformer.Prompt",
+            "selection": "strings"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:perform:{item|flags.pf2e.rulesSelections.performanceType}"
+            ],
+            "selector": "performance",
+            "type": "circumstance",
+            "value": "ternary(gte(@actor.system.skills.performance.rank,3),2,1)"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "virtuosic-performer",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-6"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!dunJ8angr4UfFcvp.sDhjhG2x618Ic5PR"
+    },
+    {
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "systems/pf2e/icons/spells/haste.webp",
+      "name": "Haste",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Magic empowers the target to act faster. It gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action each round only for Strike and Stride actions.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 6 creatures.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{Spell Effect: Haste}</p>"
+        },
+        "rules": [],
+        "slug": "haste",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult",
+            "primal"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "1 minute",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 3
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "7": {
+              "target": {
+                "value": "6 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "wkLxDSEb8LC1yFPt",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.wkLxDSEb8LC1yFPt"
+    },
+    {
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "systems/pf2e/icons/spells/paralyze.webp",
+      "name": "Paralyze",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You block the target's motor impulses before they can leave its mind, threatening to freeze the target in place. The target must attempt a Will save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target is Paralyzed for 4 rounds. At the end of each of its turns, it can attempt a new Will save to reduce the remaining duration by 1 round, or end it entirely on a critical success.</p>\n<hr />\n<p><strong>Heightened (7th)</strong> You can target up to 10 creatures.</p>"
+        },
+        "rules": [],
+        "slug": "paralyze",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "incapacitation",
+            "manipulate",
+            "mental"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "will"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 3
+        },
+        "counteraction": false,
+        "heightening": {
+          "levels": {
+            "7": {
+              "target": {
+                "value": "10 creatures"
+              }
+            }
+          },
+          "type": "fixed"
+        }
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "Gj5gDbO8w2zpwbmM",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.Gj5gDbO8w2zpwbmM"
+    },
+    {
+      "folder": "T8AzYUgNIAgTJ9Iz",
+      "img": "systems/pf2e/icons/spells/ray-of-enfeeblement.webp",
+      "name": "Enfeeble",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You sap the target's strength, depending on its Fortitude save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} for 1 minute.</p>"
+        },
+        "rules": [],
+        "slug": "enfeeble",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "common",
+          "traditions": [
+            "arcane",
+            "divine",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "requirements": "",
+        "target": {
+          "value": "1 creature"
+        },
+        "range": {
+          "value": "30 feet"
+        },
+        "area": null,
+        "time": {
+          "value": "2"
+        },
+        "duration": {
+          "value": "varies",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": {
+          "save": {
+            "basic": false,
+            "statistic": "fortitude"
+          }
+        },
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 1
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "W13HeMkBmelBUkPJ",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.W13HeMkBmelBUkPJ"
+    },
+    {
+      "folder": "4fJHnYFqH0VjZXPv",
+      "img": "icons/sundries/scrolls/scroll-writing-tan-grey.webp",
+      "name": "Transcribe Conflict",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>You cause a sheet of paper to appear in your hand, and a moment later a detailed description of a combat you experienced within the last hour is recorded on that sheet of paper in a language that you know of your choice. The description is detailed enough that anyone who spends 1 minute reading the page can attempt to Recall Knowledge about the event as if they had been there, but the primary purpose of the transcribed conflict is to give you additional insight into the fight by allowing you to study the conflict and learn from errors or tactical blunders participants in the battle may have committed.</p>\n<p>When you cast this spell, choose a type of foe in the fight you transcribed and attempt to Recall Knowledge about that foe using your spell DC-10 instead of your skill modifier in an appropriate skill to do so. For this action, you can't use any special abilities, reactions, or free actions that trigger when you Recall Knowledge. If you are successful, you not only learn information about that foe as determined by the GM, but for the remainder of transcribe conflict's duration, you gain a +1 status bonus to Initiative checks in combats where you face that exact kind of foe. For example, if you made the check against a wrath demon, the bonus would apply only to wrath demons, not to other demons. The GM decides if a foe who is disguised grants you this bonus.</p>\n<hr />\n<p><strong>Heightened (5th)</strong> The bonus to initiative increases to +2 and the duration increases to 8 hours.</p>\n<p><strong>Heightened (8th)</strong> The bonus to initiative increases to +3 and the duration increases until the next time you do your daily preparations, and the status bonus to Initiative checks applies to any allies who took part in the fight you transcribed as long as they are within 30 feet of you when you cast the spell.</p>"
+        },
+        "rules": [],
+        "slug": "transcribe-conflict",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "concentrate",
+            "manipulate"
+          ],
+          "rarity": "rare",
+          "traditions": [
+            "arcane",
+            "occult"
+          ]
+        },
+        "publication": {
+          "title": "Pathfinder Kingmaker",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "requirements": "",
+        "target": {
+          "value": ""
+        },
+        "range": {
+          "value": "touch"
+        },
+        "area": null,
+        "time": {
+          "value": "1 minute"
+        },
+        "duration": {
+          "value": "1 hour",
+          "sustained": false
+        },
+        "damage": {},
+        "defense": null,
+        "cost": {
+          "value": ""
+        },
+        "location": {
+          "value": "t4BxYpWMm3lEqjxG",
+          "heightenedLevel": 3
+        },
+        "counteraction": false
+      },
+      "type": "spell",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.spells-srd.Item.YZnLggKDHkMY4cnw",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {},
+      "_id": "DVln0wrA7kLKAYV1",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.DVln0wrA7kLKAYV1"
+    },
+    {
+      "name": "Hearty Meal (Success)",
+      "type": "effect",
+      "img": "icons/consumables/food/bowl-stew-brown.webp",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The meal grants the eater a +1 status bonus to the next saving throw they attempt during the next 24 hours.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "saving-throw",
+            "value": 1,
+            "type": "status",
+            "removeAfterRoll": "if-enabled",
+            "predicate": [
+              "use-hearty-meal"
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.926,
+            "foundry": "12.343",
+            "system": "6.12.4"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "duration": {
+          "value": 24,
+          "unit": "hours",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -414068702,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": true
+        },
+        "badge": null,
+        "context": null,
+        "target": null,
+        "unidentified": false
+      },
+      "effects": [],
+      "ownership": {
+        "default": 2,
+        "KYLjndc5EtGYvNI8": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-kingmaker-tools.kingmaker-tools-meal-effects.Item.uI4ZsdIGx7Yoy2rI",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 15100000,
+      "_id": "CwTslAvMYkOBE7wb",
+      "_key": "!actors.items!dunJ8angr4UfFcvp.CwTslAvMYkOBE7wb"
+    }
+  ],
+  "name": "Linzi (1e)",
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 66,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "daemonic",
+          "sakvroth"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 6
+      },
+      "biography": {
+        "appearance": "<p>Linzi is a young halfling woman wearing leather armor and a weather-worn cloak. She keeps a large leather-bound journal in front of her, into which she sketches profile images of everyone present at the table and scribbles occasional notes and verses for tunes she’ll never finish.</p>",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "Helpful - Influence 2",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 2011,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party",
+      "publication": {
+        "license": "OGL",
+        "remaster": false,
+        "title": "Pathfinder Kingmaker"
+      }
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 2,
+        "max": 3
+      },
+      "crafting": {
+        "infusedReagents": {}
+      },
+      "focus": {
+        "value": 1
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 1
+      },
+      "arcana": {
+        "rank": 0
+      },
+      "athletics": {
+        "rank": 0
+      },
+      "crafting": {
+        "rank": 0
+      },
+      "deception": {
+        "rank": 2
+      },
+      "diplomacy": {
+        "rank": 1
+      },
+      "intimidation": {
+        "rank": 0
+      },
+      "medicine": {
+        "rank": 0
+      },
+      "nature": {
+        "rank": 0
+      },
+      "occultism": {
+        "rank": 0
+      },
+      "performance": {
+        "rank": 2
+      },
+      "religion": {
+        "rank": 0
+      },
+      "society": {
+        "rank": 1
+      },
+      "stealth": {
+        "rank": 1
+      },
+      "survival": {
+        "rank": 0
+      },
+      "thievery": {
+        "rank": 0
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "cha",
+            "dex",
+            "con",
+            "int"
+          ],
+          "5": [
+            "dex",
+            "con",
+            "int",
+            "cha"
+          ]
+        }
+      }
+    },
+    "crafting": {
+      "entries": {},
+      "formulas": []
+    },
+    "saves": {}
+  },
+  "type": "character",
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "freeCrafting": false,
+      "showBasicUnarmed": true,
+      "dailyCraftingComplete": false
+    },
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": []
+      }
+    },
+    "sequencer": {
+      "effects": []
+    },
+    "pf2e-dailies": {
+      "rested": true
+    }
+  },
+  "effects": [],
+  "folder": "CjzrMwsLeNOLuHhs",
+  "_stats": {
+    "compendiumSource": "Compendium.joes-pf2-stuff.joes-actors-pf2.Actor.M8YAmiTle34i0DtC",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1750750358886,
+    "modifiedTime": 1750750358886,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3
+  },
+  "_id": "dunJ8angr4UfFcvp",
+  "sort": 400000,
+  "_key": "!actors!dunJ8angr4UfFcvp"
+}

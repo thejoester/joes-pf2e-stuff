@@ -1,0 +1,2684 @@
+{
+  "name": "Ekundayo",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "VSeKTk90rvuA8Knm": 3
+  },
+  "prototypeToken": {
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": false
+      },
+      "Rideable": {
+        "issetRideableFlag": true,
+        "MaxRiderFlag": null,
+        "CustomRidingheightFlag": null,
+        "UseRidingHeightFlag": true,
+        "RidersScaleFlag": null,
+        "RiderPositioningFlag": "RowPlacement",
+        "RiderOffsetFlag": [
+          0,
+          0
+        ],
+        "TokenFormFlag": "TokenFormCircle",
+        "InsideMovementFlag": true,
+        "SpawnRidersFlag": ",,",
+        "WorldMEffectOverrideFlag": true,
+        "MountingEffectsFlag": ",,",
+        "SelfApplyEffectsFlag": true,
+        "forMountEffectsFlag": "",
+        "CanbePilotedFlag": true,
+        "CheckPilotedCollisionFlag": true,
+        "PilotedbyDefaultFlag": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Ekundayo",
+    "displayName": 20,
+    "texture": {
+      "src": "modules/pf2e-kingmaker/assets/actor-tokens/kingmaker/ekundayo.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 2,
+      "scaleY": 2,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": true,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 78,
+        "temp": 0
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [
+          "fey",
+          "jotun"
+        ],
+        "details": ""
+      },
+      "level": {
+        "value": 5
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      }
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.948,
+      "previous": null
+    },
+    "abilities": null,
+    "skills": {
+      "acrobatics": {
+        "rank": 2
+      },
+      "athletics": {
+        "rank": 1
+      },
+      "survival": {
+        "rank": 3
+      },
+      "crafting": {
+        "rank": 2
+      }
+    },
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "build": {
+      "attributes": {
+        "boosts": {
+          "1": [
+            "dex",
+            "str",
+            "con",
+            "wis"
+          ],
+          "5": [
+            "dex",
+            "con",
+            "int",
+            "wis"
+          ]
+        }
+      }
+    }
+  },
+  "img": "modules/pf2e-kingmaker/assets/actor-portraits/kingmaker/ekundayo.webp",
+  "items": [
+    {
+      "_id": "HAdRrdGSR5F9sPYP",
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/human.svg",
+      "name": "Human",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Human}</em></p>"
+        },
+        "rules": [],
+        "slug": "human",
+        "_migration": {
+          "version": 0.948,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "human",
+            "humanoid"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 8,
+        "size": "med",
+        "hands": 2,
+        "reach": 5,
+        "speed": 25,
+        "boosts": {
+          "0": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          },
+          "1": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ],
+            "selected": "con"
+          },
+          "2": {
+            "value": []
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [
+            "common"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 1,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "normal"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.HAdRrdGSR5F9sPYP"
+    },
+    {
+      "_id": "TckdYY8jlINHrGxT",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Artisan",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>As an apprentice, you practiced a particular form of building or crafting, developing a specialized skill. You might have been a blacksmith's apprentice toiling over the forge for countless hours, a young tailor sewing garments of all kinds, or a shipwright shaping the hulls of ships.</p>\n<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Crafting skill and the Guild Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{Specialty Crafting} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "artisan",
+        "_migration": {
+          "version": 0.948,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "int",
+              "str"
+            ],
+            "selected": "str"
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ],
+            "selected": "dex"
+          }
+        },
+        "items": {
+          "td7d8": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Specialty Crafting",
+            "uuid": "Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "crafting"
+          ],
+          "lore": [
+            "Guild Lore"
+          ]
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.TckdYY8jlINHrGxT"
+    },
+    {
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Specialty Crafting (Woodworking)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>Your training focused on Crafting one particular kind of item. Select one of the specialties listed below; you gain a +1 circumstance bonus to Crafting checks to Craft items of that type. If you are a master in Crafting, this bonus increases to +2. If it's unclear whether the specialty applies, the GM decides. Some specialties might apply only partially. For example, if you were making a morningstar and had specialty in woodworking, the GM might give you half your bonus because the item requires both blacksmithing and woodworking.</p>\n<table class=\"pf2e\" style=\"white-space:nowrap\">\n<thead>\n<tr>\n<th>Specialty</th>\n<th>Applicable Items</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Alchemy*</td>\n<td>Alchemical items such as elixirs</td>\n</tr>\n<tr>\n<td>Artistry</td>\n<td>Fine art, including jewelry</td>\n</tr>\n<tr>\n<td>Blacksmithing</td>\n<td>Durable metal goods, including metal armor</td>\n</tr>\n<tr>\n<td>Bookmaking</td>\n<td>Books and paper</td>\n</tr>\n<tr>\n<td>Glassmaking</td>\n<td>Glass, including glassware and windows</td>\n</tr>\n<tr>\n<td>Leatherworking</td>\n<td>Leather goods, including leather armor</td>\n</tr>\n<tr>\n<td>Pottery</td>\n<td>Ceramic goods</td>\n</tr>\n<tr>\n<td>Shipbuilding</td>\n<td>Ships and boats</td>\n</tr>\n<tr>\n<td>Stonemasonry</td>\n<td>Stone goods and structures</td>\n</tr>\n<tr>\n<td>Tailoring</td>\n<td>Clothing</td>\n</tr>\n<tr>\n<td>Weaving</td>\n<td>Textiles, baskets, and rugs</td>\n</tr>\n<tr>\n<td>Woodworking</td>\n<td>Wooden goods and structures</td>\n</tr>\n</tbody>\n</table>\n<p>* You must have the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat to Craft alchemical items.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Crafting"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Alchemy",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:alchemy"
+                  }
+                ],
+                "value": "alchemy"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Artistry",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:artistry"
+                  }
+                ],
+                "value": "artistry"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Blacksmithing",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:blacksmithing"
+                  }
+                ],
+                "value": "blacksmithing"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Bookmaking",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:bookmaking"
+                  }
+                ],
+                "value": "bookmaking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Glassmaking",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:glassmaking"
+                  }
+                ],
+                "value": "glassmaking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Leatherworking",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:leatherworking"
+                  }
+                ],
+                "value": "leatherworking"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Pottery",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:pottery"
+                  }
+                ],
+                "value": "pottery"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Shipbuilding",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:shipbuilding"
+                  }
+                ],
+                "value": "shipbuilding"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Stonemasonry",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:stonemasonry"
+                  }
+                ],
+                "value": "stonemasonry"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Tailoring",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:tailoring"
+                  }
+                ],
+                "value": "tailoring"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Weaving",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:weaving"
+                  }
+                ],
+                "value": "weaving"
+              },
+              {
+                "label": "PF2E.SpecificRule.SpecialtyCrafting.Woodworking",
+                "predicate": [
+                  {
+                    "not": "feat:specialty-crafting:woodworking"
+                  }
+                ],
+                "value": "woodworking"
+              }
+            ],
+            "flag": "specialtyCrafting",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.SpecialtyCrafting.Prompt",
+            "rollOption": "feat:specialty-crafting",
+            "selection": "woodworking"
+          },
+          {
+            "key": "FlatModifier",
+            "predicate": [
+              "action:craft",
+              "{item|flags.pf2e.rulesSelections.specialtyCrafting}"
+            ],
+            "selector": "crafting",
+            "type": "circumstance",
+            "value": "ternary(gte(@actor.system.skills.crafting.rank,3),2,1)"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "specialty-crafting",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "TckdYY8jlINHrGxT"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_id": "WLIhTXkshyHhxOdA",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.WLIhTXkshyHhxOdA"
+    },
+    {
+      "_id": "0UjJWFJ6gNh78u1K",
+      "folder": "O7DVLyyF05fGfpdo",
+      "img": "icons/tools/navigation/map-chart-tan.webp",
+      "name": "Skilled Human (Crafting)",
+      "system": {
+        "ancestry": {
+          "name": "Human",
+          "slug": "human",
+          "uuid": "Compendium.pf2e.ancestries.Item.IiG7DgeLWYrSNXuX"
+        },
+        "description": {
+          "value": "<p>Your ingenuity allows you to train in a wide variety of skills. You become trained in one skill of your choice. At 5th level, you become an expert in the chosen skill.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": {
+              "config": "skills"
+            },
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.Skill",
+            "selection": "crafting"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+            "value": "ternary(gte(@actor.level,5),2,1)"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "skilled-human",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.0UjJWFJ6gNh78u1K"
+    },
+    {
+      "_id": "YPhWTfa2QHPIEtEs",
+      "img": "systems/pf2e/icons/classes/ranger.webp",
+      "name": "Ranger",
+      "system": {
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "attacks": {
+          "advanced": 0,
+          "martial": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          },
+          "simple": 1,
+          "unarmed": 1
+        },
+        "classFeatLevels": {
+          "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "defenses": {
+          "heavy": 0,
+          "light": 1,
+          "medium": 1,
+          "unarmored": 1
+        },
+        "description": {
+          "value": "<p><em>Some rangers believe civilization wears down the soul, but still needs to be protected from wild creatures. Others say nature needs to be protected from the greedy, who wish to tame its beauty and plunder its treasures. You could champion either goal, or both. You might be a scout, tracker, or hunter of fugitives or beasts, haunting the edge of civilization or exploring the wilds. You know how to live off the land and are skilled at spotting and taking down both opportune prey and hated enemies.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gdEmPPRYhRai7I1N]{Ranger}</em></p>",
+          "gm": ""
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "hp": 10,
+        "items": {
+          "07lzm": {
+            "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
+            "level": 17,
+            "name": "Masterful Hunter",
+            "uuid": "Compendium.pf2e.classfeatures.Item.RVZC4wVy5B5W2OeS"
+          },
+          "3k9vv": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 7,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "4i75Y": {
+            "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+            "level": 5,
+            "name": "Trackless Journey",
+            "uuid": "Compendium.pf2e.classfeatures.Item.PeZi7E9lI4vz8EGY"
+          },
+          "7gij8": {
+            "img": "icons/skills/ranged/arrow-flying-ornate-gold.webp",
+            "level": 9,
+            "name": "Nature's Edge",
+            "uuid": "Compendium.pf2e.classfeatures.Item.j2R64kwUgEJ1TudD"
+          },
+          "9412w": {
+            "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+            "level": 11,
+            "name": "Medium Armor Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3"
+          },
+          "A0Iss": {
+            "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+            "level": 15,
+            "name": "Greater Natural Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.rpLPCkTXCZlQ51SR"
+          },
+          "B4Cbq": {
+            "img": "icons/creatures/mammals/bull-horned-blue.webp",
+            "level": 11,
+            "name": "Warden's Endurance",
+            "uuid": "Compendium.pf2e.classfeatures.Item.gc6OMDRxTpSfsVtk"
+          },
+          "NyBkK": {
+            "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+            "level": 7,
+            "name": "Natural Reflexes",
+            "uuid": "Compendium.pf2e.classfeatures.Item.7dMDxvzGKbqoEAdX"
+          },
+          "PlY2u": {
+            "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+            "level": 19,
+            "name": "Medium Armor Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2"
+          },
+          "bYC03": {
+            "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "level": 15,
+            "name": "Greater Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+          },
+          "bhe5z": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Hunter's Edge",
+            "uuid": "Compendium.pf2e.classfeatures.Item.mzkkj9LEWjJPBhaq"
+          },
+          "bv3vc": {
+            "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
+            "level": 19,
+            "name": "Swift Prey",
+            "uuid": "Compendium.pf2e.classfeatures.Item.bBGb1LcffXEqar0p"
+          },
+          "epJL1": {
+            "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+            "level": 15,
+            "name": "Perception Legend",
+            "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00"
+          },
+          "jhhhl": {
+            "img": "systems/pf2e/icons/features/classes/ranger-weapon-expertise.webp",
+            "level": 5,
+            "name": "Ranger Weapon Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.QhoW8ivPvYmWzyEZ"
+          },
+          "nvyh4": {
+            "img": "systems/pf2e/icons/features/classes/weapon-mastery.webp",
+            "level": 13,
+            "name": "Weapon Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC"
+          },
+          "osijO": {
+            "img": "icons/equipment/feet/boots-leather-laced-brown.webp",
+            "level": 11,
+            "name": "Unimpeded Journey",
+            "uuid": "Compendium.pf2e.classfeatures.Item.RlwE99yKnhq8FUuy"
+          },
+          "s7kqn": {
+            "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
+            "level": 1,
+            "name": "Hunt Prey",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0nIOGpHQNHsKSFKT"
+          },
+          "uo4PG": {
+            "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+            "level": 3,
+            "name": "Will Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.NhcF2CbXA8R1UCg4"
+          },
+          "upgl9": {
+            "img": "icons/skills/ranged/target-bullseye-arrow-yellow.webp",
+            "level": 9,
+            "name": "Ranger Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.5likl5SAxQPrQ3KF"
+          },
+          "yjxab": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 7,
+            "name": "Perception Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+          }
+        },
+        "keyAbility": {
+          "value": [
+            "dex",
+            "str"
+          ],
+          "selected": "dex"
+        },
+        "perception": 2,
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.nature.rank",
+            "predicate": [
+              {
+                "not": "feature:vindicator"
+              }
+            ],
+            "value": 1
+          }
+        ],
+        "savingThrows": {
+          "fortitude": 2,
+          "reflex": 2,
+          "will": 1
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        },
+        "spellcasting": 0,
+        "trainedSkills": {
+          "additional": 4,
+          "value": [
+            "survival"
+          ]
+        },
+        "traits": {
+          "rarity": "common",
+          "otherTags": []
+        },
+        "slug": "ranger",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.YPhWTfa2QHPIEtEs"
+    },
+    {
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Hunter's Edge",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You have trained to become a skilled hunter and tracker, gaining an extra benefit when you Hunt Prey depending on the focus of your training. Choose a hunter's edge.</p>\n<ul>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.6v4Rj7wWfOH1882r]{Flurry}</li>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.NBHyoTrI8q62uDsU]{Outwit}</li>\n<li>@UUID[Compendium.pf2e.classfeatures.Item.u6cBjqz2fiRBadBt]{Precision}</li>\n</ul>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:ranger-hunters-edge"
+              ]
+            },
+            "flag": "huntersEdge",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Ranger.HuntersEdge.Prompt",
+            "selection": "Compendium.pf2e.classfeatures.Item.u6cBjqz2fiRBadBt"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.huntersEdge}",
+            "flag": "precision"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "hunters-edge",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "YPhWTfa2QHPIEtEs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "precision": {
+              "id": "W0q036IEUiFjpj4A",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "2lng0I4jaYAlyQNj",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.2lng0I4jaYAlyQNj"
+    },
+    {
+      "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
+      "name": "Hunt Prey",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>When you focus your attention on a single foe, you become unstoppable in your pursuit. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{Hunt Prey} action.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "allowDuplicate": false,
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm",
+            "flag": "huntPrey"
+          },
+          {
+            "count": true,
+            "key": "RollOption",
+            "option": "grants-hunt-prey",
+            "priority": 99
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "hunt-prey",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "YPhWTfa2QHPIEtEs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "huntPrey": {
+              "id": "a9cGpSoWxu6UDVVf",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "3qs7eEgkVX0iTrVD",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.3qs7eEgkVX0iTrVD"
+    },
+    {
+      "img": "icons/skills/ranged/target-bullseye-archer-orange.webp",
+      "name": "Precision",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You have trained to aim for your prey's weak points. The first time you hit your hunted prey in a round, you also deal 1d8 additional precision damage. (Precision damage increases the damage you already deal, using the same type, but is ineffective against creatures that lack vital organs or weak points.) At 11th level, the extra damage increases to 2d8 precision damage, and at 19th level, the extra damage increases to 3d8 precision damage.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "disabledIf": [
+              {
+                "not": "self:effect:hunt-prey"
+              }
+            ],
+            "disabledValue": false,
+            "key": "RollOption",
+            "label": "PF2E.SpecificRule.Ranger.HuntersEdge.Precision.ToggleLabel",
+            "mergeable": true,
+            "option": "precision-hunters-edge",
+            "suboptions": [
+              {
+                "label": "PF2E.SpecificRule.Numbers.Ordinals.First",
+                "value": "first-hit"
+              }
+            ],
+            "toggleable": true
+          },
+          {
+            "category": "precision",
+            "diceNumber": "ternary(lt(@actor.level,11),1,ternary(lt(@actor.level,19),2,3))",
+            "dieSize": "d8",
+            "key": "DamageDice",
+            "predicate": [
+              "precision-hunters-edge",
+              "target:mark:hunted-prey"
+            ],
+            "selector": "strike-damage",
+            "slug": "precision"
+          },
+          {
+            "itemType": "feat",
+            "key": "ItemAlteration",
+            "mode": "add",
+            "predicate": [
+              "item:tag:hunters-edge-sharing"
+            ],
+            "property": "description",
+            "value": [
+              {
+                "text": "{item|description}"
+              },
+              {
+                "predicate": [
+                  {
+                    "nand": [
+                      "item:slug:animal-companion-ranger",
+                      "feat:masterful-companion"
+                    ]
+                  }
+                ],
+                "text": "@UUID[Compendium.pf2e.feat-effects.Item.mNk0KxsZMFnDjUA0]{Effect: Share Hunter's Edge (Precision)}"
+              },
+              {
+                "predicate": [
+                  "feat:masterful-companion",
+                  "item:slug:animal-companion-ranger"
+                ],
+                "text": "PF2E.SpecificRule.Ranger.MasterfulHunter.Precision",
+                "title": "PF2E.SpecificRule.Ranger.MasterfulHunter.Label"
+              },
+              {
+                "predicate": [
+                  "feat:masterful-companion",
+                  "item:slug:animal-companion-ranger"
+                ],
+                "text": "@UUID[Compendium.pf2e.feat-effects.Item.Lt5iSfx8fxHSdYXz]{Effect: Share Hunter's Edge (Precision, Masterful)}"
+              }
+            ]
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "ranger-hunters-edge"
+          ],
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ]
+        },
+        "slug": "precision",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "2lng0I4jaYAlyQNj",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "W0q036IEUiFjpj4A",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.W0q036IEUiFjpj4A"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Hunt Prey",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>You designate a single creature as your prey and focus your attacks against that creature. You must be able to see or hear the prey, or you must be tracking the prey during exploration.</p>\n<p>You gain a +2 circumstance bonus to Perception checks when you @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} your prey and a +2 circumstance bonus to Survival checks when you @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} your prey. You also ignore the penalty for making ranged attacks within your second range increment against the prey you're hunting.</p>\n<p>You can have only one creature designated as your prey at a time. If you use Hunt Prey against a creature when you already have a creature designated, the prior creature loses the designation and the new prey gains the designation. Your designation lasts until your next daily preparations.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.SeekHuntedPrey",
+            "predicate": [
+              "action:seek",
+              "target:mark:hunted-prey"
+            ],
+            "selector": "perception",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "key": "FlatModifier",
+            "label": "PF2E.SpecificRule.HuntPrey.TrackHuntedPrey",
+            "predicate": [
+              "action:track",
+              "target:mark:hunted-prey"
+            ],
+            "selector": "survival",
+            "type": "circumstance",
+            "value": 2
+          },
+          {
+            "domain": "ranged-attack-roll",
+            "key": "RollOption",
+            "option": "ignore-range-penalty:2",
+            "predicate": [
+              "target:mark:hunted-prey"
+            ]
+          }
+        ],
+        "selfEffect": {
+          "name": "Effect: Hunt Prey",
+          "uuid": "Compendium.pf2e.feat-effects.Item.MeXyXqWY9qN42bSQ"
+        },
+        "traits": {
+          "value": [
+            "concentrate",
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "hunt-prey",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "3qs7eEgkVX0iTrVD",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "a9cGpSoWxu6UDVVf",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.a9cGpSoWxu6UDVVf"
+    },
+    {
+      "type": "lore",
+      "name": "Hunting",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.948,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "NQPxyXnp8GDHNm8H",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IqJF8liX85QFuTgf.NQPxyXnp8GDHNm8H"
+    },
+    {
+      "type": "lore",
+      "name": "Giant",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.948,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "Y7L7Zy4jxuv5LSRL",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IqJF8liX85QFuTgf.Y7L7Zy4jxuv5LSRL"
+    },
+    {
+      "type": "lore",
+      "name": "Guild",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.948,
+          "lastMigration": null
+        },
+        "traits": {
+          "otherTags": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "mod": {
+          "value": 0
+        },
+        "proficient": {
+          "value": 1
+        }
+      },
+      "_id": "5EeSMcui4TxOwY0K",
+      "img": "systems/pf2e/icons/default-icons/lore.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!IqJF8liX85QFuTgf.5EeSMcui4TxOwY0K"
+    },
+    {
+      "_id": "IttLVogdJkwzraqs",
+      "folder": "OgfXSV430FKasI7N",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "General Training",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>Your adaptability manifests in your mastery of a range of useful abilities. You gain a 1st-level general feat. You must meet the feat's prerequisites, but if you select this feat during character creation, you can select the feat later in the process in order to determine which prerequisites you meet.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times, choosing a different feat each time.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "maxTakable": null,
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:level:1",
+                "item:trait:general"
+              ],
+              "itemType": "feat"
+            },
+            "flag": "feat",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.GeneralTraining.Prompt",
+            "selection": "Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.feat}",
+            "flag": "toughness"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "human"
+          ],
+          "otherTags": []
+        },
+        "slug": "general-training",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "toughness": {
+              "id": "brTBnhxoMkKJwsRR",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!IqJF8liX85QFuTgf.IttLVogdJkwzraqs"
+    },
+    {
+      "folder": "waujsnHrfCsPk0zO",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Toughness",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>Your body can withstand more punishment than most before succumbing. Increase your maximum Hit Points by your level. You reduce the DC of recovery checks by 1.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "hp",
+            "value": "@actor.level"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "subtract",
+            "path": "system.attributes.dying.recoveryDC",
+            "value": 1
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "toughness",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "IttLVogdJkwzraqs",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "brTBnhxoMkKJwsRR",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.brTBnhxoMkKJwsRR"
+    },
+    {
+      "_id": "ok6SNFVK50ny4qNw",
+      "folder": "EPA7iz3YgfimVST0",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Hunted Shot",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "class",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You are wielding a ranged weapon with reload 0.</p><hr /><p>You take two quick shots against the one you hunt. Make two Strikes against your hunted prey with the required weapon. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses. Apply your multiple attack penalty to each Strike normally.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "flourish",
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "hunted-shot",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-1"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.ok6SNFVK50ny4qNw"
+    },
+    {
+      "_id": "mmf2dAL2uoECgwCH",
+      "folder": "EPA7iz3YgfimVST0",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Animal Companion (Ranger)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You gain the service of a young animal companion that travels with you and obeys simple commands. When you @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{Hunt Prey}, your animal companion gains the action's benefits and your hunter's edge benefit if you have one.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "otherTags": [
+            "hunters-edge-sharing"
+          ],
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ]
+        },
+        "slug": "animal-companion-ranger",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.mmf2dAL2uoECgwCH"
+    },
+    {
+      "_id": "Dvig1NG4Rzk2wOAS",
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Magical Crafting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft} magic items, though some have other requirements. When you select this feat, you gain formulas for four common magic items of 2nd level or lower.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 2,
+          "taken": 2
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "expert in Crafting"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "magical-crafting",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-2"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.Dvig1NG4Rzk2wOAS"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+      "name": "Will Expertise",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>Your mental defenses grow stronger. Your proficiency rank for Will saves increases to expert.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": true,
+          "title": "Pathfinder Rage of Elements",
+          "authors": ""
+        },
+        "rules": [],
+        "subfeatures": {
+          "proficiencies": {
+            "will": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "alchemist",
+            "kineticist",
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "will-expertise",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "YPhWTfa2QHPIEtEs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_id": "J7iGPhUwtzqzMUh0",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.J7iGPhUwtzqzMUh0"
+    },
+    {
+      "_id": "S9IaHST8FGkO3uAl",
+      "folder": "waujsnHrfCsPk0zO",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Incredible Initiative",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "general",
+        "description": {
+          "value": "<p>You react more quickly than others can. You gain a +2 circumstance bonus to initiative rolls.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 3
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general"
+          ],
+          "otherTags": []
+        },
+        "slug": "incredible-initiative",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "general-3"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.S9IaHST8FGkO3uAl"
+    },
+    {
+      "_id": "T2Es17KzlrTtHD4l",
+      "folder": "EPA7iz3YgfimVST0",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Giant Hunter",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You have studied giants and hunt them with efficiency. When you roll initiative and can see a giant, you can @UUID[Compendium.pf2e.actionspf2e.Item.JYi4MnsdFu618hPm]{Hunt Prey} as a free action, designating that enemy as your prey.</p>\n<p>You can use this free action even if you haven't identified the giant yet with Recall Knowledge. The benefit doesn't apply against giants disguised as other creatures, and the GM determines whether it applies against a creature disguised as a giant.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 4,
+          "taken": 4
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Kingmaker",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "rare",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "giant-hunter",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.T2Es17KzlrTtHD4l"
+    },
+    {
+      "_id": "5o3WcBLilZJwR07F",
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Titan Wrestler",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} creatures up to two sizes larger than you, or up to three sizes larger than you if you're legendary in Athletics.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 4
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Athletics"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "titan-wrestler",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "skill-4"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!IqJF8liX85QFuTgf.5o3WcBLilZJwR07F"
+    },
+    {
+      "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+      "name": "Trackless Journey",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>When you move through natural terrains, you are hard to track. You always gain the benefits of the @UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]{Cover Tracks} action in such terrains, without moving at half your Speed.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "trackless-journey",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "YPhWTfa2QHPIEtEs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_id": "hZSbiF1gJqbPn5H4",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.hZSbiF1gJqbPn5H4"
+    },
+    {
+      "img": "icons/skills/melee/hand-grip-sword-red.webp",
+      "name": "Ranger Weapon Expertise",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You gain every advantage from your weapons. Your proficiency rank for martial weapons, simple weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects of all such weapons and unarmed attacks when attacking your hunted prey.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "CriticalSpecialization",
+            "predicate": [
+              "target:mark:hunted-prey",
+              {
+                "or": [
+                  "item:category:simple",
+                  "item:category:martial",
+                  "item:category:unarmed"
+                ]
+              }
+            ]
+          }
+        ],
+        "subfeatures": {
+          "proficiencies": {
+            "martial": {
+              "rank": 2,
+              "attribute": null
+            },
+            "simple": {
+              "rank": 2,
+              "attribute": null
+            },
+            "unarmed": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "ranger-weapon-expertise",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "YPhWTfa2QHPIEtEs"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {},
+      "_id": "EnZmtuZF2qTu3EsL",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.EnZmtuZF2qTu3EsL"
+    },
+    {
+      "_id": "1gvIJFqNUwSQIos9",
+      "folder": "OgfXSV430FKasI7N",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Natural Ambition",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "ancestry",
+        "description": {
+          "value": "<p>You were raised to be ambitious and always reach for the stars, leading you to progress quickly in your chosen field. You gain a 1st-level class feat for your class. You must meet the prerequisites, but you can select the feat later in the character creation process in order to determine which prerequisites you meet.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1,
+          "taken": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:level:1",
+                "item:category:class",
+                "item:trait:{actor|system.details.class.trait}",
+                {
+                  "or": [
+                    "feature:dragon-instinct",
+                    {
+                      "not": "item:draconic-arrogance"
+                    }
+                  ]
+                },
+                {
+                  "nor": [
+                    "item:animal-companion",
+                    "item:animal-companion-druid",
+                    "item:bardic-lore",
+                    "item:fire-lung",
+                    "item:lingering-composition",
+                    "item:leshy-familiar",
+                    "item:martial-performance",
+                    "item:shore-step",
+                    "item:steadying-stone",
+                    "item:storm-born",
+                    "item:versatile-performance",
+                    "item:untamed-form"
+                  ]
+                }
+              ],
+              "itemType": "feat"
+            },
+            "flag": "naturalAmbition",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Prompt.LevelOneClassFeat",
+            "selection": "Compendium.pf2e.feats-srd.Item.YTTJqRKH8QZl6al2"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.naturalAmbition}",
+            "flag": "monsterHunter"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "human"
+          ],
+          "otherTags": []
+        },
+        "slug": "natural-ambition",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "ancestry-5"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "monsterHunter": {
+              "id": "Sgoifjbqsduk27tv",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!IqJF8liX85QFuTgf.1gvIJFqNUwSQIos9"
+    },
+    {
+      "folder": "EPA7iz3YgfimVST0",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Monster Hunter",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You quickly assess your prey and apply what you know. As part of the action used to Hunt your Prey, you can attempt a check to Recall Knowledge about your prey. When you critically succeed at identifying your hunted prey with @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge}, you note a weakness in the creature's defenses in addition to any other benefits. You gain a +1 circumstance bonus to your next attack roll against that prey, and any ally you tell gains the same benefit. You can give bonuses from Monster Hunter only once per day against a particular creature.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.W2tWq0gdAcnoz2MO]{Effect: Monster Hunter}</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "ranger"
+          ],
+          "otherTags": []
+        },
+        "slug": "monster-hunter",
+        "_migration": {
+          "version": 0.948,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.4",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "VSeKTk90rvuA8Knm": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "1gvIJFqNUwSQIos9",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "Sgoifjbqsduk27tv",
+      "_key": "!actors.items!IqJF8liX85QFuTgf.Sgoifjbqsduk27tv"
+    }
+  ],
+  "folder": "kxfbLYcPUmYbC25B",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "createdTime": 1762587272384,
+    "modifiedTime": 1762587272384,
+    "lastModifiedBy": "VSeKTk90rvuA8Knm"
+  },
+  "_id": "IqJF8liX85QFuTgf",
+  "sort": 0,
+  "_key": "!actors!IqJF8liX85QFuTgf"
+}

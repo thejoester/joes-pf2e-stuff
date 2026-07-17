@@ -1,0 +1,261 @@
+{
+  "prototypeToken": {
+    "displayName": 0,
+    "displayBars": 0,
+    "name": "Precarious Pile",
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/hazard.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "_id": "5n5OoVD7jdCuxwVJ",
+  "img": "systems/pf2e/icons/default-icons/hazard.svg",
+  "items": [
+    {
+      "_id": "VtHcDRIcr6uZeQFk",
+      "img": "systems/pf2e/icons/actions/Reaction.webp",
+      "name": "Collapse",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Trigger</strong> A creature attempts to climb or remove an object from the wall or the wall suffers a forceful impact</p>\n<hr />\n<p><strong>Effect</strong> The wall collapses, dealing @Damage[2d8[bludgeoning]] damage to creatures on it or within 10 feet of it. A creature that succeeds at a @Check[type:reflex|dc:18|traits:damaging-effect] save takes half damage and rolls out of the way in a random direction. On a critical success, they take no damage and can choose the direction.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.932,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "reaction"
+        },
+        "category": null,
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.2.3",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!5n5OoVD7jdCuxwVJ.VtHcDRIcr6uZeQFk"
+    }
+  ],
+  "name": "Precarious Pile",
+  "system": {
+    "saves": {
+      "fortitude": {
+        "value": 10,
+        "saveDetail": ""
+      },
+      "reflex": {
+        "value": 2,
+        "saveDetail": ""
+      },
+      "will": {
+        "value": 0,
+        "saveDetail": ""
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 16
+      },
+      "hp": {
+        "value": 25,
+        "max": 25,
+        "temp": 0,
+        "details": "",
+        "tempmax": 0
+      },
+      "hardness": 5,
+      "stealth": {
+        "value": -1,
+        "details": ""
+      },
+      "emitsSound": "encounter",
+      "hasHealth": true,
+      "immunities": [
+        {
+          "type": "critical-hits"
+        },
+        {
+          "type": "precision"
+        }
+      ]
+    },
+    "details": {
+      "isComplex": false,
+      "level": {
+        "value": 2
+      },
+      "disable": "<p>@Check[type:thievery|dc:15|name:Excavate Safe Path|traits:action:disable-a-device] to carefully excavate a path through the wall without upsetting its balance</p>\n<p>@Check[type:athletics|dc:17|name:Hold Up Unstable Portions] to hold up any unstable portions</p>",
+      "description": "<p>This dangerously unsteady pile of miscellaneous goods stands 7 feet high and 10 feet wide</p>",
+      "reset": "",
+      "routine": "",
+      "publication": {
+        "title": "Pathfinder Adventure: Little Trouble in Big Absalom",
+        "authors": "",
+        "license": "OGL",
+        "remaster": false
+      }
+    },
+    "statusEffects": [],
+    "traits": {
+      "value": [
+        "environmental"
+      ],
+      "rarity": "common",
+      "size": {
+        "value": "med"
+      }
+    },
+    "_migration": {
+      "version": 0.932,
+      "previous": null
+    },
+    "creatureType": "",
+    "customModifiers": {}
+  },
+  "type": "hazard",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.one-shot-bestiary.Actor.JhQqV8t4BPk2Ixg8",
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "6.2.3",
+    "createdTime": 1724931494097,
+    "modifiedTime": 1724931531432,
+    "lastModifiedBy": "c8JeQGhzU7Aoamba",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "kJuT6VkL1z02dN4N",
+  "ownership": {
+    "default": 0,
+    "c8JeQGhzU7Aoamba": 3
+  },
+  "sort": 106250,
+  "_key": "!actors!5n5OoVD7jdCuxwVJ"
+}

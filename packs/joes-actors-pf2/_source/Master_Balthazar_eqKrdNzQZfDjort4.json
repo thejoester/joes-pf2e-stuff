@@ -1,0 +1,1204 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 0.5,
+    "width": 0.5,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Master Balthazar",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/av-fri/master-bathazzar-t.webp",
+      "scaleX": 1,
+      "scaleY": 1,
+      "offsetX": 0,
+      "offsetY": 0,
+      "rotation": 0,
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "fit": "contain",
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "negative": false,
+      "priority": 0,
+      "color": null
+    },
+    "detectionModes": [],
+    "randomImg": false,
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "Nwjb099s11gZs7RP",
+  "name": "Master Balthazar",
+  "type": "familiar",
+  "ownership": {
+    "default": 1,
+    "CLMiGpsYVSTK4VM8": 3,
+    "NMerDMPPNHmHb1w8": 2,
+    "zaePYlW5daCDXPAH": 3
+  },
+  "effects": [],
+  "system": {
+    "master": {
+      "id": "bEDxqSrIqu6Z5KRc",
+      "ability": "int"
+    },
+    "attributes": {
+      "hp": {
+        "value": 46,
+        "temp": 0
+      }
+    },
+    "details": {
+      "creature": {
+        "value": "Talking Head"
+      }
+    },
+    "_migration": {
+      "version": 0.955,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "13.351",
+        "system": "7.10.1"
+      }
+    }
+  },
+  "img": "assets/token-portrait/av-fri/master-bathazzar-p.webp",
+  "items": [
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Familiar of Ongoing Misery",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your familiar seems hostile to all creatures other than you, hissing at them if they get too near. When you Cast or Sustain a hex, your familiar can curse a creature within 15 feet of it, prolonging the duration of any negative conditions affecting it by 1 round. This is a curse effect. This prolongs only conditions with a timed duration (such as \"1 round\" or \"until the end of your next turn\") and doesn't prevent conditions from being removed by other means.</p>"
+        },
+        "rules": [],
+        "slug": "familiar-of-ongoing-misery",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "type": "action",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "_id": "vaUIGxzdp0aZZ1lK",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.vaUIGxzdp0aZZ1lK"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Share Senses",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Once every 10 minutes, you can use a single action with the concentrate trait to project your senses into your familiar. When you do, you lose all sensory information from your own body, but can sense through your familiar's body for up to 1 minute. You can Dismiss this effect.</p>"
+        },
+        "rules": [],
+        "slug": "share-senses",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false,
+        "frequency": {
+          "max": 1,
+          "per": "PT10M",
+          "value": 1
+        }
+      },
+      "type": "action",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "_id": "8EWYy61JMXKdwBJd",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.8EWYy61JMXKdwBJd"
+    },
+    {
+      "_id": "AuHbJvw4qENy4usT",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scout",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb]{Scout}</p>\n<p>You gain a +1 circumstance bonus to your initiative roll.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "removeAfterRoll": [
+              "check:type:initiative"
+            ],
+            "selector": "initiative",
+            "slug": "scouting-bonus",
+            "type": "circumstance",
+            "value": 1
+          }
+        ],
+        "slug": "effect-scout",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": null,
+          "sustained": false
+        },
+        "start": {
+          "value": -422481765,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": true
+        },
+        "badge": null,
+        "context": null,
+        "unidentified": false,
+        "fromSpell": false
+      },
+      "type": "effect",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!eqKrdNzQZfDjort4.AuHbJvw4qENy4usT"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "name": "Shed Spirit",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 2
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Frequency</strong> once per 10 minutes</p>\n<hr />\n<p><strong>Effect</strong> Your familiar's spirit exits its body, leaving its empty shell behind, before flying at an enemy within 20 feet and dealing @Damage[(6+max(0,(ceil((@actor.level -8)/2)*2)))d6[spirit]] damage, with a @Check[will|basic] save against your spell DC. If the familiar dealt damage, it then flies to an ally within 30 feet of the enemy, restoring Hit Points equal to half the damage dealt. Your familiar then re-forms in its original square. At 9th level, and every 2 levels thereafter, the attack deals an additional 2d6 damage.</p>",
+          "gm": ""
+        },
+        "frequency": {
+          "max": 1,
+          "per": "PT10M",
+          "value": 0
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "shed-spirit",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "zaePYlW5daCDXPAH": 3
+      },
+      "flags": {},
+      "_id": "Kr8YdjUpLMSnjAql",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.Kr8YdjUpLMSnjAql"
+    },
+    {
+      "name": "Talking Head",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Required Number of Abilities 3</strong></p><p><strong>Granted Abilities</strong> @UUID[Compendium.pf2e.familiar-abilities.rs4Awf4k1e0Mj797]{Cantrip Connection}, @UUID[Compendium.pf2e.familiar-abilities.jevzf9JbJJibpqaI]{Skilled} (your choice of arcana, occultism, or one kind of lore), @UUID[Compendium.pf2e.familiar-abilities.zyMRLQnFCQVpltiR]{Speech}</p><hr /><p>Similar to beheaded, these disembodied, reanimated heads (with or without skin) retain some of their arcane wisdom, making for invaluable study partners. However, they also tend to be mouthy, opinionated, or downright obnoxious with their constant chattering, leading some annoyed masters to sew their mouths shut in punishment.</p><hr /><p><strong>Undead</strong></p><p>Your familiar is undead. It has negative healing and is immune to death effects, disease, poison, and unconscious. It's destroyed at 0 HP.</p><hr /><p>@UUID[Compendium.pf2e-specific-familiars.specific-familiars-abilities.al90ZwxRIq3YjnWQ]{Heads Will Roll}</p><p>@Embed[Compendium.pf2e-specific-familiars.specific-familiars-abilities.al90ZwxRIq3YjnWQ inline]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActorTraits",
+            "add": [
+              "undead"
+            ],
+            "remove": [
+              "animal"
+            ]
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.rs4Awf4k1e0Mj797",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "cantripConnection"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "skilled"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.familiar-abilities.Item.zyMRLQnFCQVpltiR",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "speech"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-specific-familiars.specific-familiars-abilities.Item.al90ZwxRIq3YjnWQ",
+            "onDeleteActions": {
+              "grantee": "restrict"
+            },
+            "flag": "headsWillRoll"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          },
+          {
+            "key": "Immunity",
+            "type": [
+              "death-effects",
+              "disease",
+              "poison",
+              "unconscious"
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "path": "system.details.creature.value",
+            "value": "Talking Head",
+            "mode": "override"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.pf2e.specificFamiliars.requiredNumberOfAbilities",
+            "value": 3
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.specificFamiliars.specificFamiliarAbilityId",
+            "value": {
+              "sourceId": "{item|_stats.compendiumSource}",
+              "id": "{item|_id}"
+            },
+            "priority": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "add",
+            "path": "flags.pf2e.specificFamiliars.grantedNumberOfAbilities",
+            "value": 0
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Book of the Dead 40",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/default-icons/familiar.svg",
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "FibNWQYOdQwgSPqy": 3,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "cantripConnection": {
+              "id": "wOLBB40eNtHcM3Bz",
+              "onDelete": "restrict"
+            },
+            "skilled": {
+              "id": "0ABpz84FUjbog2Br",
+              "onDelete": "restrict"
+            },
+            "speech": {
+              "id": "iqkkaLd2wDRMJyzw",
+              "onDelete": "restrict"
+            },
+            "headsWillRoll": {
+              "id": "RV0HkcQFMvDPQ3Pw",
+              "onDelete": "restrict"
+            }
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "_id": "TffrNvYIn5Zrciib",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.TffrNvYIn5Zrciib"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Cantrip Connection",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>You can prepare an additional cantrip, or if you have a repertoire, designate a cantrip to add to your repertoire every time you select this ability; you can retrain it but can't otherwise change it. You must be able to prepare cantrips or add them to your repertoire to select this.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "cantrip-connection",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "TffrNvYIn5Zrciib",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "wOLBB40eNtHcM3Bz",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.wOLBB40eNtHcM3Bz"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Skilled (Arcana)",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>Choose a skill other than Acrobatics or Stealth. Your familiar's modifier for that skill is equal to your level plus your spellcasting attribute modifier, rather than just your level. You can select this ability repeatedly, choosing a different skill each time.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "choices": [
+              {
+                "label": "PF2E.Skill.Arcana",
+                "value": "arcana"
+              },
+              {
+                "label": "PF2E.Skill.Athletics",
+                "value": "athletics"
+              },
+              {
+                "label": "PF2E.Skill.Crafting",
+                "value": "crafting"
+              },
+              {
+                "label": "PF2E.Skill.Deception",
+                "value": "deception"
+              },
+              {
+                "label": "PF2E.Skill.Diplomacy",
+                "value": "diplomacy"
+              },
+              {
+                "label": "PF2E.Skill.Intimidation",
+                "value": "intimidation"
+              },
+              {
+                "label": "PF2E.Skill.Medicine",
+                "value": "medicine"
+              },
+              {
+                "label": "PF2E.Skill.Nature",
+                "value": "nature"
+              },
+              {
+                "label": "PF2E.Skill.Occultism",
+                "value": "occultism"
+              },
+              {
+                "label": "PF2E.Skill.Performance",
+                "value": "performance"
+              },
+              {
+                "label": "PF2E.Skill.Religion",
+                "value": "religion"
+              },
+              {
+                "label": "PF2E.Skill.Society",
+                "value": "society"
+              },
+              {
+                "label": "PF2E.Skill.Survival",
+                "value": "survival"
+              },
+              {
+                "label": "PF2E.Skill.Thievery",
+                "value": "thievery"
+              }
+            ],
+            "flag": "skill",
+            "key": "ChoiceSet",
+            "selection": "arcana"
+          },
+          {
+            "key": "FlatModifier",
+            "selector": "{item|flags.pf2e.rulesSelections.skill}",
+            "value": "@actor.masterAttributeModifier"
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "skilled",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "TffrNvYIn5Zrciib",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "0ABpz84FUjbog2Br",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.0ABpz84FUjbog2Br"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Speech",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>It understands and speaks a language you know.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "speech",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "TffrNvYIn5Zrciib",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "iqkkaLd2wDRMJyzw",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.iqkkaLd2wDRMJyzw"
+    },
+    {
+      "name": "Heads Will Roll",
+      "type": "action",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Unless its master gives the talking head the flier ability, a talking head is able to move only by rolling along the ground, reducing its speed to 15 feet. Alternatively, a creature can, as a single action, kick or throw the head 30 feet. This can't be used as an attack; the head bounces harmlessly off anything it hits.</p>"
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "land-speed",
+            "value": -10,
+            "predicate": [
+              {
+                "not": "self:ability:fast-movement-land"
+              }
+            ]
+          }
+        ],
+        "slug": null,
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Book of the Dead 40",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "passive"
+        },
+        "category": "familiar",
+        "actions": {
+          "value": null
+        },
+        "deathNote": false
+      },
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "FibNWQYOdQwgSPqy": 3,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "TffrNvYIn5Zrciib",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "_id": "RV0HkcQFMvDPQ3Pw",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.RV0HkcQFMvDPQ3Pw"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Tough",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>Your familiar's max HP increase by 2 per level.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "hp",
+            "type": "untyped",
+            "value": "2 * @actor.level"
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "tough",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "BeO63dT63NMJ0Ht4",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.BeO63dT63NMJ0Ht4"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Second Opinion",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>Your familiar is your academic confidant. Despite being a minion, your familiar gains 1 reaction at the start of its turns, which it can use only to @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid} you on a Recall Knowledge skill check for a skill in which it has the @UUID[Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI]{Skilled} familiar ability (it still has to prepare to help you as normal for the Aid reaction).</p>\n<p>It automatically succeeds at its check to Aid you with those skills or automatically critically succeeds if you're a master of the skill in question. Your familiar must have the skilled ability to select this.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "second-opinion",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "zaePYlW5daCDXPAH": 3
+      },
+      "flags": {},
+      "_id": "cV8jIw9m5VnkEcMV",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.cV8jIw9m5VnkEcMV"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Darkvision",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>It gains darkvision.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Sense",
+            "selector": "darkvision"
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "darkvision",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "zaePYlW5daCDXPAH": 3
+      },
+      "flags": {},
+      "_id": "MzIeHAa1xdnNITYy",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.MzIeHAa1xdnNITYy"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/Passive.webp",
+      "name": "Flier",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "familiar",
+        "description": {
+          "value": "<p>It gains a fly Speed of 25 feet.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "BaseSpeed",
+            "selector": "fly",
+            "value": 25
+          }
+        ],
+        "traits": {
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "flier",
+        "_migration": {
+          "version": 0.955,
+          "previous": {
+            "schema": 0.954,
+            "foundry": "13.351",
+            "system": "7.10.1"
+          }
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.12.2",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "zaePYlW5daCDXPAH": 3
+      },
+      "flags": {},
+      "_id": "OHehKDNXvxW5MNMg",
+      "_key": "!actors.items!eqKrdNzQZfDjort4.OHehKDNXvxW5MNMg"
+    }
+  ],
+  "flags": {
+    "sequencer": {
+      "effects": []
+    },
+    "pf2e-creature-sounds": {
+      "soundset": "Sami_Swash"
+    },
+    "xdy-pf2e-workbench": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.12.2",
+    "createdTime": 1777086642116,
+    "modifiedTime": 1777086645083,
+    "lastModifiedBy": "CLMiGpsYVSTK4VM8"
+  },
+  "_id": "eqKrdNzQZfDjort4",
+  "sort": 400000,
+  "_key": "!actors!eqKrdNzQZfDjort4"
+}

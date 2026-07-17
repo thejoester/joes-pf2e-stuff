@@ -1,0 +1,1979 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Munitions Machinist",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "systems/pf2e/icons/default-icons/character.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "bcNE88l8YEjwcTMq",
+  "name": "Munitions Machinist",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "CLMiGpsYVSTK4VM8": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 48,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 6
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      }
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 1,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": [],
+    "crafting": {
+      "formulas": [
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.zHzAZRDVtl2NFqyh"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.lHyguikeoZlFlYdx"
+        },
+        {
+          "uuid": "Compendium.pf2e.equipment-srd.Item.58fs0VsG71A9gyEk"
+        }
+      ]
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/character.svg",
+  "items": [
+    {
+      "_id": "k9ujjADdqY7LxCK3",
+      "img": "systems/pf2e/icons/default-icons/alternatives/ancestries/elf.svg",
+      "name": "Elf",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>As an ancient people, elves have seen great change and have the perspective that can come only from watching the arc of history. After leaving the world in ancient times, they returned to a changed land, and they still struggle to reclaim their ancestral homes, most notably from terrible demons that have invaded parts of their lands. To some, the elves are objects of awe—graceful and beautiful, with immense talent and knowledge. Among themselves, however, the elves place far more importance on personal freedom than on living up to these ideals.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.3cfdiId1IoxLsF9V]{Elf}</em></p>"
+        },
+        "rules": [],
+        "slug": "elf",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "elf",
+            "humanoid"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "hp": 6,
+        "size": "med",
+        "reach": 5,
+        "speed": 30,
+        "boosts": {
+          "0": {
+            "value": [
+              "dex"
+            ]
+          },
+          "1": {
+            "value": [
+              "int"
+            ]
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": [
+              "con"
+            ]
+          }
+        },
+        "languages": {
+          "value": [
+            "common",
+            "elven"
+          ],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [
+            "draconic",
+            "empyrean",
+            "fey",
+            "gnomish",
+            "goblin",
+            "kholo",
+            "orcish"
+          ],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "low-light-vision"
+      },
+      "type": "ancestry",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.ancestries.Item.PgKmsA2aKdbLU6O0",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.k9ujjADdqY7LxCK3"
+    },
+    {
+      "_id": "BcUUm8H7xsqQoSnN",
+      "folder": "yI3glLXLna5Uq2GR",
+      "img": "systems/pf2e/icons/features/ancestry/caveren-elf.webp",
+      "name": "Cavern Elf",
+      "system": {
+        "ancestry": {
+          "name": "Elf",
+          "slug": "elf",
+          "uuid": "Compendium.pf2e.ancestries.Item.PgKmsA2aKdbLU6O0"
+        },
+        "description": {
+          "value": "<p>You were born or spent many years in underground tunnels or caverns where light is scarce. You gain darkvision.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "Sense",
+            "selector": "darkvision"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [],
+          "otherTags": []
+        },
+        "slug": "cavern-elf",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "heritage",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.heritages.Item.NfIAGatB1KIzt8G7",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.BcUUm8H7xsqQoSnN"
+    },
+    {
+      "_id": "mZ0ZLSzVMZu36ROS",
+      "img": "systems/pf2e/icons/default-icons/background.svg",
+      "name": "Alkenstar Tinker",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Prerequisite</strong> Region - Impossible Lands</p>\n<hr />\n<p>Your dedication to the scientific inquiry of your native Alkenstar provides great insight into mechanical and chemical innovation.</p>\n<p>Choose two attribute boosts. One must be to <strong>Dexterity</strong> or <strong>Intelligence</strong>, and one is a free attribute boost.</p>\n<p>You're trained in the Crafting skill and the Engineering Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K]{Alchemical Crafting} skill feat.</p>"
+        },
+        "rules": [],
+        "slug": "alkenstar-tinker",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Lost Omens World Guide",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "boosts": {
+          "0": {
+            "value": [
+              "dex",
+              "int"
+            ]
+          },
+          "1": {
+            "value": [
+              "cha",
+              "con",
+              "dex",
+              "int",
+              "str",
+              "wis"
+            ]
+          }
+        },
+        "items": {
+          "3pqt3": {
+            "img": "icons/sundries/books/book-red-exclamation.webp",
+            "level": 1,
+            "name": "Alchemical Crafting",
+            "uuid": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K"
+          }
+        },
+        "trainedSkills": {
+          "value": [
+            "crafting"
+          ],
+          "lore": [
+            "Engineering Lore"
+          ]
+        }
+      },
+      "type": "background",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.backgrounds.Item.0c9Np7Yq5JSxZ6Tb",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.mZ0ZLSzVMZu36ROS"
+    },
+    {
+      "folder": "y1yqadf5jPHJk1jW",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Alchemical Crafting",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "skill",
+        "description": {
+          "value": "<p>You can use the Craft activity to create alchemical items. When you select this feat, you immediately add the formulas for four common 1st-level alchemical items to your formula book.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "trained in Crafting"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "general",
+            "skill"
+          ],
+          "otherTags": []
+        },
+        "slug": "alchemical-crafting",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "mZ0ZLSzVMZu36ROS"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "Pdl7jnPzVXh0k7e3",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.Pdl7jnPzVXh0k7e3"
+    },
+    {
+      "_id": "lVTrvsCHYe9MDn4D",
+      "img": "systems/pf2e/icons/classes/gunslinger.webp",
+      "name": "Gunslinger",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><em>While some fear projectile weapons, you savor the searing flash, wild kick, and cloying smoke that accompanies a gunshot, or snap of the cable and telltale thunk of your crossbow just before your bolt finds purchase. Ready to draw a bead on an enemy at every turn, you rely on your reflexes, steady hand, and knowledge of your weapons to riddle your foes with holes.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.88K0xjShkhkckbhv]{Gunslinger}</em></p>"
+        },
+        "rules": [
+          {
+            "definition": [
+              "item:category:simple",
+              {
+                "or": [
+                  "item:group:firearm",
+                  "item:group:crossbow"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "label": "PF2E.SpecificRule.MartialProficiency.SimpleFirearmsCrossbows",
+            "slug": "simple-firearms-crossbows",
+            "value": 2
+          },
+          {
+            "definition": [
+              "item:category:martial",
+              {
+                "or": [
+                  "item:group:firearm",
+                  "item:group:crossbow"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "label": "PF2E.SpecificRule.MartialProficiency.MartialFirearmsCrossbows",
+            "slug": "martial-firearms-crossbows",
+            "value": 2
+          },
+          {
+            "definition": [
+              "item:category:advanced",
+              {
+                "or": [
+                  "item:group:firearm",
+                  "item:group:crossbow"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "label": "PF2E.SpecificRule.MartialProficiency.AdvancedFirearmsCrossbows",
+            "slug": "advanced-firearms-crossbows",
+            "value": 1
+          }
+        ],
+        "slug": "gunslinger",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Guns & Gears",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "keyAbility": {
+          "value": [
+            "dex"
+          ]
+        },
+        "items": {
+          "182it": {
+            "img": "systems/pf2e/icons/features/classes/shootists-edge.webp",
+            "level": 17,
+            "name": "Shootist's Edge",
+            "uuid": "Compendium.pf2e.classfeatures.Item.RkofVX55ciXZyfAA"
+          },
+          "1qqd9": {
+            "img": "systems/pf2e/icons/features/classes/gunslinger-expertise.webp",
+            "level": 9,
+            "name": "Gunslinger Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.aKr6OE8vI2BsJzf1"
+          },
+          "5m24f": {
+            "img": "systems/pf2e/icons/features/classes/greater-deed.webp",
+            "level": 15,
+            "name": "Greater Deed",
+            "uuid": "Compendium.pf2e.classfeatures.Item.yc9RuXXxmZ9YidH6"
+          },
+          "5vutv": {
+            "img": "systems/pf2e/icons/features/classes/advanced-deed.webp",
+            "level": 9,
+            "name": "Advanced Deed",
+            "uuid": "Compendium.pf2e.classfeatures.Item.3JLW5vPshsJf3nCY"
+          },
+          "6sihc": {
+            "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+            "level": 13,
+            "name": "Medium Armor Expertise",
+            "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3"
+          },
+          "8ndxn": {
+            "img": "icons/magic/symbols/question-stone-yellow.webp",
+            "level": 1,
+            "name": "Gunslinger's Way",
+            "uuid": "Compendium.pf2e.classfeatures.Item.LDqVxLKrwEqSegiu"
+          },
+          "An5aC": {
+            "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+            "level": 1,
+            "name": "Slinger's Precision",
+            "uuid": "Compendium.pf2e.classfeatures.Item.vXbk7Nm1TOTTUNvF"
+          },
+          "QEPUa": {
+            "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+            "level": 19,
+            "name": "Perception Legend",
+            "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00"
+          },
+          "bskyv": {
+            "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+            "level": 19,
+            "name": "Medium Armor Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2"
+          },
+          "emlsp": {
+            "img": "systems/pf2e/icons/features/classes/gunslinging-legend.webp",
+            "level": 13,
+            "name": "Gunslinging Legend",
+            "uuid": "Compendium.pf2e.classfeatures.Item.ULOAZWZEokbJC6Rq"
+          },
+          "epPK8": {
+            "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+            "level": 11,
+            "name": "Blast Dodger",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Uz2Izzi5A8N6Dxjn"
+          },
+          "g1XUZ": {
+            "img": "icons/commodities/materials/bowl-powder-grey.webp",
+            "level": 17,
+            "name": "Lead Constitution",
+            "uuid": "Compendium.pf2e.classfeatures.Item.i7NKYQNGu5AaR1qb"
+          },
+          "g7b2s": {
+            "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+            "level": 7,
+            "name": "Weapon Specialization",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+          },
+          "gfou8": {
+            "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+            "level": 3,
+            "name": "Stubborn",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Wpdeh6EkcAKA60oH"
+          },
+          "kh0qp": {
+            "img": "systems/pf2e/icons/features/classes/gunslinger-weapon-mastery.webp",
+            "level": 5,
+            "name": "Gunslinger Weapon Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.9nRT8aq05Fy2D3i3"
+          },
+          "vmzyj": {
+            "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+            "level": 7,
+            "name": "Perception Mastery",
+            "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+          },
+          "zmmy3": {
+            "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+            "level": 15,
+            "name": "Greater Weapon Specialization (Level 15)",
+            "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+          }
+        },
+        "hp": 8,
+        "trainedSkills": {
+          "value": [],
+          "additional": 3
+        },
+        "perception": 2,
+        "savingThrows": {
+          "fortitude": 2,
+          "reflex": 2,
+          "will": 1
+        },
+        "attacks": {
+          "simple": 1,
+          "martial": 1,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "Simple Firearms, Martial Firearms",
+            "rank": 2
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 1,
+          "medium": 1,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": [
+            1,
+            5,
+            9,
+            13,
+            17
+          ]
+        },
+        "classFeatLevels": {
+          "value": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "generalFeatLevels": {
+          "value": [
+            3,
+            7,
+            11,
+            15,
+            19
+          ]
+        },
+        "skillFeatLevels": {
+          "value": [
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14,
+            16,
+            18,
+            20
+          ]
+        },
+        "skillIncreaseLevels": {
+          "value": [
+            3,
+            5,
+            7,
+            9,
+            11,
+            13,
+            15,
+            17,
+            19
+          ]
+        }
+      },
+      "type": "class",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classes.Item.Z9li154CPNmun29Q",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.lVTrvsCHYe9MDn4D"
+    },
+    {
+      "img": "icons/magic/symbols/question-stone-yellow.webp",
+      "name": "Gunslinger's Way",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>All gunslingers have a particular way they follow, a combination of philosophy and combat style that defines both how they fight and the weapons they excel with. At 1st level, your way grants you an initial deed, a unique reload action called a slinger's reload, and proficiency with a particular skill. You also gain advanced and greater deeds at later levels, as well as access to way-specific feats.</p>\n<p><strong>@UUID[Compendium.pf2e.classfeatures.Item.a3pSIKkDVTvvNSRO]{Way of the Drifter}</strong> You wander across the battlefield, equally at home in and out of the fray.</p>\n<p><strong>@UUID[Compendium.pf2e.classfeatures.Item.qRLRrHf0kzaJ7xt0]{Way of the Pistolero}</strong> You carefully maintain your distance at a duelist's 10 paces with pistol in hand.</p>\n<p><strong>@UUID[Compendium.pf2e.classfeatures.Item.QWXvksGJhOjXbBqi]{Way of the Sniper}</strong> You practice a methodical style of shooting, striking from far cover.</p>\n<p><strong>@UUID[Compendium.pf2e.classfeatures.Item.vB0yVFxJVZwalt2g]{Way of the Vanguard}</strong> You rely on a brutal combat style that uses heavy weapons and explosive attacks.</p>\n<p><strong>@UUID[Compendium.pf2e.classfeatures.Item.YryaWAGcHeaRnXzS]{Way of the Triggerbrand}</strong> You prefer firearms that work well as weapons in both melee and ranged combat</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "adjustName": false,
+            "choices": {
+              "filter": [
+                "item:tag:gunslinger-way",
+                {
+                  "or": [
+                    {
+                      "and": [
+                        "class:gunslinger",
+                        "item:tag:gunslinger-way"
+                      ]
+                    },
+                    {
+                      "and": [
+                        "item:tag:gunslinger-way",
+                        {
+                          "not": "item:tag:class-archetype"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            "flag": "way",
+            "key": "ChoiceSet",
+            "prompt": "PF2E.SpecificRule.Gunslinger.Way.Prompt",
+            "selection": "Compendium.pf2e.classfeatures.Item.QWXvksGJhOjXbBqi"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "{item|flags.pf2e.rulesSelections.way}",
+            "flag": "wayOfTheSniper"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "gunslingers-way",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "lVTrvsCHYe9MDn4D"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.LDqVxLKrwEqSegiu",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "wayOfTheSniper": {
+              "id": "AHUqHVmW6rFqvQQm",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "INZVABxuwrmtlQcT",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.INZVABxuwrmtlQcT"
+    },
+    {
+      "img": "icons/skills/ranged/target-bullseye-arrow-yellow.webp",
+      "name": "Way of the Sniper",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You practice a style of shooting that relies on unerring accuracy and perfect placement of your first shot. You keep hidden or at a distance, staying out of the fray and bringing unseen death to your foes.</p>\n<p><strong>Slinger's Reload</strong> @UUID[Compendium.pf2e.actionspf2e.Item.gBhWEy3ToxQeCLQm]{Covered Reload}</p>\n<p><strong>Deeds</strong> <em>Initial</em> @UUID[Compendium.pf2e.actionspf2e.Item.Tlrde2xh7AhesXNB]{One Shot, One Kill}; <em>Advanced</em> @UUID[Compendium.pf2e.actionspf2e.Item.vO0Y1dVjNfbDyT4S]{Vital Shot}; <em>Greater</em> @UUID[Compendium.pf2e.actionspf2e.Item.O1iircZOOCo42r9Y]{Ghost Shot}</p>\n<p><strong>Way Skill</strong> Stealth</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "predicate": [
+              "class:gunslinger"
+            ],
+            "uuid": "Compendium.pf2e.actionspf2e.Item.gBhWEy3ToxQeCLQm",
+            "flag": "coveredReload"
+          },
+          {
+            "key": "GrantItem",
+            "predicate": [
+              "class:gunslinger"
+            ],
+            "uuid": "Compendium.pf2e.actionspf2e.Item.Tlrde2xh7AhesXNB",
+            "flag": "oneShotOneKill"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.skills.stealth.rank",
+            "value": 1
+          }
+        ],
+        "traits": {
+          "otherTags": [
+            "gunslinger-way"
+          ],
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ]
+        },
+        "slug": "way-of-the-sniper",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": null
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.QWXvksGJhOjXbBqi",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "INZVABxuwrmtlQcT",
+            "onDelete": "cascade"
+          },
+          "itemGrants": {
+            "coveredReload": {
+              "id": "3Dscy4UV9X8PHXTP",
+              "onDelete": "detach"
+            },
+            "oneShotOneKill": {
+              "id": "KUnrk7Ri0hEuEzi5",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_id": "AHUqHVmW6rFqvQQm",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.AHUqHVmW6rFqvQQm"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Covered Reload",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p>You duck into a safe position or minimize your profile while reloading to make your next attack. Either @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} or attempt to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, then Interact to reload. As normal, you must meet the requirements to Take Cover or Hide; you must be @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, benefiting from cover, or near a feature that allows you to Take Cover, and you need to be benefiting from cover or @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to a creature to Hide from that creature.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [],
+        "traits": {
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "covered-reload",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.gBhWEy3ToxQeCLQm",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "AHUqHVmW6rFqvQQm",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "3Dscy4UV9X8PHXTP",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.3Dscy4UV9X8PHXTP"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/FreeAction.webp",
+      "name": "One Shot, One Kill",
+      "system": {
+        "actionType": {
+          "value": "free"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "offensive",
+        "description": {
+          "value": "<p><strong>Trigger</strong> You roll Stealth for initiative.</p><hr /><p>Your first shot is the deadliest. Interact to draw a firearm or crossbow. Your first successful Strike with that weapon during this encounter deals an additional 1d6 precision damage. This precision damage increases to 2d6 at 9th level and 3d6 at 15th level.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "domain": "strike-damage",
+            "key": "RollOption",
+            "option": "one-shot-one-kill",
+            "toggleable": true
+          },
+          {
+            "category": "precision",
+            "diceNumber": "clamp(floor((@actor.level + 3)/6),1,3)",
+            "dieSize": "d6",
+            "key": "DamageDice",
+            "predicate": [
+              "one-shot-one-kill",
+              {
+                "or": [
+                  "item:group:firearm",
+                  "item:group:crossbow"
+                ]
+              }
+            ],
+            "selector": "strike-damage"
+          },
+          {
+            "key": "Note",
+            "predicate": [
+              "check:statistic:base:stealth"
+            ],
+            "selector": "initiative",
+            "text": "{item|description}",
+            "title": "<span class=\"action-glyph\">F</span> {item|name}"
+          }
+        ],
+        "traits": {
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "one-shot-one-kill",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.Tlrde2xh7AhesXNB",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "AHUqHVmW6rFqvQQm",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "KUnrk7Ri0hEuEzi5",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.KUnrk7Ri0hEuEzi5"
+    },
+    {
+      "img": "icons/skills/targeting/crosshair-bars-yellow.webp",
+      "name": "Slinger's Precision",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You deal an extra +2 precision damage with Strikes made using non-repeating crossbows and you deal an extra 1d4 precision damage on Strikes using non-repeating firearms.</p>\n<p>If you have gunslinging legend, you instead deal +3 additional precision damage with Strikes using non-repeating crossbows and an additional 1d6 precision damage with Strikes using non-repeating firearms.</p>\n<p>If you are using a combination weapon whose ranged form is a firearm or crossbow, you use your proficiency with firearms and crossbows for attacks made with the melee configuration of that weapon.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 1
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "damageCategory": "precision",
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "not": "item:trait:repeating"
+              }
+            ],
+            "selector": "crossbow-weapon-group-damage",
+            "slug": "slingers-precision-crossbow",
+            "value": 2
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "predicate": [
+              "feature:gunslinging-legend"
+            ],
+            "selector": "crossbow-weapon-group-damage",
+            "slug": "slingers-precision-crossbow",
+            "value": 3
+          },
+          {
+            "category": "precision",
+            "diceNumber": 1,
+            "dieSize": "d4",
+            "hideIfDisabled": true,
+            "key": "DamageDice",
+            "predicate": [
+              {
+                "not": "item:trait:repeating"
+              }
+            ],
+            "selector": "firearm-weapon-group-damage",
+            "slug": "slingers-precision-firearm"
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "upgrade",
+            "predicate": [
+              "feature:gunslinging-legend",
+              "dice:slug:slingers-precision-firearm"
+            ],
+            "property": "dice-faces",
+            "selectors": [
+              "firearm-weapon-group-damage"
+            ]
+          },
+          {
+            "definition": [
+              "item:category:advanced",
+              "item:ranged-usage:trait:combination",
+              {
+                "or": [
+                  "item:ranged-usage:group:crossbow",
+                  "item:ranged-usage:group:firearm"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "priority": 41,
+            "slug": "slingers-precision-advanced",
+            "value": "@actor.system.proficiencies.attacks.advanced-firearms-crossbows.rank",
+            "visible": false
+          },
+          {
+            "definition": [
+              "item:category:martial",
+              "item:ranged-usage:trait:combination",
+              {
+                "or": [
+                  "item:ranged-usage:group:crossbow",
+                  "item:ranged-usage:group:firearm"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "priority": 41,
+            "slug": "slingers-precision-martial",
+            "value": "@actor.system.proficiencies.attacks.martial-firearms-crossbows.rank",
+            "visible": false
+          },
+          {
+            "definition": [
+              "item:category:simple",
+              "item:ranged-usage:trait:combination",
+              {
+                "or": [
+                  "item:ranged-usage:group:crossbow",
+                  "item:ranged-usage:group:firearm"
+                ]
+              }
+            ],
+            "key": "MartialProficiency",
+            "priority": 41,
+            "slug": "slingers-precision-simple",
+            "value": "@actor.system.proficiencies.attacks.simple-firearms-crossbows.rank",
+            "visible": false
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "slingers-precision",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "lVTrvsCHYe9MDn4D"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.vXbk7Nm1TOTTUNvF",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "jv254JVT1MuxQTTV",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.jv254JVT1MuxQTTV"
+    },
+    {
+      "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+      "name": "Stubborn",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You don't like being told what to do, and you don't give up. Your proficiency rank for Will saves increases to expert. When you fail, but don't critically fail, a Will save against an effect that would give you the controlled condition, you can attempt a second save against the effect at the start of your next turn. On a successful second save, the controlled condition ends, though any other effects remain. As normal, failing this second save doesn't allow you to attempt a third save on the subsequent turn.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 3
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "OGL",
+          "remaster": false,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [],
+        "subfeatures": {
+          "proficiencies": {
+            "will": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "stubborn",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "lVTrvsCHYe9MDn4D"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.Wpdeh6EkcAKA60oH",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "01PVJGSVEyvksLvS",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.01PVJGSVEyvksLvS"
+    },
+    {
+      "img": "systems/pf2e/icons/features/classes/gunslinger-weapon-mastery.webp",
+      "name": "Gunslinger Weapon Mastery",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "classfeature",
+        "description": {
+          "value": "<p>You fully understand the best way to utilize your unique weapons. Your proficiency rank increases to master with simple and martial firearms and crossbows. Your proficiency rank for advanced firearms and crossbows, simple weapons, martial weapons, and unarmed attacks increases to expert. You gain access to the critical specialization effects for firearms and crossbows.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 5
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.advanced-firearms-crossbows.rank",
+            "value": 2
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.simple-firearms-crossbows.rank",
+            "value": 3
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.martial-firearms-crossbows.rank",
+            "value": 3
+          },
+          {
+            "key": "CriticalSpecialization",
+            "predicate": [
+              {
+                "or": [
+                  "item:group:firearm",
+                  "item:group:crossbow"
+                ]
+              }
+            ]
+          }
+        ],
+        "subfeatures": {
+          "proficiencies": {
+            "martial": {
+              "rank": 2,
+              "attribute": null
+            },
+            "simple": {
+              "rank": 2,
+              "attribute": null
+            },
+            "unarmed": {
+              "rank": 2,
+              "attribute": null
+            }
+          },
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "gunslinger-weapon-mastery",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "location": "lVTrvsCHYe9MDn4D"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.classfeatures.Item.9nRT8aq05Fy2D3i3",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "L1XJt5ciROUJtEzr",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.L1XJt5ciROUJtEzr"
+    },
+    {
+      "_id": "yqrS22dfLOpJsEWN",
+      "folder": "BYo2A4Ls3y1QuXTt",
+      "img": "icons/sundries/books/book-red-exclamation.webp",
+      "name": "Munitions Machinist",
+      "system": {
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "category": "class",
+        "description": {
+          "value": "<p>You're adept at crafting ammunition. You gain the Quick Alchemy benefits and 4 versatile vials, but can only use Quick Vial to create bombs or alchemical ammunition.</p>",
+          "gm": ""
+        },
+        "level": {
+          "value": 6,
+          "taken": 6
+        },
+        "prerequisites": {
+          "value": [
+            {
+              "value": "Munitions Crafter"
+            },
+            {
+              "value": "expert in Crafting"
+            }
+          ]
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Guns & Gears",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+            "flag": "quickAlchemy"
+          },
+          {
+            "itemUUID": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
+            "key": "SpecialResource",
+            "label": "PF2E.SpecificRule.Alchemist.VersatileVials",
+            "level": "ternary(gte(@actor.level, 18), 18, ternary(gte(@actor.level, 12), 12, ternary(gte(@actor.level, 4), 4, 1)))",
+            "max": 4,
+            "slug": "versatile-vials"
+          },
+          {
+            "craftableItems": [
+              "item:trait:alchemical",
+              {
+                "or": [
+                  "item:group:bomb",
+                  "item:category:ammo"
+                ]
+              }
+            ],
+            "key": "CraftingAbility",
+            "slug": "quick-alchemy"
+          }
+        ],
+        "traits": {
+          "rarity": "common",
+          "value": [
+            "gunslinger"
+          ],
+          "otherTags": []
+        },
+        "slug": "munitions-machinist",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        },
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "subfeatures": {
+          "proficiencies": {},
+          "senses": {},
+          "suppressedFeatures": []
+        },
+        "location": "class-6"
+      },
+      "type": "feat",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.feats-srd.Item.lh3STEvbGnP7jVMr",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "itemGrants": {
+            "quickAlchemy": {
+              "id": "nH1m5mJSjz0fcwkC",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.yqrS22dfLOpJsEWN"
+    },
+    {
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "name": "Quick Alchemy",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "interaction",
+        "description": {
+          "value": "<p><strong>Requirements</strong> You're either holding or wearing an @UUID[Compendium.pf2e.equipment-srd.Item.4ftXXUCBHcf4b0MH]{Alchemist's Toolkit}. and you have a free hand.</p><hr /><p>You can either use up a versatile vial to make another alchemical consumable at a moment's notice or create an especially short-lived versatile vial. Any effect created by an item made with Quick Alchemy that would have a duration longer than 10 minutes lasts for 10 minutes instead.</p><ul><li><strong>Create Consumable</strong> You expend one of your versatile vials to create a single alchemical consumable item of your level or lower that's in your formula book. You don't have to spend the normal monetary cost in alchemical raw materials or need to attempt a Crafting check. This item has the infused trait, but it remains potent only until the start of your next turn. (As normal, you need only one formula for an item to create any level of that item.)</li><li><p><strong>Quick Vial</strong> You create a versatile vial that can be used only as a bomb or for the versatile vial option from your research field (it can't be used to create a consumable, for example). This item has the infused trait, but it remains potent only until the end of your current turn.</p></li></ul>",
+          "gm": ""
+        },
+        "publication": {
+          "license": "ORC",
+          "remaster": true,
+          "title": "Pathfinder Player Core 2",
+          "authors": ""
+        },
+        "rules": [
+          {
+            "key": "CraftingAbility",
+            "priority": 15,
+            "resource": "versatile-vials",
+            "slug": "quick-alchemy"
+          }
+        ],
+        "traits": {
+          "value": [
+            "alchemist",
+            "manipulate"
+          ],
+          "otherTags": []
+        },
+        "slug": "quick-alchemy",
+        "_migration": {
+          "version": 0.935,
+          "previous": null
+        }
+      },
+      "type": "action",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {
+        "pf2e": {
+          "grantedBy": {
+            "id": "yqrS22dfLOpJsEWN",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "_id": "nH1m5mJSjz0fcwkC",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.nH1m5mJSjz0fcwkC"
+    },
+    {
+      "img": "icons/consumables/potions/potion-tube-corked-green.webp",
+      "name": "Versatile Vial",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This tiny glass flask contains volatile chemicals that can be used offensively in a pinch. The bomb deals acid damage and acid splash damage.</p>"
+        },
+        "rules": [
+          {
+            "hideIfDisabled": true,
+            "key": "FlatModifier",
+            "predicate": [
+              {
+                "gte": [
+                  "parent:level",
+                  4
+                ]
+              }
+            ],
+            "selector": "{item|id}-attack",
+            "type": "item",
+            "value": "ternary(gte(@item.level,18),3,ternary(gte(@item.level,12),2,1))"
+          },
+          {
+            "key": "DamageAlteration",
+            "mode": "upgrade",
+            "property": "dice-number",
+            "selectors": [
+              "{item|id}-damage"
+            ],
+            "slug": "base",
+            "value": "ternary(gte(@item.level,18),4,ternary(gte(@item.level,12),3,ternary(gte(@item.level,4),2,1)))"
+          },
+          {
+            "key": "AdjustModifier",
+            "mode": "upgrade",
+            "selector": "{item|id}-damage",
+            "slug": "splash",
+            "value": "ternary(gte(@item.level,18),4,ternary(gte(@item.level,12),3,ternary(gte(@item.level,4),2,1)))"
+          }
+        ],
+        "slug": "versatile-vial",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": null
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "acid",
+            "alchemical",
+            "bomb",
+            "consumable",
+            "infused",
+            "splash"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core 2",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 4,
+        "baseItem": "alchemical-bomb",
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {}
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand",
+          "canBeAmmo": false
+        },
+        "category": "martial",
+        "group": "bomb",
+        "bonus": {
+          "value": 0
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "acid",
+          "persistent": null
+        },
+        "splashDamage": {
+          "value": 1
+        },
+        "range": 20,
+        "expend": null,
+        "reload": {
+          "value": "-"
+        },
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": null,
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": 0,
+          "die": "",
+          "damageType": "",
+          "critDice": 0,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": ""
+        }
+      },
+      "type": "weapon",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
+        "duplicateSource": null,
+        "coreVersion": "13.346",
+        "systemId": "pf2e",
+        "systemVersion": "6.12.4",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "CLMiGpsYVSTK4VM8": 3
+      },
+      "flags": {},
+      "_id": "tJWA9iWXlsaGNDWt",
+      "_key": "!actors.items!S4MFjE9EKjzOGUpI.tJWA9iWXlsaGNDWt"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1755270558333,
+    "modifiedTime": 1755270558875,
+    "lastModifiedBy": "CLMiGpsYVSTK4VM8",
+    "exportSource": null
+  },
+  "_id": "S4MFjE9EKjzOGUpI",
+  "sort": 200000,
+  "_key": "!actors!S4MFjE9EKjzOGUpI"
+}

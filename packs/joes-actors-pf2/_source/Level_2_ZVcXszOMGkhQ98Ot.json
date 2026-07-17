@@ -1,0 +1,19 @@
+{
+  "name": "Level 2",
+  "sorting": "a",
+  "folder": "X0WyYqZcAm8jdXMg",
+  "type": "Actor",
+  "_id": "ZVcXszOMGkhQ98Ot",
+  "sort": 0,
+  "color": "#616f00",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1701925735795,
+    "lastModifiedBy": "CLMiGpsYVSTK4VM8"
+  },
+  "_key": "!folders!ZVcXszOMGkhQ98Ot"
+}

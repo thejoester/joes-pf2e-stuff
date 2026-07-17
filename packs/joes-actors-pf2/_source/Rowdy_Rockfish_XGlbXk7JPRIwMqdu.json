@@ -1,0 +1,2886 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      },
+      "item-piles": {
+        "data": {
+          "enabled": true,
+          "type": "merchant",
+          "distance": null,
+          "description": "<p><strong>Address</strong>: 50 Zarmavdian Street</p><p><strong>Wares</strong>: Beverages, meals, lodging.</p><p></p><p>Despite its name, The Rowdy Rockfish is the quietest and quaintest of Otari's taverns. A sign depicting a rockfish with his fins up in a boxing pose hangs above the door of this two-story wooden structure, but within, the calm demeanor of its patrons leads some to wonder if this might be the one tavern in the Inner Sea to never host a barroom brawl.</p><p>The Rockfish's current proprietor is a matronly dwarf named Brelda Venkervale, a stoic but shrewd businesswoman who took over the bar after her son Lasda Venkervale, the previous owner, vanished without a trace. A few locals saw the red-bearded Lasda walking out of town with a hooded stranger carrying a lantern. Over a year has passed, and Brelda suspects that her son is gone for good.</p>",
+          "merchantImage": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/otari/brelda-venkervale.webp",
+          "infiniteQuantity": true,
+          "purchaseOnly": true,
+          "hideNewItems": true,
+          "hideItemsWithZeroCost": true,
+          "keepZeroQuantity": true,
+          "displayQuantity": "alwaysno",
+          "buyPriceModifier": 0.98,
+          "logMerchantActivity": true,
+          "onlyAcceptBasePrice": false
+        },
+        "version": "3.1.6"
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Rowdy Rockfish",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/otari/brelda-venkervale.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "name": "Rowdy Rockfish",
+  "type": "loot",
+  "ownership": {
+    "default": 1,
+    "lfU9NncyG8LWlt8v": 3
+  },
+  "effects": [],
+  "system": {
+    "details": {
+      "description": "",
+      "level": {
+        "value": 0
+      }
+    },
+    "lootSheetType": "Merchant",
+    "hiddenWhenEmpty": false,
+    "_migration": {
+      "version": 0.953,
+      "previous": {
+        "schema": 0.948,
+        "foundry": "13.351",
+        "system": "7.8.0"
+      }
+    }
+  },
+  "_id": "XGlbXk7JPRIwMqdu",
+  "img": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/otari/brelda-venkervale.webp",
+  "items": [
+    {
+      "_id": "TcZJLGayw8PmjVfb",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+      "name": "Copper Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "copper-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 21,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lzJ8AVhRcbFul5fh",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.TcZJLGayw8PmjVfb"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Apple-Cinnamon Crumble (Dessert)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grilled fish, squid, and roasted vegetables, marinated in a smoky citrus glaze.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "gwfAzHXG3oN9FNY9",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.gwfAzHXG3oN9FNY9"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Boar and Barley Stew (Big Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Slow-cooked boar with barley and root vegetables.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9999,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "AcDMvPTTOAGC7CIW",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.AcDMvPTTOAGC7CIW"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Dwarven Firewater",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Potent spirit imported from dwarven mines.</p><p></p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 8
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.IkwQ3xnaB0n8DfK1",
+        "duplicateSource": "Item.zPgHHT12qBo1PWDv",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "lGEGr5XUunPilpQR",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.lGEGr5XUunPilpQR"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Elderflower Gin",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Light and floral gin distilled with forest herbs</p><p></p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.s0pj6z9v5qJ7W0GR",
+        "duplicateSource": "Item.zPgHHT12qBo1PWDv",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "Fq8fGfAWOGdSSm1N",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.Fq8fGfAWOGdSSm1N"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Fizzy Citrus Brew",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Ice-cold citrus drink with a fizz.</p><p></p><p></p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/goblet-worn-engraved-lines-brown.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.tdwWSGCsHUeRTh41",
+        "duplicateSource": "Item.jLa6lE417hDANlxY",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "3zUSIixfNIKoADxS",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.3zUSIixfNIKoADxS"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Fogfen Stout",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Creamy stout with earthy mushroom flavors.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9999,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/stein-empty.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.U8AaFvxQaeNqako9",
+        "duplicateSource": "Item.ADxtBGRhcO49jTF7",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "QHt7Pz2dNVSpteQY",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.QHt7Pz2dNVSpteQY"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Fried Mushroom Caps (Small Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Giant mushrooms stuffed with goat cheese and herbs.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "vuuzLuWjyk1trF0h",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.vuuzLuWjyk1trF0h"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Fried Sea Nettle Rings (Small Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Crispy-fried sea nettles with spiced kelp aioli.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9999,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 200000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "OtDamvmQNgoaVlnV",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.OtDamvmQNgoaVlnV"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Grilled Veggie Platter (Big Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grilled fish, squid, and roasted vegetables, marinated in a smoky citrus glaze.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 9
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "538AtBqHBUO3ZR7Q",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.538AtBqHBUO3ZR7Q"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Honeyed Berry Tart (Dessert)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Wild berry tart drizzled with honey.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "_id": "9B8sasaVOkAxlqSj",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.VAlohKXCBQMKbrxc",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.9B8sasaVOkAxlqSj"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Kelp Noodles with Mushrooms (Big Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "_id": "fBS3VyqbbmT2Cdsq",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.v3uoA4Zmuw3l78up",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.fBS3VyqbbmT2Cdsq"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Mariner's Rum",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Strong, dark rum for seasoned sailors.</p><p></p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/jug-wrapped-red.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.zPgHHT12qBo1PWDv",
+        "duplicateSource": "Item.SBJaF1wAW5zgH0Dj",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "f6OLTvce5z5wJcB1",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.f6OLTvce5z5wJcB1"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Minted Tea",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Herbal tea with fresh mint and honey.</p><p></p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/goblet-worn-engraved-lines-brown.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.jLa6lE417hDANlxY",
+        "duplicateSource": "Item.s0pj6z9v5qJ7W0GR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "XuuJzEjlEbh8u0JX",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.XuuJzEjlEbh8u0JX"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Otari Amber",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Smooth amber ale with caramel undertones.</p><p></p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/kitchenware/stein-empty.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.SBJaF1wAW5zgH0Dj",
+        "duplicateSource": "Item.ADxtBGRhcO49jTF7",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "SoBgVujsfcFPkTFI",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.SoBgVujsfcFPkTFI"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Otari Surf & Turf (Big Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grilled rockfish and roasted boar with wild greens.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 18
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "UMEBahDZgYGu34t5",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.UMEBahDZgYGu34t5"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Rockfish Chowder (Big Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Creamy rockfish chowder with crusty bread.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 5
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 125000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": "Item.QHia4DOFStKI5UBR",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "XyDjXUfhngVMmJOs",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.XyDjXUfhngVMmJOs"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Rowdy Rockfish Special Ale",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The tavern’s house brew, dark and hearty.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "_id": "4PXJQPSLRvz6cezC",
+      "img": "icons/containers/kitchenware/stein-empty.webp",
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Drink"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.ADxtBGRhcO49jTF7",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.4PXJQPSLRvz6cezC"
+    },
+    {
+      "folder": "NmiR3p8eA2gNRrkx",
+      "name": "Rusty Skewers (Small Plate)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Grilled fish, squid, and roasted vegetables, marinated in a smoky citrus glaze.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "_id": "Pyk3yVbPFGOG4zCM",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/servers-stew.webp",
+      "sort": 112500,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true,
+            "customCategory": "Food"
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.QHia4DOFStKI5UBR",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.Pyk3yVbPFGOG4zCM"
+    },
+    {
+      "name": "Lock Rental",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/sundries/misc/lock-bronze-reinforced.webp",
+      "folder": "NmiR3p8eA2gNRrkx",
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.nQcsqRSCVe4yAq7K",
+        "duplicateSource": "Item.Of2XCta6WdsVTsi5",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "C6GDrYFyXuWCTWB2",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.C6GDrYFyXuWCTWB2"
+    },
+    {
+      "name": "Lodging (Private Room)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 8
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/environment/settlement/tavern.webp",
+      "folder": "NmiR3p8eA2gNRrkx",
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.nQcsqRSCVe4yAq7K",
+        "duplicateSource": "Item.nQcsqRSCVe4yAq7K",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "0XRty0fiOHGkqurn",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.0XRty0fiOHGkqurn"
+    },
+    {
+      "name": "Lodging (shared)",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9999,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 3
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "_id": "oEyqz9pSWrM4WXOH",
+      "img": "icons/environment/settlement/tavern.webp",
+      "folder": "NmiR3p8eA2gNRrkx",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.nQcsqRSCVe4yAq7K",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.oEyqz9pSWrM4WXOH"
+    },
+    {
+      "name": "Bath",
+      "type": "consumable",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Tub of hot water and soap. </p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/unidentified_item_icons/other-consumables.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null
+      },
+      "img": "icons/containers/misc/bucket-wooden-brown.webp",
+      "folder": "NmiR3p8eA2gNRrkx",
+      "sort": 500000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {
+            "isService": true
+          },
+          "version": "3.1.5"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Item.nQcsqRSCVe4yAq7K",
+        "duplicateSource": "Item.nQcsqRSCVe4yAq7K",
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_id": "6b7UlDmBgO8vpsps",
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.6b7UlDmBgO8vpsps"
+    },
+    {
+      "_id": "6UySognNBzzuNSWO",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!XGlbXk7JPRIwMqdu.6UySognNBzzuNSWO"
+    }
+  ],
+  "folder": "ChUF6HOolgjvd0pH",
+  "sort": 1000000,
+  "flags": {
+    "pf2e-toolbelt": {
+      "betterMerchant": {
+        "infiniteAll": true
+      }
+    },
+    "item-piles": {
+      "data": {
+        "enabled": true,
+        "type": "merchant",
+        "purchaseOnly": true,
+        "description": "<p><strong>Address</strong>: 50 Zarmavdian Street</p><p><strong>Wares</strong>: Beverages, meals, lodging.</p><p></p><p>Despite its name, The Rowdy Rockfish is the quietest and quaintest of Otari's taverns. A sign depicting a rockfish with his fins up in a boxing pose hangs above the door of this two-story wooden structure, but within, the calm demeanor of its patrons leads some to wonder if this might be the one tavern in the Inner Sea to never host a barroom brawl.</p><p>The Rockfish's current proprietor is a matronly dwarf named Brelda Venkervale, a stoic but shrewd businesswoman who took over the bar after her son Lasda Venkervale, the previous owner, vanished without a trace. A few locals saw the red-bearded Lasda walking out of town with a hooded stranger carrying a lantern. Over a year has passed, and Brelda suspects that her son is gone for good.</p>",
+        "merchantImage": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/otari/brelda-venkervale.webp",
+        "distance": null,
+        "infiniteQuantity": true,
+        "keepZeroQuantity": true,
+        "buyPriceModifier": 0.98,
+        "logMerchantActivity": true,
+        "hideNewItems": true,
+        "hideItemsWithZeroCost": true,
+        "displayQuantity": "alwaysno",
+        "onlyAcceptBasePrice": false
+      },
+      "version": "3.1.6",
+      "log": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1767432295651,
+    "modifiedTime": 1767432295651,
+    "lastModifiedBy": "lfU9NncyG8LWlt8v"
+  },
+  "_key": "!actors!XGlbXk7JPRIwMqdu"
+}

@@ -1,0 +1,1232 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "monks-tokenbar": {
+        "include": "default"
+      },
+      "conversation-hud": {
+        "excludeFromBeingPulled": false,
+        "linkedConversation": ""
+      },
+      "monks-combat-marker": {
+        "token-highlight-scale": 1.5,
+        "token-combat-animation": "",
+        "token-highlight": ""
+      },
+      "monks-bloodsplats": {
+        "bloodsplat-type": "",
+        "bloodsplat-colour": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Fang",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/tokens/wolf.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "SdwgBz28TGJMtZOK",
+  "name": "Fang",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "4OxmCTl4SRWjHy9X": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 30,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 80,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": []
+  },
+  "img": "assets/tokens/wolf.webp",
+  "items": [
+    {
+      "name": "Wolf",
+      "type": "ancestry",
+      "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 5400000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "animalCompanion": {
+              "id": "HVVGzfNFtbHWDOmN",
+              "onDelete": "detach"
+            },
+            "wolfSupportBenefit": {
+              "id": "FYxNG2QlUSlcPElj",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your companion is a wolf or other canine creature, such as a dog.</p>\n<p><strong>Size</strong> Small</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +3, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 6</p>\n<p><strong>Skill</strong> Survival</p>\n<p><strong>Senses</strong> low-light vision, scent (imprecise, 30 feet)</p>\n<p><strong>Speed</strong> 40 feet</p>\n<p><strong>Support Benefit</strong> Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a -5-foot status penalty to its Speeds for 1 minute (-10 on a critical success).</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.xssFjTXqGlsaddvl]{Knockdown}</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 3,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.wis.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.skills.survival.rank"
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+            "allowDuplicate": false,
+            "flag": "animalCompanion"
+          },
+          {
+            "acuity": "imprecise",
+            "key": "Sense",
+            "range": 30,
+            "selector": "scent"
+          },
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "piercing",
+                "dice": 1,
+                "die": "d8"
+              }
+            },
+            "group": "brawling",
+            "key": "Strike",
+            "label": "PF2E.Weapon.Base.jaws",
+            "range": null,
+            "traits": [
+              "unarmed",
+              "finesse"
+            ],
+            "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+            "replaceBasicUnarmed": true
+          },
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "self:ancestry:wolf",
+            "priority": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+            "allowDuplicate": false,
+            "flag": "wolfSupportBenefit"
+          }
+        ],
+        "slug": "wolf",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "animal"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "hp": 6,
+        "size": "sm",
+        "reach": 5,
+        "speed": 40,
+        "boosts": {
+          "0": {
+            "value": []
+          },
+          "1": {
+            "value": []
+          },
+          "2": {
+            "value": [
+              "str",
+              "dex",
+              "con",
+              "int",
+              "wis",
+              "cha"
+            ]
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [],
+          "custom": ""
+        },
+        "items": {},
+        "vision": "low-light-vision",
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "rDxs69lNqIFN75Bl": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.vbBkKVl9tgnVasFU",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        }
+      },
+      "_id": "7ddU3dipEHNYUr4e",
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.7ddU3dipEHNYUr4e"
+    },
+    {
+      "name": "Animal Companion",
+      "type": "class",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "7ddU3dipEHNYUr4e",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.perception.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.unarmed.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": -4,
+            "mode": "add",
+            "path": "system.abilities.int.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.disableABP",
+            "value": true,
+            "priority": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.int.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.dex.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActorTraits",
+            "add": [
+              "minion"
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.light-barding.rank",
+            "priority": 41,
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.heavy-barding.rank",
+            "priority": 41,
+            "value": 1
+          }
+        ],
+        "slug": "animal-companion",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "keyAbility": {
+          "value": []
+        },
+        "items": {},
+        "hp": 6,
+        "trainedSkills": {
+          "value": [
+            "acrobatics",
+            "athletics"
+          ],
+          "additional": 0
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 1
+        },
+        "attacks": {
+          "simple": 0,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 0,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": []
+        },
+        "classFeatLevels": {
+          "value": []
+        },
+        "generalFeatLevels": {
+          "value": []
+        },
+        "skillFeatLevels": {
+          "value": []
+        },
+        "skillIncreaseLevels": {
+          "value": []
+        },
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        }
+      },
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "HVVGzfNFtbHWDOmN",
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.HVVGzfNFtbHWDOmN"
+    },
+    {
+      "name": "Wolf Support Benefit",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 3400000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "7ddU3dipEHNYUr4e",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your wolf tears tendons with each opening. Until the start of your next turn, your Strikes that damage creatures your wolf threatens give the target a –5-foot status penalty to its Speeds for 1 minute (–10 on a critical success).</p>"
+        },
+        "rules": [],
+        "slug": "wolf-support-benefit",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "WG8TaxGEQOxXBO1S": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "FYxNG2QlUSlcPElj",
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.FYxNG2QlUSlcPElj"
+    },
+    {
+      "_id": "POp9fcdQ05kvSOW5",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/tack.webp",
+      "name": "Tack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2.</p>"
+        },
+        "rules": [],
+        "slug": "tack",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 225000,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Bu2xT8NfB6xaeTJa",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.POp9fcdQ05kvSOW5"
+    },
+    {
+      "_id": "Kcste14xZjZn9WbN",
+      "img": "icons/containers/bags/pack-leather-tan.webp",
+      "name": "Saddlebags",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Saddlebags come in a pair. Each can hold up to 3 Bulk of items, and the first 1 Bulk of items in each doesn't count against your mount's Bulk limit. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk.</p>"
+        },
+        "rules": [],
+        "slug": "saddlebags",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0,
+          "heldOrStowed": 1,
+          "capacity": 6,
+          "ignored": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "collapsed": false,
+        "stowing": true,
+        "usage": {
+          "value": "worn"
+        }
+      },
+      "type": "backpack",
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mBziC8v2eOtTs0f5",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.Kcste14xZjZn9WbN"
+    },
+    {
+      "_id": "Kj0cdp710TWSGcd6",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scouting (Scout Dedication)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-scout-dedication",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -446601902,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "type": "effect",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "4OxmCTl4SRWjHy9X": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.Kj0cdp710TWSGcd6"
+    },
+    {
+      "_id": "HmonqVhTYWMZSk5H",
+      "flags": {
+        "core": {}
+      },
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "sort": 300000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 16,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "Kcste14xZjZn9WbN",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "stackGroup": "coins"
+      },
+      "type": "treasure",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.HmonqVhTYWMZSk5H"
+    },
+    {
+      "_id": "0M2swlrypRQsWJd8",
+      "flags": {
+        "core": {}
+      },
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "name": "Healing Potion (Lesser)",
+      "sort": 200000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A healing potion is a vial of a ruby-red liquid that imparts a tingling sensation as the drinker's wounds heal rapidly. When you drink a healing potion, you regain [[/r (2d8+5)[healing]]]{2d8+5 Hit Points}.</p>"
+        },
+        "rules": [],
+        "slug": "healing-potion-lesser",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "healing",
+            "magical",
+            "potion",
+            "vitality"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 3
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 12
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "Kcste14xZjZn9WbN",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": {
+          "formula": "2d8+5",
+          "kind": "healing",
+          "type": "vitality"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "stackGroup": null,
+        "spell": null
+      },
+      "type": "consumable",
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.8.5",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_key": "!actors.items!ORb8nVK7JX3TuCkd.0M2swlrypRQsWJd8"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "freeCrafting": false
+    },
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": []
+      }
+    },
+    "sequencer": {
+      "effects": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.5",
+    "createdTime": 1738484557441,
+    "modifiedTime": 1738486030384,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE",
+    "exportSource": null
+  },
+  "_id": "ORb8nVK7JX3TuCkd",
+  "sort": 300000,
+  "_key": "!actors!ORb8nVK7JX3TuCkd"
+}

@@ -1,0 +1,3274 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": false,
+        "autoscale": false
+      },
+      "monks-enhanced-journal": {
+        "chatbubble": ""
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 1,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "The Party",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "assets/token-portrait/av-mh/party.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "type": "party",
+  "name": "The Party",
+  "ownership": {
+    "default": 2,
+    "lfU9NncyG8LWlt8v": 3,
+    "0AJXyHtyNkJdCVIe": 2
+  },
+  "effects": [],
+  "system": {
+    "details": {
+      "description": "",
+      "members": [
+        {
+          "uuid": "Actor.dQBgJF1uaBaIQ1oF"
+        },
+        {
+          "uuid": "Actor.mM5QV31Aa8bkffcE"
+        },
+        {
+          "uuid": "Actor.qGcXzle3SfiNbFQm"
+        },
+        {
+          "uuid": "Actor.43nuRP77RLB4bwKi"
+        }
+      ]
+    },
+    "_migration": {
+      "version": 0.953,
+      "previous": {
+        "schema": 0.948,
+        "foundry": "13.351",
+        "system": "7.8.0"
+      }
+    },
+    "campaign": null
+  },
+  "img": "assets/token-portrait/av-mh/party.webp",
+  "items": [
+    {
+      "_id": "edZeE3HR9hzFltnH",
+      "name": "Folio of Teleportation Research",
+      "type": "treasure",
+      "img": "icons/sundries/books/book-open-brown-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A folio containing several esoteric diagrams is sandwiched between several books on teleportation.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {},
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "Oe8ThUFQTJIH3eGa": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.edZeE3HR9hzFltnH"
+    },
+    {
+      "_id": "CITLKKDiWnZh0MoR",
+      "name": "Belcorra's Journal",
+      "type": "treasure",
+      "img": "icons/sundries/books/book-embossed-clasp-gold-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The largest book on the northern shelf is a large journal that focuses largely on Belcorra’s hatred of Absalom.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {},
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": "The nature of this treasure is unclear."
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "Oe8ThUFQTJIH3eGa": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.CITLKKDiWnZh0MoR"
+    },
+    {
+      "_id": "6JI9W59PnPl9tZ3w",
+      "name": "Gauntlight Blueprints",
+      "type": "treasure",
+      "img": "icons/sundries/documents/blueprint-recipe-magic.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "flags": {},
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The stack of loose papers and scrolls contain a wealth of information about Gauntlight.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {},
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "Oe8ThUFQTJIH3eGa": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.6JI9W59PnPl9tZ3w"
+    },
+    {
+      "_id": "cs8h7nQFHqRuwl8x",
+      "name": "Scroll of Hypercognition (Level 3)",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "@Compendium[pf2e.spells-srd.ZYoC630tNGutgbE0]\n<hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>To Cast a Spell from a scroll, the spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack roll and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so you don't need to provide them when Casting a Spell from a scroll. You must replace any required material component for that spell with a somatic component. If the spell requires a focus, you must have that focus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+        },
+        "rules": [],
+        "slug": "scroll-of-3rd-level-spell",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "occult",
+            "scroll"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "other",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": {
+          "heightenedLevel": 3,
+          "_id": "ZYoC630tNGutgbE0",
+          "name": "Hypercognition",
+          "type": "spell",
+          "img": "systems/pf2e/icons/spells/hypercognition.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "permission": {
+            "default": 0
+          },
+          "flags": {
+            "core": {
+              "sourceId": "Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0"
+            }
+          },
+          "system": {
+            "description": {
+              "value": "<p>You rapidly catalog and collate information relevant to your current situation. You can instantly use up to 6 Recall Knowledge actions as part of Casting this Spell. For these actions, you can't use any special abilities, reactions, or free actions that trigger when you Recall Knowledge.</p>"
+            },
+            "source": {
+              "value": "Pathfinder Core Rulebook"
+            },
+            "traits": {
+              "value": [],
+              "rarity": "common"
+            },
+            "rules": [],
+            "slug": "hypercognition",
+            "schema": {
+              "version": 0.743,
+              "lastMigration": null
+            },
+            "level": {
+              "value": 3
+            },
+            "spellType": {
+              "value": "utility"
+            },
+            "category": {
+              "value": "spell"
+            },
+            "traditions": {
+              "value": [
+                "occult"
+              ]
+            },
+            "school": {
+              "value": "divination"
+            },
+            "components": {
+              "focus": false,
+              "material": false,
+              "somatic": false,
+              "verbal": true
+            },
+            "materials": {
+              "value": ""
+            },
+            "target": {
+              "value": ""
+            },
+            "range": {
+              "value": ""
+            },
+            "area": null,
+            "time": {
+              "value": "1"
+            },
+            "duration": {
+              "value": ""
+            },
+            "damage": {
+              "value": {}
+            },
+            "save": {
+              "value": "",
+              "basic": ""
+            },
+            "sustained": {
+              "value": false
+            },
+            "cost": {
+              "value": ""
+            },
+            "ability": {
+              "value": ""
+            },
+            "location": {
+              "value": "",
+              "heightenedLevel": 3
+            },
+            "hasCounteractCheck": {
+              "value": false
+            },
+            "prepared": {
+              "value": ""
+            },
+            "primarycheck": {
+              "value": ""
+            },
+            "secondarycasters": {
+              "value": ""
+            },
+            "secondarycheck": {
+              "value": ""
+            }
+          }
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-11T16:35:26.830+01:00",
+            "version": {
+              "schema": 0.841,
+              "foundry": "11.305",
+              "system": "5.1.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": ""
+        },
+        "preciousMaterialGrade": {
+          "value": ""
+        },
+        "consumableType": {
+          "value": "scroll"
+        },
+        "charges": {
+          "value": 1,
+          "max": 1
+        },
+        "consume": {
+          "value": ""
+        },
+        "autoDestroy": {
+          "value": true
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.cs8h7nQFHqRuwl8x"
+    },
+    {
+      "_id": "oKDH3nQRSGqyYg0q",
+      "img": "systems/pf2e/icons/equipment/consumables/talismans/mesmerizing-opal.webp",
+      "name": "Mesmerizing Opal",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>This silver-bound opal pendant is afire with iridescence. When you activate it, attempt a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}. If the outcome is a success, you get a critical success instead. If the outcome is a critical failure, you get a failure instead.</p>"
+        },
+        "rules": [],
+        "slug": "mesmerizing-opal",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "magical",
+            "talisman"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "talisman",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "affixed-to-armor"
+        },
+        "spell": null
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.oKDH3nQRSGqyYg0q"
+    },
+    {
+      "_id": "CSceCPQhp2rlN0EX",
+      "name": "Bravo's Brew (Lesser)",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/bravos-brew.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>This flask of foaming beer grants courage. For the next hour after drinking this elixir, you gain a +1 item bonus to Will saves, or +2 when attempting Will saves against fear.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.eh7EqmDBDW30ShCu]{Effect: Bravo's Brew (Lesser)}</p>"
+        },
+        "rules": [],
+        "slug": "bravos-brew-lesser",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_elixir.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null,
+        "subitems": []
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.CSceCPQhp2rlN0EX"
+    },
+    {
+      "_id": "sFkK6lgp1gUR1d07",
+      "name": "Skeptic's Elixir (Moderate)",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/skeptics-elixir.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1600000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Duration</strong> 10 minute</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p>\n<hr />\n<p>This elixir sharpens your mind and allows you to see through lies, falsehoods, and magical trickery. You gain a +2 item bonus to Perception checks and Perception DCs to notice falsehoods, whether they're spoken lies or written deceit. You gain this same item bonus to Will saves.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.mG6S6zm6hxaF7Tla]{Effect: Skeptic's Elixir (Moderate)}</p>"
+        },
+        "rules": [],
+        "slug": "skeptics-elixir-moderate",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder #163: Ruins of Gauntlight",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 50
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_elixir.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null,
+        "subitems": []
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.sFkK6lgp1gUR1d07"
+    },
+    {
+      "_id": "PuenXPZck0f20T1k",
+      "name": "Oak Potion",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/consumables/potions/barkskin-potion.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1700000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<hr />\n<p>After you drink this bitter draft, your skin thickens like bark. You gain the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{Oaken Resilience} for 10 minutes.</p>"
+        },
+        "rules": [],
+        "slug": "oak-potion",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "consumable",
+            "plant",
+            "potion",
+            "primal",
+            "wood"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 4
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 15
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "potion",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null,
+        "subitems": []
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.PuenXPZck0f20T1k"
+    },
+    {
+      "_id": "zVJzKSg22ME0nxal",
+      "name": "Comprehension Elixir (Lesser)",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-elixirs/comprehension-elixir.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This bitter draught opens your mind to the potential of the written word. For the listed duration after drinking this elixir, you can understand any words you read, so long as they are written in a common language. This elixir doesn't automatically allow you to understand codes or extremely esoteric passages-you still need to attempt a skill check to Decipher Writing. The duration is 1 minute.</p>"
+        },
+        "rules": [],
+        "slug": "comprehension-elixir-lesser",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "alchemical",
+            "consumable",
+            "elixir",
+            "mental"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 2
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 7
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Liquid",
+            "img": "systems/pf2e/icons/unidentified_item_icons/alchemical_elixir.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "elixir",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": null,
+        "subitems": []
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.zVJzKSg22ME0nxal"
+    },
+    {
+      "_id": "ZaCqPkcBrmFJPdhM",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/compass.webp",
+      "name": "Compass",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A compass helps you Sense Direction or navigate, provided you're in a location with uniform magnetic fields. Without a compass, you take a -2 item penalty to these checks (similar to using a shoddy item).</p>"
+        },
+        "rules": [
+          {
+            "domain": "skill-check",
+            "key": "RollOption",
+            "option": "compass-in-possession",
+            "requiresEquipped": false
+          }
+        ],
+        "slug": "compass",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 150000,
+      "ownership": {
+        "default": 0,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "flags": {},
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.ZaCqPkcBrmFJPdhM"
+    },
+    {
+      "_id": "uXMRE6hTfqHpOdn3",
+      "name": "Secrets of the Skull",
+      "type": "treasure",
+      "img": "icons/sundries/books/book-symbol-skull-grey.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 8
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "e6h0I8l5hRFgTzQ4": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.uXMRE6hTfqHpOdn3"
+    },
+    {
+      "_id": "SsTUPa6NH5ltOPKd",
+      "name": "What the Worm Knows",
+      "type": "treasure",
+      "img": "icons/sundries/books/book-eye-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 8
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "e6h0I8l5hRFgTzQ4": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.SsTUPa6NH5ltOPKd"
+    },
+    {
+      "_id": "jEuLh1c98SFF0XVL",
+      "name": "Grave Feasts",
+      "type": "treasure",
+      "img": "icons/sundries/books/book-face-black.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 8
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "e6h0I8l5hRFgTzQ4": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.jEuLh1c98SFF0XVL"
+    },
+    {
+      "_id": "qeIubwbHLT18L0w9",
+      "name": "Rare Silver Piece",
+      "type": "treasure",
+      "img": "icons/commodities/currency/coin-embossed-unicorn-silver.webp",
+      "effects": [],
+      "folder": "JfPNSTGmsX3i60nd",
+      "sort": 1400000,
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 10,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Treasure",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "bQE3EQasbR1qnHLr": 3,
+        "tdxabnG2Ci6AQRkt": 3,
+        "hmjIqZTiWsabmwxL": 3,
+        "0ELuUZXAOmCg7f0N": 3,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.qeIubwbHLT18L0w9"
+    },
+    {
+      "img": "icons/containers/chest/chest-reinforced-steel-red.webp",
+      "name": "In Town Chest",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>A wooden chest can hold up to 8 Bulk of items.</p>"
+        },
+        "rules": [],
+        "slug": "chest",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 2,
+          "heldOrStowed": 2,
+          "capacity": 8,
+          "ignored": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 6
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Container",
+            "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "collapsed": false,
+        "stowing": true,
+        "usage": {
+          "value": "held-in-two-hands"
+        }
+      },
+      "type": "backpack",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {},
+      "_id": "rFxLFpt8HB0U9PL1",
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.rFxLFpt8HB0U9PL1"
+    },
+    {
+      "_id": "cQNfon9YuajtASSk",
+      "name": "Bloodletting Kukri",
+      "type": "weapon",
+      "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/bloodletting-kukri.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This <em>+1 striking</em> kukri has a crimson blade that shimmers eerily in bright light. On a critical hit, the kukri deals @Localize[PF2E.PersistentDamage.Bleed1d8.success]. If the target didn't already have persistent bleed damage when you scored the critical hit, you also gain 1d8 temporary Hit Points.</p>"
+        },
+        "rules": [],
+        "slug": "bloodletting-kukri",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "agile",
+            "finesse",
+            "magical",
+            "trip"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 6
+        },
+        "quantity": 1,
+        "baseItem": "kukri",
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "brokenThreshold": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 240
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Kukri",
+            "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "category": "martial",
+        "group": "knife",
+        "bonus": {
+          "value": 1
+        },
+        "damage": {
+          "dice": 1,
+          "die": "d6",
+          "damageType": "slashing",
+          "persistent": null,
+          "value": ""
+        },
+        "splashDamage": {
+          "value": 0
+        },
+        "range": null,
+        "expend": null,
+        "ammo": null,
+        "reload": {
+          "value": null
+        },
+        "grade": null,
+        "runes": {
+          "potency": 0,
+          "striking": 0,
+          "property": []
+        },
+        "specific": {
+          "value": true,
+          "material": null,
+          "runes": {
+            "potency": 1,
+            "striking": "striking"
+          }
+        },
+        "subitems": [],
+        "bonusDamage": {
+          "value": 0
+        },
+        "property1": {
+          "value": "",
+          "dice": null,
+          "die": "",
+          "damageType": "",
+          "critDice": null,
+          "critDie": "",
+          "critDamage": "",
+          "critDamageType": "",
+          "criticalConditionType": "",
+          "criticalConditionValue": null,
+          "strikeConditionType": "",
+          "strikeConditionValue": null
+        },
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-11T16:35:27.107+01:00",
+            "version": {
+              "schema": 0.841,
+              "foundry": "11.305",
+              "system": "5.1.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "L"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": null
+        },
+        "preciousMaterialGrade": {
+          "value": null
+        },
+        "MAP": {
+          "value": ""
+        },
+        "potencyRune": {
+          "value": 1
+        },
+        "strikingRune": {
+          "value": "striking"
+        },
+        "propertyRune1": {
+          "value": null
+        },
+        "propertyRune2": {
+          "value": null
+        },
+        "propertyRune3": {
+          "value": null
+        },
+        "propertyRune4": {
+          "value": null
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "Oe8ThUFQTJIH3eGa": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.cQNfon9YuajtASSk"
+    },
+    {
+      "_id": "FxPQkGlrkZuuu5yy",
+      "name": "Cold Iron Shield (Standard-Grade)",
+      "type": "shield",
+      "img": "systems/pf2e/icons/equipment/shields/precious-material-shields/cold-Iron-shield.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Cold iron shields don't typically have an additional effect, though when used for a shield bash, they are cold iron weapons.</p>\n<p>The shield has Hardness 7, HP 28, and BT 14.</p>\n<p><strong>Craft Requirements</strong> cold iron worth at least 425 sp</p>"
+        },
+        "rules": [],
+        "slug": "cold-iron-shield-standard-grade",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common",
+          "integrated": null
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 7
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 28,
+          "max": 28,
+          "brokenThreshold": 14
+        },
+        "hardness": 7,
+        "price": {
+          "value": {
+            "gp": 340
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "acBonus": 0,
+        "grade": null,
+        "runes": {
+          "reinforcing": 0,
+          "potency": 0,
+          "resilient": 0,
+          "property": []
+        },
+        "specific": null,
+        "speedPenalty": null,
+        "subitems": [],
+        "category": "shield",
+        "group": null,
+        "strength": {
+          "value": 0
+        },
+        "dexCap": 0,
+        "checkPenalty": null,
+        "source": {
+          "value": "Pathfinder Core Rulebook"
+        },
+        "schema": {
+          "version": 0.845,
+          "lastMigration": {
+            "datetime": "2023-06-11T16:35:27.107+01:00",
+            "version": {
+              "schema": 0.841,
+              "foundry": "11.305",
+              "system": "5.1.1"
+            }
+          }
+        },
+        "weight": {
+          "value": "1"
+        },
+        "equippedBulk": {
+          "value": ""
+        },
+        "stackGroup": null,
+        "negateBulk": {
+          "value": "0"
+        },
+        "preciousMaterial": {
+          "value": "cold-iron"
+        },
+        "preciousMaterialGrade": {
+          "value": "standard"
+        },
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "potencyRune": {
+          "value": 0
+        },
+        "resiliencyRune": {
+          "value": ""
+        },
+        "propertyRune1": {
+          "value": ""
+        },
+        "propertyRune2": {
+          "value": ""
+        },
+        "propertyRune3": {
+          "value": ""
+        },
+        "propertyRune4": {
+          "value": ""
+        },
+        "armor": {
+          "value": 2
+        },
+        "dex": {
+          "value": 0
+        },
+        "check": {
+          "value": 0
+        },
+        "speed": {
+          "value": 0
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3,
+        "Oe8ThUFQTJIH3eGa": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.FxPQkGlrkZuuu5yy"
+    },
+    {
+      "name": "Journal of Volluk Azrinae",
+      "type": "treasure",
+      "effects": [],
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<blockquote><p>Journal with a depiction of a skull with moss coming out of its mouth.</p></blockquote><p></p><h4>Entry 57: The Shadow of My Mistress</h4><p>The void calls to me as it always has, but it is not the void I yearn to hear. Belcorra, my mistress, my guiding star in this dim world—why do you refuse me your voice? Your ghost lingers, palpable in these forsaken halls, yet you remain distant, silent.</p><p>The voidglutton, though mighty, squats where only you should reside. I know it lurks behind the sealed wall, in the chambers that were once your sanctum. I sense its vile presence emanating from your private quarters, polluting the air that should hum with <em>your</em> power, <em>your</em> voice. Its whispers are grotesque echoes of what I believe to be your will, twisted by its alien nature.</p><p>Do you not see how this arrangement galls me? How the sanctity of your chambers, your <em>sacred</em> space, is sullied by that aberration? It feeds on the void's whispers, perhaps even on your essence itself. Am I to take its commands as though they were your own, when it is nothing more than a crude intermediary?</p><h4>Entry 61: A Task Without Honor</h4><p>Today, the voidglutton’s maddening whispers demanded another ritual in your name, mistress. I loathe entering your chambers and standing before that slavering thing. It lounges in the place where I once imagined myself kneeling at your feet, basking in your approval. Instead, I endure the leering presence of that aberration, its bloated form consuming the air that should belong to you alone.</p><p>I know the truth, though I dare not speak it aloud: the voidglutton <em>guards</em> your chamber. Is it your will that it resides there, mistress? Or is it a cruel twist of fate, this creature holding dominion over what should be <em>yours</em>?</p><h4>Entry 65: A Legacy Worthy of Belcorra</h4><p>The work progresses, despite my frustrations. The constructs of flesh and bone march, the wards hold, and my rituals grow in power. Yet, the voidglutton’s presence remains a stain upon the sanctity of your domain. The secret wall hides it well from prying eyes, but I feel its presence constantly, gnawing at my resolve.</p><p>Perhaps you placed it there to test me. Perhaps this is my trial, to obey even when the commands come through a voice so crude and alien. If so, I shall endure. The unworthy would falter, but I am <em>Volluk Azrinae</em>.</p><p>Still, I cannot ignore the vile whispers from behind the wall. It knows more than it should. Its will is warped, but it sees deep into the void—perhaps even into the mysteries you once shared. If it holds some secret of your return, I will extract it, no matter the cost.</p><h4>Entry 68: The Sealed Sanctum</h4><p>I visited your chamber again today, mistress, standing before the secret door that none but I know how to open. My breath caught as I entered, but not out of reverence—no, it was the stench of the voidglutton, bloated and oppressive, poisoning the air of your sacred space.</p><p>Why do you permit this abomination to reside where only your light should shine? I have strengthened the wards around the chamber, ensuring none may enter unless I will it. The invaders cannot be allowed to desecrate this place further.</p><p>I dream of the day your voice will finally reach me again, my mistress. On that day, the voidglutton will be cast out, and your sanctum will be restored to its rightful glory. Until then, I obey, but I will never forget that the voidglutton is not you.</p>"
+        },
+        "rules": [],
+        "slug": null,
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {},
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Journal",
+            "img": "icons/sundries/books/book-face-blue.webp",
+            "data": {
+              "description": {
+                "value": "<p>Journal with a depiction of a skull with moss coming out of its mouth.</p>"
+              }
+            }
+          }
+        },
+        "category": null,
+        "temporary": false
+      },
+      "_id": "Kg0e4BwOeW7scutM",
+      "img": "icons/sundries/books/book-face-blue.webp",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.Kg0e4BwOeW7scutM"
+    },
+    {
+      "_id": "yIKRccu5mMBXHIU9",
+      "img": "systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp",
+      "name": "Wand of Illusory Creature (Rank 2)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature}</p><hr /><p>This baton is about a foot long and contains a single spell. The appearance typically relates to the spell within.</p>\n<p><strong>Activate</strong> Cast a Spell</p>\n<p><strong>Frequency</strong> once per day, plus overcharge</p>\n<hr />\n<p><strong>Effect</strong> You Cast the Spell at the indicated rank.</p>\n<p><strong>Craft Requirements</strong> Supply a casting of the spell at the listed rank.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+        },
+        "rules": [],
+        "slug": "magic-wand-2nd-rank-spell",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "auditory",
+            "concentrate",
+            "illusion",
+            "magical",
+            "manipulate",
+            "olfactory",
+            "visual",
+            "wand"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 160
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "rFxLFpt8HB0U9PL1",
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/equipment/wands/magic-wands/magic-wand.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "wand",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": false
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": {
+          "_id": "wN2VM5go4T6nRu1M",
+          "img": "icons/creatures/magical/spirit-undead-winged-ghost.webp",
+          "name": "Illusory Creature",
+          "system": {
+            "description": {
+              "gm": "",
+              "value": "<p>You create an illusory image of a Large or smaller creature. It generates the appropriate sounds, smells, and feels believable to the touch. If you and the image are ever farther than 500 feet apart, the spell ends.</p>\n<p>The image can't speak, but you can use your actions to speak through the creature, with the spell disguising your voice as appropriate. You might need to attempt a Deception or Performance check to mimic the creature, as determined by the GM. This is especially likely if you're trying to imitate a specific person and engage with someone that person knows.</p>\n<p>In combat, the illusion can use 2 actions per turn, which it uses when you Sustain the spell. It uses your spell attack modifier for attack rolls and your spell DC for its AC. Its saving throw modifiers are equal to your spell DC – 10. It is substantial enough that it can flank other creatures. If the image is hit by an attack or fails a save, the spell ends.</p>\n<p>The illusion can cause damage by making the target believe the illusion's attacks are real, but it cannot otherwise directly affect the physical world. If the illusory creature hits with a Strike, the target takes @Damage[3d4[mental]] damage. The illusion's Strikes are nonlethal. If the damage doesn't correspond to the image of the monster—for example, if an illusory Large dragon deals only 5 damage—the GM might allow the target to attempt an immediate Perception check to disbelieve the spell. Any relevant resistances and weaknesses apply if the target thinks they do, as judged by the GM. For example, if the illusion wields a warhammer and attacks a creature resistant to bludgeoning damage, the creature would take less mental damage. However, illusory damage does not deactivate regeneration or trigger other effects that require a certain damage type. The GM should track illusory damage dealt by the illusion.</p>\n<p>Any creature that touches the image or uses the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to examine it can attempt to disbelieve your illusion. When a creature disbelieves the illusion, it recovers from half the damage it had taken from it (if any) and doesn't take any further damage from it.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage of the image's Strikes increases by 1d4, and the maximum size of creature you can create increases by one (to a maximum of Gargantuan).</p>"
+            },
+            "rules": [],
+            "slug": "illusory-creature",
+            "_migration": {
+              "version": 0.935,
+              "lastMigration": null,
+              "previous": null
+            },
+            "traits": {
+              "otherTags": [],
+              "value": [
+                "auditory",
+                "concentrate",
+                "illusion",
+                "manipulate",
+                "olfactory",
+                "visual"
+              ],
+              "rarity": "common",
+              "traditions": [
+                "arcane",
+                "occult"
+              ]
+            },
+            "publication": {
+              "title": "Pathfinder Player Core",
+              "authors": "",
+              "license": "ORC",
+              "remaster": true
+            },
+            "level": {
+              "value": 2
+            },
+            "requirements": "",
+            "target": {
+              "value": ""
+            },
+            "range": {
+              "value": "500 feet"
+            },
+            "area": null,
+            "time": {
+              "value": "2"
+            },
+            "duration": {
+              "value": "",
+              "sustained": true
+            },
+            "damage": {},
+            "defense": null,
+            "cost": {
+              "value": ""
+            },
+            "location": {
+              "value": null,
+              "heightenedLevel": 2
+            },
+            "counteraction": false
+          },
+          "type": "spell",
+          "_stats": {
+            "coreVersion": "12.328",
+            "systemId": "pf2e",
+            "systemVersion": "6.10.2",
+            "compendiumSource": "Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly",
+            "createdTime": null,
+            "modifiedTime": null,
+            "lastModifiedBy": null,
+            "duplicateSource": null
+          },
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "ownership": {
+            "default": 0
+          },
+          "flags": {}
+        }
+      },
+      "type": "consumable",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3,
+        "ucyvg7Z259AqNixY": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.yIKRccu5mMBXHIU9"
+    },
+    {
+      "_id": "W3D8p3HP2USO72jy",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+      "name": "Silver Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "silver-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 56,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/equipment/treasure/currency/silver-pieces.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.W3D8p3HP2USO72jy"
+    },
+    {
+      "_id": "0iWQZe4T3LdnoJtv",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 9,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.0iWQZe4T3LdnoJtv"
+    },
+    {
+      "_id": "CiXR9WPk1cp75eNh",
+      "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+      "name": "Copper Pieces",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "copper-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 20,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "cp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/equipment/treasure/currency/copper-pieces.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "flags": {
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.CiXR9WPk1cp75eNh"
+    },
+    {
+      "_id": "qsuZV9MK22wME2te",
+      "flags": {
+        "core": {},
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+      "name": "Gold Pieces",
+      "sort": 500000,
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [],
+        "slug": "gold-pieces",
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 60,
+        "baseItem": null,
+        "bulk": {
+          "value": 1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 1
+          },
+          "per": 1
+        },
+        "equipped": {
+          "carryType": "worn"
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "systems/pf2e/icons/equipment/treasure/currency/gold-pieces.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          }
+        },
+        "category": "coin",
+        "temporary": false
+      },
+      "type": "treasure",
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "effects": [],
+      "folder": null,
+      "ownership": {
+        "default": 0,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.qsuZV9MK22wME2te"
+    },
+    {
+      "_id": "BoDvKJheAZKvTyuo",
+      "name": "Scroll of Dream Message",
+      "type": "consumable",
+      "img": "systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp",
+      "effects": [],
+      "folder": "61FwB3TeeDJPahGE",
+      "sort": 200000,
+      "flags": {
+        "core": {},
+        "item-piles": {
+          "item": {}
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "@Compendium[pf2e.spells-srd.yM3KTTSAIHhyuP14]\n<hr /><p>Casting a Spell from a scroll requires holding the scroll in one hand and activating it with a Cast a Spell activity using the normal number of actions for that spell.</p>\n<p>To Cast a Spell from a scroll, the spell must appear on your spell list. Because you're the one Casting the Spell, use your spell attack roll and spell DC. The spell also gains the appropriate trait for your tradition (arcane, divine, occult, or primal).</p>\n<p>Any physical material components and costs are provided when a scroll is created, so you don't need to provide them when Casting a Spell from a scroll. You must replace any required material component for that spell with a somatic component. If the spell requires a focus, you must have that focus to Cast the Spell from a scroll.</p>\n<hr />\n<p><em>Note: To create a scroll or wand of a specific spell, drag the spell from the compendium or compendium browser into the inventory of a PC, NPC, or loot actor.</em></p>"
+        },
+        "rules": [],
+        "slug": "scroll-of-3rd-level-spell",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "arcane",
+            "consumable",
+            "divine",
+            "magical",
+            "occult",
+            "scroll"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Core Rulebook",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 2,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 30
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Scroll",
+            "img": "systems/pf2e/icons/equipment/consumables/other-consumables/spell-scroll.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "category": "scroll",
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "autoDestroy": true
+        },
+        "damage": null,
+        "usage": {
+          "value": "held-in-one-hand"
+        },
+        "spell": {
+          "heightenedLevel": 3,
+          "_id": "yM3KTTSAIHhyuP14",
+          "name": "Dream Message",
+          "type": "spell",
+          "img": "systems/pf2e/icons/spells/dream-message.webp",
+          "effects": [],
+          "folder": null,
+          "sort": 0,
+          "permission": {
+            "default": 0
+          },
+          "flags": {
+            "core": {
+              "sourceId": "Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14"
+            }
+          },
+          "system": {
+            "description": {
+              "value": "<p>You send a message to your target's dream. The message is one-way, up to 1 minute of speech (roughly 150 words). If the target is asleep, they receive the message instantly. If not, they receive it the next time they sleep. As soon as they receive it, the spell ends, and you know the message was sent.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> You can target up to 10 creatures you know by name and have met in person. You must send the same message to all of them; the spell ends for each creature individually.</p>"
+            },
+            "traits": {
+              "value": [
+                "concentrate",
+                "manipulate",
+                "mental"
+              ],
+              "rarity": "common",
+              "traditions": [
+                "arcane",
+                "divine",
+                "occult"
+              ]
+            },
+            "rules": [],
+            "slug": "dream-message",
+            "level": {
+              "value": 3
+            },
+            "target": {
+              "value": "1 creature you know by name and have met in person"
+            },
+            "range": {
+              "value": "planetary"
+            },
+            "area": null,
+            "time": {
+              "value": "10 minutes"
+            },
+            "duration": {
+              "value": "1 day",
+              "sustained": false
+            },
+            "damage": {},
+            "cost": {
+              "value": ""
+            },
+            "location": {
+              "value": "",
+              "heightenedLevel": 3
+            },
+            "heightening": {
+              "levels": {
+                "4": {
+                  "target": {
+                    "value": "10 creatures you know by name and have met in person"
+                  }
+                }
+              },
+              "type": "fixed"
+            },
+            "_migration": {
+              "version": 0.75,
+              "previous": null
+            },
+            "publication": {
+              "title": "Pathfinder Core Rulebook",
+              "authors": "",
+              "license": "OGL",
+              "remaster": false
+            },
+            "requirements": "",
+            "counteraction": false,
+            "defense": null
+          }
+        }
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "bQE3EQasbR1qnHLr": 3,
+        "tdxabnG2Ci6AQRkt": 3,
+        "hmjIqZTiWsabmwxL": 3,
+        "0ELuUZXAOmCg7f0N": 3,
+        "8W81m92BZ5NlJzXz": 3,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.BoDvKJheAZKvTyuo"
+    },
+    {
+      "_id": "HpWOp1VSesQrrsXL",
+      "name": "Slick",
+      "type": "equipment",
+      "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 150000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>This property makes armor slippery, as though it were coated with a thin film of oil. You gain a +1 item bonus to Acrobatics checks to Escape and Squeeze.</p>"
+        },
+        "rules": [],
+        "slug": "slick",
+        "_migration": {
+          "version": 0.953,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.948,
+            "foundry": "13.351",
+            "system": "7.8.0"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "magical"
+          ],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder GM Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 5
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 45
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "med",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "Unusual Object",
+            "img": "systems/pf2e/icons/equipment/runes/armor-property-runes/armor-property-runes.webp",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "etched-onto-armor"
+        },
+        "subitems": []
+      },
+      "ownership": {
+        "default": 0,
+        "xOsB85wXI0jTccyw": 3,
+        "lfU9NncyG8LWlt8v": 3
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.8.0",
+        "lastModifiedBy": null
+      },
+      "_key": "!actors.items!Z7vAPfMvYKHRcPcL.HpWOp1VSesQrrsXL"
+    }
+  ],
+  "folder": "ESiawshLdTnkMmew",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.351",
+    "systemId": "pf2e",
+    "systemVersion": "7.8.0",
+    "createdTime": 1767432248517,
+    "modifiedTime": 1767432248517,
+    "lastModifiedBy": "lfU9NncyG8LWlt8v"
+  },
+  "_id": "Z7vAPfMvYKHRcPcL",
+  "sort": 0,
+  "_key": "!actors!Z7vAPfMvYKHRcPcL"
+}

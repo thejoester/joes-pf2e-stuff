@@ -1,0 +1,22 @@
+{
+  "type": "Actor",
+  "folder": "Fc21rm7YpAHatssm",
+  "name": "Companions (8)",
+  "color": null,
+  "sorting": "a",
+  "_id": "kela0DNvEFKypEDH",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.6.4",
+    "lastModifiedBy": "VSeKTk90rvuA8Knm",
+    "modifiedTime": 1762521145770
+  },
+  "_key": "!folders!kela0DNvEFKypEDH"
+}

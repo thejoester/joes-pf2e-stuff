@@ -1,0 +1,19 @@
+{
+  "name": "Level 2 - Remastered",
+  "sorting": "a",
+  "folder": "X0WyYqZcAm8jdXMg",
+  "type": "Actor",
+  "_id": "JGa39ODIeF8vPTeC",
+  "sort": 0,
+  "color": "#1b8507",
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.5",
+    "coreVersion": "11.315",
+    "createdTime": null,
+    "modifiedTime": 1702036708983,
+    "lastModifiedBy": "CLMiGpsYVSTK4VM8"
+  },
+  "_key": "!folders!JGa39ODIeF8vPTeC"
+}

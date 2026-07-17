@@ -1,0 +1,20 @@
+{
+  "name": "Troubles in Otari",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.1.2",
+    "coreVersion": "11.306",
+    "createdTime": 1689944595560,
+    "modifiedTime": 1689944595863,
+    "lastModifiedBy": "OGrPXnPX5XDmb5js"
+  },
+  "_id": "utguYRl2DG6RBtKC",
+  "_key": "!folders!utguYRl2DG6RBtKC"
+}

@@ -1,0 +1,1232 @@
+{
+  "prototypeToken": {
+    "displayName": 20,
+    "displayBars": 20,
+    "flags": {
+      "pf2e": {
+        "linkToActorSize": true,
+        "autoscale": true
+      },
+      "wall-height": {
+        "tokenHeight": 0
+      },
+      "conversation-hud": {
+        "excludeFromBeingPulled": false,
+        "linkedConversation": ""
+      },
+      "healthEstimate": {
+        "dontMarkDead": false,
+        "hideHealthEstimate": false,
+        "hideName": false
+      }
+    },
+    "height": 1,
+    "width": 1,
+    "actorLink": true,
+    "sight": {
+      "enabled": true,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "name": "Pestilence",
+    "appendNumber": false,
+    "prependAdjective": false,
+    "texture": {
+      "src": "modules/pf2e-tokens-bestiaries/portraits/undead/skeletal/skeletal-horse.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "randomImg": false,
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null
+  },
+  "folder": "rhSmGH7jfJ71ZUAm",
+  "name": "Pestilence",
+  "type": "character",
+  "ownership": {
+    "default": 1,
+    "sDmTHDFOKZoe85XE": 3,
+    "XyCMne0E3B89anef": 3
+  },
+  "effects": [],
+  "system": {
+    "attributes": {
+      "hp": {
+        "value": 28,
+        "temp": 0
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": []
+      }
+    },
+    "initiative": {
+      "statistic": "perception"
+    },
+    "details": {
+      "languages": {
+        "value": [],
+        "details": ""
+      },
+      "level": {
+        "value": 3
+      },
+      "biography": {
+        "appearance": "",
+        "backstory": "",
+        "birthPlace": "",
+        "attitude": "",
+        "beliefs": "",
+        "anathema": [],
+        "edicts": [],
+        "likes": "",
+        "dislikes": "",
+        "catchphrases": "",
+        "campaignNotes": "",
+        "allies": "",
+        "enemies": "",
+        "organizations": "",
+        "visibility": {
+          "appearance": true,
+          "backstory": false,
+          "personality": false,
+          "campaign": false
+        }
+      },
+      "keyability": {
+        "value": "str"
+      },
+      "xp": {
+        "value": 1000,
+        "min": 0,
+        "max": 1000,
+        "pct": 0
+      },
+      "age": {
+        "value": ""
+      },
+      "height": {
+        "value": ""
+      },
+      "weight": {
+        "value": ""
+      },
+      "gender": {
+        "value": ""
+      },
+      "ethnicity": {
+        "value": ""
+      },
+      "nationality": {
+        "value": ""
+      },
+      "alliance": "party"
+    },
+    "resources": {
+      "heroPoints": {
+        "value": 0,
+        "max": 3
+      }
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    },
+    "abilities": null,
+    "skills": {},
+    "pfs": {
+      "playerNumber": null,
+      "characterNumber": null,
+      "levelBump": false,
+      "currentFaction": "EA",
+      "school": null,
+      "reputation": {
+        "EA": null,
+        "GA": null,
+        "HH": null,
+        "VS": null,
+        "RO": null,
+        "VW": null
+      }
+    },
+    "exploration": []
+  },
+  "img": "modules/pf2e-tokens-bestiaries/portraits/undead/skeletal/skeletal-horse.webp",
+  "items": [
+    {
+      "name": "Skeletal Mount",
+      "type": "ancestry",
+      "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 1500000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "itemGrants": {
+            "animalCompanion": {
+              "id": "MNEVFwG2g7cQhNs1",
+              "onDelete": "detach"
+            },
+            "skeletalMountSupportBenefit": {
+              "id": "8vSB6flbcgO1cY8b",
+              "onDelete": "detach"
+            }
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your companion is a skeletal horse, drake, elk, or other animal suitable for riding. Skeletal mounts can be collapsed, gathered into piles of bone, and packed away for storage.</p>\n<p><strong>Size</strong> Large</p>\n<p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> hoof (agile), <strong>Damage</strong> 1d6 bludgeoning</p>\n<p><strong>Str</strong> +2, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -5, <strong>Wis</strong> +0, <strong>Cha</strong> +0</p>\n<p><strong>Hit Points</strong> 4</p>\n<p><strong>Skill</strong> none (mindless)</p>\n<p><strong>Senses</strong> darkvision</p>\n<p><strong>Speed</strong> 35 feet</p>\n<p><strong>Special</strong> @Compendium[pf2e-animal-companions.AC-Features.CSBy1IgHTSkVAFMM]{Mindless Companion}, mount</p>\n<p><strong>Support Benefit</strong> Your skeletal mount strikes fear when it charges. Until the start of your next turn, if you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} if the attack was a critical hit. This is an emotion, fear, and mental effect.</p>\n<p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.tsOaXTRWQvsKTyaL]{Gallop}</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.str.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.dex.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.con.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": -5,
+            "mode": "override",
+            "path": "system.abilities.int.mod",
+            "priority": 60
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+            "flag": "animalCompanion"
+          },
+          {
+            "category": "unarmed",
+            "damage": {
+              "base": {
+                "damageType": "bludgeoning",
+                "dice": 1,
+                "die": "d6"
+              }
+            },
+            "group": "brawling",
+            "key": "Strike",
+            "label": "PF2E.BattleForm.Attack.Foot",
+            "range": null,
+            "traits": [
+              "unarmed",
+              "agile"
+            ],
+            "img": "systems/pf2e/icons/unarmed-attacks/hoof.webp",
+            "replaceBasicUnarmed": true
+          },
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "self:ancestry:skeletal-mount",
+            "priority": 1
+          },
+          {
+            "key": "GrantItem",
+            "uuid": "Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd",
+            "flag": "skeletalMountSupportBenefit"
+          },
+          {
+            "key": "Immunity",
+            "type": "death-effects"
+          },
+          {
+            "key": "Immunity",
+            "type": "disease"
+          },
+          {
+            "key": "Immunity",
+            "type": "poison"
+          },
+          {
+            "key": "Immunity",
+            "type": "mental"
+          }
+        ],
+        "slug": "skeletal-mount",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "undead"
+          ],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Book of the Dead",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "hp": 4,
+        "size": "lg",
+        "reach": 5,
+        "speed": 35,
+        "boosts": {
+          "0": {
+            "value": []
+          },
+          "1": {
+            "value": []
+          },
+          "2": {
+            "value": []
+          }
+        },
+        "flaws": {
+          "0": {
+            "value": []
+          }
+        },
+        "languages": {
+          "value": [],
+          "custom": ""
+        },
+        "additionalLanguages": {
+          "count": 0,
+          "value": [],
+          "custom": ""
+        },
+        "items": {
+          "j9gf3": {
+            "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+            "name": "Mindless Companion",
+            "level": 0,
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM"
+          },
+          "cjaao": {
+            "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+            "name": "Negative Healing",
+            "level": 0,
+            "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR"
+          }
+        },
+        "vision": "darkvision",
+        "voluntaryBoosts": {},
+        "voluntaryFlaws": {}
+      },
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.DUnwMSEutz35cCvB",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "3iFHo2uR1BF7Dy4h",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.3iFHo2uR1BF7Dy4h"
+    },
+    {
+      "name": "Animal Companion",
+      "type": "class",
+      "img": "systems/pf2e/icons/default-icons/class.svg",
+      "effects": [],
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "3iFHo2uR1BF7Dy4h",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.perception.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "upgrade",
+            "path": "system.proficiencies.attacks.unarmed.rank"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": -4,
+            "mode": "add",
+            "path": "system.abilities.int.mod"
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "flags.pf2e.disableABP",
+            "value": true,
+            "priority": 10
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 2,
+            "mode": "add",
+            "path": "system.abilities.int.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActiveEffectLike",
+            "value": 1,
+            "mode": "add",
+            "path": "system.abilities.dex.mod",
+            "predicate": [
+              "self:specialized"
+            ],
+            "priority": 51
+          },
+          {
+            "key": "ActorTraits",
+            "add": [
+              "minion"
+            ]
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.light-barding.rank",
+            "priority": 41,
+            "value": 1
+          },
+          {
+            "key": "ActiveEffectLike",
+            "mode": "upgrade",
+            "path": "system.proficiencies.defenses.heavy-barding.rank",
+            "priority": 41,
+            "value": 1
+          }
+        ],
+        "slug": "animal-companion",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "keyAbility": {
+          "value": []
+        },
+        "items": {},
+        "hp": 6,
+        "trainedSkills": {
+          "value": [
+            "acrobatics",
+            "athletics"
+          ],
+          "additional": 0
+        },
+        "perception": 1,
+        "savingThrows": {
+          "fortitude": 1,
+          "reflex": 1,
+          "will": 1
+        },
+        "attacks": {
+          "simple": 0,
+          "martial": 0,
+          "advanced": 0,
+          "unarmed": 1,
+          "other": {
+            "name": "",
+            "rank": 0
+          }
+        },
+        "defenses": {
+          "unarmored": 1,
+          "light": 0,
+          "medium": 0,
+          "heavy": 0
+        },
+        "spellcasting": 0,
+        "ancestryFeatLevels": {
+          "value": []
+        },
+        "classFeatLevels": {
+          "value": []
+        },
+        "generalFeatLevels": {
+          "value": []
+        },
+        "skillFeatLevels": {
+          "value": []
+        },
+        "skillIncreaseLevels": {
+          "value": []
+        },
+        "rarity": {
+          "value": "common"
+        }
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": {
+          "worldId": "ac",
+          "uuid": null,
+          "coreVersion": "0.8.8",
+          "systemId": "pf2e",
+          "systemVersion": "2.6.0.6437"
+        }
+      },
+      "folder": null,
+      "sort": 3600000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "MNEVFwG2g7cQhNs1",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.MNEVFwG2g7cQhNs1"
+    },
+    {
+      "name": "Skeletal Mount Support Benefit",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/OneAction.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 4300000,
+      "flags": {
+        "core": {},
+        "pf2e": {
+          "grantedBy": {
+            "id": "3iFHo2uR1BF7Dy4h",
+            "onDelete": "cascade"
+          }
+        }
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Your skeletal mount strikes fear when it charges. Until the start of your next turn, if you are riding your skeletal mount and move at least 10 feet on the action before your attack, any creature damaged by the attack becomes @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}, or @Compendium[pf2e.conditionitems.Frightened]{Frightened 2} if the attack was a critical hit. This is an emotion, fear, and mental effect.</p>"
+        },
+        "rules": [],
+        "slug": "skeletal-mount-support-benefit",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "Pathfinder Book of the Dead",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "offensive",
+        "actions": {
+          "value": 1
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.CKMQC3zu1XoGjeNd",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "8vSB6flbcgO1cY8b",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.8vSB6flbcgO1cY8b"
+    },
+    {
+      "name": "Mindless Companion",
+      "type": "feat",
+      "img": "systems/pf2e/icons/spells/mind-of-menace.webp",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Some undead companions are mindless. The mindless trait makes them immune to all mental effects, as normal. The only skills in which a mindless companion is trained are Acrobatics and Athletics, and it can't become trained in other skills. Even if a mindless companion gains a limited ability to act in combat without being commanded, such as from the Mature Animal Companion feat, it can repeat only the last command; it can't take a new action on its own. A mindless companion can't take specializations that would raise its Intelligence or grant it benefits to skills other than Acrobatics or Athletics, and it can't use or benefit from feats or other options for animal companions that normally require a creature to have a mind, think, or make a decision. When in doubt, the GM determines what abilities a mindless companion can use.</p>"
+        },
+        "rules": [
+          {
+            "key": "ActorTraits",
+            "add": [
+              "mindless"
+            ]
+          }
+        ],
+        "slug": "mindless-companion",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Book of the Dead",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "3iFHo2uR1BF7Dy4h"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.CSBy1IgHTSkVAFMM",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 2200000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "XXO2B1TRnowV8PkC",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.XXO2B1TRnowV8PkC"
+    },
+    {
+      "name": "Negative Healing",
+      "type": "feat",
+      "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+      "effects": [],
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "rules": [
+          {
+            "key": "ActiveEffectLike",
+            "mode": "override",
+            "path": "system.attributes.hp.negativeHealing",
+            "value": true
+          }
+        ],
+        "slug": "negative-healing",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "uncommon"
+        },
+        "publication": {
+          "title": "Pathfinder Bestiary",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 0
+        },
+        "category": "ancestryfeature",
+        "onlyLevel1": false,
+        "maxTakable": 1,
+        "actionType": {
+          "value": "passive"
+        },
+        "actions": {
+          "value": null
+        },
+        "prerequisites": {
+          "value": []
+        },
+        "location": "3iFHo2uR1BF7Dy4h"
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0,
+        "thw0Ox3kKEThnAFP": 3,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "_id": "z6wbJMiutGX4uP6J",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.z6wbJMiutGX4uP6J"
+    },
+    {
+      "_id": "6ETipCqFaydBk5wB",
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+      "name": "Effect: Scouting (Scout Dedication)",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": ""
+        },
+        "rules": [
+          {
+            "key": "FlatModifier",
+            "selector": "initiative",
+            "type": "circumstance",
+            "value": 2
+          }
+        ],
+        "slug": "effect-scout-dedication",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "level": {
+          "value": 1
+        },
+        "duration": {
+          "value": -1,
+          "unit": "unlimited",
+          "expiry": "turn-start",
+          "sustained": false
+        },
+        "start": {
+          "value": -446601902,
+          "initiative": null
+        },
+        "tokenIcon": {
+          "show": false
+        },
+        "badge": null,
+        "context": null
+      },
+      "type": "effect",
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "sDmTHDFOKZoe85XE": 3
+      },
+      "flags": {
+        "core": {}
+      },
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.6ETipCqFaydBk5wB"
+    },
+    {
+      "name": "Gallop",
+      "type": "action",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 6700000,
+      "flags": {
+        "core": {}
+      },
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>The companion Strides twice at a +10-foot circumstance bonus to Speed.</p>"
+        },
+        "rules": [
+          {
+            "key": "RollOption",
+            "domain": "all",
+            "option": "has-advanced-maneuver",
+            "priority": 1
+          }
+        ],
+        "slug": "gallop",
+        "_migration": {
+          "version": 0.935,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "actionType": {
+          "value": "action"
+        },
+        "category": "interaction",
+        "actions": {
+          "value": 2
+        },
+        "deathNote": false
+      },
+      "ownership": {
+        "default": 0,
+        "wT1HOeaOBCFxTCiE": 3,
+        "XyCMne0E3B89anef": 3
+      },
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.tsOaXTRWQvsKTyaL",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "_id": "97prfwPjI69DeNr8",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.97prfwPjI69DeNr8"
+    },
+    {
+      "img": "systems/pf2e/icons/equipment/adventuring-gear/tack.webp",
+      "name": "Tack",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Tack includes all the gear required to outfit a riding animal, including a saddle, bit and bridle, and stirrups if necessary. Especially large or oddly shaped animals might require specialty saddles. These can be more expensive or hard to find, as determined by the GM. The Bulk value given is for tack worn by a creature. If carried, the Bulk increases to 2.</p>"
+        },
+        "rules": [],
+        "slug": "tack",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "gp": 4
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": "EQF4UMQ1gDoJjEZc",
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "usage": {
+          "value": "other"
+        },
+        "subitems": []
+      },
+      "type": "equipment",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Bu2xT8NfB6xaeTJa",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "XyCMne0E3B89anef": 3
+      },
+      "_id": "9URODJHuNW0VHMsr",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.9URODJHuNW0VHMsr"
+    },
+    {
+      "img": "icons/containers/bags/pack-leather-tan.webp",
+      "name": "Saddlebags",
+      "system": {
+        "description": {
+          "gm": "",
+          "value": "<p>Saddlebags come in a pair. Each can hold up to 3 Bulk of items, and the first 1 Bulk of items in each doesn't count against your mount's Bulk limit. The Bulk value given is for saddlebags worn by a mount. If you are carrying or stowing saddlebags, they count as 1 Bulk instead of light Bulk.</p>"
+        },
+        "rules": [],
+        "slug": "saddlebags",
+        "_migration": {
+          "version": 0.935,
+          "lastMigration": null,
+          "previous": {
+            "schema": 0.934,
+            "foundry": "12.331",
+            "system": "6.7.1"
+          }
+        },
+        "traits": {
+          "otherTags": [],
+          "value": [],
+          "rarity": "common"
+        },
+        "publication": {
+          "title": "Pathfinder Player Core",
+          "authors": "",
+          "license": "ORC",
+          "remaster": true
+        },
+        "level": {
+          "value": 0
+        },
+        "quantity": 1,
+        "baseItem": null,
+        "bulk": {
+          "value": 0.1,
+          "heldOrStowed": 1,
+          "capacity": 6,
+          "ignored": 2
+        },
+        "hp": {
+          "value": 0,
+          "max": 0
+        },
+        "hardness": 0,
+        "price": {
+          "value": {
+            "sp": 2
+          }
+        },
+        "equipped": {
+          "carryType": "worn",
+          "invested": null,
+          "handsHeld": 0,
+          "inSlot": false
+        },
+        "containerId": null,
+        "size": "lg",
+        "material": {
+          "type": null,
+          "grade": null
+        },
+        "identification": {
+          "status": "identified",
+          "unidentified": {
+            "name": "",
+            "img": "",
+            "data": {
+              "description": {
+                "value": ""
+              }
+            }
+          },
+          "misidentified": {}
+        },
+        "collapsed": true,
+        "stowing": true,
+        "usage": {
+          "value": "worn"
+        }
+      },
+      "type": "backpack",
+      "_stats": {
+        "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mBziC8v2eOtTs0f5",
+        "duplicateSource": null,
+        "coreVersion": "13.345",
+        "systemId": "pf2e",
+        "systemVersion": "6.7.2",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "exportSource": null
+      },
+      "flags": {
+        "core": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0,
+        "XyCMne0E3B89anef": 3
+      },
+      "_id": "EQF4UMQ1gDoJjEZc",
+      "_key": "!actors.items!rz8gKgVGbHsNqFk2.EQF4UMQ1gDoJjEZc"
+    }
+  ],
+  "flags": {
+    "pf2e": {
+      "freeCrafting": false
+    },
+    "pf2e-toolbelt": {
+      "heroActions": {
+        "actions": []
+      }
+    },
+    "xdy-pf2e-workbench": {},
+    "sequencer": {
+      "effects": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.345",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734685884226,
+    "modifiedTime": 1734685889020,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE",
+    "exportSource": null
+  },
+  "_id": "rz8gKgVGbHsNqFk2",
+  "sort": 600000,
+  "_key": "!actors!rz8gKgVGbHsNqFk2"
+}

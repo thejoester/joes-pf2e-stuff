@@ -1,0 +1,23 @@
+{
+  "name": "Familiars",
+  "type": "Actor",
+  "color": null,
+  "folder": "X0WyYqZcAm8jdXMg",
+  "_id": "JzAAoMfjuwz7zGtB",
+  "sorting": "a",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "7b1c1ae8df14f2a64b2a2bbd0fb41cc687a3cf7d"
+    }
+  },
+  "_stats": {
+    "systemId": "pf2e",
+    "systemVersion": "5.10.5",
+    "coreVersion": "11.315",
+    "createdTime": 1700842578653,
+    "modifiedTime": 1702027379128,
+    "lastModifiedBy": "pW1leMCBgrAQWsCk"
+  },
+  "_key": "!folders!JzAAoMfjuwz7zGtB"
+}
