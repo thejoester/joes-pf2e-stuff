@@ -2,7 +2,10 @@
   "id": "joes-pf2e-stuff",
   "title": "Joe's PF2e Stuff",
   "description": "<p>Joe's collection of useful PF2e compendiums, scripts and macros, packaged as a module.</p>",
-  "version": "1.0.0",
+  "version": "0.0.0",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "compatibility": {
     "minimum": "11",
     "verified": "13"
