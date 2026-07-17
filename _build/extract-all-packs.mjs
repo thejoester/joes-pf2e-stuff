@@ -16,6 +16,20 @@ const packs = Array.isArray(moduleJson.packs) ? moduleJson.packs : [];
 const argSrc = process.argv[2];
 const SRC_PACKS_ROOT = argSrc ? path.resolve(argSrc) : path.join(ROOT, "packs");
 
+// Build a short, safe _source filename from a document. The CLI default uses the
+// full document name, which can blow past the Windows 260-char path limit when an
+// entry has a huge name (e.g. a roll-table row whose text lives in `name`). Cap the
+// readable slug and always append the id so filenames stay unique and short.
+function packEntryFileName(doc) {
+	const id = doc?._id ?? String(doc?._key ?? "").split("!").pop() ?? "unknown";
+	const slug = String(doc?.name ?? "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "_")
+		.replace(/^_+|_+$/g, "")
+		.slice(0, 40);
+	return `${slug ? slug + "_" : ""}${id}.json`;
+}
+
 if (!packs.length) {
 	process.stdout.write("No packs declared in module.json\n");
 	process.exit(0);
@@ -35,8 +49,8 @@ for (const p of packs) {
 	fs.mkdirSync(outDir, { recursive: true });
 
 	process.stdout.write(`Extracting ${srcPackDir} -> ${outDir}\n`);
-	// LevelDB: no nedb option needed
-	await extractPack(srcPackDir, outDir, { log: true });
+	// LevelDB: no nedb option needed. transformName keeps filenames short (Windows MAX_PATH).
+	await extractPack(srcPackDir, outDir, { log: true, transformName: packEntryFileName });
 }
 
 process.stdout.write("Done.\n");
