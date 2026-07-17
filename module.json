@@ -1,0 +1,94 @@
+{
+  "id": "joes-pf2e-stuff",
+  "title": "Joe's PF2e Stuff",
+  "description": "<p>Joe's collection of useful PF2e compendiums, scripts and macros, packaged as a module.</p>",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "socket": true,
+  "authors": [
+    {
+      "name": "TheJoester",
+      "discord": "thejoester",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/init.js",
+    "scripts/tokenZeroHP.js",
+    "scripts/error-logger.js",
+    "scripts/recall-knowledge.js"
+  ],
+  "packs": [
+    {
+      "name": "joes-actors-pf2",
+      "label": "Joe's Actors (pf2)",
+      "path": "packs/joes-actors-pf2",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "joes-items-pf2e",
+      "label": "Joe's Items (pf2e)",
+      "path": "packs/joes-items-pf2e",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "joes-journals-pf2e",
+      "label": "Joe's Journals (pf2e)",
+      "path": "packs/joes-journals-pf2e",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "joes-pf2e-adventures",
+      "label": "Joe's PF2E Adventures",
+      "path": "packs/joes-pf2e-adventures",
+      "type": "Adventure",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "logs",
+      "label": "Joe's Error Logs",
+      "path": "packs/logs",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        ".css",
+        ".json"
+      ]
+    }
+  },
+  "styles": [
+    {
+      "src": "styles/status-panel.css"
+    }
+  ]
+}
