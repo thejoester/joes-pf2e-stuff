@@ -2,7 +2,10 @@
 
 A personal FoundryVTT module containing Joe's collection of Pathfinder 2e compendiums, macros, and quality-of-life scripts.
 
-**Compatibility:** FoundryVTT v11-v13 &nbsp;|&nbsp; **System:** Pathfinder Second Edition (`pf2e`)
+> [!NOTE] 
+> This is a personal module.** It's shared mainly so others can reuse the scripts and features, and is provided as-is with no support or update guarantees. The **compendium content ships without images**: image paths in the compendium items point to art I don't redistribute, so scenes/items/etc. will appear blank or with broken image links. The scripts and functionality work fully regardless; swap in your own art as needed.
+
+**Compatibility:** FoundryVTT v13-v14 &nbsp;|&nbsp; **System:** Pathfinder Second Edition (`pf2e`)
 
 ---
 
