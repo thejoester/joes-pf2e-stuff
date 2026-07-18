@@ -1,22 +1,25 @@
-body { transform: translate3d(0,0,0); }	
+body { transform: translate3d(0,0,0); }
 
-.system-pf2e #effects-panel {
+/* All rules below only apply when the override is enabled via settings
+   (body.jps-hide-effects class toggled by scripts/init.js). */
+
+body.jps-hide-effects.system-pf2e #effects-panel {
     margin-top: 2px;
     margin-right: 110px;
 }
 
-/* Completely hides the effects panel */
-#effects-panel .effect-item > .icon {
-    display: none !important; 
+/* Completely hides the effects panel icons */
+body.jps-hide-effects #effects-panel .effect-item > .icon {
+    display: none !important;
 }
 
-#effects-panel .effect-item {
+body.jps-hide-effects #effects-panel .effect-item {
   display: flex;
   justify-content: end;
   height: 35px;
 }
 
-#effects-panel > hr {
+body.jps-hide-effects #effects-panel > hr {
   margin-right: 0;
   height: 2px;
   width: 48px;

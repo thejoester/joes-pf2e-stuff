@@ -492,7 +492,26 @@ export async function heroPointMacro() {
 
 }
 
+// Toggles the body class that scopes the effects-panel override CSS (styles/status-panel.css)
+function applyEffectsPanelCss() {
+	const enabled = getSetting("hideEffectsPanel", true);
+	document.body.classList.toggle("jps-hide-effects", !!enabled);
+}
+
 Hooks.once("init", () => {
+
+/*
+	Hide Effects Panel override CSS
+*/
+	game.settings.register("joes-pf2e-stuff", "hideEffectsPanel", {
+		scope: "client",
+		type: Boolean,
+		default: true,
+		config: true,
+		name: "Hide Effects Panel",
+		hint: "Apply the override CSS that hides the effects panel icons. Per-client setting.",
+		onChange: () => applyEffectsPanelCss()
+	});
 
 /*
 	Send Image on hero point
@@ -581,6 +600,8 @@ Hooks.once("ready", () => {
 	});
 	
 	debugLog("Socket listener ready");
+
+	applyEffectsPanelCss();
 
 	game.socket.on("module.joes-pf2e-stuff", (data) => {
 		if (data.command !== "showImage") return;

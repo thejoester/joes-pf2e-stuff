@@ -48,15 +48,16 @@ Captures player-side `ui.notifications` errors (and warnings) into a shared **Er
 
 ## Settings
 
-All settings live under **Configure Settings -> Module Settings -> Joe's PF2e Stuff** (world scope):
+All settings live under **Configure Settings -> Module Settings -> Joe's PF2e Stuff**:
 
-| Setting | Description |
-|---|---|
-| **Send Image when adding Hero Points** | Auto-show the Hero Point image when Hero Points are added/reset. |
-| **Hero Point Image Path** | Path to the image shown on Hero Point award/reset. |
-| **Enable Error Logger** | Capture player errors into the "Error Logs" journal. |
-| **NPC at 0 hp** | What to do with an NPC token at 0 HP: Hide Token / Blood Splash* / Disabled. *Blood Splash requires Token Magic FX. |
-| **Debug Level** | Console logging verbosity: None / Errors / Warning + Errors / All. |
+| Setting | Scope | Description |
+|---|---|---|
+| **Send Image when adding Hero Points** | World | Auto-show the Hero Point image when Hero Points are added/reset. |
+| **Hero Point Image Path** | World | Path to the image shown on Hero Point award/reset. |
+| **Enable Error Logger** | World | Capture player errors into the "Error Logs" journal. |
+| **NPC at 0 hp** | World | What to do with an NPC token at 0 HP: Hide Token / Blood Splash* / Disabled. *Blood Splash requires Token Magic FX. |
+| **Hide Effects Panel** | Client | Apply the override CSS that hides the effects panel icons and repositions the panel. Per-client, applies live without a reload. |
+| **Debug Level** | World | Console logging verbosity: None / Errors / Warning + Errors / All. |
 
 ---
 
