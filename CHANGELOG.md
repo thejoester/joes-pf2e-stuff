@@ -2,6 +2,11 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.07.24
+
+### Fixed
+- **Timer Alarm** — end-of-timer sound now uses `foundry.audio.AudioHelper.play` instead of the removed bare `AudioHelper` global, fixing `AudioHelper is not defined` on v13+.
+
 ## 2026.07.18
 
 ### Added
