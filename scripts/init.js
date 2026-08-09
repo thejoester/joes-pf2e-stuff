@@ -500,9 +500,7 @@ function applyEffectsPanelCss() {
 
 Hooks.once("init", () => {
 
-/*
-	Hide Effects Panel override CSS
-*/
+	// Hide Effects Panel override CSS
 	game.settings.register("joes-pf2e-stuff", "hideEffectsPanel", {
 		scope: "client",
 		type: Boolean,
@@ -513,9 +511,7 @@ Hooks.once("init", () => {
 		onChange: () => applyEffectsPanelCss()
 	});
 
-/*
-	Send Image on hero point
-*/
+	// Send Image on hero point
 	game.settings.register("joes-pf2e-stuff", "sendHeroPointImg", {
 		scope: "world",
 		type: Boolean,
@@ -525,19 +521,17 @@ Hooks.once("init", () => {
 		hint: ""
 	});
 	
+	// Hero Point image path
 	game.settings.register("joes-pf2e-stuff", "heroPointImage", {
 		name: "Hero Point Image Path",
 		hint: "Path to the image shown when Hero Points are reset or added.",
 		scope: "world",
 		config: true,
-		default: "assets/memes/9v19i0.jpg",
+		default: "assets/memes/",
 		type: String
 	});
 
-
-/*
-	Error Logs
-*/
+	// Error Logs
 	game.settings.register("joes-pf2e-stuff", "enableErrorLogs", {
 		scope: "world",
 		type: Boolean,
@@ -547,9 +541,7 @@ Hooks.once("init", () => {
 		hint: "Capture player errors in Journal entry named 'Error Logs'"
 	});
 	
-/*
-	Setting for 0hp NPC
-*/
+	// Setting for 0hp NPC
 	game.settings.register("joes-pf2e-stuff", "deadTokenAction", {
 		scope: "world",
 		type: String,
@@ -564,9 +556,26 @@ Hooks.once("init", () => {
 		hint: "How to handle npc token at 0hp. *Requires Token Magic FX"
 	});
 	
-/*
-	Debugging
-*/
+	// Nimble Dodge toggle
+	game.settings.register("joes-pf2e-stuff", "nimbleDodgeEnabled", {
+		scope: "world",
+		type: Boolean,
+		default: true,
+		config: true,
+		name: "Nimble Dodge Prompt",
+		hint: "Prompt a target's owner to use the Nimble Dodge reaction before an attack rolls. Requires libWrapper."
+	});
+
+	// Nimble Dodge: prompt the GM instead of the target's owner
+	game.settings.register("joes-pf2e-stuff", "nimbleDodgeGmOnly", {
+		scope: "world",
+		type: Boolean,
+		default: false,
+		config: true,
+		name: "Nimble Dodge: GM Only",
+		hint: "When enabled, prompt only the GM for Nimble Dodge, never the target's owner."
+	});
+
 	// Register debugLevel setting
 	game.settings.register("joes-pf2e-stuff", "debugLevel", {
 		name: "Debug Level",

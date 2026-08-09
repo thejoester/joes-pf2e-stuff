@@ -20,10 +20,20 @@
   ],
   "esmodules": [
     "scripts/init.js",
+    "scripts/nimble-dodge.js",
     "scripts/tokenZeroHP.js",
     "scripts/error-logger.js",
     "scripts/recall-knowledge.js"
   ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
   "packs": [
     {
       "name": "joes-actors-pf2",
