@@ -2,6 +2,12 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.08.13
+
+### Added
+- **Nimble Dodge: Disable prompt** Added a client-side setting (default off): lets a player opt out of ever being prompted for Nimble Dodge; their attacks resolve without asking.
+- **pf2e-reaction integration** (`nimble-dodge.js`): when the `pf2e-reaction` module is active, the prompt is skipped for a target that has no reaction left this round. Reads the target combatant's reaction flags and fails open (still prompts) if the module is inactive or its flags can't be read.
+
 ## 2026.08.09
 
 ### Added

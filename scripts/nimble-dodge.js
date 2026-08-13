@@ -9,6 +9,10 @@ const ROLL_DOMAIN = "all";			// domain of the feat's built-in RollOption toggle
 const ROLL_OPTION = "nimble-dodge";	// option name of that toggle
 const FLAG_USED = "nimbleDodgeUsed";	// actor flag: reaction spent this round
 
+const REACTION_MOD_ID = "pf2e-reaction";	// reyzor1991's reaction tracker, integrated when active
+// Combatant flags pf2e-reaction sums for its remaining-reaction count (state = the base reaction)
+const REACTION_FLAGS = ["state", "triple-opportunity", "combat-reflexes", "tactical-reflexes", "inexhaustible-countermoves", "reflexive-riposte", "quick-shield-block", "hydra-heads"];
+
 // Pending prompt replies on the attacker's client, keyed by requestId
 const pending = new Map();
 
@@ -31,6 +35,32 @@ function esc(str) {
 	));
 }
 
+// Per-client opt-out: this responder has disabled their own Nimble Dodge prompt.
+function responderOptedOut() {
+	return getSetting("nimbleDodgePromptDisabled", false);
+}
+
+// When pf2e-reaction is active, true only if the actor still has a reaction to spend.
+// Reads the same combatant flags the module sums in its countAllReaction(). Fail-open
+// (returns true) if the module is inactive or its flags can't be read, so a tracker
+// change never silently kills the prompt.
+function hasReactionAvailable(actor) {
+	if (!game.modules.get(REACTION_MOD_ID)?.active) return true;
+	try {
+		const combatant = actor?.combatant;
+		if (!combatant) return true;
+		let count = 0;
+		for (const key of REACTION_FLAGS) {
+			const val = combatant.getFlag(REACTION_MOD_ID, key);
+			count += key === "state" ? (val ? 1 : 0) : (val ?? 0);
+		}
+		return count > 0;
+	} catch (err) {
+		debugLog(2, "hasReactionAvailable(): failed reading pf2e-reaction flags, allowing prompt", err);
+		return true;
+	}
+}
+
 // True when this attack roll should trigger a Nimble Dodge prompt.
 // Logs the bail reason for attack rolls so the decision path is visible at debug level "all".
 function shouldPrompt(context) {
@@ -46,6 +76,8 @@ function shouldPrompt(context) {
 	// (the encumbered condition is only auto-created when the world's automatic-encumbrance setting is on).
 	if (actor.inventory?.bulk?.isEncumbered || actor.hasCondition?.("encumbered")) { debugLog(1, `shouldPrompt(): ${actor.name} is encumbered, skipping`); return false; }
 	if (actor.getFlag?.(MOD_ID, FLAG_USED)) { debugLog(1, `shouldPrompt(): ${actor.name} already used the reaction this round`); return false; }
+	// If pf2e-reaction is tracking reactions, don't prompt when this actor has none left.
+	if (!hasReactionAvailable(actor)) { debugLog(1, `shouldPrompt(): ${actor.name} has no reaction available (pf2e-reaction)`); return false; }
 
 	debugLog(1, `shouldPrompt(): ${actor.name} eligible for Nimble Dodge prompt`);
 	return true;
@@ -152,6 +184,7 @@ function requestNimbleDodge(actor, context, responder) {
 
 	// Responder is us: prompt and apply directly, no socket needed
 	if (responder.id === game.user.id) {
+		if (responderOptedOut()) { debugLog(1, "requestNimbleDodge(): local responder opted out of the prompt"); return Promise.resolve({ used: false }); }
 		return (async () => {
 			const yes = await showPrompt(actor, attackerName);
 			if (!yes) return { used: false };
@@ -241,6 +274,11 @@ async function onSocket(data) {
 		if (data.targetUserId !== game.user.id) return;
 		debugLog(1, `onSocket(): prompt request for ${data.attackerName}'s attack, requestId=${data.requestId}`);
 		let used = false, ac = null;
+		if (responderOptedOut()) {
+			debugLog(1, "onSocket(): responder opted out of the prompt, auto-declining");
+			game.socket.emit(SOCKET, { command: "nimbleDodgeReply", requestId: data.requestId, attackerUserId: data.attackerUserId, used: false, ac: null });
+			return;
+		}
 		const actor = await fromUuid(data.targetActorUuid);
 		if (actor) {
 			const yes = await showPrompt(actor, data.attackerName, data.requestId);
