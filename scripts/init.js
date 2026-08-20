@@ -566,14 +566,18 @@ Hooks.once("init", () => {
 		hint: "Prompt a target's owner to use the Nimble Dodge reaction before an attack rolls. Requires libWrapper."
 	});
 
-	// Nimble Dodge: per-client opt-out so a player is never asked
+	// Nimble Dodge: per-player choice of whether this player is asked
 	game.settings.register("joes-pf2e-stuff", "nimbleDodgePromptDisabled", {
-		scope: "client",
-		type: Boolean,
-		default: false,
+		scope: "user",
+		type: String,
+		choices: {
+			enabled: "Enabled - ask me",
+			disabled: "Disabled - never ask"
+		},
+		default: "enabled",
 		config: true,
-		name: "Nimble Dodge: Disable prompt",
-		hint: "When enabled, you won't be prompted to use Nimble Dodge; attacks resolve without asking you."
+		name: "Nimble Dodge: Prompt me",
+		hint: "Whether you are asked to use the Nimble Dodge reaction when your token is attacked. Set to Disabled to resolve attacks without asking you. Per-player."
 	});
 
 		// Nimble Dodge: prompt the GM instead of the target's owner

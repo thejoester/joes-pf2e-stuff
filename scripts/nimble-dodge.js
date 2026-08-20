@@ -35,9 +35,11 @@ function esc(str) {
 	));
 }
 
-// Per-client opt-out: this responder has disabled their own Nimble Dodge prompt.
+// Per-client opt-out: this responder set their Nimble Dodge prompt to Disabled.
+// Legacy boolean true (old "Disable prompt" checkbox) also counts as opted out.
 function responderOptedOut() {
-	return getSetting("nimbleDodgePromptDisabled", false);
+	const val = getSetting("nimbleDodgePromptDisabled", "enabled");
+	return val === "disabled" || val === true;
 }
 
 // When pf2e-reaction is active, true only if the actor still has a reaction to spend.

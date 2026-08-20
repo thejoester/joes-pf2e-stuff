@@ -2,6 +2,11 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.08.20
+
+### Changed
+- **Nimble Dodge: Prompt me** — the per-player opt-out is now a dropdown (Enabled / Disabled) instead of a "Disable prompt" checkbox, so it's clear which state asks you and which doesn't. It's also now a per-user setting (was per-browser), so the choice follows a player across devices. Players who had the old checkbox enabled stay opted out.
+
 ## 2026.08.13
 
 ### Added
