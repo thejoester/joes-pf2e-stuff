@@ -43,27 +43,16 @@ jobs:
           manifest: ${{ steps.set_manifest.outputs.manifest_url }}
           download: https://github.com/${{ github.repository }}/releases/download/${{ github.event.release.tag_name }}/joes-pf2e-stuff.zip
 
-      # --- Build packs from committed _source -------------------------------
-
-      - name: Install Foundry CLI
-        run: npm install
-
-      - name: Verify extracted packs (no dupes)
-        run: node _build/verify-extracted-packs.mjs
-
-      - name: Compile packs from _source
-        run: node _build/compile-all-packs.mjs
-
       # --- Package & publish ------------------------------------------------
 
       - name: Create Module Archive
         run: |
           mkdir -p dist
-          FILES="module.json README.md scripts/ packs/ styles/ assets/"
+          FILES="module.json README.md scripts/ styles/ assets/"
           [ -f LICENSE.md ] && FILES="$FILES LICENSE.md"
           [ -f LICENSE ] && FILES="$FILES LICENSE"
           [ -f CHANGELOG.md ] && FILES="$FILES CHANGELOG.md"
-          zip -r dist/joes-pf2e-stuff.zip $FILES -x "packs/*/_source/*"
+          zip -r dist/joes-pf2e-stuff.zip $FILES
 
       - name: Update Release With Files
         id: create_version_release
