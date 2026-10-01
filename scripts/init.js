@@ -312,14 +312,6 @@ document.addEventListener("click", (event) => {
 // Macro function to award hero points to all party members, with a dialog to choose amount and mode (add/set)
 export async function heroPointMacro() {
 
-	const heroPointImages = [
-		"assets/memes/9v19i0.webp",
-		"assets/memes/hp-2.webp",
-		"assets/memes/2.webp",
-		"assets/memes/3.webp",
-		"assets/memes/4.webp"
-	];
-
 	if (!game.user.isGM) {
 		ui.notifications.warn("Only the GM can award Hero Points.");
 		return;
@@ -428,26 +420,39 @@ export async function heroPointMacro() {
 		return;
 	}
 
-	if (mode === "add") {
-		const imagePath = heroPointImages[Math.floor(Math.random() * heroPointImages.length)];
-		const duration = 7000;
-		const title = "Hero Points!!";
+	if (mode === "add" && getSetting("sendHeroPointImg", true)) {
+		// Build the image list from the folder in the Hero Point Image Path setting
+		const imgFolder = getSetting("heroPointImage", "assets/heropoint-memes");
+		let heroPointImages = [];
+		try {
+			const FP = foundry.applications.apps.FilePicker.implementation ?? FilePicker;
+			const result = await FP.browse("data", imgFolder);
+			heroPointImages = result.files.filter(f => /\.(webp|png|jpe?g|gif|avif|svg)$/i.test(f));
+		} catch (err) {
+			debugLog(3, `heroPointMacro: could not read images from "${imgFolder}"`, err);
+		}
 
-		// Send to all active users
-		const userIds = game.users.filter(u => u.active).map(u => u.id);
-		debugLog("🛰 Sending image socket", { imagePath, userIds, duration, title });
+		if (heroPointImages.length) {
+			const imagePath = heroPointImages[Math.floor(Math.random() * heroPointImages.length)];
+			const duration = 7000;
+			const title = "Hero Points!!";
 
-		game.socket.emit("module.joes-pf2e-stuff", {
-			command: "showImage",
-			imageUrl: imagePath,
-			users: userIds,
-			duration,
-			imgTitle: title
-		});
+			// Send to all active users
+			const userIds = game.users.filter(u => u.active).map(u => u.id);
+			debugLog("🛰 Sending image socket", { imagePath, userIds, duration, title });
 
-		// Local show (GM client)
-		if (userIds.includes(game.user.id)) {
-			showImageDialog(imagePath, duration, title);
+			game.socket.emit("module.joes-pf2e-stuff", {
+				command: "showImage",
+				imageUrl: imagePath,
+				users: userIds,
+				duration,
+				imgTitle: title
+			});
+
+			// Local show (GM client)
+			if (userIds.includes(game.user.id)) {
+				showImageDialog(imagePath, duration, title);
+			}
 		}
 	}
 
@@ -518,29 +523,20 @@ Hooks.once("init", () => {
 		default: true,
 		config: true,
 		name: "Send Image when adding Hero Points",
-		hint: ""
-	});
-	
-	// Hero Point image path
-	game.settings.register("joes-pf2e-stuff", "heroPointImage", {
-		name: "Hero Point Image Path",
-		hint: "Path to the image shown when Hero Points are reset or added.",
-		scope: "world",
-		config: true,
-		default: "assets/memes/",
-		type: String
+		hint: "When enabled, adding Hero Points shows a random image from the Hero Point Image Folder to players."
 	});
 
-	// Error Logs
-	game.settings.register("joes-pf2e-stuff", "enableErrorLogs", {
+	// Hero Point image folder: a random image from here is shown when Hero Points are added
+	game.settings.register("joes-pf2e-stuff", "heroPointImage", {
+		name: "Hero Point Image Folder",
+		hint: "Folder of images. When Hero Points are added, a random image from this folder is shown to players.",
 		scope: "world",
-		type: Boolean,
-		default: true,
 		config: true,
-		name: "Enable Error Logger",
-		hint: "Capture player errors in Journal entry named 'Error Logs'"
+		default: "assets/heropoint-memes",
+		type: String,
+		filePicker: "folder"
 	});
-	
+
 	// Setting for 0hp NPC
 	game.settings.register("joes-pf2e-stuff", "deadTokenAction", {
 		scope: "world",
@@ -641,41 +637,4 @@ Hooks.once("ready", () => {
 
 Hooks.on("canvasReady", () => {
 	setTimeout(() => restoreKingmakerHexTools(), 1000);
-});
-
-Hooks.on("createChatMessage", (msg) => {
-	if (!game.user.isGM || !game.settings.get("joes-pf2e-stuff", "sendHeroPointImg")) return;
-
-	const content = msg.content?.toLowerCase();
-	if (!content) return;
-
-	const match = [
-		"hero points reset",
-		"hero point(s) added"
-	].some(pattern => content.includes(pattern));
-
-	if (match) {
-		debugLog("Hero Point trigger matched");
-
-		const imageUrl = game.settings.get("joes-pf2e-stuff", "heroPointImage");
-		const duration = 7000;
-		const title = "Hero Points!!";
-
-		// Send to all active players
-		for (const user of game.users) {
-			if (!user.active) continue;
-
-			if (user.id === game.user.id) {
-				showImageDialog(imageUrl, duration, title);
-			} else {
-				game.socket.emit("module.joes-pf2e-stuff", {
-					command: "showImage",
-					imageUrl,
-					users: [user.id],
-					duration,
-					imgTitle: title
-				});
-			}
-		}
-	}
 });

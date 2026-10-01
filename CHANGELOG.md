@@ -2,6 +2,17 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.10.01
+
+### Changed
+
+- **Error Logger** has moved to Joe's Foundry Stuff so it works in any system, not just PF2e. If you want player error logging, enable it there.
+- **Hero Points** - awarding Hero Points now shows a random image pulled from a configurable folder (the new Hero Point Image Folder setting) instead of a fixed built-in list. The image only appears when "Send Image when adding Hero Points" is on, and only when awarding (the old auto-popup on hero point chat messages was removed).
+
+### Removed
+
+- The bundled compendiums (Actors, Items, Journals, Adventures) have been removed. This module is now scripts and quality-of-life features only.
+
 ## 2026.08.20
 
 ### Changed

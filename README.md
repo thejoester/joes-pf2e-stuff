@@ -1,9 +1,9 @@
 # Joe's PF2e Stuff
 
-A personal FoundryVTT module containing Joe's collection of Pathfinder 2e compendiums, macros, and quality-of-life scripts.
+A personal FoundryVTT module containing Joe's collection of Pathfinder 2e quality-of-life scripts and features.
 
-> [!NOTE] 
-> This is a personal module.** It's shared mainly so others can reuse the scripts and features, and is provided as-is with no support or update guarantees. The **compendium content ships without images**: image paths in the compendium items point to art I don't redistribute, so scenes/items/etc. will appear blank or with broken image links. The scripts and functionality work fully regardless; swap in your own art as needed.
+> [!NOTE]
+> This is a personal module. It's shared mainly so others can reuse the scripts and features, and is provided as-is with no support or update guarantees.
 
 **Compatibility:** FoundryVTT v13-v14 &nbsp;|&nbsp; **System:** Pathfinder Second Edition (`pf2e`)
 
@@ -29,7 +29,7 @@ When a non-player-character actor drops to 0 HP, its tokens are automatically ha
 *Optional integration: Token Magic FX (for the blood splash option).*
 
 ### Hero Points
-GM macro (`api.heroPointMacro()`) to award Hero Points to every member of the active Party, with a dialog to choose the amount (0-3) and whether to **Add** or **Set**. Posts a themed "Heroic Inspiration" chat card summarizing who got what, and (on Add) shows a celebratory image to all connected players. If PF2e Toolbelt is active, it also draws Hero Actions for each affected actor. A hook also shows the configured image whenever a "hero points reset/added" message appears in chat.
+GM macro (`api.heroPointMacro()`) to award Hero Points to every member of the active Party, with a dialog to choose the amount (0-3) and whether to **Add** or **Set**. Posts a themed "Heroic Inspiration" chat card summarizing who got what, and (on Add) shows a random celebratory image from the configured **Hero Point Image Folder** to all connected players. If PF2e Toolbelt is active, it also draws Hero Actions for each affected actor.
 
 *Optional integration: PF2e Toolbelt (draws Hero Actions).*
 
@@ -41,9 +41,6 @@ Remembers the Kingmaker hex-map tool toggle state per user and restores it when 
 
 *Optional integrations: pf2e-kingmaker, pf2e-kingmaker-helper.*
 
-### Error Logger
-Captures player-side `ui.notifications` errors (and warnings) into a shared **Error Logs** journal, one page per player, so the GM can review issues players hit. Attempts to resolve any 16-character document ID found in a message to its named document. Console helpers: `game.joesFoundryStuff.getCapturedLogs()` and `game.joesFoundryStuff.clearCapturedLogs()`.
-
 ---
 
 ## Settings
@@ -52,9 +49,8 @@ All settings live under **Configure Settings -> Module Settings -> Joe's PF2e St
 
 | Setting | Scope | Description |
 |---|---|---|
-| **Send Image when adding Hero Points** | World | Auto-show the Hero Point image when Hero Points are added/reset. |
-| **Hero Point Image Path** | World | Path to the image shown on Hero Point award/reset. |
-| **Enable Error Logger** | World | Capture player errors into the "Error Logs" journal. |
+| **Send Image when adding Hero Points** | World | When enabled, adding Hero Points shows a random image from the folder to players. |
+| **Hero Point Image Folder** | World | Folder of images; a random one is shown to players when Hero Points are added. |
 | **NPC at 0 hp** | World | What to do with an NPC token at 0 HP: Hide Token / Blood Splash* / Disabled. *Blood Splash requires Token Magic FX. |
 | **Hide Effects Panel** | Client | Apply the override CSS that hides the effects panel icons and repositions the panel. Per-client, applies live without a reload. |
 | **Debug Level** | World | Console logging verbosity: None / Errors / Warning + Errors / All. |
@@ -78,13 +74,7 @@ Available at `game.modules.get("joes-pf2e-stuff").api`:
 
 ## Compendiums
 
-| Pack | Type |
-|------|------|
-| Joe's Actors (pf2) | Actors |
-| Joe's Items (pf2e) | Items |
-| Joe's Journals (pf2e) | Journal Entries |
-| Joe's PF2E Adventures | Adventures |
-| Joe's Error Logs | Journal Entries |
+This module no longer ships compendium content, it is scripts and functionality only. Joe's personal PF2e compendiums (actors, items, journals, adventures) now live in the separate private `joes-compendiums` module.
 
 ---
 
