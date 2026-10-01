@@ -29,9 +29,6 @@
       "src": "assets/tokens/Cedrick-Token.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -73,7 +70,7 @@
       "priority": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Cedrick",
   "type": "character",
@@ -348,6 +346,7 @@
         },
         "hp": 8,
         "size": "med",
+        "hands": 2,
         "reach": 5,
         "speed": 25,
         "boosts": {
@@ -414,7 +413,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1700900253061,
         "modifiedTime": 1701934730746,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -492,7 +491,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1700900269249,
         "modifiedTime": 1700900269249,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -614,7 +613,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1700900285643,
         "modifiedTime": 1701934741929,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -709,7 +708,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1700900285643,
         "modifiedTime": 1700900285643,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -763,7 +762,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1701934796730,
         "modifiedTime": 1701934805150,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1000,7 +999,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1085,7 +1084,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1181,7 +1180,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1277,7 +1276,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1366,7 +1365,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1443,7 +1442,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1521,7 +1520,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1599,7 +1598,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1681,7 +1680,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021419277,
         "modifiedTime": 1702021419277,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1780,7 +1779,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021705632,
         "modifiedTime": 1702021705632,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1877,7 +1876,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021705632,
         "modifiedTime": 1702021705632,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -1956,7 +1955,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021760701,
         "modifiedTime": 1702021760701,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2031,7 +2030,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021873895,
         "modifiedTime": 1702021873895,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2199,7 +2198,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021926270,
         "modifiedTime": 1702036175109,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2311,7 +2310,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021965276,
         "modifiedTime": 1702021965276,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2399,7 +2398,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021970627,
         "modifiedTime": 1702021970627,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2492,7 +2491,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021978311,
         "modifiedTime": 1702021978311,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2603,7 +2602,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021984480,
         "modifiedTime": 1702021984480,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2753,7 +2752,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702021994617,
         "modifiedTime": 1702021994617,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2841,7 +2840,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022000370,
         "modifiedTime": 1702022000370,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -2948,7 +2947,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022133668,
         "modifiedTime": 1702022133668,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3038,7 +3037,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022189351,
         "modifiedTime": 1702022189351,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3225,7 +3224,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022196440,
         "modifiedTime": 1702022196440,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3332,7 +3331,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022291440,
         "modifiedTime": 1702022291440,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3445,7 +3444,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022296113,
         "modifiedTime": 1702022296113,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3532,7 +3531,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022311138,
         "modifiedTime": 1702022311138,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3623,7 +3622,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022320075,
         "modifiedTime": 1702022320075,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3710,7 +3709,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022328224,
         "modifiedTime": 1702022328224,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3816,7 +3815,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022334814,
         "modifiedTime": 1702022334814,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -3968,7 +3967,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022342759,
         "modifiedTime": 1702022342759,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4067,7 +4066,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022384961,
         "modifiedTime": 1702022384961,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4162,7 +4161,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022441838,
         "modifiedTime": 1702022441838,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4253,7 +4252,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022450017,
         "modifiedTime": 1702022450017,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4394,7 +4393,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022513807,
         "modifiedTime": 1702036177246,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4478,7 +4477,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022594484,
         "modifiedTime": 1702022594484,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4557,6 +4556,7 @@
           "misidentified": {}
         },
         "acBonus": 2,
+        "grade": null,
         "runes": {
           "reinforcing": 0
         },
@@ -4582,7 +4582,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022630396,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4686,9 +4686,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -4745,7 +4747,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022642866,
         "modifiedTime": 1702023619254,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4844,9 +4846,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -4903,7 +4907,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022650028,
         "modifiedTime": 1702023621075,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -4989,6 +4993,7 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -5032,7 +5037,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022660952,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5136,7 +5141,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5234,7 +5239,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5332,7 +5337,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5420,8 +5425,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "other"
         },
@@ -5450,7 +5455,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5548,7 +5553,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5635,8 +5640,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "other"
         },
@@ -5665,7 +5670,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5843,7 +5848,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -5941,7 +5946,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6039,7 +6044,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022712800,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6136,7 +6141,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022751334,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6234,7 +6239,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022764373,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6332,7 +6337,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022775712,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6425,8 +6430,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "scroll"
         },
@@ -6455,7 +6460,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022823944,
         "modifiedTime": 1702023473817,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6550,8 +6555,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "potion"
         },
@@ -6580,7 +6585,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022837904,
         "modifiedTime": 1702022859193,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6670,8 +6675,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "wand"
         },
@@ -6700,7 +6705,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022851317,
         "modifiedTime": 1702023439301,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6812,9 +6817,11 @@
         },
         "range": 20,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -6871,7 +6878,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022901430,
         "modifiedTime": 1702022901430,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -6960,8 +6967,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "other"
         },
@@ -6990,7 +6997,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022909910,
         "modifiedTime": 1702022923220,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7081,8 +7088,8 @@
         "usage": {
           "value": "affixed-to-weapon"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "talisman"
         },
@@ -7111,7 +7118,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702022988640,
         "modifiedTime": 1702022988640,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7207,7 +7214,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702023082034,
         "modifiedTime": 1702023082034,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7303,7 +7310,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702023082440,
         "modifiedTime": 1702023082440,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7399,7 +7406,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702023082810,
         "modifiedTime": 1702023082810,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7542,7 +7549,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.10.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1702036136310,
         "modifiedTime": 1702036175109,
         "lastModifiedBy": "CLMiGpsYVSTK4VM8",
@@ -7566,7 +7573,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.10.5",
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "createdTime": 1700900132361,
     "modifiedTime": 1702036657504,
     "lastModifiedBy": "CLMiGpsYVSTK4VM8",

@@ -49,9 +49,6 @@
       "src": "assets/token-portrait/av-fri/zane2-t.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -93,7 +90,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -116,7 +113,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Zane Hollyleaf",
   "type": "character",
@@ -466,10 +464,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.N798vq8r9oO0hGvn"
     },
@@ -541,10 +541,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.dtHRPSsSjh0cCYqB"
     },
@@ -632,10 +634,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.VsdBFegB0FeTWA3j"
     },
@@ -869,10 +873,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.btXeL01z0AJkYGbA"
     },
@@ -929,10 +935,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.hOCXw5OXkxh2bgg1"
     },
@@ -989,10 +997,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.LLrhgWlXKM66WSvI"
     },
@@ -1109,10 +1119,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "aJk2JVFjCgqNhyTY",
       "_key": "!actors.items!H7eOLl525ne19i7q.aJk2JVFjCgqNhyTY"
@@ -1215,10 +1227,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "e20XRSgUSdSMak7m",
       "_key": "!actors.items!H7eOLl525ne19i7q.e20XRSgUSdSMak7m"
@@ -1325,10 +1339,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "SDGz1wUwvZp8tOI2",
       "_key": "!actors.items!H7eOLl525ne19i7q.SDGz1wUwvZp8tOI2"
@@ -1407,10 +1423,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.5Z3uMBW9VSSipF1P"
     },
@@ -1483,10 +1501,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.odXDSmYVLmDKTUbH"
     },
@@ -1582,10 +1602,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.HWQkPzR6rRlvQ7PH"
     },
@@ -1676,10 +1698,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "nvjBN6LUfOkqd09F",
       "_key": "!actors.items!H7eOLl525ne19i7q.nvjBN6LUfOkqd09F"
@@ -1753,10 +1777,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.E7JAo4pUvsgAAkVw"
     },
@@ -1846,10 +1872,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.SEAfXcrPwF2ATZFG"
     },
@@ -1964,10 +1992,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "Jp7nTr9Vt45mYFIY",
       "_key": "!actors.items!H7eOLl525ne19i7q.Jp7nTr9Vt45mYFIY"
@@ -2092,10 +2122,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.2HZtXftqjO7EHSCa"
     },
@@ -2173,10 +2205,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.Rs3k74rLLXKgiUy0"
     },
@@ -2266,10 +2300,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.S1i4k8jdnPdiqG7O"
     },
@@ -2357,10 +2393,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.588YLhaq64j7ljCn"
     },
@@ -2453,10 +2491,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.8L6R6cauAMou98UX"
     },
@@ -2529,10 +2569,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.eJMCsZ6ttqOWHpKP"
     },
@@ -2609,10 +2651,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.AXQBNqF5lUPtsqJ1"
     },
@@ -2689,10 +2733,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.X4sGFQrLyHyFoJtC"
     },
@@ -2926,10 +2972,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.fyhHaddzzYZZOnm9"
     },
@@ -3093,10 +3141,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.SBGSmEktQjotM5Xn"
     },
@@ -3232,10 +3282,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.zzNlkSpOmgQwZSW4"
     },
@@ -3371,10 +3423,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.hSEzeg14lf88Czeq"
     },
@@ -3463,10 +3517,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.UxAyt1TgNkBhnRNv"
     },
@@ -3553,10 +3609,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.Ewg4nTQQb0TTgokm"
     },
@@ -3643,10 +3701,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.hQXUvsvdoA8StFn9"
     },
@@ -3761,10 +3821,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.8ESEjA3lVDjOcLcU"
     },
@@ -3854,10 +3916,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.8nPDrliWNTrIclzD"
     },
@@ -4023,10 +4087,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.2WIQTETBdHk9boup"
     },
@@ -4115,10 +4181,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.IXya0OqFOwNl8CgY"
     },
@@ -4206,10 +4274,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.r6h9QVq02zqU3RFp"
     },
@@ -4297,10 +4367,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.ckGWEEnjQv7ynSWe"
     },
@@ -4407,10 +4479,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.vR9C9bQrWeHaetr4"
     },
@@ -4516,10 +4590,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.ra51u01BGnxac0iF"
     },
@@ -4616,10 +4692,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.1bRhbncU4YV0ZL9d"
     },
@@ -4725,10 +4803,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.zVVSjHgURaA0cxhN"
     },
@@ -4827,10 +4907,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.KS0Lf4TPv8SWIJcT"
     },
@@ -4927,10 +5009,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.eW2bvdL4Yxmd7ogP"
     },
@@ -5036,10 +5120,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.m4teWGv7S7SrDsWF"
     },
@@ -5127,10 +5213,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.ckBE33TYlVz3B1hp"
     },
@@ -5219,10 +5307,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.rh5L3wEJSFod014G"
     },
@@ -5312,10 +5402,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.cBsGXbhbTvZa3h7V"
     },
@@ -5402,10 +5494,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.oe1VYtEirTQ3LvmS"
     },
@@ -5498,10 +5592,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.Yvuk1hcelGS0rHSX"
     },
@@ -5613,10 +5709,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.n1rz7SvpOZFxYI7l"
     },
@@ -5727,10 +5825,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.MA0EcQQGFfHxTiuZ"
     },
@@ -5841,10 +5941,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.26f7moDm8Ecp37AF"
     },
@@ -6066,10 +6168,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.XXzsL4kLVJQLLKdJ"
     },
@@ -6159,10 +6263,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.JghX3frsEJKWc9BY"
     },
@@ -6245,10 +6351,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.tg72rt5dZargcOCU"
     },
@@ -6357,10 +6465,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.IEkfyOBbr8cBs0bR"
     },
@@ -6452,10 +6562,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.6mlC6XRFaSrrvfNM"
     },
@@ -6547,10 +6659,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.EA4clRLYyB9Yejoc"
     },
@@ -6642,10 +6756,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.qd6Hm6LvxeCiSiIk"
     },
@@ -6745,10 +6861,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "JuDdQ8UaPG0MOE30",
       "_key": "!actors.items!H7eOLl525ne19i7q.JuDdQ8UaPG0MOE30"
@@ -6861,10 +6979,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "WLUatxBr0oZz4exe",
       "_key": "!actors.items!H7eOLl525ne19i7q.WLUatxBr0oZz4exe"
@@ -6977,10 +7097,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "z5JMVZwz7syr83dm",
       "_key": "!actors.items!H7eOLl525ne19i7q.z5JMVZwz7syr83dm"
@@ -7076,10 +7198,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "BjXdfXhQAAKQ9lkK",
       "_key": "!actors.items!H7eOLl525ne19i7q.BjXdfXhQAAKQ9lkK"
@@ -7175,10 +7299,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "ow5j2rQxM5g9sHK0",
       "_key": "!actors.items!H7eOLl525ne19i7q.ow5j2rQxM5g9sHK0"
@@ -7274,10 +7400,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "CbrI8BPtynrHxeyR",
       "_key": "!actors.items!H7eOLl525ne19i7q.CbrI8BPtynrHxeyR"
@@ -7411,10 +7539,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "fv78YGQl6EVd8VjN",
       "_key": "!actors.items!H7eOLl525ne19i7q.fv78YGQl6EVd8VjN"
@@ -7510,10 +7640,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "yANDyZKhuqBRtbcN",
       "_key": "!actors.items!H7eOLl525ne19i7q.yANDyZKhuqBRtbcN"
@@ -7616,10 +7748,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "95MRwXfZotJ2kWzw",
       "_key": "!actors.items!H7eOLl525ne19i7q.95MRwXfZotJ2kWzw"
@@ -7721,10 +7855,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "UexLPF4tzdWFLzLd",
       "_key": "!actors.items!H7eOLl525ne19i7q.UexLPF4tzdWFLzLd"
@@ -7820,10 +7956,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "txOgBCZ9nVMBxaBr",
       "_key": "!actors.items!H7eOLl525ne19i7q.txOgBCZ9nVMBxaBr"
@@ -7919,10 +8057,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "TWuGAojGSFT6boUp",
       "_key": "!actors.items!H7eOLl525ne19i7q.TWuGAojGSFT6boUp"
@@ -8018,10 +8158,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "7rFxWZoAgv5oFFKk",
       "_key": "!actors.items!H7eOLl525ne19i7q.7rFxWZoAgv5oFFKk"
@@ -8117,10 +8259,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "I74PRpmuz76qFOJm",
       "_key": "!actors.items!H7eOLl525ne19i7q.I74PRpmuz76qFOJm"
@@ -8230,10 +8374,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "8oq0yzFVSA09cgdu",
       "_key": "!actors.items!H7eOLl525ne19i7q.8oq0yzFVSA09cgdu"
@@ -8375,10 +8521,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "nnRofVKtAJ1NpJHO",
       "_key": "!actors.items!H7eOLl525ne19i7q.nnRofVKtAJ1NpJHO"
@@ -8521,10 +8669,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "XrcxdvP4EdDV2WID",
       "_key": "!actors.items!H7eOLl525ne19i7q.XrcxdvP4EdDV2WID"
@@ -8584,10 +8734,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "p0uVpHDolZHv17DO",
       "_key": "!actors.items!H7eOLl525ne19i7q.p0uVpHDolZHv17DO"
@@ -8809,10 +8961,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.JF1U2al6jZfczKii"
     },
@@ -9140,10 +9294,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.WpESuRuodd5fjEo1"
     },
@@ -9354,10 +9510,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "PdLNDCT1ipCtKWcC",
       "_key": "!actors.items!H7eOLl525ne19i7q.PdLNDCT1ipCtKWcC"
@@ -9428,10 +9586,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.CS26LOB9ht0LNQt3"
     },
@@ -9521,10 +9681,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "flags": {
         "core": {}
@@ -9627,10 +9789,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.8ISRIjkaATZmZ8r2"
     },
@@ -9748,10 +9912,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "46SlOUyCQIntzl8O",
       "_key": "!actors.items!H7eOLl525ne19i7q.46SlOUyCQIntzl8O"
@@ -9860,10 +10026,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.dvF7YXrXb6MogZXP"
     },
@@ -10010,10 +10178,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "8MsghMnNXSanRCs9",
       "_key": "!actors.items!H7eOLl525ne19i7q.8MsghMnNXSanRCs9"
@@ -10123,10 +10293,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.9uwDrc9XEjmSNAMA"
     },
@@ -10196,10 +10368,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -10288,10 +10462,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -10391,10 +10567,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -10503,10 +10681,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -10790,10 +10970,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.ZXLBlmhDmvKGNXNq"
     },
@@ -11071,10 +11253,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.mGqeTRZAgYsqKbAn"
     },
@@ -11354,10 +11538,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.khkUZ1iJrwVPk5bq"
     },
@@ -11490,10 +11676,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.oUnmjpAByy1pQgk7"
     },
@@ -11571,10 +11759,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -11661,10 +11851,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -11752,10 +11944,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -11851,10 +12045,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -11943,10 +12139,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -12053,10 +12251,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -12161,10 +12361,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -12442,10 +12644,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.8rFjzGXPmPCM1Ua4"
     },
@@ -12544,10 +12748,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -12734,10 +12940,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.9YUE2xducs7rn4Nq"
     },
@@ -12832,10 +13040,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -12952,10 +13162,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -13040,10 +13252,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -13132,10 +13346,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -13236,10 +13452,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.yqATwDgaFNHnLTpU"
     },
@@ -13337,10 +13555,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.cxOMataUSXtMAREy"
     },
@@ -13521,10 +13741,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.2xdos1DFdsBMVnVr"
     },
@@ -13623,10 +13845,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.gXmVULaqyrKUvyJh"
     },
@@ -13831,10 +14055,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.O3v3ZDODRxo4PfqD"
     },
@@ -14028,10 +14254,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -14147,10 +14375,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.DESib7MmxFvvUZQC"
     },
@@ -14251,10 +14481,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.GnyRdm5nBpxHt49V"
     },
@@ -14343,10 +14575,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -14424,10 +14658,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -14505,10 +14741,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -14584,10 +14822,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -14643,10 +14883,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -14740,10 +14982,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -14837,10 +15081,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -14950,10 +15196,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -15048,10 +15296,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.WUDBB8fNQzN05C82"
     },
@@ -15126,10 +15376,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -15203,10 +15455,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -15296,10 +15550,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -15419,10 +15675,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -15544,10 +15802,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -15647,10 +15907,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.Hx49tJJ4vPagXNmK"
     },
@@ -15743,10 +16005,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.XxreLDlrWyMZ7mKr"
     },
@@ -15839,10 +16103,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.zNX1cmLvVnssG720"
     },
@@ -15982,10 +16248,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!H7eOLl525ne19i7q.9HIWsHjWM36CEv6w"
     },
@@ -16083,10 +16351,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16168,10 +16438,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16269,10 +16541,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16348,10 +16622,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "folder": null,
@@ -16463,10 +16739,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16619,10 +16897,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16704,10 +16984,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -16819,10 +17101,12 @@
         "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars-feats.Item.PN7kY8Ukw2O1WKKE",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.12.2",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "4gxtmRelE0er7lGj",
       "sort": 0,
@@ -17095,7 +17379,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.12.2",
     "createdTime": 1777086652593,

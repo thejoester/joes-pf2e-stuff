@@ -12,12 +12,9 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/bestial/invertebrate/flash-beetle.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -67,7 +64,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "_id": "DfpWiKAppliEgrbN",
   "img": "modules/pf2e-tokens-bestiaries/portraits/bestial/invertebrate/flash-beetle.webp",
@@ -148,7 +146,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -231,7 +229,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -291,7 +289,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -317,6 +315,13 @@
         "max": 6,
         "details": ""
       },
+      "ac": {
+        "value": 16,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 20,
         "otherSpeeds": [
@@ -326,13 +331,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 16,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -427,7 +425,7 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.i6Rd1BE30hhyKxwo",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.2.3",
     "createdTime": 1724931494097,

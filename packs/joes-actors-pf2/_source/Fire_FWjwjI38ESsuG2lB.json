@@ -10,9 +10,6 @@
       "src": "assets/tokens/elemental-wisp-fire.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -67,7 +64,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "flags": {
       "FollowMe": {
         "following": {
@@ -152,7 +149,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "type": "familiar",
   "name": "Fire",
@@ -422,7 +420,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars.Item.sk0yvGgGaMC0DfIr",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -474,7 +472,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.92lgSEPFIDLvKOCF",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -542,7 +540,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.zyMRLQnFCQVpltiR",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -663,7 +661,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.ch6nFcRJO1fm8B4D",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -731,7 +729,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.familiar-abilities.Item.fhyQ6uTSvfErTzyE",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -863,7 +861,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars-abilities.Item.co7ukp3X71Nk220E",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -936,7 +934,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e-action-support.action-support.Item.U7tuKcRePhSu2C2P",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -1053,7 +1051,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.DIKeUr4JOPPEYDHx",
         "duplicateSource": "Compendium.pf2e-specific-familiars.specific-familiars-effects.Item.DIKeUr4JOPPEYDHx",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.7.2",
         "createdTime": null,
@@ -1080,7 +1078,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.7.2",
     "createdTime": 1734685872720,

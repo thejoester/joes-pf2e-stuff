@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/character.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "bcNE88l8YEjwcTMq",
   "name": "Munitions Machinist",
@@ -254,6 +252,7 @@
         },
         "hp": 6,
         "size": "med",
+        "hands": 2,
         "reach": 5,
         "speed": 30,
         "boosts": {
@@ -312,7 +311,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.ancestries.Item.PgKmsA2aKdbLU6O0",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -372,7 +371,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.heritages.Item.NfIAGatB1KIzt8G7",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -455,7 +454,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.backgrounds.Item.0c9Np7Yq5JSxZ6Tb",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -532,7 +531,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.is3Oz9wt11lNq62K",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -825,7 +824,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classes.Item.Z9li154CPNmun29Q",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -932,7 +931,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.LDqVxLKrwEqSegiu",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1038,7 +1037,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.QWXvksGJhOjXbBqi",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1112,7 +1111,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.gBhWEy3ToxQeCLQm",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1208,7 +1207,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.Tlrde2xh7AhesXNB",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1388,7 +1387,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.vXbk7Nm1TOTTUNvF",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1465,7 +1464,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.Wpdeh6EkcAKA60oH",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1580,7 +1579,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.9nRT8aq05Fy2D3i3",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1689,7 +1688,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.lh3STEvbGnP7jVMr",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1761,7 +1760,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1913,9 +1912,11 @@
         },
         "range": 20,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -1941,7 +1942,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ljT5pe8D7rudJqus",
         "duplicateSource": null,
-        "coreVersion": "13.346",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.12.4",
         "createdTime": null,
@@ -1965,7 +1966,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.12.4",
     "createdTime": 1755270558333,

@@ -10,9 +10,6 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/riding-horse.webp",
       "scaleX": 1.5,
       "scaleY": 1.5,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -67,7 +64,7 @@
       "contrast": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "flags": {
       "pf2e": {
         "autoscale": false,
@@ -133,7 +130,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 2
   },
   "_id": "bQxvbEz9QlSgmsY5",
   "img": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/riding-horse.webp",
@@ -196,10 +194,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.3GFUGIkhpZDZer4p"
     },
@@ -255,10 +255,12 @@
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.nZMQh4AaBr291TUf",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.Mf7Y2TxYr2e5o2Ht"
     },
@@ -328,10 +330,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.I1o6uYgy06gzdYSk"
     },
@@ -429,10 +433,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Bu2xT8NfB6xaeTJa",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.lwpgad7prDlrPfUU"
     },
@@ -538,10 +544,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.g190hQLpwU0jrSNa",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.GHSl6jxuMwwF8Qw8"
     },
@@ -641,10 +649,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.qneB5IkDvJqnaQ74"
     },
@@ -745,10 +755,12 @@
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!bQxvbEz9QlSgmsY5.t4tiaRJjyRAB5nB0"
     }
@@ -892,7 +904,7 @@
     "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.In2nNwo3JL1RXQhj",
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.8.0",
     "createdTime": 1766449328196,

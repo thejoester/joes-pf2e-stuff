@@ -12,12 +12,9 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/draconic/faerie-dragon.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 2,
       "scaleY": 2,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -67,7 +64,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -116,7 +113,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "_id": "dWiVORSVouAaVG6W",
   "img": "modules/pf2e-tokens-bestiaries/portraits/draconic/faerie-dragon.webp",
@@ -238,7 +236,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -371,7 +369,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -458,7 +456,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -546,7 +544,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -649,7 +647,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -740,7 +738,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.Wu0xFpewMKRK3HG8",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -831,7 +829,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -919,7 +917,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1016,7 +1014,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1104,7 +1102,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1253,7 +1251,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.spells-srd.Item.60sgbuMWN0268dB7",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1315,7 +1313,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1378,7 +1376,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1437,7 +1435,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -1463,6 +1461,13 @@
         "max": 30,
         "details": ""
       },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 15,
         "otherSpeeds": [
@@ -1476,13 +1481,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 18,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       },
       "immunities": [
         {
@@ -1605,7 +1603,7 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.pathfinder-bestiary.Actor.atrhmCtNKx1MR06I",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.2.3",
     "createdTime": 1724931494097,

@@ -8,9 +8,6 @@
       "src": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/ch-01/zombie-shambler.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -65,7 +62,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "flags": {
       "pf2e": {
         "linkToActorSize": true,
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "img": "modules/pf2e-abomination-vaults/assets/bestiary-portraits/ch-01/zombie-shambler.webp",
   "items": [
@@ -173,7 +171,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -245,7 +243,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -315,7 +313,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -396,7 +394,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -475,7 +473,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -563,7 +561,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -644,7 +642,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -712,7 +710,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -732,17 +730,17 @@
         "max": 20,
         "details": "negative healing"
       },
-      "speed": {
-        "value": 25,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 12,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 25,
+        "otherSpeeds": [],
+        "details": ""
       },
       "initiative": {
         "statistic": "perception"
@@ -899,7 +897,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.1.2",
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "createdTime": 1675856243530,
     "modifiedTime": 1689944593060,
     "lastModifiedBy": "OGrPXnPX5XDmb5js",

@@ -52,9 +52,6 @@
       "src": "assets/tokens/Qikas-token.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "anchorX": 0.5,
       "anchorY": 0.5,
       "fit": "contain",
@@ -96,7 +93,7 @@
       "priority": 0,
       "color": null
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -119,7 +116,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "name": "Qikas",
   "type": "character",
@@ -346,6 +344,7 @@
         },
         "hp": 6,
         "size": "sm",
+        "hands": 2,
         "reach": 5,
         "speed": 25,
         "boosts": {
@@ -419,7 +418,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.ancestries.Item.GgZAHbrjnzWOZy2v",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -518,7 +517,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.ancestryfeatures.Item.y1EmCv2cEb5hXBwx",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -584,7 +583,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.heritages.Item.cCy8vsZENlwiAyZ6",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -677,7 +676,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.backgrounds.Item.1M91pTjatEejBjEl",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -793,7 +792,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1087,7 +1086,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classes.Item.LO9STvskJemPkiAI",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1187,7 +1186,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.uGuCGQvUmioFV2Bd",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1311,7 +1310,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1411,7 +1410,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1580,7 +1579,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.3KPZ7svIO6kmmEKH",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1639,7 +1638,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1713,7 +1712,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.vcfeHDoaWEZtEcfz",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1805,7 +1804,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.dNH8OHEvx3vI9NBQ",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1884,7 +1883,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -1959,7 +1958,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.YKqMuuC8j35NFh92",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2056,7 +2055,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.B6B7tBWJSqOBz5zz",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2154,7 +2153,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.5Ew82vBF9YfaiY9f",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2252,7 +2251,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.lzJ8AVhRcbFul5fh",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2336,6 +2335,7 @@
           "misidentified": {}
         },
         "acBonus": 2,
+        "grade": null,
         "runes": {
           "reinforcing": 0
         },
@@ -2357,7 +2357,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ezVp13Uw8cWW08Da",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2463,7 +2463,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.fvpLYx1Lo42cdleQ",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2564,8 +2564,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "type": "consumable",
       "flags": {
@@ -2581,7 +2581,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2661,7 +2661,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2773,8 +2773,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
@@ -2804,7 +2804,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e0vSAQfxhHauiAoD",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2885,7 +2885,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -2967,7 +2967,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3049,7 +3049,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.bJ4tF95Byy7wCS65",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3154,8 +3154,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
@@ -3185,7 +3185,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.88pGCHV0uKMskTVO",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3297,8 +3297,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
@@ -3328,7 +3328,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.2RuepCemJhrpKKao",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3421,7 +3421,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3514,7 +3514,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3642,7 +3642,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.mRz8Jmk4Q06SsZpC",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3744,7 +3744,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.zvLyCVD8g2PdHJAc",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3845,7 +3845,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -3944,7 +3944,7 @@
       "_stats": {
         "compendiumSource": "Item.LXrEVDiVkPizFqJr",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4074,7 +4074,7 @@
       "_stats": {
         "compendiumSource": "Item.NJGaB7nHvuaHeec3",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4176,7 +4176,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.JO3mcFvxjRp1V8XK",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4260,7 +4260,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4376,7 +4376,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.aFygWxgSv82WyCsl",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4450,7 +4450,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.RAymYRO2SLNNzKVk",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4531,7 +4531,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4672,7 +4672,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.1r6StS0irdvi5JHY",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -4793,9 +4793,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "-"
         },
+        "grade": null,
         "runes": {
           "potency": 1,
           "striking": 1,
@@ -4887,7 +4889,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ZvIEJCY60fHqzl6r",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5038,7 +5040,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6nrCxNQFycUVFOV2",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5143,8 +5145,8 @@
         "usage": {
           "value": "affixed-to-armor"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "source": {
           "value": "Pathfinder Core Rulebook"
         },
@@ -5196,7 +5198,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.1v1OK06JxdXn6MP4",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5260,7 +5262,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5352,8 +5354,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": "arrows",
-        "spell": null
+        "spell": null,
+        "stackGroup": "arrows"
       },
       "type": "consumable",
       "flags": {
@@ -5378,7 +5380,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.w2ENw2VMPcsbif8g",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5478,7 +5480,7 @@
       "_stats": {
         "compendiumSource": "Item.zlanzgKmTDu2xKvL",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5585,7 +5587,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.uQOaRpfkUFVYD0Gx",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5675,6 +5677,7 @@
         "dexCap": 3,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -5687,7 +5690,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.ewQZ0VeL38v3qFnN",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5801,8 +5804,8 @@
         "usage": {
           "value": "affixed-to-armor"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "ownership": {
         "default": 0,
@@ -5812,7 +5815,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.aKbrBW1SnFDxya5J",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -5930,9 +5933,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": ""
         },
+        "grade": null,
         "runes": {
           "potency": 1,
           "striking": 1,
@@ -5970,7 +5975,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.VitLIpdIAmKlGb7i",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6075,7 +6080,7 @@
       "_stats": {
         "compendiumSource": "Item.NoXxBALNaFXPDaju",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6164,7 +6169,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.classfeatures.Item.v8UNEJR5IDKi8yqa",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6238,7 +6243,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.l3PosipTLXANeoT8",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6316,7 +6321,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.9SdFlVQW4vM8ggh8",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6469,7 +6474,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.BKdzb8hu3kZtKH3Z",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6584,9 +6589,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": ""
         },
+        "grade": null,
         "runes": {
           "potency": 1,
           "striking": 0,
@@ -6628,7 +6635,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.f1gwoTkf3Nn0v3PN",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6724,14 +6731,14 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
-        "spell": null
+        "spell": null,
+        "stackGroup": null
       },
       "type": "consumable",
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.hDLbR56Id2OtU318",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6789,7 +6796,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6822,7 +6829,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e-exploration-effects.exploration-effects.Item.mGFBHM1lvHNZ9BsH",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -6999,9 +7006,11 @@
         },
         "range": 60,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "0"
         },
+        "grade": null,
         "runes": {
           "potency": 1,
           "striking": 1,
@@ -7044,7 +7053,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.e4NwsnPnpQKbDZ9F",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7146,7 +7155,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.TWv2EeDJaCjtmGUN",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7257,7 +7266,7 @@
       "_stats": {
         "compendiumSource": "Item.MeAZ2aziPTME3UlI",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7343,7 +7352,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7450,7 +7459,7 @@
       "_stats": {
         "compendiumSource": "Item.XMNqir7oUGoFemFM",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7604,7 +7613,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.equipment-srd.Item.SGkOHFyBbzWdBk8D",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7674,7 +7683,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7762,7 +7771,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.Tpcq3Lk7qEOZ3LDP",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7853,7 +7862,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.HJYQlmGTdtyGWr6a",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -7959,7 +7968,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.0qGLCpggCcOVkbtT",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.8.5",
         "createdTime": null,
@@ -8321,7 +8330,7 @@
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.8.5",
     "createdTime": 1738466826209,

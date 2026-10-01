@@ -32,12 +32,9 @@
       "src": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/otari/oloria-gallentine.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -87,7 +84,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -110,7 +107,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "ChUF6HOolgjvd0pH",
   "name": "Oloria Gallentine",
@@ -324,10 +322,12 @@
         "compendiumSource": "Item.Z4cQHC34rpeiuiPY",
         "duplicateSource": "Item.9qippzjOOkzmJaKv",
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "453Y22NFQNCxDmst",
       "_key": "!actors.items!uIAEbkySZEqJvHWI.453Y22NFQNCxDmst"
@@ -433,10 +433,12 @@
         "compendiumSource": "Item.9qippzjOOkzmJaKv",
         "duplicateSource": "Item.2f73awSfAoRRZmcW",
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "VT1SUupvDlmO7up7",
       "_key": "!actors.items!uIAEbkySZEqJvHWI.VT1SUupvDlmO7up7"
@@ -543,10 +545,12 @@
         "compendiumSource": "Item.2f73awSfAoRRZmcW",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!uIAEbkySZEqJvHWI.PXD4jENDo71OZV15"
     }
@@ -572,7 +576,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.8.0",
     "createdTime": 1767432295651,

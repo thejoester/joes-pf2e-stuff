@@ -27,9 +27,6 @@
       "src": "systems/pf2e/icons/default-icons/character.svg",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -71,7 +68,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "appendNumber": false,
     "prependAdjective": false,
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "ZVcXszOMGkhQ98Ot",
   "name": "Qikas",
@@ -367,6 +365,7 @@
         },
         "hp": 6,
         "size": "sm",
+        "hands": 2,
         "reach": 5,
         "speed": 25,
         "boosts": {
@@ -450,7 +449,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772631958,
         "modifiedTime": 1688772635198,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -516,7 +515,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632021,
         "modifiedTime": 1688772632021,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -616,7 +615,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632142,
         "modifiedTime": 1688772635197,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -959,7 +958,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632350,
         "modifiedTime": 1688772635197,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1021,7 +1020,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632574,
         "modifiedTime": 1688772632574,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1107,7 +1106,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632725,
         "modifiedTime": 1688772632725,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1237,7 +1236,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772632842,
         "modifiedTime": 1688772632962,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1358,7 +1357,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633082,
         "modifiedTime": 1688772633207,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1464,7 +1463,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633324,
         "modifiedTime": 1688772633324,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1606,7 +1605,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633431,
         "modifiedTime": 1688772633565,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1706,7 +1705,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633676,
         "modifiedTime": 1688772633676,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1781,7 +1780,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633789,
         "modifiedTime": 1688772633789,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -1933,7 +1932,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.1.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772633914,
         "modifiedTime": 1689982277766,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -2013,7 +2012,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634036,
         "modifiedTime": 1688772634036,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2092,7 +2091,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "4.12.9",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634166,
         "modifiedTime": 1688772634166,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2198,9 +2197,11 @@
         },
         "range": null,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": ""
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2261,7 +2262,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634345,
         "modifiedTime": 1697847025127,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2365,9 +2366,11 @@
         },
         "range": 60,
         "expend": null,
+        "ammo": null,
         "reload": {
           "value": "0"
         },
+        "grade": null,
         "runes": {
           "potency": 0,
           "striking": 0,
@@ -2425,7 +2428,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634347,
         "modifiedTime": 1701571074763,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -2517,6 +2520,7 @@
         "dexCap": 4,
         "checkPenalty": -1,
         "speedPenalty": 0,
+        "grade": null,
         "runes": {
           "potency": 0,
           "resilient": 0,
@@ -2560,7 +2564,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": 1697847025127,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2646,6 +2650,7 @@
           "misidentified": {}
         },
         "acBonus": 2,
+        "grade": null,
         "runes": {
           "reinforcing": 0
         },
@@ -2671,7 +2676,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": 1697847025127,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2771,7 +2776,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634848,
         "modifiedTime": 1697847025127,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2872,7 +2877,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688772634860,
         "modifiedTime": 1701573272969,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -2970,8 +2975,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "potion"
         },
@@ -3000,7 +3005,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688776860300,
         "modifiedTime": 1701573287516,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -3093,8 +3098,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": "arrows",
         "spell": null,
+        "stackGroup": "arrows",
         "consumableType": {
           "value": "ammo"
         },
@@ -3123,7 +3128,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688780059114,
         "modifiedTime": 1701573316661,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -3223,7 +3228,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688783520126,
         "modifiedTime": 1701563636871,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -3324,7 +3329,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1688783550005,
         "modifiedTime": 1700879517361,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -3394,7 +3399,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.1.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1689982313718,
         "modifiedTime": 1689982313718,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -3468,7 +3473,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.5.3",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1695424243041,
         "modifiedTime": 1695424243041,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -3592,7 +3597,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1695431476996,
         "modifiedTime": 1700876744795,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -3700,7 +3705,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.2",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1696645754045,
         "modifiedTime": 1697847025127,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -3792,7 +3797,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.4",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1698454234161,
         "modifiedTime": 1698454234161,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -3871,7 +3876,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.7.4",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1698454246154,
         "modifiedTime": 1698454246154,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -3986,8 +3991,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": null,
         "spell": null,
+        "stackGroup": null,
         "consumableType": {
           "value": "potion"
         },
@@ -4034,7 +4039,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1701563340541,
         "modifiedTime": 1701563340541,
         "lastModifiedBy": "hipYnKyYynPp9AWi",
@@ -4128,8 +4133,8 @@
         "usage": {
           "value": "held-in-one-hand"
         },
-        "stackGroup": "arrows",
         "spell": null,
+        "stackGroup": "arrows",
         "consumableType": {
           "value": "ammo"
         },
@@ -4158,7 +4163,7 @@
       "_stats": {
         "systemId": "pf2e",
         "systemVersion": "5.9.5",
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": 1701573272457,
         "modifiedTime": 1701573308948,
         "lastModifiedBy": "pW1leMCBgrAQWsCk",
@@ -4209,7 +4214,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.10.5",
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "createdTime": 1688770824034,
     "modifiedTime": 1701923016654,
     "lastModifiedBy": "pW1leMCBgrAQWsCk",

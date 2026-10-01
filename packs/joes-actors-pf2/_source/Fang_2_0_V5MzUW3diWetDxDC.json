@@ -29,12 +29,9 @@
       "src": "systems/pf2e/icons/default-icons/character.svg",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -73,7 +70,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "oKQDKm8oGtKzDkCU",
   "name": "Fang 2.0",
@@ -398,10 +396,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "13vjqIJYZFJpxACT",
       "_key": "!actors.items!V5MzUW3diWetDxDC.13vjqIJYZFJpxACT"
@@ -559,10 +559,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "folder": null,
       "sort": 3600000,
@@ -633,10 +635,12 @@
         "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "wGW9b9zbL67UYkMF",
       "_key": "!actors.items!V5MzUW3diWetDxDC.wGW9b9zbL67UYkMF"
@@ -793,10 +797,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!V5MzUW3diWetDxDC.H7pzo4MaltA4MqTH"
     }
@@ -821,7 +827,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.8.0",
     "createdTime": 1766449328196,

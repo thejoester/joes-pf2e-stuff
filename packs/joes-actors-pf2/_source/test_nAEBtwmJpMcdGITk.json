@@ -1,0 +1,23 @@
+{
+  "type": "Actor",
+  "folder": "Fc21rm7YpAHatssm",
+  "name": "test",
+  "color": null,
+  "sorting": "a",
+  "_id": "nAEBtwmJpMcdGITk",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.368",
+    "systemId": "pf2e",
+    "systemVersion": "8.5.1",
+    "createdTime": 1790641162680,
+    "modifiedTime": 1790641162680,
+    "lastModifiedBy": "sDmTHDFOKZoe85XE",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!nAEBtwmJpMcdGITk"
+}

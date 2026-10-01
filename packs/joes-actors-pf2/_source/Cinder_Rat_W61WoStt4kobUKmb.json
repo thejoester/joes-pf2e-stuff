@@ -8,9 +8,6 @@
       "src": "assets/token-portrait/npc/cinder-rat.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -65,7 +62,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "flags": {
       "pf2e": {
         "linkToActorSize": true,
@@ -121,7 +118,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "img": "assets/token-portrait/npc/cinder-rat.webp",
   "items": [
@@ -192,7 +190,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -273,7 +271,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -352,7 +350,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -444,7 +442,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -512,7 +510,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -580,7 +578,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -648,7 +646,7 @@
       "_stats": {
         "systemId": null,
         "systemVersion": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "createdTime": null,
         "modifiedTime": null,
         "lastModifiedBy": null,
@@ -832,7 +830,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.1.2",
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "createdTime": 1675924317874,
     "modifiedTime": 1784273371404,
     "lastModifiedBy": "fAtWnRfzFoHAJ5lR",

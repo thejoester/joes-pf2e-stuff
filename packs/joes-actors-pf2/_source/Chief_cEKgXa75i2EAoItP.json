@@ -34,12 +34,9 @@
       "src": "assets/token-portrait/patreon-tokens/fa-tokens/Creatures/Beast/Wolf_Medium_Beast_09%20(2).webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -79,7 +76,7 @@
         "max": 1
       }
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -104,7 +101,8 @@
     "movementAction": null,
     "randomImg": false,
     "appendNumber": false,
-    "prependAdjective": false
+    "prependAdjective": false,
+    "depth": 1
   },
   "effects": [],
   "system": {
@@ -400,10 +398,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "mHlRs0PKrUwwDlXw",
       "_key": "!actors.items!cEKgXa75i2EAoItP.mHlRs0PKrUwwDlXw"
@@ -561,10 +561,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "folder": null,
       "sort": 3600000,
@@ -635,10 +637,12 @@
         "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.5HnWXmOp8qNjfhdU",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "vIRNbzqvIwmr2f9W",
       "_key": "!actors.items!cEKgXa75i2EAoItP.vIRNbzqvIwmr2f9W"
@@ -792,10 +796,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!cEKgXa75i2EAoItP.2OXMHzF23xbUDWrl"
     },
@@ -877,10 +883,12 @@
         "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "folder": null,
       "sort": 3800000,
@@ -951,10 +959,12 @@
         "compendiumSource": "Compendium.pf2e-animal-companions.AC-Advanced-Maneuvers.Item.xssFjTXqGlsaddvl",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "88GDU6E3oWwL0bbB",
       "_key": "!actors.items!cEKgXa75i2EAoItP.88GDU6E3oWwL0bbB"
@@ -1111,10 +1121,12 @@
           "systemId": "pf2e",
           "systemVersion": "2.6.0.6437"
         },
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!cEKgXa75i2EAoItP.SSmymtZHShTfvX9h"
     },
@@ -1183,10 +1195,12 @@
         "compendiumSource": "Compendium.pf2e.feats-srd.Item.n3eOMWQd4kdR3A0l",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "effects": [],
       "sort": 0,
@@ -1270,10 +1284,12 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!cEKgXa75i2EAoItP.HY1knheXWvMTb44R"
     }
@@ -1442,7 +1458,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.8.0",
     "createdTime": 1766449328196,

@@ -12,12 +12,9 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/badger-giant.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -67,7 +64,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "_id": "5P8Lg6FQED6yBInB",
   "img": "modules/pf2e-tokens-bestiaries/portraits/bestial/mammalian/badger-giant.webp",
@@ -145,7 +143,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -207,7 +205,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -267,7 +265,7 @@
       "_stats": {
         "compendiumSource": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.N1kstYbHScxgUQtN",
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -358,7 +356,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -384,6 +382,13 @@
         "max": 30,
         "details": ""
       },
+      "ac": {
+        "value": 18,
+        "details": ""
+      },
+      "allSaves": {
+        "value": ""
+      },
       "speed": {
         "value": 25,
         "otherSpeeds": [
@@ -393,13 +398,6 @@
           }
         ],
         "details": ""
-      },
-      "ac": {
-        "value": 18,
-        "details": ""
-      },
-      "allSaves": {
-        "value": ""
       }
     },
     "initiative": {
@@ -499,7 +497,7 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.pathfinder-bestiary-2.Actor.T9vzmpvpRL5xjrhd",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.2.3",
     "createdTime": 1724931494097,

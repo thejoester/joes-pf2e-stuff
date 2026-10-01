@@ -65,9 +65,6 @@
       "src": "systems/pf2e/icons/equipment/held-items/everburning-torch.webp",
       "scaleX": 1,
       "scaleY": 1,
-      "offsetX": 0,
-      "offsetY": 0,
-      "rotation": 0,
       "tint": "#ffffff",
       "anchorX": 0.5,
       "anchorY": 0.5,
@@ -109,7 +106,7 @@
       "negative": false,
       "priority": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "randomImg": false,
     "occludable": {
       "radius": 0
@@ -132,7 +129,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 0.5
   },
   "name": "Everburning Torch",
   "type": "familiar",
@@ -180,7 +178,7 @@
   "_stats": {
     "systemId": "pf2e",
     "systemVersion": "5.10.5",
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "createdTime": 1700876713485,
     "modifiedTime": 1702027379096,
     "lastModifiedBy": "pW1leMCBgrAQWsCk",

@@ -52,12 +52,9 @@
       "src": "modules/pf2e-abomination-vaults/assets/bestiary-tokens/otari/guards/guard-human-m.webp.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -107,7 +104,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -130,7 +127,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "folder": "ChUF6HOolgjvd0pH",
   "name": "Otari Garrison",
@@ -347,10 +345,12 @@
         "compendiumSource": "Item.dkil2YC3uuv7jfxd",
         "duplicateSource": "Item.FQ8YzDJDYkVmWcdu",
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "NVEhlGMTO9t0EbtU",
       "_key": "!actors.items!ktuCgyV487mcc3tX.NVEhlGMTO9t0EbtU"
@@ -459,10 +459,12 @@
         "compendiumSource": "Item.GjysbggzbtRK4mdz",
         "duplicateSource": "Item.FQ8YzDJDYkVmWcdu",
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "5XWlPCbckOM5PZiq",
       "_key": "!actors.items!ktuCgyV487mcc3tX.5XWlPCbckOM5PZiq"
@@ -571,10 +573,12 @@
         "compendiumSource": "Item.tPahiOuRaaFKcLt4",
         "duplicateSource": "Item.FQ8YzDJDYkVmWcdu",
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_id": "A1x5S8pQT4CxPN44",
       "_key": "!actors.items!ktuCgyV487mcc3tX.A1x5S8pQT4CxPN44"
@@ -684,10 +688,12 @@
         "compendiumSource": "Item.FQ8YzDJDYkVmWcdu",
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.351",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "7.8.0",
-        "lastModifiedBy": null
+        "lastModifiedBy": null,
+        "createdTime": null,
+        "modifiedTime": null
       },
       "_key": "!actors.items!ktuCgyV487mcc3tX.l3e5z3NKqavMjwIH"
     }
@@ -713,7 +719,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.351",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "7.8.0",
     "createdTime": 1767432295651,

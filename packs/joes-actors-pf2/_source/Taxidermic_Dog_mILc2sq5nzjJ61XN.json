@@ -12,12 +12,9 @@
       "src": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/guard-dog.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
-      "offsetX": 0,
-      "offsetY": 0,
       "fit": "contain",
       "scaleX": 1,
       "scaleY": 1,
-      "rotation": 0,
       "tint": "#ffffff",
       "alphaThreshold": 0.75
     },
@@ -67,7 +64,7 @@
       "saturation": 0,
       "contrast": 0
     },
-    "detectionModes": [],
+    "detectionModes": {},
     "occludable": {
       "radius": 0
     },
@@ -96,7 +93,8 @@
       "src": null,
       "disposition": false
     },
-    "movementAction": null
+    "movementAction": null,
+    "depth": 1
   },
   "_id": "mILc2sq5nzjJ61XN",
   "img": "modules/pf2e-tokens-bestiaries/tokens/bestial/mammalian/guard-dog.webp",
@@ -145,7 +143,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -218,7 +216,7 @@
       "_stats": {
         "compendiumSource": null,
         "duplicateSource": null,
-        "coreVersion": "13.345",
+        "coreVersion": "14.366",
         "systemId": "pf2e",
         "systemVersion": "6.2.3",
         "createdTime": null,
@@ -244,17 +242,17 @@
         "max": 17,
         "details": ""
       },
-      "speed": {
-        "value": 30,
-        "otherSpeeds": [],
-        "details": ""
-      },
       "ac": {
         "value": 16,
         "details": ""
       },
       "allSaves": {
         "value": ""
+      },
+      "speed": {
+        "value": 30,
+        "otherSpeeds": [],
+        "details": ""
       },
       "immunities": [
         {
@@ -394,7 +392,7 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e.one-shot-bestiary.Actor.hfoTGdl5WdS5s1Ss",
     "duplicateSource": null,
-    "coreVersion": "13.345",
+    "coreVersion": "14.366",
     "systemId": "pf2e",
     "systemVersion": "6.2.3",
     "createdTime": 1724931494097,
