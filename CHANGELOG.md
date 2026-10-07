@@ -2,6 +2,12 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.10.07
+
+### Added
+
+- **Hero Points** - new "Draw Hero Cards when awarding Hero Points" setting. When on, awarding Hero Points also draws Hero Actions (cards) via PF2e Toolbelt; turn it off to award Hero Points without drawing cards. The setting only appears when PF2e Toolbelt is active.
+
 ## 2026.10.01
 
 ### Changed

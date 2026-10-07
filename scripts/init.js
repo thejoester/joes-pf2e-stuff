@@ -385,9 +385,10 @@ export async function heroPointMacro() {
 		return;
 	}
 
-	// Toolbelt heroActions API (new location)
+	// Toolbelt heroActions API (new location), gated by the Draw Hero Cards setting
+	const drawCards = getSetting("drawHeroCards", true);
 	const toolbeltActive = !!game.modules.get("pf2e-toolbelt")?.active;
-	const heroActionsApi = toolbeltActive ? game.toolbelt?.api?.heroActions : null;
+	const heroActionsApi = drawCards && toolbeltActive ? game.toolbelt?.api?.heroActions : null;
 
 	const drawPromises = [];
 
@@ -515,6 +516,18 @@ Hooks.once("init", () => {
 		hint: "Apply the override CSS that hides the effects panel icons. Per-client setting.",
 		onChange: () => applyEffectsPanelCss()
 	});
+
+	// Draw hero cards (Toolbelt hero actions) when awarding Hero Points; only relevant with Toolbelt active
+	if (game.modules.get("pf2e-toolbelt")?.active) {
+		game.settings.register("joes-pf2e-stuff", "drawHeroCards", {
+			scope: "world",
+			type: Boolean,
+			default: true,
+			config: true,
+			name: "Draw Hero Cards when awarding Hero Points",
+			hint: "When enabled, awarding Hero Points also draws Hero Actions (cards) via PF2e Toolbelt. Disable to award Hero Points without drawing cards."
+		});
+	}
 
 	// Send Image on hero point
 	game.settings.register("joes-pf2e-stuff", "sendHeroPointImg", {
