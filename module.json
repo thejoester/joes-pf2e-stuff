@@ -3,7 +3,7 @@
     "title": "Joe's PF2e Stuff",
     "description": "<p>Joe's collection of useful PF2e scripts and quality-of-life features, packaged as a module.</p>",
     "version": "2026.08.20",
-    "url": "",
+    "url": "https://github.com/thejoester/joes-pf2e-stuff/",
     "manifest": "https://github.com/thejoester/joes-pf2e-stuff/releases/latest/download/module.json",
     "download": "https://github.com/thejoester/joes-pf2e-stuff/releases/download/2026.08.20/joes-pf2e-stuff.zip",
     "compatibility": {
