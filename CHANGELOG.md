@@ -2,6 +2,12 @@
 
 All notable changes to Joe's PF2e Stuff are documented here. Versioning is date-based (`YYYY.MM.DD`).
 
+## 2026.10.21
+
+### Changed
+
+- **README** Updated README to include details on Nimble Dodge feature.
+
 ## 2026.10.07
 
 ### Added

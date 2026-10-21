@@ -23,6 +23,11 @@ Players choose what to learn from a menu: Weaknesses & Resistances, Immunities, 
 
 *Optional integrations: PF2e Workbench (required to roll against a target), PF2e HUD, Basic Action Macro.*
 
+### Nimble Dodge Prompt
+When a creature with the **Nimble Dodge** feat is targeted by an attack roll, its owner (or the GM) is prompted to spend the reaction for a +2 circumstance bonus to AC before the attack rolls. Saying yes toggles the feat's roll option, raises the in-flight attack's target AC, and reverts the toggle once the attack resolves; the reaction is marked used for the round and cleared at the start of the actor's turn. The prompt only fires when the target is in combat, isn't encumbered, and hasn't already used the reaction this round. If PF2e Reaction is active, it also checks the actor still has a reaction to spend. Requires libWrapper.
+
+*Optional integration: pf2e-reaction (reyzor1991's reaction tracker).*
+
 ### NPC at 0 HP
 When a non-player-character actor drops to 0 HP, its tokens are automatically handled per the **NPC at 0 hp** setting: **Hide Token**, **Blood Splash** (requires Token Magic FX), or **Disabled**. Tokens are un-hidden and the splash effect cleared automatically when the actor is healed above 0.
 
@@ -52,6 +57,9 @@ All settings live under **Configure Settings -> Module Settings -> Joe's PF2e St
 | **Send Image when adding Hero Points** | World | When enabled, adding Hero Points shows a random image from the folder to players. |
 | **Hero Point Image Folder** | World | Folder of images; a random one is shown to players when Hero Points are added. |
 | **NPC at 0 hp** | World | What to do with an NPC token at 0 HP: Hide Token / Blood Splash* / Disabled. *Blood Splash requires Token Magic FX. |
+| **Nimble Dodge Prompt** | World | Prompt a target's owner to use the Nimble Dodge reaction before an attack rolls. Requires libWrapper. |
+| **Nimble Dodge: GM Only** | World | When enabled, prompt only the GM for Nimble Dodge, never the target's owner. |
+| **Nimble Dodge: Prompt me** | User | Per-player: whether you are asked to use Nimble Dodge when your token is attacked. Set to Disabled to resolve attacks without asking you. |
 | **Hide Effects Panel** | Client | Apply the override CSS that hides the effects panel icons and repositions the panel. Per-client, applies live without a reload. |
 | **Debug Level** | World | Console logging verbosity: None / Errors / Warning + Errors / All. |
 
