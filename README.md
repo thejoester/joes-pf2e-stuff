@@ -90,7 +90,7 @@ This module no longer ships compendium content, it is scripts and functionality 
 
 Manifest URL:
 ```
-https://raw.githubusercontent.com/thejoester/joes-pf2e-stuff/main/module.json
+https://github.com/thejoester/joes-pf2e-stuff/releases/latest/download/module.json
 ```
 
 Requires the **Pathfinder Second Edition** system.
