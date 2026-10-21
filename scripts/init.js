@@ -196,15 +196,6 @@ export function debugLog(intLogType, stringLogMsg, objObject = null) {
 		if (fileInfoMatch) {
 			const [, filePath, lineNumber] = fileInfoMatch;
 			const fileName = filePath.split("/").pop(); // Extract just the file name
-			// Ensure the file is one of the allowed files
-			/*
-			const allowedFiles = ["init.js", "error-logger.js", "tokenZeroHP.js"];
-			if (allowedFiles.includes(fileName)) {
-				fileInfo = `${fileName}:${lineNumber}`;
-				break;
-			}
-			*/
-			
 		}
 	}
 
